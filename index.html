@@ -6,23 +6,23 @@
   <title>Plataforma de Questões</title>
   <style>
     :root {
-      --bg-color: #050505;
-      --card-bg: #121212;
-      --card-inner: #1a1a1a;
-      --border-color: #2a2a2a;
-      --border-hover: #404040;
+      --bg-color: #08080c;
+      --card-bg: #121218;
+      --card-inner: #1a1a24;
+      --border-color: #2a2a3a;
+      --border-hover: #4f46e5;
       
-      --text-main: #f1f1f1;
-      --text-muted: #888888;
+      --text-main: #f1f1f5;
+      --text-muted: #94a3b8;
       
-      --primary: #e5e5e5;
-      --primary-hover: #ffffff;
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
       
       --success: #22c55e;
-      --success-bg: rgba(34, 197, 94, 0.1);
+      --success-bg: rgba(34, 197, 94, 0.12);
       
       --danger: #ef4444;
-      --danger-bg: rgba(239, 68, 68, 0.1);
+      --danger-bg: rgba(239, 68, 68, 0.12);
 
       --accent-color: #facc15; /* Amarelo Destaque */
       --green-cmd: #4ade80;   /* Verde Terminal CMD */
@@ -39,68 +39,113 @@
       background-color: var(--bg-color);
       color: var(--text-main);
       padding: 20px;
-      padding-bottom: 60px !important; /* Espaço para o rodapé fixo */
+      padding-bottom: 65px !important; /* Espaço para a barra de tarefas fixa */
       display: flex;
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
+      position: relative;
+    }
+
+    /* --- IMAGEM DE FUNDO EXCLUSIVA DO MENU --- */
+    .menu-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(8, 8, 12, 0.75) 0%, rgba(8, 8, 12, 0.95) 100%),
+                  url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1920&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      transition: opacity 0.5s ease;
     }
 
     .container {
       width: 100%;
       max-width: 680px;
+      z-index: 1;
     }
 
     /* Dashboard Superior */
     .dashboard {
-      background-color: var(--card-bg);
+      background: rgba(18, 18, 24, 0.85);
+      backdrop-filter: blur(12px);
       border: 1px solid var(--border-color);
-      border-radius: 12px;
+      border-radius: 16px;
       padding: 16px;
       display: flex;
       justify-content: space-around;
       align-items: center;
       margin-bottom: 20px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     }
 
     .stat-item { text-align: center; }
     .stat-value { font-size: 1.5rem; font-weight: 700; color: var(--text-main); }
     .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
 
-    /* Cartão Principal */
-    .card {
+    /* CARTÃO DO MENU E FILTRO (Estilo Destaque com Vidro Fosco) */
+    .card-hero {
+      background: rgba(18, 18, 24, 0.85);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    /* CARTÃO DO QUIZ (Estilo Limpo/Focado para Estudo) */
+    .card-quiz {
       background-color: var(--card-bg);
       border: 1px solid var(--border-color);
-      border-radius: 12px;
+      border-radius: 16px;
       padding: 24px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 
-    /* Seleção de Disciplinas e Filtros */
-    .title-select { font-size: 1.25rem; margin-bottom: 8px; font-weight: 600; }
-    .subtitle-select { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px; }
+    .menu-badge {
+      display: inline-block;
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid var(--primary);
+      color: #a5b4fc;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    .title-select { font-size: 1.6rem; margin-bottom: 8px; font-weight: 800; color: #ffffff; }
+    .subtitle-select { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px; }
 
     .discipline-grid { display: flex; flex-direction: column; gap: 12px; }
 
     .btn-discipline {
-      background-color: var(--card-inner);
+      background: rgba(26, 26, 36, 0.9);
       border: 1px solid var(--border-color);
       color: var(--text-main);
-      padding: 16px;
-      border-radius: 8px;
-      font-size: 1rem;
+      padding: 18px 20px;
+      border-radius: 12px;
+      font-size: 1.05rem;
       font-weight: 600;
       cursor: pointer;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      transition: all 0.2s ease;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
 
     .btn-discipline:hover {
-      background-color: #222222;
-      border-color: var(--border-hover);
+      background-color: #222232;
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.25);
     }
 
     /* Estilos da Lista de Filtros (Checkbox) */
@@ -109,9 +154,10 @@
       flex-direction: column;
       gap: 10px;
       margin-bottom: 20px;
-      max-height: 250px;
+      max-height: 260px;
       overflow-y: auto;
       padding-right: 5px;
+      text-align: left;
     }
 
     .filter-item {
@@ -120,20 +166,20 @@
       gap: 12px;
       background-color: var(--card-inner);
       border: 1px solid var(--border-color);
-      padding: 12px 16px;
-      border-radius: 8px;
+      padding: 14px 16px;
+      border-radius: 10px;
       cursor: pointer;
       transition: border-color 0.2s;
     }
 
     .filter-item:hover {
-      border-color: var(--border-hover);
+      border-color: var(--primary);
     }
 
     .filter-item input[type="checkbox"] {
       width: 18px;
       height: 18px;
-      accent-color: var(--accent-color);
+      accent-color: var(--primary);
       cursor: pointer;
     }
 
@@ -146,8 +192,8 @@
     .header-questao { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
     .tag {
       display: inline-block;
-      background-color: #222222;
-      border: 1px solid #333333;
+      background-color: #1e1e2a;
+      border: 1px solid #2e2e40;
       color: var(--text-muted);
       font-size: 0.8rem;
       font-weight: 600;
@@ -169,12 +215,12 @@
       gap: 12px;
       background-color: var(--card-inner);
       border: 1px solid var(--border-color);
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 12px;
       transition: all 0.2s ease;
     }
 
-    .option-item:hover:not(.disabled) { border-color: var(--border-hover); background-color: #222222; }
+    .option-item:hover:not(.disabled) { border-color: #404058; background-color: #222230; }
 
     .btn-tesoura {
       background: none;
@@ -188,30 +234,30 @@
       flex-shrink: 0;
     }
 
-    .btn-tesoura:hover { background-color: #2a2a2a; color: var(--text-main); }
+    .btn-tesoura:hover { background-color: #2a2a3a; color: var(--text-main); }
 
     .option-content { flex-grow: 1; cursor: pointer; display: flex; align-items: center; gap: 10px; font-size: 0.95rem; }
     .radio-circle { width: 18px; height: 18px; border: 2px solid var(--border-color); border-radius: 50%; flex-shrink: 0; transition: all 0.2s; }
 
-    .option-item.selected .radio-circle { border-color: var(--text-main); background-color: var(--text-main); }
-    .option-item.selected { border-color: #555555; background-color: #222222; }
+    .option-item.selected .radio-circle { border-color: var(--primary); background-color: var(--primary); }
+    .option-item.selected { border-color: var(--primary); background-color: #1e1e30; }
 
-    .option-item.struck .option-content { text-decoration: line-through; color: #555555; opacity: 0.5; }
+    .option-item.struck .option-content { text-decoration: line-through; color: #555566; opacity: 0.5; }
     .option-item.struck .btn-tesoura { background-color: rgba(239, 68, 68, 0.15); border-color: var(--danger); color: var(--danger); }
 
     .option-item.correct { border-color: var(--success) !important; background-color: var(--success-bg) !important; }
     .option-item.incorrect { border-color: var(--danger) !important; background-color: var(--danger-bg) !important; }
 
-    .feedback-banner { display: none; padding: 16px; border-radius: 8px; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.5; }
+    .feedback-banner { display: none; padding: 16px; border-radius: 10px; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.5; }
     .feedback-banner.success { display: block; background-color: var(--success-bg); border: 1px solid var(--success); color: #86efac; }
     .feedback-banner.error { display: block; background-color: var(--danger-bg); border: 1px solid var(--danger); color: #fca5a5; }
 
     .controls { display: flex; justify-content: space-between; gap: 12px; }
-    .btn { padding: 12px 20px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: all 0.2s; }
-    .btn-primary { background-color: var(--primary); color: #000000; flex-grow: 1; }
+    .btn { padding: 14px 20px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .btn-primary { background-color: var(--primary); color: #ffffff; flex-grow: 1; }
     .btn-primary:hover { background-color: var(--primary-hover); }
-    .btn-secondary { background-color: #1a1a1a; border: 1px solid var(--border-color); color: var(--text-main); }
-    .btn-secondary:hover { background-color: #252525; border-color: #444444; }
+    .btn-secondary { background-color: #1a1a24; border: 1px solid var(--border-color); color: var(--text-main); }
+    .btn-secondary:hover { background-color: #252535; }
 
     /* Destaque das palavras em Negrito */
     strong {
@@ -223,7 +269,7 @@
     .cmd-loader-container {
       background-color: #000000;
       border: 1px solid var(--border-color);
-      border-radius: 6px;
+      border-radius: 8px;
       padding: 16px 20px;
       width: 100%;
       max-width: 320px;
@@ -355,6 +401,9 @@
 </head>
 <body>
 
+  <!-- IMAGEM DE FUNDO DO MENU -->
+  <div class="menu-background" id="bg-imagem"></div>
+
   <div class="container">
     <!-- Dashboard Superior -->
     <div class="dashboard" id="dashboard-stats" style="display: none;">
@@ -364,9 +413,10 @@
     </div>
 
     <!-- TELA 1: SELEÇÃO DE DISCIPLINAS -->
-    <div class="card" id="tela-selecao">
+    <div class="card-hero" id="tela-selecao">
+      <span class="menu-badge">Simulados & Questões</span>
       <div class="title-select">Menu Principal</div>
-      <div class="subtitle-select">Escolha uma disciplina para acessar as questões:</div>
+      <div class="subtitle-select">Selecione uma matéria para iniciar o seu treino:</div>
 
       <div class="discipline-grid">
         <button class="btn-discipline" onclick="abrirFiltroDisciplina('portugues', 'Língua Portuguesa')">
@@ -376,9 +426,9 @@
     </div>
 
     <!-- TELA 2: FILTRO DE ASSUNTOS -->
-    <div class="card" id="tela-filtro" style="display: none;">
+    <div class="card-hero" id="tela-filtro" style="display: none;">
       <div class="header-questao">
-        <div class="title-select" id="filtro-titulo-materia">Filtro de Assuntos</div>
+        <div class="title-select" id="filtro-titulo-materia" style="font-size: 1.3rem;">Filtro de Assuntos</div>
         <button class="btn-voltar" onclick="voltarParaSelecao()">← Voltar ao Menu</button>
       </div>
       <div class="subtitle-select">Marque os assuntos que deseja praticar:</div>
@@ -391,7 +441,7 @@
     </div>
 
     <!-- TELA 3: QUIZ / QUESTÕES -->
-    <div class="card" id="tela-quiz" style="display: none;">
+    <div class="card-quiz" id="tela-quiz" style="display: none;">
       
       <!-- CARREGANDO ESTILO CMD -->
       <div id="loading-spinner" class="cmd-loader-container">
@@ -522,6 +572,7 @@
       bancoQuestoes = [];
 
       document.getElementById('tela-filtro').style.display = 'none';
+      document.getElementById('bg-imagem').style.opacity = '0'; // Esconde a imagem de fundo suavemente ao iniciar o quiz
       document.getElementById('tela-quiz').style.display = 'block';
       document.getElementById('loading-spinner').style.display = 'block';
       document.getElementById('quiz-content').style.display = 'none';
@@ -569,12 +620,14 @@
       document.getElementById('dashboard-stats').style.display = 'none';
       document.getElementById('tela-filtro').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'none';
+      document.getElementById('bg-imagem').style.opacity = '1';
       document.getElementById('tela-selecao').style.display = 'block';
     }
 
     function voltarParaFiltro() {
       document.getElementById('dashboard-stats').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'none';
+      document.getElementById('bg-imagem').style.opacity = '1';
       document.getElementById('tela-filtro').style.display = 'block';
     }
 
