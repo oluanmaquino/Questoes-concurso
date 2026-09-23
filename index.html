@@ -169,6 +169,12 @@
     .btn-primary:hover { background-color: var(--primary-hover); }
     .btn-secondary { background-color: #1a1a1a; border: 1px solid var(--border-color); color: var(--text-main); }
     .btn-secondary:hover { background-color: #252525; border-color: #444444; }
+
+    /* Destaque das palavras em Negrito */
+    strong {
+      color: #facc15;
+      font-weight: 700;
+    }
   </style>
 </head>
 <body>
@@ -222,7 +228,6 @@
     let totalAcertos = 0;
     let nomeDisciplinaAtual = "";
 
-    // Converte marcadores **texto** para negrito HTML
     function formatarTexto(texto) {
       if (!texto) return '';
       return texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
@@ -330,7 +335,7 @@
           <button class="btn-tesoura" onclick="toggleRiscar(event, ${index})" title="Eliminar alternativa">✂️</button>
           <div class="option-content" onclick="selecionarOpcao(${index})">
             <div class="radio-circle"></div>
-            <span><strong>${letras[index]})</strong> ${formatarTexto(alt)}</span>
+            <span><strong style="color: var(--text-main);">${letras[index]})</strong> ${formatarTexto(alt)}</span>
           </div>
         `;
 
