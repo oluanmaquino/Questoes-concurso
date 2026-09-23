@@ -187,7 +187,6 @@
       <div class="subtitle-select">Escolha a matéria para carregar as questões automaticamente:</div>
 
       <div class="discipline-grid">
-        <!-- Adicione botões para cada pasta que você tem no projeto -->
         <button class="btn-discipline" onclick="carregarDisciplina('portugues', 'Língua Portuguesa')">
           <span>📚 Língua Portuguesa</span> ➔
         </button>
@@ -223,12 +222,17 @@
     let totalAcertos = 0;
     let nomeDisciplinaAtual = "";
 
+    // Converte marcadores **texto** para negrito HTML
+    function formatarTexto(texto) {
+      if (!texto) return '';
+      return texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    }
+
     async function carregarDisciplina(pasta, nomeExibicao) {
       nomeDisciplinaAtual = nomeExibicao;
       bancoQuestoes = [];
 
       try {
-        // Tenta buscar a lista de arquivos .txt dentro do lista.json da pasta
         const respLista = await fetch(`questoes/${pasta}/lista.json`);
         if (!respLista.ok) throw new Error("Não foi possível encontrar o arquivo lista.json na pasta " + pasta);
 
@@ -307,7 +311,7 @@
       respondido = false;
 
       document.getElementById('q-tag').textContent = `${q.disciplina} - ${q.assunto} (${indiceAtual + 1}/${bancoQuestoes.length})`;
-      document.getElementById('q-enunciado').textContent = q.enunciado;
+      document.getElementById('q-enunciado').innerHTML = formatarTexto(q.enunciado);
       document.getElementById('feedback').className = 'feedback-banner';
       document.getElementById('btn-conferir').style.display = 'block';
       document.getElementById('btn-proxima').style.display = 'none';
@@ -326,7 +330,7 @@
           <button class="btn-tesoura" onclick="toggleRiscar(event, ${index})" title="Eliminar alternativa">✂️</button>
           <div class="option-content" onclick="selecionarOpcao(${index})">
             <div class="radio-circle"></div>
-            <span><strong>${letras[index]})</strong> ${alt}</span>
+            <span><strong>${letras[index]})</strong> ${formatarTexto(alt)}</span>
           </div>
         `;
 
@@ -389,12 +393,12 @@
         totalAcertos++;
         optSelecionadaEl.classList.add('correct');
         feedbackEl.className = 'feedback-banner success';
-        feedbackEl.innerHTML = `<strong>✅ Parabéns, resposta correta!</strong><br>${q.explicacao}`;
+        feedbackEl.innerHTML = `<strong>✅ Parabéns, resposta correta!</strong><br>${formatarTexto(q.explicacao)}`;
       } else {
         optSelecionadaEl.classList.add('incorrect');
         optCorretaEl.classList.add('correct');
         feedbackEl.className = 'feedback-banner error';
-        feedbackEl.innerHTML = `<strong>❌ Resposta incorreta.</strong><br>${q.explicacao}`;
+        feedbackEl.innerHTML = `<strong>❌ Resposta incorreta.</strong><br>${formatarTexto(q.explicacao)}`;
       }
 
       atualizarEstatisticas();
