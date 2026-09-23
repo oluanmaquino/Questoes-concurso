@@ -214,8 +214,8 @@
       border-right: 2px solid var(--green-cmd);
       width: 0;
       animation: 
-        typewriter 1.2s steps(19) 0.2s forwards,
-        blink-cursor 0.6s step-end infinite;
+        typewriter 1s steps(19) 0.1s forwards,
+        blink-cursor 0.5s step-end infinite;
     }
 
     .cmd-dot {
@@ -225,7 +225,7 @@
       font-weight: bold;
       opacity: 0;
       margin-left: 2px;
-      animation: spin-dot 1.8s infinite ease-in-out 1.4s;
+      animation: spin-dot 1.2s infinite ease-in-out 1.1s;
     }
 
     .cmd-text {
@@ -328,7 +328,7 @@
       nomeDisciplinaAtual = nomeExibicao;
       bancoQuestoes = [];
 
-      // Exibe a tela do quiz, mostra o indicador de carregamento e oculta o conteúdo
+      // Exibe a tela do quiz, mostra a animação do CMD e esconde o quiz
       document.getElementById('tela-selecao').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'block';
       document.getElementById('loading-spinner').style.display = 'block';
@@ -354,11 +354,13 @@
           embaralharArray(bancoQuestoes);
           indiceAtual = 0;
 
-          // Esconde o indicador de carregamento e mostra o conteúdo do quiz
-          document.getElementById('loading-spinner').style.display = 'none';
-          document.getElementById('quiz-content').style.display = 'block';
+          // PAUSA DE 2 SEGUNDOS (2000ms) para dar tempo de assistir à animação completa
+          setTimeout(() => {
+            document.getElementById('loading-spinner').style.display = 'none';
+            document.getElementById('quiz-content').style.display = 'block';
+            carregarQuestao();
+          }, 2000);
 
-          carregarQuestao();
         } else {
           alert("Nenhuma questão foi encontrada nesta disciplina.");
           voltarParaSelecao();
