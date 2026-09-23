@@ -23,6 +23,9 @@
       
       --danger: #ef4444;
       --danger-bg: rgba(239, 68, 68, 0.1);
+
+      --accent-color: #facc15; /* Amarelo Destaque */
+      --green-cmd: #4ade80;   /* Verde Terminal CMD */
     }
 
     * {
@@ -172,8 +175,81 @@
 
     /* Destaque das palavras em Negrito */
     strong {
-      color: #facc15;
+      color: var(--accent-color);
       font-weight: 700;
+    }
+
+    /* --- ESTILOS DO LOADING CMD COMPACTO --- */
+    .cmd-loader-container {
+      background-color: #000000;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 16px 20px;
+      width: 100%;
+      max-width: 300px;
+      margin: 30px auto;
+      text-align: left;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .cmd-line {
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .cmd-prompt {
+      color: var(--green-cmd);
+      margin-right: 6px;
+    }
+
+    .typing-text {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid var(--green-cmd);
+      width: 0;
+      animation: 
+        typewriter 1.2s steps(19) 0.2s forwards,
+        blink-cursor 0.6s step-end infinite;
+    }
+
+    .cmd-dot {
+      display: inline-block;
+      color: var(--accent-color);
+      font-size: 1rem;
+      font-weight: bold;
+      opacity: 0;
+      margin-left: 2px;
+      animation: spin-dot 1.8s infinite ease-in-out 1.4s;
+    }
+
+    .cmd-text {
+      color: #888888;
+      font-size: 0.7rem;
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    @keyframes typewriter {
+      from { width: 0; }
+      to { width: 19ch; }
+    }
+
+    @keyframes blink-cursor {
+      from, to { border-color: transparent; }
+      50% { border-color: var(--green-cmd); }
+    }
+
+    @keyframes spin-dot {
+      0% { opacity: 1; transform: rotate(0deg); }
+      25% { opacity: 0.2; }
+      50% { opacity: 1; transform: rotate(0deg); }
+      100% { opacity: 1; transform: rotate(360deg); }
     }
   </style>
 </head>
@@ -201,19 +277,34 @@
 
     <!-- TELA 2: QUIZ / QUESTÕES -->
     <div class="card" id="tela-quiz" style="display: none;">
-      <div class="header-questao">
-        <span class="tag" id="q-tag">Materia - Assunto</span>
-        <button class="btn-voltar" onclick="voltarParaSelecao()">← Escolher Outra Disciplina</button>
+      
+      <!-- CARREGANDO ESTILO CMD -->
+      <div id="loading-spinner" class="cmd-loader-container">
+        <div class="cmd-line">
+          <span class="cmd-prompt">C:\></span>
+          <span class="typing-text">carregando_questoes</span>
+          <span class="cmd-dot">.</span>
+        </div>
+        <div class="cmd-text">> Inicializando dados...</div>
       </div>
 
-      <div class="enunciado" id="q-enunciado">Carregando questão...</div>
-      <div class="options-list" id="options-container"></div>
-      <div class="feedback-banner" id="feedback"></div>
+      <!-- CONTEÚDO DA QUESTÃO -->
+      <div id="quiz-content" style="display: none;">
+        <div class="header-questao">
+          <span class="tag" id="q-tag">Materia - Assunto</span>
+          <button class="btn-voltar" onclick="voltarParaSelecao()">← Escolher Outra Disciplina</button>
+        </div>
 
-      <div class="controls">
-        <button class="btn btn-primary" id="btn-conferir" onclick="conferirResposta()">Conferir Resposta</button>
-        <button class="btn btn-secondary" id="btn-proxima" onclick="proximaQuestao()" style="display: none;">Próxima Questão ➔</button>
+        <div class="enunciado" id="q-enunciado">Carregando questão...</div>
+        <div class="options-list" id="options-container"></div>
+        <div class="feedback-banner" id="feedback"></div>
+
+        <div class="controls">
+          <button class="btn btn-primary" id="btn-conferir" onclick="conferirResposta()">Conferir Resposta</button>
+          <button class="btn btn-secondary" id="btn-proxima" onclick="proximaQuestao()" style="display: none;">Próxima Questão ➔</button>
+        </div>
       </div>
+
     </div>
   </div>
 
@@ -237,6 +328,12 @@
       nomeDisciplinaAtual = nomeExibicao;
       bancoQuestoes = [];
 
+      // Exibe a tela do quiz, mostra o indicador de carregamento e oculta o conteúdo
+      document.getElementById('tela-selecao').style.display = 'none';
+      document.getElementById('tela-quiz').style.display = 'block';
+      document.getElementById('loading-spinner').style.display = 'block';
+      document.getElementById('quiz-content').style.display = 'none';
+
       try {
         const respLista = await fetch(`questoes/${pasta}/lista.json`);
         if (!respLista.ok) throw new Error("Não foi possível encontrar o arquivo lista.json na pasta " + pasta);
@@ -256,14 +353,19 @@
         if (bancoQuestoes.length > 0) {
           embaralharArray(bancoQuestoes);
           indiceAtual = 0;
-          document.getElementById('tela-selecao').style.display = 'none';
-          document.getElementById('tela-quiz').style.display = 'block';
+
+          // Esconde o indicador de carregamento e mostra o conteúdo do quiz
+          document.getElementById('loading-spinner').style.display = 'none';
+          document.getElementById('quiz-content').style.display = 'block';
+
           carregarQuestao();
         } else {
           alert("Nenhuma questão foi encontrada nesta disciplina.");
+          voltarParaSelecao();
         }
       } catch (err) {
         alert("Erro ao carregar questões: " + err.message);
+        voltarParaSelecao();
       }
     }
 
