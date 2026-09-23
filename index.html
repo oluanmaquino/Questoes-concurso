@@ -76,7 +76,7 @@
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 
-    /* Seleção de Disciplinas */
+    /* Seleção de Disciplinas e Filtros */
     .title-select { font-size: 1.25rem; margin-bottom: 8px; font-weight: 600; }
     .subtitle-select { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px; }
 
@@ -100,6 +100,45 @@
     .btn-discipline:hover {
       background-color: #222222;
       border-color: var(--border-hover);
+    }
+
+    /* Estilos da Lista de Filtros (Checkbox) */
+    .filter-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+      max-height: 250px;
+      overflow-y: auto;
+      padding-right: 5px;
+    }
+
+    .filter-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background-color: var(--card-inner);
+      border: 1px solid var(--border-color);
+      padding: 12px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .filter-item:hover {
+      border-color: var(--border-hover);
+    }
+
+    .filter-item input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--accent-color);
+      cursor: pointer;
+    }
+
+    .filter-item span {
+      font-size: 0.95rem;
+      text-transform: capitalize;
     }
 
     /* Interface do Quiz */
@@ -256,8 +295,8 @@
 <body>
 
   <div class="container">
-    <!-- Dashboard Superior -->
-    <div class="dashboard">
+    <!-- Dashboard Superior (Oculto por padrão no menu inicial) -->
+    <div class="dashboard" id="dashboard-stats" style="display: none;">
       <div class="stat-item"><div class="stat-value" id="stat-total">0</div><div class="stat-label">Respondidas</div></div>
       <div class="stat-item"><div class="stat-value" id="stat-acertos">0</div><div class="stat-label">Acertos</div></div>
       <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
@@ -265,17 +304,32 @@
 
     <!-- TELA 1: SELEÇÃO DE DISCIPLINAS -->
     <div class="card" id="tela-selecao">
-      <div class="title-select">Selecione uma Disciplina</div>
-      <div class="subtitle-select">Escolha a matéria para carregar as questões automaticamente:</div>
+      <div class="title-select">Menu Principal</div>
+      <div class="subtitle-select">Escolha uma disciplina para acessar as questões:</div>
 
       <div class="discipline-grid">
-        <button class="btn-discipline" onclick="carregarDisciplina('portugues', 'Língua Portuguesa')">
+        <button class="btn-discipline" onclick="abrirFiltroDisciplina('portugues', 'Língua Portuguesa')">
           <span>📚 Língua Portuguesa</span> ➔
         </button>
       </div>
     </div>
 
-    <!-- TELA 2: QUIZ / QUESTÕES -->
+    <!-- TELA 2: FILTRO DE ASSUNTOS -->
+    <div class="card" id="tela-filtro" style="display: none;">
+      <div class="header-questao">
+        <div class="title-select" id="filtro-titulo-materia">Filtro de Assuntos</div>
+        <button class="btn-voltar" onclick="voltarParaSelecao()">← Voltar ao Menu</button>
+      </div>
+      <div class="subtitle-select">Marque os assuntos que deseja praticar:</div>
+
+      <div class="filter-list" id="filter-options-container">
+        <!-- Caixas de seleção geradas dinamicamente via JS -->
+      </div>
+
+      <button class="btn btn-primary" onclick="iniciarQuizComFiltro()" style="width: 100%;">Iniciar Simulado ➔</button>
+    </div>
+
+    <!-- TELA 3: QUIZ / QUESTÕES -->
     <div class="card" id="tela-quiz" style="display: none;">
       
       <!-- CARREGANDO ESTILO CMD -->
@@ -292,7 +346,7 @@
       <div id="quiz-content" style="display: none;">
         <div class="header-questao">
           <span class="tag" id="q-tag">Materia - Assunto</span>
-          <button class="btn-voltar" onclick="voltarParaSelecao()">← Escolher Outra Disciplina</button>
+          <button class="btn-voltar" onclick="voltarParaFiltro()">← Mudar Filtros</button>
         </div>
 
         <div class="enunciado" id="q-enunciado">Carregando questão...</div>
@@ -309,6 +363,9 @@
   </div>
 
   <script>
+    let pastaDisciplinaAtual = "";
+    let nomeDisciplinaAtual = "";
+    let listaArquivosAssuntos = [];
     let bancoQuestoes = [];
     let indiceAtual = 0;
     let opcaoSelecionada = null;
@@ -317,34 +374,92 @@
 
     let totalRespondidas = 0;
     let totalAcertos = 0;
-    let nomeDisciplinaAtual = "";
 
     function formatarTexto(texto) {
       if (!texto) return '';
       return texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     }
 
-    async function carregarDisciplina(pasta, nomeExibicao) {
+    /* Step 1: Abre a tela de filtros para a disciplina escolhida */
+    async function abrirFiltroDisciplina(pasta, nomeExibicao) {
+      pastaDisciplinaAtual = pasta;
       nomeDisciplinaAtual = nomeExibicao;
+
+      document.getElementById('filtro-titulo-materia').textContent = nomeExibicao;
+
+      try {
+        const respLista = await fetch(`questoes/${pasta}/lista.json`);
+        if (!respLista.ok) throw new Error("Não foi possível carregar a lista de assuntos.");
+
+        listaArquivosAssuntos = await respLista.json();
+
+        const container = document.getElementById('filter-options-container');
+        container.innerHTML = '';
+
+        // Opção "Todos os Assuntos"
+        const itemTodos = document.createElement('label');
+        itemTodos.className = 'filter-item';
+        itemTodos.innerHTML = `
+          <input type="checkbox" id="chk-todos" checked onchange="toggleTodosAssuntos(this)">
+          <strong>Todos os Assuntos</strong>
+        `;
+        container.appendChild(itemTodos);
+
+        // Gera as opções individuais para cada arquivo .txt retornado no lista.json
+        listaArquivosAssuntos.forEach(arq => {
+          const nomeAssunto = arq.replace('.txt', '');
+          const item = document.createElement('label');
+          item.className = 'filter-item';
+          item.innerHTML = `
+            <input type="checkbox" class="chk-assunto" value="${arq}" checked onchange="verificarSelecaoFiltros()">
+            <span>${nomeAssunto}</span>
+          `;
+          container.appendChild(item);
+        });
+
+        document.getElementById('tela-selecao').style.display = 'none';
+        document.getElementById('tela-filtro').style.display = 'block';
+
+      } catch (err) {
+        alert("Erro ao carregar assuntos: " + err.message);
+      }
+    }
+
+    function toggleTodosAssuntos(mainChk) {
+      const chks = document.querySelectorAll('.chk-assunto');
+      chks.forEach(c => c.checked = mainChk.checked);
+    }
+
+    function verificarSelecaoFiltros() {
+      const chks = document.querySelectorAll('.chk-assunto');
+      const todosMarcados = Array.from(chks).every(c => c.checked);
+      document.getElementById('chk-todos').checked = todosMarcados;
+    }
+
+    /* Step 2: Carrega e filtra as questões com base nas marcações */
+    async function iniciarQuizComFiltro() {
+      const chks = document.querySelectorAll('.chk-assunto:checked');
+      const arquivosSelecionados = Array.from(chks).map(c => c.value);
+
+      if (arquivosSelecionados.length === 0) {
+        alert("Selecione pelo menos um assunto para continuar!");
+        return;
+      }
+
       bancoQuestoes = [];
 
-      // Exibe a tela do quiz, mostra a animação do CMD e esconde o quiz
-      document.getElementById('tela-selecao').style.display = 'none';
+      // Transição para a tela de quiz + animação CMD
+      document.getElementById('tela-filtro').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'block';
       document.getElementById('loading-spinner').style.display = 'block';
       document.getElementById('quiz-content').style.display = 'none';
 
       try {
-        const respLista = await fetch(`questoes/${pasta}/lista.json`);
-        if (!respLista.ok) throw new Error("Não foi possível encontrar o arquivo lista.json na pasta " + pasta);
-
-        const arquivos = await respLista.json();
-
-        for (const arquivo of arquivos) {
-          const respTxt = await fetch(`questoes/${pasta}/${arquivo}`);
+        for (const arq of arquivosSelecionados) {
+          const respTxt = await fetch(`questoes/${pastaDisciplinaAtual}/${arq}`);
           if (respTxt.ok) {
             const texto = await respTxt.text();
-            const assuntoDoArquivo = arquivo.replace('.txt', '');
+            const assuntoDoArquivo = arq.replace('.txt', '');
             const questoesDoArquivo = parseTXT(texto, assuntoDoArquivo);
             bancoQuestoes = bancoQuestoes.concat(questoesDoArquivo);
           }
@@ -354,20 +469,21 @@
           embaralharArray(bancoQuestoes);
           indiceAtual = 0;
 
-          // PAUSA DE 2 SEGUNDOS (2000ms) para dar tempo de assistir à animação completa
+          // Pausa da animação CMD e mostra o dashboard de estatísticas
           setTimeout(() => {
             document.getElementById('loading-spinner').style.display = 'none';
             document.getElementById('quiz-content').style.display = 'block';
+            document.getElementById('dashboard-stats').style.display = 'flex'; // Exibe o placar
             carregarQuestao();
           }, 2000);
 
         } else {
-          alert("Nenhuma questão foi encontrada nesta disciplina.");
-          voltarParaSelecao();
+          alert("Nenhuma questão foi encontrada nos assuntos selecionados.");
+          voltarParaFiltro();
         }
       } catch (err) {
         alert("Erro ao carregar questões: " + err.message);
-        voltarParaSelecao();
+        voltarParaFiltro();
       }
     }
 
@@ -379,8 +495,16 @@
     }
 
     function voltarParaSelecao() {
+      document.getElementById('dashboard-stats').style.display = 'none'; // Esconde o placar
+      document.getElementById('tela-filtro').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'none';
       document.getElementById('tela-selecao').style.display = 'block';
+    }
+
+    function voltarParaFiltro() {
+      document.getElementById('dashboard-stats').style.display = 'none'; // Esconde o placar
+      document.getElementById('tela-quiz').style.display = 'none';
+      document.getElementById('tela-filtro').style.display = 'block';
     }
 
     function parseTXT(texto, assunto) {
