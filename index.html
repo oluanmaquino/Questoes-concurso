@@ -181,14 +181,15 @@
       <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
     </div>
 
-    <!-- TELA 1: SELEÇÃO DA PASTA -->
+    <!-- TELA 1: SELEÇÃO DE DISCIPLINAS -->
     <div class="card" id="tela-selecao">
-      <div class="title-select">Selecione a Pasta da Disciplina</div>
-      <div class="subtitle-select">Clique abaixo e escolha a pasta que contém as questões em ficheiros .txt (ex: pasta 'portugues'):</div>
+      <div class="title-select">Selecione uma Disciplina</div>
+      <div class="subtitle-select">Escolha a matéria para carregar as questões automaticamente:</div>
 
       <div class="discipline-grid">
-        <button class="btn-discipline" onclick="carregarPastaDisciplina()">
-          <span>📁 Abrir Pasta de Questões</span> ➔
+        <!-- Adicione botões para cada pasta que você tem no projeto -->
+        <button class="btn-discipline" onclick="carregarDisciplina('portugues', 'Língua Portuguesa')">
+          <span>📚 Língua Portuguesa</span> ➔
         </button>
       </div>
     </div>
@@ -197,7 +198,7 @@
     <div class="card" id="tela-quiz" style="display: none;">
       <div class="header-questao">
         <span class="tag" id="q-tag">Materia - Assunto</span>
-        <button class="btn-voltar" onclick="voltarParaSelecao()">← Escolher Outra Pasta</button>
+        <button class="btn-voltar" onclick="voltarParaSelecao()">← Escolher Outra Disciplina</button>
       </div>
 
       <div class="enunciado" id="q-enunciado">Carregando questão...</div>
@@ -222,21 +223,22 @@
     let totalAcertos = 0;
     let nomeDisciplinaAtual = "";
 
-    async function carregarPastaDisciplina() {
+    async function carregarDisciplina(pasta, nomeExibicao) {
+      nomeDisciplinaAtual = nomeExibicao;
       bancoQuestoes = [];
 
       try {
-        // Abre o seletor de pasta do sistema operacional
-        const dirHandle = await window.showDirectoryPicker();
-        nomeDisciplinaAtual = dirHandle.name;
+        // Tenta buscar a lista de arquivos .txt dentro do lista.json da pasta
+        const respLista = await fetch(`questoes/${pasta}/lista.json`);
+        if (!respLista.ok) throw new Error("Não foi possível encontrar o arquivo lista.json na pasta " + pasta);
 
-        // Lê todos os ficheiros dentro da pasta
-        for await (const entry of dirHandle.values()) {
-          if (entry.kind === 'file' && entry.name.endsWith('.txt')) {
-            const file = await entry.getFile();
-            const texto = await file.text();
-            const assuntoDoArquivo = entry.name.replace('.txt', '');
-            
+        const arquivos = await respLista.json();
+
+        for (const arquivo of arquivos) {
+          const respTxt = await fetch(`questoes/${pasta}/${arquivo}`);
+          if (respTxt.ok) {
+            const texto = await respTxt.text();
+            const assuntoDoArquivo = arquivo.replace('.txt', '');
             const questoesDoArquivo = parseTXT(texto, assuntoDoArquivo);
             bancoQuestoes = bancoQuestoes.concat(questoesDoArquivo);
           }
@@ -249,12 +251,10 @@
           document.getElementById('tela-quiz').style.display = 'block';
           carregarQuestao();
         } else {
-          alert("Nenhum ficheiro .txt foi encontrado na pasta selecionada.");
+          alert("Nenhuma questão foi encontrada nesta disciplina.");
         }
       } catch (err) {
-        if (err.name !== 'AbortError') {
-          alert("Erro ao ler a pasta: " + err.message);
-        }
+        alert("Erro ao carregar questões: " + err.message);
       }
     }
 
