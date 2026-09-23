@@ -1,0 +1,239 @@
+ENUNCIADO: Na frase "O candidato respondeu **rapidamente** à questão", a palavra destacada é um advérbio de:
+A) Tempo
+B) Modo
+C) Lugar
+D) Intensidade
+CORRETA: B
+EXPLICACAO: "Rapidamente" indica o modo ou a maneira como o candidato respondeu à questão.
+---
+ENUNCIADO: Assinala a opção em que a palavra destacada é um **advérbio de lugar**:
+A) Ele chegou **hoje**.
+B) O livro está **aqui**.
+C) Falei **muito** durante a aula.
+D) **Jamais** esquecerei este dia.
+CORRETA: B
+EXPLICACAO: "Aqui" indica o local onde o livro se encontra.
+---
+ENUNCIADO: Na frase "Amanhã estudaremos mais conteúdos", a palavra **"Amanhã"** indica uma ideia de:
+A) Modo
+B) Causa
+C) Tempo
+D) Afirmação
+CORRETA: C
+EXPLICACAO: "Amanhã" indica o momento/tempo em que a ação de estudar vai acontecer.
+---
+ENUNCIADO: Identifica o advérbio de **intensidade** na frase: "A prova estava muito difícil".
+A) prova
+B) estava
+C) muito
+D) difícil
+CORRETA: C
+EXPLICACAO: "Muito" intensifica o adjetivo "difícil".
+---
+ENUNCIADO: Qual das opções apresenta um advérbio de **negação**?
+A) Talvez ele venha à aula.
+B) Certamente iremos ao passeio.
+C) Não encontrei o caderno de resumos.
+D) Moro perto da escola.
+CORRETA: C
+EXPLICACAO: "Não" é um advérbio que expressa negação.
+---
+ENUNCIADO: Na frase "**Talvez** a aula comece mais cedo", a palavra em destaque expressa:
+A) Dúvida
+B) Certeza
+C) Negação
+D) Tempo
+CORRETA: A
+EXPLICACAO: "Talvez" indica uma possibilidade ou dúvida.
+---
+ENUNCIADO: Assinala a frase em que há um advérbio de **afirmação**:
+A) Nunca vi esse tipo de questão.
+B) Sim, eu concordo com o gabarito.
+C) Ali fica a biblioteca.
+D) Escreveste calmamente.
+CORRETA: B
+EXPLICACAO: "Sim" é um advérbio de afirmação.
+---
+ENUNCIADO: Na frase "Os alunos estudaram **bastante** para o exame", o termo destacado classifica-se como advérbio de:
+A) Modo
+B) Tempo
+C) Intensidade
+D) Lugar
+CORRETA: C
+EXPLICACAO: "Bastante" indica a intensidade do verbo estudar.
+---
+ENUNCIADO: Qual das seguintes palavras é um **advérbio de modo**?
+A) Ontem
+B) Silenciosamente
+C) Longe
+D) Pouco
+CORRETA: B
+EXPLICACAO: "Silenciosamente" indica a maneira/modo como algo é feito.
+---
+ENUNCIADO: Na oração "Ela mora **longe** do centro da cidade", a palavra destacada é um advérbio de:
+A) Lugar
+B) Tempo
+C) Modo
+D) Afirmação
+CORRETA: A
+EXPLICACAO: "Longe" indica a localização/lugar.
+---
+ENUNCIADO: Qual das frases contém um advérbio de **tempo**?
+A) O cão dorme lá fora.
+B) O professor fala bem.
+C) Chegámos cedo à sala.
+D) Comeram pouco ao almoço.
+CORRETA: C
+EXPLICACAO: "Cedo" refere-se ao tempo/momento da chegada.
+---
+ENUNCIADO: Em "**Com certeza** passaremos na prova", a locução destacada equivale a um advérbio de:
+A) Dúvida
+B) Afirmação
+C) Modo
+D) Lugar
+CORRETA: B
+EXPLICACAO: "Com certeza" expressa uma afirmação convicta.
+---
+ENUNCIADO: Na frase "A criança chorou **pouco**", o advérbio "pouco" expressa:
+A) Intensidade
+B) Negação
+C) Tempo
+D) Modo
+CORRETA: A
+EXPLICACAO: "Pouco" modifica o verbo chorar dando ideia de intensidade.
+---
+ENUNCIADO: Qual é o advérbio presente na frase: "Ele agiu **calmamente** durante a reunião"?
+A) Ele
+B) agiu
+C) calmamente
+D) reunião
+CORRETA: C
+EXPLICACAO: "Calmamente" é o advérbio de modo presente na oração.
+---
+ENUNCIADO: Assinala a opção em que a palavra **"ontem"** é utilizada como advérbio:
+A) O ontem já passou.
+B) Fizemos o simulado ontem.
+C) Aquele ontem foi inesquecível.
+D) Lembrei-me do ontem triste.
+CORRETA: B
+EXPLICACAO: Na opção B, "ontem" indica o tempo em que a ação de fazer o simulado ocorreu. Nas outras, funciona como substantivo.
+---
+ENUNCIADO: Na oração "Os cadernos estão **atrás** do monitor", a palavra destacada indica:
+A) Tempo
+B) Modo
+C) Lugar
+D) Negação
+CORRETA: C
+EXPLICACAO: "Atrás" indica a posição/lugar dos cadernos.
+---
+ENUNCIADO: Na frase "O aluno respondeu **corretamente** às perguntas", a terminação **"-mente"** indica um advérbio de:
+A) Tempo
+B) Modo
+C) Lugar
+D) Intensidade
+CORRETA: B
+EXPLICACAO: O sufixo "-mente" associado a adjetivos forma geralmente advérbios de modo.
+---
+ENUNCIADO: Qual das opções apresenta apenas **advérbios de tempo**?
+A) Aqui, ali, lá
+B) Ontem, hoje, amanhã
+C) Muito, pouco, bastante
+D) Sim, com certeza, de facto
+CORRETA: B
+EXPLICACAO: "Ontem", "hoje" e "amanhã" referem-se a momentos no tempo.
+---
+ENUNCIADO: Na frase "**Jamais** cometeria esse erro novamente", a palavra destacada é um advérbio de:
+A) Negação
+B) Afirmação
+C) Dúvida
+D) Lugar
+CORRETA: A
+EXPLICACAO: "Jamais" nega categoricamente a possibilidade da ação.
+---
+ENUNCIADO: Assinala a frase em que o advérbio expressa ideia de **dúvida**:
+A) Provavelmente a prova será adiada.
+B) Realmente conseguimos a nota máxima.
+C) Já entreguei o trabalho.
+D) O carro parou ali.
+CORRETA: A
+EXPLICACAO: "Provavelmente" expressa incerteza/dúvida.
+---
+ENUNCIADO: Na frase "O atleta correu **demais** e ficou cansado", a palavra destacada indica:
+A) Tempo
+B) Intensidade
+C) Modo
+D) Lugar
+CORRETA: B
+EXPLICACAO: "Demais" intensifica a ação de correr.
+---
+ENUNCIADO: Em "Os livros estão guardados **ali**", o termo "ali" é um advérbio de:
+A) Tempo
+B) Modo
+C) Lugar
+D) Dúvida
+CORRETA: C
+EXPLICACAO: "Ali" aponta para o local/lugar onde estão os livros.
+---
+ENUNCIADO: Na oração "Estudei **hoje** para o teste", a palavra "hoje" classifica-se como advérbio de:
+A) Lugar
+B) Modo
+C) Tempo
+D) Negação
+CORRETA: C
+EXPLICACAO: "Hoje" indica o dia/tempo em que o estudo ocorreu.
+---
+ENUNCIADO: Identifica a frase que contém um advérbio de **modo**:
+A) Ela canta muito bem.
+B) Não haverá aula amanhã.
+C) Os alunos estão lá fora.
+D) Certamente viajaremos nas férias.
+CORRETA: A
+EXPLICACAO: "Bem" indica o modo como ela canta.
+---
+ENUNCIADO: Na frase "Ele leu o texto **atentamente**", a palavra "atentamente" modifica qual termo?
+A) O pronome "Ele"
+B) O verbo "leu"
+C) O substantivo "texto"
+D) Nenhum termo
+CORRETA: B
+EXPLICACAO: Os advérbios modificam verbos, adjetivos ou outros advérbios. Aqui modifica o verbo "leu".
+---
+ENUNCIADO: Assinala o advérbio que completa adequadamente a frase dando ideia de tempo: "Nós iremos ao cinema ________".
+A) calmamente
+B) logo
+C) muito
+D) longe
+CORRETA: B
+EXPLICACAO: "Logo" indica um momento no tempo (em breve).
+---
+ENUNCIADO: Na frase "O autocarro passou **depressa**", a palavra destacada expressa:
+A) Tempo
+B) Modo
+C) Intensidade
+D) Dúvida
+CORRETA: B
+EXPLICACAO: "Depressa" indica a maneira/modo como o autocarro passou.
+---
+ENUNCIADO: Qual das opções contém um advérbio de **afirmação**?
+A) Nunca
+B) De forma alguma
+C) Deveras
+D) Talvez
+CORRETA: C
+EXPLICACAO: "Deveras" significa "realmente" ou "de facto", sendo um advérbio de afirmação.
+---
+ENUNCIADO: Na frase "Ela falou **suavemente** ao telefone", o termo destacado indica:
+A) A maneira como ela falou
+B) O momento em que ela falou
+C) O local onde ela falou
+D) A quantidade de vezes que ela falou
+CORRETA: A
+EXPLICACAO: "Suavemente" é um advérbio de modo, logo indica a maneira como falou.
+---
+ENUNCIADO: Assinala a frase em que a palavra destacada é um **advérbio**:
+A) Ele comprou **muitos** livros.
+B) Ela fala **muito**.
+C) Comi **muita** fruta.
+D) Havia **poucas** pessoas no local.
+CORRETA: B
+EXPLICACAO: Na opção B, "muito" é invariável e modifica o verbo "falar". Nas outras opções varia em género/número, sendo pronome indefinido.
