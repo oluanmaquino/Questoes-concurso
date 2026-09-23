@@ -218,7 +218,7 @@
       font-weight: 700;
     }
 
-    /* --- ESTILOS DO LOADING CMD COMPACTO --- */
+    /* --- ESTILOS DO LOADING CMD AJUSTADOS --- */
     .cmd-loader-container {
       background-color: #000000;
       border: 1px solid var(--border-color);
@@ -228,7 +228,7 @@
       max-width: 300px;
       margin: 30px auto;
       text-align: left;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Consolas', 'Courier New', Courier, monospace;
       box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
 
@@ -252,8 +252,9 @@
       white-space: nowrap;
       border-right: 2px solid var(--green-cmd);
       width: 0;
+      vertical-align: bottom;
       animation: 
-        typewriter 1s steps(19) 0.1s forwards,
+        typewriter 0.9s steps(19) 0.1s forwards,
         blink-cursor 0.5s step-end infinite;
     }
 
@@ -264,7 +265,7 @@
       font-weight: bold;
       opacity: 0;
       margin-left: 2px;
-      animation: spin-dot 1.2s infinite ease-in-out 1.1s;
+      animation: spin-dot 1.2s infinite ease-in-out 1s;
     }
 
     .cmd-text {
@@ -274,6 +275,7 @@
       letter-spacing: 0.5px;
     }
 
+    /* Ajuste de precisão dos 19 caracteres */
     @keyframes typewriter {
       from { width: 0; }
       to { width: 19ch; }
