@@ -1,0 +1,269 @@
+ENUNCIADO: Assinale a alternativa em que o uso do sinal indicativo de crase é OBRIGATÓRIO:
+A) Entreguei o documento a uma secretária.
+B) Fui a uma festa muito divertida.
+C) Escrevi uma carta à minha mãe.
+D) Ele começou a falar sem parar.
+E) Vamos a pé para o trabalho.
+CORRETA: C
+EXPLICACAO: Antes de substantivo feminino determinado ("minha mãe"), a preposição "a" junta-se ao artigo "a", formando a crase. Antes de verbo (a falar), pronome indefinido (a uma) ou palavra masculina (a pé), não há crase.
+---
+ENUNCIADO: Não ocorre crase antes de verbos no infinitivo. Assinale a frase que exemplifica essa regra:
+A) Chegamos à cidade ao anoitecer.
+B) Ela começou a chorar de emoção.
+C) Fomos à praia no domingo.
+D) Refiro-me à diretora da escola.
+E) Pediu ajuda à professora.
+CORRETA: B
+EXPLICACAO: Antes de verbos no infinitivo ("chorar"), a palavra "a" é apenas uma preposição, portanto não ocorre crase.
+---
+ENUNCIADO: Assinale a opção em que o uso da crase está INCORRETO:
+A) Vou à farmácia comprar remédios.
+B) Ele entregou o presente à menina.
+C) Chegamos à escola às oito horas.
+D) Ela gosta de andar à pé.
+E) Fomos à reunião do condomínio.
+CORRETA: D
+EXPLICACAO: "Pé" é uma palavra masculina. Não ocorre crase antes de palavras masculinas (o correto é "a pé").
+---
+ENUNCIADO: Em qual das frases abaixo o uso da crase é FACULTATIVO?
+A) Entreguei o relatório à diretoria.
+B) Assisti à novela das oito.
+C) Enviei o convite à Maria.
+D) Chegamos à noite na cidade.
+E) Fomos à praia de manhã.
+CORRETA: C
+EXPLICACAO: O uso da crase antes de nomes próprios femininos ("Maria") é facultativo, pois o uso do artigo definido antes de nomes próprios é opcional.
+---
+ENUNCIADO: Preencha as lacunas corretamente: "Ele foi ___ feira e comprou maçãs ___ vista."
+A) a / a
+B) à / à
+C) à / a
+D) a / à
+E) á / á
+CORRETA: B
+EXPLICACAO: "Ir à feira" exige crase (quem vai, vai a algum lugar + artigo "a"). "À vista" é uma locução adverbial feminina, portanto leva crase.
+---
+ENUNCIADO: Assinale a alternativa que preenche corretamente a lacuna: "Refiro-me ___ aluna que tirou a maior nota."
+A) a
+B) à
+C) há
+D) ah
+E) as
+CORRETA: B
+EXPLICACAO: O verbo "referir-se" exige a preposição "a" (refiro-me a algo/alguém) e "aluna" é um substantivo feminino que aceita o artigo "a". A fusão resulta em "à".
+---
+ENUNCIADO: Não se usa crase antes de palavras masculinas. Qual das opções respeita essa regra?
+A) Fomos à pé até o centro.
+B) Ele anda à cavalo todos os dias.
+C) Escreveu o texto à lápis.
+D) Compramos o carro a prazo.
+E) Pagamos a conta à dinheiro.
+CORRETA: D
+EXPLICACAO: "Prazo" é substantivo masculino, por isso não há crase em "a prazo". Nas outras opções, o uso do acento grave está incorreto pelo mesmo motivo.
+---
+ENUNCIADO: Em qual das frases a crase é usada por se tratar de uma locução conjuntiva ou adverbial feminina de tempo?
+A) Fui à feira de manhã.
+B) Chegamos às três horas da tarde.
+C) Pediu ajuda à mãe.
+D) Escreveu uma carta à amiga.
+E) Deu um presente à aniversariante.
+CORRETA: B
+EXPLICACAO: A indicação de horas exatas ("às três horas") exige crase por se tratar de uma locução adverbial feminina.
+---
+ENUNCIADO: Assinale a frase em que o acento indicativo de crase está CORRETO:
+A) Ele começou à correr logo cedo.
+B) Dirigiu-se à ela com respeito.
+C) Chegamos à cidade de madrugada.
+D) Vendemos tudo à prazo.
+E) Fomos a pé à todos os lugares.
+CORRETA: C
+EXPLICACAO: "Cidade" é palavra feminina e quem chega, chega "a" algum lugar. Logo, "ir/chegar à cidade" está correto.
+---
+ENUNCIADO: Antes de pronomes pessoais não se usa crase. Qual frase demonstra o uso CORRETO do "a"?
+A) Entreguei o livro à ela.
+B) Disse a ela toda a verdade.
+C) Pedi ajuda à você.
+D) Refiro-me à esta situação.
+E) Nada declarei à mim mesmo.
+CORRETA: B
+EXPLICACAO: Antes de pronomes pessoais ("ela", "você"), não se utiliza artigo feminino, portanto não há crase.
+---
+ENUNCIADO: Qual frase completa corretamente a expressão com crase? "Ele respondeu ___ perguntas do professor."
+A) a
+B) à
+C) às
+D) as
+E) com
+CORRETA: C
+EXPLICACAO: O verbo "responder" pede a preposição "a", e "perguntas" é um substantivo feminino no plural que exige o artigo "as". A junção gera "às".
+---
+ENUNCIADO: Marque a alternativa na qual a crase é proibida:
+A) Fomos à festa de aniversário.
+B) Chegamos à conclusão correta.
+C) Pretendemos ir à Bahia nas férias.
+D) O aluno começou a estudar para a prova.
+E) Ela é fiel às suas convicções.
+CORRETA: D
+EXPLICACAO: "Estudar" é verbo no infinitivo. Não se usa crase antes de verbos.
+---
+ENUNCIADO: Preencha as lacunas: "Voltou ___ casa paterna e disse ___ mãe que estava bem."
+A) a / a
+B) à / à
+C) à / a
+D) a / à
+E) á / a
+CORRETA: B
+EXPLICACAO: A palavra "casa", quando especificada ("casa paterna"), exige artigo e portanto recebe crase. E quem diz, diz algo "a" alguém ("à mãe").
+---
+ENUNCIADO: Assinale a frase que apresenta crase FACULTATIVA:
+A) Vou à praia no fim de semana.
+B) Ele deu o livro à sua irmã.
+C) Chegamos às 10 horas.
+D) Fomos à aula de francês.
+E) Escreveu à mão o bilhete.
+CORRETA: B
+EXPLICACAO: Antes de pronomes possessivos femininos no singular ("sua irmã"), o uso do artigo é opcional, tornando a crase facultativa.
+---
+ENUNCIADO: "Andamos ___ cavalo durante a tarde." Qual opção preenche a lacuna corretamente?
+A) à
+B) a
+C) há
+D) ás
+E) às
+CORRETA: B
+EXPLICACAO: "Cavalo" é palavra masculina. Antes de palavras masculinas usa-se apenas a preposição "a" (sem crase).
+---
+ENUNCIADO: Assinale a alternativa em que o acento grave foi empregado INCORRETAMENTE:
+A) À noite todos os gatos são pardos.
+B) Ficamos à vontade na casa do amigo.
+C) O aluno respondeu à chamada.
+D) Ele viajou à trabalho.
+E) Chegamos à reunião no horário.
+CORRETA: D
+EXPLICACAO: "Trabalho" é substantivo masculino, portanto não pode receber o acento indicativo de crase.
+---
+ENUNCIADO: Complete corretamente: "As aulas começam ___ oito horas da manhã."
+A) a
+B) à
+C) às
+D) nas
+E) com
+CORRETA: C
+EXPLICACAO: Indicações de horas exatas no plural utilizam a locução "às".
+---
+ENUNCIADO: Assinale a alternativa correta quanto ao uso da crase:
+A) Ofereci um flor à uma senhora.
+B) Ela não gosta de ir à festas.
+C) Pediu uma informação à funcionária.
+D) Ele foi à pé até a estação.
+E) Começou à chover forte.
+CORRETA: C
+EXPLICACAO: "Funcionária" é palavra feminina determinada e exige crase. Antes de artigo indefinido (uma), palavra no plural genérica (festas), palavra masculina (pé) ou verbo (chover), não há crase.
+---
+ENUNCIADO: Na frase "Chegamos ___ uma hora da tarde", a lacuna deve ser preenchida por:
+A) a
+B) à
+C) há
+D) as
+E) com
+CORRETA: B
+EXPLICACAO: Para indicação de horas exatas no singular ("uma hora"), utiliza-se "à".
+---
+ENUNCIADO: Qual das expressões abaixo exige o uso da crase?
+A) A pé
+B) A prazo
+C) A vista (referente a pagamento imediato)
+D) A cavalo
+E) A fim de
+CORRETA: C
+EXPLICACAO: A locução adverbial feminina "à vista" (pagamento) exige acento indicativo de crase.
+---
+ENUNCIADO: Assinale a opção em que a crase é PROIBIDA:
+A) Fui à praça passear.
+B) Cheguei à escola cedo.
+C) Ele começou a cantar.
+D) Escrevi à professora.
+E) Fomos à lanchonete.
+CORRETA: C
+EXPLICACAO: "Cantar" é verbo. Antes de verbos não ocorre crase.
+---
+ENUNCIADO: Complete a frase: "Devido ___ chuva, não fomos ___ praia."
+A) a / a
+B) à / à
+C) à / a
+D) a / à
+E) á / á
+CORRETA: B
+EXPLICACAO: "Devido" exige a preposição "a", que junta ao artigo "a" de "chuva" (à). Da mesma forma, "ir" exige a preposição "a", que junta ao artigo de "praia" (à).
+---
+ENUNCIADO: Em qual das frases o uso da crase está CORRETO?
+A) Ele não fala à respeito disso.
+B) Entreguei o documento à diretora.
+C) Ela comprou o casaco à prazo.
+D) Todos foram à pé para o restaurante.
+E) O menino começou à chorar.
+CORRETA: B
+EXPLICACAO: "Diretora" é palavra feminina e quem entrega, entrega algo "a" alguém. As demais opções trazem crase antes de palavras masculinas ou verbos.
+---
+ENUNCIADO: Escolha a frase em que a crase é FACULTATIVA devido à presença da preposição "até":
+A) Fui até à praia.
+B) Fui à escola de ônibus.
+C) Cheguei às 14 horas.
+D) Ela é fiel à empresa.
+E) Fiz um bolo à moda antiga.
+CORRETA: A
+EXPLICACAO: Após a preposição "até", o uso do acento grave antes de substantivo feminino é facultativo (pode ser "até a praia" ou "até à praia").
+---
+ENUNCIADO: Preencha as lacunas: "Ela gosta de vestir-se ___ moda dos anos 80."
+A) a
+B) à
+C) há
+D) as
+E) com
+CORRETA: B
+EXPLICACAO: Na expressão "à moda de" (mesmo que a palavra "moda" fique subentendida), o uso do acento grave de crase é obrigatório.
+---
+ENUNCIADO: Assinale a alternativa que completa corretamente a frase: "Assistimos ___ peça de teatro ontem."
+A) a
+B) à
+C) há
+D) as
+E) com
+CORRETA: B
+EXPLICACAO: O verbo "assistir" no sentido de ver/presenciar exige a preposição "a", fundindo-se com o artigo feminino de "peça" (à).
+---
+ENUNCIADO: Em "Vou a São Paulo", não há crase. Mas em "Vou ___ Bahia", há crase. Qual a forma correta?
+A) a
+B) à
+C) há
+D) as
+E) com
+CORRETA: B
+EXPLICACAO: Quem vai à Bahia, volta da Bahia (quem vai "a" e volta "da", crase no "a").
+---
+ENUNCIADO: Assinale a alternativa em que NÃO ocorre crase:
+A) Ele é muito dedicado à família.
+B) Chegamos à conclusão final.
+C) Escreveu uma mensagem a todas as amigas.
+D) Agradeci à médica pelo atendimento.
+E) Fomos à exposição de arte.
+CORRETA: C
+EXPLICACAO: Antes de pronomes indefinidos ("todas") ou palavras no plural sem artigo definido, não ocorre crase.
+---
+ENUNCIADO: Complete o espaço em branco: "Diga ___ ela que chego logo."
+A) à
+B) a
+C) há
+D) às
+E) com
+CORRETA: B
+EXPLICACAO: "Ela" é pronome pessoal reto, portanto não admite artigo feminino. Usa-se apenas a preposição "a".
+---
+ENUNCIADO: Marque a opção onde a crase foi empregada CORRETAMENTE:
+A) Pretendo ir à Roma dos Césares.
+B) Não vou à pé de forma alguma.
+C) O jovem começou à falar alto.
+D) Comprei o carro à prazo.
+E) Entregou o bilhete à um estranho.
+CORRETA: A
+EXPLICACAO: Quando o nome de lugar ("Roma") vem acompanhado de um especificador ("dos Césares"), o uso do artigo torna-se obrigatório, exigindo a crase em "à Roma".
