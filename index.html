@@ -218,18 +218,18 @@
       font-weight: 700;
     }
 
-    /* --- ESTILOS DO LOADING CMD AJUSTADOS --- */
+    /* --- ESTILOS DO LOADING CMD (AJUSTADOS SEM ESPAÇAMENTO) --- */
     .cmd-loader-container {
       background-color: #000000;
       border: 1px solid var(--border-color);
       border-radius: 6px;
       padding: 16px 20px;
       width: 100%;
-      max-width: 300px;
+      max-width: 320px;
       margin: 30px auto;
       text-align: left;
-      font-family: 'Consolas', 'Courier New', Courier, monospace;
       box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      font-family: 'Consolas', 'Courier New', monospace;
     }
 
     .cmd-line {
@@ -246,16 +246,27 @@
       margin-right: 6px;
     }
 
+    .typing-wrapper {
+      display: inline-flex;
+      align-items: center;
+    }
+
     .typing-text {
       display: inline-block;
       overflow: hidden;
       white-space: nowrap;
-      border-right: 2px solid var(--green-cmd);
       width: 0;
       vertical-align: bottom;
-      animation: 
-        typewriter 0.9s steps(19) 0.1s forwards,
-        blink-cursor 0.5s step-end infinite;
+      animation: typewriter 0.9s steps(19) 0.1s forwards;
+    }
+
+    .cmd-cursor {
+      display: inline-block;
+      width: 8px;
+      height: 1.1em;
+      background-color: var(--green-cmd);
+      margin-left: 1px;
+      animation: blink-cursor 0.5s step-end infinite;
     }
 
     .cmd-dot {
@@ -264,7 +275,7 @@
       font-size: 1rem;
       font-weight: bold;
       opacity: 0;
-      margin-left: 2px;
+      margin-left: 4px;
       animation: spin-dot 1.2s infinite ease-in-out 1s;
     }
 
@@ -275,15 +286,14 @@
       letter-spacing: 0.5px;
     }
 
-    /* Ajuste de precisão dos 19 caracteres */
     @keyframes typewriter {
       from { width: 0; }
-      to { width: 19ch; }
+      to { width: 100%; }
     }
 
     @keyframes blink-cursor {
-      from, to { border-color: transparent; }
-      50% { border-color: var(--green-cmd); }
+      from, to { opacity: 0; }
+      50% { opacity: 1; }
     }
 
     @keyframes spin-dot {
@@ -338,7 +348,10 @@
       <div id="loading-spinner" class="cmd-loader-container">
         <div class="cmd-line">
           <span class="cmd-prompt">C:\></span>
-          <span class="typing-text">carregando_questoes</span>
+          <span class="typing-wrapper">
+            <span class="typing-text">carregando_questoes</span>
+            <span class="cmd-cursor"></span>
+          </span>
           <span class="cmd-dot">.</span>
         </div>
         <div class="cmd-text">> Inicializando dados...</div>
@@ -475,7 +488,7 @@
           setTimeout(() => {
             document.getElementById('loading-spinner').style.display = 'none';
             document.getElementById('quiz-content').style.display = 'block';
-            document.getElementById('dashboard-stats').style.display = 'flex'; // Exibe o placar
+            document.getElementById('dashboard-stats').style.display = 'flex';
             carregarQuestao();
           }, 2000);
 
@@ -497,14 +510,14 @@
     }
 
     function voltarParaSelecao() {
-      document.getElementById('dashboard-stats').style.display = 'none'; // Esconde o placar
+      document.getElementById('dashboard-stats').style.display = 'none';
       document.getElementById('tela-filtro').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'none';
       document.getElementById('tela-selecao').style.display = 'block';
     }
 
     function voltarParaFiltro() {
-      document.getElementById('dashboard-stats').style.display = 'none'; // Esconde o placar
+      document.getElementById('dashboard-stats').style.display = 'none';
       document.getElementById('tela-quiz').style.display = 'none';
       document.getElementById('tela-filtro').style.display = 'block';
     }
