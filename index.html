@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Questões</title>
+  <style>
+    :root {
+      --bg-color: #050505;
+      --card-bg: #121212;
+      --card-inner: #1a1a1a;
+      --border-color: #2a2a2a;
+      --border-hover: #404040;
+      
+      --text-main: #f1f1f1;
+      --text-muted: #888888;
+      
+      --primary: #e5e5e5;
+      --primary-hover: #ffffff;
+      
+      --success: #22c55e;
+      --success-bg: rgba(34, 197, 94, 0.1);
+      
+      --danger: #ef4444;
+      --danger-bg: rgba(239, 68, 68, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    /* Dashboard Superior */
+    .dashboard {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .stat-item { text-align: center; }
+    .stat-value { font-size: 1.5rem; font-weight: 700; color: var(--text-main); }
+    .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+
+    /* Cartão Principal */
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Seleção de Disciplinas */
+    .title-select { font-size: 1.25rem; margin-bottom: 8px; font-weight: 600; }
+    .subtitle-select { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px; }
+
+    .discipline-grid { display: flex; flex-direction: column; gap: 12px; }
+
+    .btn-discipline {
+      background-color: var(--card-inner);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 16px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .btn-discipline:hover {
+      background-color: #222222;
+      border-color: var(--border-hover);
+    }
+
+    /* Interface do Quiz */
+    .header-questao { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .tag {
+      display: inline-block;
+      background-color: #222222;
+      border: 1px solid #333333;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: capitalize;
+    }
+
+    .btn-voltar { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; }
+    .btn-voltar:hover { color: var(--text-main); }
+
+    .enunciado { font-size: 1.1rem; line-height: 1.6; margin-bottom: 20px; font-weight: 500; }
+
+    /* Alternativas */
+    .options-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+    .option-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background-color: var(--card-inner);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px;
+      transition: all 0.2s ease;
+    }
+
+    .option-item:hover:not(.disabled) { border-color: var(--border-hover); background-color: #222222; }
+
+    .btn-tesoura {
+      background: none;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      border-radius: 6px;
+      padding: 6px 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .btn-tesoura:hover { background-color: #2a2a2a; color: var(--text-main); }
+
+    .option-content { flex-grow: 1; cursor: pointer; display: flex; align-items: center; gap: 10px; font-size: 0.95rem; }
+    .radio-circle { width: 18px; height: 18px; border: 2px solid var(--border-color); border-radius: 50%; flex-shrink: 0; transition: all 0.2s; }
+
+    .option-item.selected .radio-circle { border-color: var(--text-main); background-color: var(--text-main); }
+    .option-item.selected { border-color: #555555; background-color: #222222; }
+
+    .option-item.struck .option-content { text-decoration: line-through; color: #555555; opacity: 0.5; }
+    .option-item.struck .btn-tesoura { background-color: rgba(239, 68, 68, 0.15); border-color: var(--danger); color: var(--danger); }
+
+    .option-item.correct { border-color: var(--success) !important; background-color: var(--success-bg) !important; }
+    .option-item.incorrect { border-color: var(--danger) !important; background-color: var(--danger-bg) !important; }
+
+    .feedback-banner { display: none; padding: 16px; border-radius: 8px; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.5; }
+    .feedback-banner.success { display: block; background-color: var(--success-bg); border: 1px solid var(--success); color: #86efac; }
+    .feedback-banner.error { display: block; background-color: var(--danger-bg); border: 1px solid var(--danger); color: #fca5a5; }
+
+    .controls { display: flex; justify-content: space-between; gap: 12px; }
+    .btn { padding: 12px 20px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .btn-primary { background-color: var(--primary); color: #000000; flex-grow: 1; }
+    .btn-primary:hover { background-color: var(--primary-hover); }
+    .btn-secondary { background-color: #1a1a1a; border: 1px solid var(--border-color); color: var(--text-main); }
+    .btn-secondary:hover { background-color: #252525; border-color: #444444; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Dashboard Superior -->
+    <div class="dashboard">
+      <div class="stat-item"><div class="stat-value" id="stat-total">0</div><div class="stat-label">Respondidas</div></div>
+      <div class="stat-item"><div class="stat-value" id="stat-acertos">0</div><div class="stat-label">Acertos</div></div>
+      <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
+    </div>
+
+    <!-- TELA 1: SELEÇÃO DA PASTA -->
+    <div class="card" id="tela-selecao">
+      <div class="title-select">Selecione a Pasta da Disciplina</div>
+      <div class="subtitle-select">Clique abaixo e escolha a pasta que contém as questões em ficheiros .txt (ex: pasta 'portugues'):</div>
+
+      <div class="discipline-grid">
+        <button class="btn-discipline" onclick="carregarPastaDisciplina()">
+          <span>📁 Abrir Pasta de Questões</span> ➔
+        </button>
+      </div>
+    </div>
+
+    <!-- TELA 2: QUIZ / QUESTÕES -->
+    <div class="card" id="tela-quiz" style="display: none;">
+      <div class="header-questao">
+        <span class="tag" id="q-tag">Materia - Assunto</span>
+        <button class="btn-voltar" onclick="voltarParaSelecao()">← Escolher Outra Pasta</button>
+      </div>
+
+      <div class="enunciado" id="q-enunciado">Carregando questão...</div>
+      <div class="options-list" id="options-container"></div>
+      <div class="feedback-banner" id="feedback"></div>
+
+      <div class="controls">
+        <button class="btn btn-primary" id="btn-conferir" onclick="conferirResposta()">Conferir Resposta</button>
+        <button class="btn btn-secondary" id="btn-proxima" onclick="proximaQuestao()" style="display: none;">Próxima Questão ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let bancoQuestoes = [];
+    let indiceAtual = 0;
+    let opcaoSelecionada = null;
+    let opcoesRiscadas = new Set();
+    let respondido = false;
+
+    let totalRespondidas = 0;
+    let totalAcertos = 0;
+    let nomeDisciplinaAtual = "";
+
+    async function carregarPastaDisciplina() {
+      bancoQuestoes = [];
+
+      try {
+        // Abre o seletor de pasta do sistema operacional
+        const dirHandle = await window.showDirectoryPicker();
+        nomeDisciplinaAtual = dirHandle.name;
+
+        // Lê todos os ficheiros dentro da pasta
+        for await (const entry of dirHandle.values()) {
+          if (entry.kind === 'file' && entry.name.endsWith('.txt')) {
+            const file = await entry.getFile();
+            const texto = await file.text();
+            const assuntoDoArquivo = entry.name.replace('.txt', '');
+            
+            const questoesDoArquivo = parseTXT(texto, assuntoDoArquivo);
+            bancoQuestoes = bancoQuestoes.concat(questoesDoArquivo);
+          }
+        }
+
+        if (bancoQuestoes.length > 0) {
+          embaralharArray(bancoQuestoes);
+          indiceAtual = 0;
+          document.getElementById('tela-selecao').style.display = 'none';
+          document.getElementById('tela-quiz').style.display = 'block';
+          carregarQuestao();
+        } else {
+          alert("Nenhum ficheiro .txt foi encontrado na pasta selecionada.");
+        }
+      } catch (err) {
+        if (err.name !== 'AbortError') {
+          alert("Erro ao ler a pasta: " + err.message);
+        }
+      }
+    }
+
+    function embaralharArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    function voltarParaSelecao() {
+      document.getElementById('tela-quiz').style.display = 'none';
+      document.getElementById('tela-selecao').style.display = 'block';
+    }
+
+    function parseTXT(texto, assunto) {
+      const blocos = texto.split('---').map(b => b.trim()).filter(b => b.length > 0);
+      
+      return blocos.map((bloco, idx) => {
+        const linhas = bloco.split('\n');
+        let enunciado = "";
+        let alternativas = [];
+        let correta = 0;
+        let explicacao = "Sem explicação cadastrada.";
+
+        const mapaLetras = { 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4 };
+
+        linhas.forEach(linha => {
+          const l = linha.trim();
+          if (l.startsWith('ENUNCIADO:')) {
+            enunciado = l.replace('ENUNCIADO:', '').trim();
+          } else if (l.match(/^[A-E]\)/)) {
+            alternativas.push(l.replace(/^[A-E]\)/, '').trim());
+          } else if (l.startsWith('CORRETA:')) {
+            const letra = l.replace('CORRETA:', '').trim().toUpperCase();
+            correta = mapaLetras[letra] !== undefined ? mapaLetras[letra] : 0;
+          } else if (l.startsWith('EXPLICACAO:')) {
+            explicacao = l.replace('EXPLICACAO:', '').trim();
+          }
+        });
+
+        return { id: idx + 1, disciplina: nomeDisciplinaAtual, assunto: assunto, enunciado, alternativas, correta, explicacao };
+      });
+    }
+
+    function carregarQuestao() {
+      const q = bancoQuestoes[indiceAtual];
+      opcaoSelecionada = null;
+      opcoesRiscadas.clear();
+      respondido = false;
+
+      document.getElementById('q-tag').textContent = `${q.disciplina} - ${q.assunto} (${indiceAtual + 1}/${bancoQuestoes.length})`;
+      document.getElementById('q-enunciado').textContent = q.enunciado;
+      document.getElementById('feedback').className = 'feedback-banner';
+      document.getElementById('btn-conferir').style.display = 'block';
+      document.getElementById('btn-proxima').style.display = 'none';
+
+      const container = document.getElementById('options-container');
+      container.innerHTML = '';
+
+      const letras = ['A', 'B', 'C', 'D', 'E'];
+
+      q.alternativas.forEach((alt, index) => {
+        const item = document.createElement('div');
+        item.className = 'option-item';
+        item.id = `opt-${index}`;
+
+        item.innerHTML = `
+          <button class="btn-tesoura" onclick="toggleRiscar(event, ${index})" title="Eliminar alternativa">✂️</button>
+          <div class="option-content" onclick="selecionarOpcao(${index})">
+            <div class="radio-circle"></div>
+            <span><strong>${letras[index]})</strong> ${alt}</span>
+          </div>
+        `;
+
+        container.appendChild(item);
+      });
+    }
+
+    function toggleRiscar(event, index) {
+      event.stopPropagation();
+      if (respondido) return;
+
+      const item = document.getElementById(`opt-${index}`);
+      if (opcoesRiscadas.has(index)) {
+        opcoesRiscadas.delete(index);
+        item.classList.remove('struck');
+      } else {
+        opcoesRiscadas.add(index);
+        item.classList.add('struck');
+        if (opcaoSelecionada === index) {
+          opcaoSelecionada = null;
+          item.classList.remove('selected');
+        }
+      }
+    }
+
+    function selecionarOpcao(index) {
+      if (respondido) return;
+
+      if (opcaoSelecionada !== null) {
+        document.getElementById(`opt-${opcaoSelecionada}`).classList.remove('selected');
+      }
+
+      if (opcoesRiscadas.has(index)) {
+        opcoesRiscadas.delete(index);
+        document.getElementById(`opt-${index}`).classList.remove('struck');
+      }
+
+      opcaoSelecionada = index;
+      document.getElementById(`opt-${index}`).classList.add('selected');
+    }
+
+    function conferirResposta() {
+      if (opcaoSelecionada === null) {
+        alert("Por favor, selecione uma alternativa antes de conferir!");
+        return;
+      }
+
+      respondido = true;
+      const q = bancoQuestoes[indiceAtual];
+      const feedbackEl = document.getElementById('feedback');
+
+      totalRespondidas++;
+
+      document.querySelectorAll('.option-item').forEach(el => el.classList.add('disabled'));
+
+      const optSelecionadaEl = document.getElementById(`opt-${opcaoSelecionada}`);
+      const optCorretaEl = document.getElementById(`opt-${q.correta}`);
+
+      if (opcaoSelecionada === q.correta) {
+        totalAcertos++;
+        optSelecionadaEl.classList.add('correct');
+        feedbackEl.className = 'feedback-banner success';
+        feedbackEl.innerHTML = `<strong>✅ Parabéns, resposta correta!</strong><br>${q.explicacao}`;
+      } else {
+        optSelecionadaEl.classList.add('incorrect');
+        optCorretaEl.classList.add('correct');
+        feedbackEl.className = 'feedback-banner error';
+        feedbackEl.innerHTML = `<strong>❌ Resposta incorreta.</strong><br>${q.explicacao}`;
+      }
+
+      atualizarEstatisticas();
+
+      document.getElementById('btn-conferir').style.display = 'none';
+      document.getElementById('btn-proxima').style.display = 'block';
+    }
+
+    function atualizarEstatisticas() {
+      document.getElementById('stat-total').textContent = totalRespondidas;
+      document.getElementById('stat-acertos').textContent = totalAcertos;
+      
+      const pct = totalRespondidas > 0 ? ((totalAcertos / totalRespondidas) * 100).toFixed(0) : 0;
+      document.getElementById('stat-pct').textContent = `${pct}%`;
+    }
+
+    function proximaQuestao() {
+      indiceAtual = (indiceAtual + 1) % bancoQuestoes.length;
+      carregarQuestao();
+    }
+  </script>
+</body>
+</html>

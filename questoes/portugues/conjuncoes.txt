@@ -1,0 +1,269 @@
+ENUNCIADO: Na frase "Ele estudou muito, **mas** não passou na prova", a palavra em destaque indica:
+A) Adição
+B) Oposição
+C) Explicação
+D) Conclusão
+E) Causa
+CORRETA: B
+EXPLICACAO: A conjunção "mas" é adversativa, pois introduz uma ideia de oposição ou contraste.
+---
+ENUNCIADO: Assinale a alternativa que contém uma conjunção que expressa ideia de **adição**:
+A) Ou
+B) Porém
+C) E
+D) Porque
+E) Portanto
+CORRETA: C
+EXPLICACAO: A conjunção "e" é aditiva, pois une pensamentos ou orações somando as informações.
+---
+ENUNCIADO: Em "Ligue para ele, **porque** precisamos conversar", a conjunção em destaque expressa:
+A) Causa ou Explicação
+B) Oposição
+C) Condição
+D) Finalidade
+E) Tempo
+CORRETA: A
+EXPLICACAO: "Porque" introduz a razão ou justificativa de se fazer a ligação.
+---
+ENUNCIADO: Qual das conjunções abaixo indica uma **alternativa** ou escolha?
+A) Todavia
+B) Ou
+C) Conforme
+D) Embora
+E) Assim
+CORRETA: B
+EXPLICACAO: A conjunção "ou" é alternativa, usada para indicar opção entre duas ou mais ideias.
+---
+ENUNCIADO: Na oração "Treinou bastante; **portanto**, venceu a corrida", a conjunção em destaque indica:
+A) Oposição
+B) Conclusão
+C) Condição
+D) Tempo
+E) Comparação
+CORRETA: B
+EXPLICACAO: "Portanto" é uma conjunção conclusiva, indicando o resultado do treino prévio.
+---
+ENUNCIADO: Na frase "**Quando** eu chegar, aviso você", a palavra destacada dá ideia de:
+A) Tempo
+B) Lugar
+C) Causa
+D) Oposição
+E) Modo
+CORRETA: A
+EXPLICACAO: "Quando" é uma conjunção subordinativa temporal, indicando o momento em que a ação ocorrerá.
+---
+ENUNCIADO: Em "**Se** fizer sol amanhã, iremos à praia", a palavra "se" expressa:
+A) Concessão
+B) Condição
+C) Comparação
+D) Consequência
+E) Adição
+CORRETA: B
+EXPLICACAO: "Se" é uma conjunção condicional; ir à praia depende da condição de fazer sol.
+---
+ENUNCIADO: Assinale a frase em que a palavra "como" expressa ideia de **comparação**:
+A) Como estava doente, não foi trabalhar.
+B) Ela canta bonito como um passarinho.
+C) Faça a tarefa como o professor explicou.
+D) Como você sabia disso?
+E) Não sei como resolver este problema.
+CORRETA: B
+EXPLICACAO: Em "como um passarinho", estabelece-se uma relação de comparação entre a forma de cantar e o pássaro.
+---
+ENUNCIADO: Na frase "Ela não veio **nem** mandou notícias", a palavra "nem" tem valor de:
+A) Oposição
+B) Adição negativa
+C) Explicação
+D) Dúvida
+E) Conclusão
+CORRETA: B
+EXPLICACAO: "Nem" equivale a "e não", funcionando como conjunção aditiva negativa.
+---
+ENUNCIADO: A conjunção "porém" pode ser substituída, sem alterar o sentido, por:
+A) Portanto
+B) Contudo
+C) Pois
+D) Segundo
+E) Visto que
+CORRETA: B
+EXPLICACAO: Tanto "porém" quanto "contudo" são conjunções adversativas (indicam oposição).
+---
+ENUNCIADO: Em "Estudei bastante, **logo** tirarei uma boa nota", a conjunção "logo" estabelece sentido de:
+A) Tempo
+B) Conclusão
+C) Causa
+D) Oposição
+E) Condição
+CORRETA: B
+EXPLICACAO: A conjunção "logo" funciona aqui como conclusiva, equivalendo a "portanto".
+---
+ENUNCIADO: Na oração "Fale baixo, **pois** o bebê está dormindo", a palavra "pois" indica:
+A) Explicação
+B) Concessão
+C) Comparação
+D) Proporção
+E) Alternância
+CORRETA: A
+EXPLICACAO: "Pois" (antes do verbo) introduz a explicação de por que se deve falar baixo.
+---
+ENUNCIADO: Qual das palavras abaixo NÃO é uma conjunção adversativa (oposição)?
+A) Mas
+B) Porém
+C) Todavia
+D) E
+E) No entanto
+CORRETA: D
+EXPLICACAO: A palavra "e" é uma conjunção aditiva, enquanto as outras são adversativas.
+---
+ENUNCIADO: Na frase "Fizemos o trabalho **conforme** o professor pediu", a conjunção destaca ideia de:
+A) Conformidade
+B) Causa
+C) Consequência
+D) Tempo
+E) Oposição
+CORRETA: A
+EXPLICACAO: "Conforme" é conjunção conformativa, indicando acordo ou adequação com um modelo/pedido.
+---
+ENUNCIADO: Em "**Para que** você entenda a matéria, vou explicar novamente", a expressão em destaque indica:
+A) Causa
+B) Finalidade (Objetivo)
+C) Condição
+D) Tempo
+E) Concessão
+CORRETA: B
+EXPLICACAO: "Para que" é uma locução conjuntiva final, indicando o objetivo ou propósito da explicação.
+---
+ENUNCIADO: Na oração "**Embora** estivesse chovendo, fomos ao parque", a conjunção "embora" indica:
+A) Concessão
+B) Causa
+C) Condição
+D) Conclusão
+E) Adição
+CORRETA: A
+EXPLICACAO: "Embora" introduz uma ideia de concessão (um fato contrário que não impede a ação principal).
+---
+ENUNCIADO: Assinale a alternativa que traz uma conjunção **explicativa**:
+A) Portanto
+B) Porque
+C) Caso
+D) Enquanto
+E) Embora
+CORRETA: B
+EXPLICACAO: "Porque" é usado para dar uma justificativa ou explicação sobre o que foi dito.
+---
+ENUNCIADO: Na frase "**À medida que** subíamos a montanha, o ar ficava rarefeito", a expressão em destaque indica:
+A) Tempo
+B) Proporção
+C) Causa
+D) Finalidade
+E) Condição
+CORRETA: B
+EXPLICACAO: "À medida que" é locução conjuntiva proporcional, indicando ações simultâneas e graduais.
+---
+ENUNCIADO: Em "**Ora** sorria, **ora** chorava", as conjunções em destaque transmitem a ideia de:
+A) Alternância
+B) Adição
+C) Conclusão
+D) Explicação
+E) Causa
+CORRETA: A
+EXPLICACAO: "Ora... ora" expressa alternância ou variação de estados/ações.
+---
+ENUNCIADO: Na frase "Comemos pizza **e** tomamos refrigerante", a conjunção "e" indica:
+A) Oposição
+B) Adição
+C) Explicação
+D) Condição
+E) Finalidade
+CORRETA: B
+EXPLICACAO: A conjunção "e" soma as ações praticadas (comer e tomar).
+---
+ENUNCIADO: Em "**Caso** você precise de ajuda, me ligue", a conjunção "caso" indica:
+A) Condição
+B) Tempo
+C) Causa
+D) Concessão
+E) Comparação
+CORRETA: A
+EXPLICACAO: "Caso" expressa hipótese ou condição para a realização da ligação.
+---
+ENUNCIADO: Na frase "Ele é alto **assim como** o pai", as palavras em destaque têm valor de:
+A) Comparação
+B) Causa
+C) Conclusão
+D) Tempo
+E) Oposição
+CORRETA: A
+EXPLICACAO: "Assim como" é uma locução conjuntiva comparativa.
+---
+ENUNCIADO: Na oração "Aviso você **assim que** ele chegar", a expressão destacada expressa:
+A) Tempo
+B) Condição
+C) Causa
+D) Proporção
+E) Concessão
+CORRETA: A
+EXPLICACAO: "Assim que" traz a ideia de tempo imediato.
+---
+ENUNCIADO: Em "Gostaria de ir à festa, **no entanto** preciso estudar", a expressão em destaque expressa:
+A) Conclusão
+B) Oposição
+C) Explicação
+D) Adição
+E) Causa
+CORRETA: B
+EXPLICACAO: "No entanto" é uma locução adversativa, indicando contraste/oposição.
+---
+ENUNCIADO: Na frase "Ela não comeu nada, **pois** estava sem fome", a palavra "pois" expressa:
+A) Causa ou Explicação
+B) Condição
+C) Tempo
+D) Finalidade
+E) Proporção
+CORRETA: A
+EXPLICACAO: "Pois" justifica a razão pela qual ela não comeu.
+---
+ENUNCIADO: Qual das conjunções abaixo é **conclusiva**?
+A) Mas
+B) Portanto
+C) Visto que
+D) Como
+E) Se
+CORRETA: B
+EXPLICACAO: "Portanto" conclui um raciocínio lógico exposto anteriormente.
+---
+ENUNCIADO: Em "**Como** estava muito frio, preferimos ficar em casa", a palavra "como" expressa:
+A) Comparação
+B) Causa
+C) Conformidade
+D) Condição
+E) Tempo
+CORRETA: B
+EXPLICACAO: No início da oração, "como" equivale a "já que" ou "visto que", indicando a causa de ficarem em casa.
+---
+ENUNCIADO: Na frase "Trabalhou tanto **que** dormiu na mesa", a conjunção "que" (com o 'tanto') indica:
+A) Consequência
+B) Causa
+C) Comparação
+D) Concessão
+E) Tempo
+CORRETA: A
+EXPLICACAO: O dormir na mesa foi a consequência do excesso de trabalho.
+---
+ENUNCIADO: Na oração "**Quer** você queira, **quer** não, iremos ao médico", as palavras em destaque indicam:
+A) Alternância
+B) Oposição
+C) Adição
+D) Conclusão
+E) Causa
+CORRETA: A
+EXPLICACAO: "Quer... quer" traz sentido de alternância ou escolha excludente.
+---
+ENUNCIADO: Em "Vou comprar o livro **visto que** preciso dele para a aula", a expressão "visto que" expressa:
+A) Causa
+B) Finalidade
+C) Tempo
+D) Concessão
+E) Condição
+CORRETA: A
+EXPLICACAO: "Visto que" é uma locução conjuntiva causal, apresentando o motivo da compra do livro.
