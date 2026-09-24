@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plataforma de Questões</title>
+  <title>Plataforma de Estudos</title>
   <style>
     :root {
       --bg-color: #0b0b0e;
@@ -34,7 +34,6 @@
 
     body {
       background-color: var(--bg-color);
-      /* Padrão de Pontos (Dotted Grid) */
       background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
       background-size: 18px 18px;
       color: var(--text-main);
@@ -46,7 +45,6 @@
       min-height: 100vh;
     }
 
-    /* IMAGEM DE FUNDO DO MENU */
     .menu-background {
       position: fixed;
       top: 0;
@@ -63,11 +61,10 @@
 
     .container {
       width: 100%;
-      max-width: 720px;
+      max-width: 800px;
       z-index: 1;
     }
 
-    /* Dashboard Superior */
     .dashboard {
       background: rgba(17, 17, 22, 0.9);
       backdrop-filter: blur(12px);
@@ -85,7 +82,6 @@
     .stat-value { font-size: 1.5rem; font-weight: 700; color: var(--text-main); }
     .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
 
-    /* CARTÃO DO MENU E FILTRO */
     .card-hero {
       background: rgba(17, 17, 22, 0.92);
       backdrop-filter: blur(16px);
@@ -113,6 +109,134 @@
     .title-select { font-size: 1.6rem; margin-bottom: 8px; font-weight: 800; color: #ffffff; }
     .subtitle-select { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px; }
 
+    /* GRID DE MÓDULOS (HUB) */
+    .modules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .module-card {
+      background: rgba(26, 26, 36, 0.9);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .module-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+      background: rgba(30, 30, 44, 0.95);
+      box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
+    }
+
+    .module-card.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .module-card.disabled:hover {
+      transform: none;
+      border-color: var(--card-border);
+      box-shadow: none;
+    }
+
+    .module-badge-soon {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      font-size: 0.65rem;
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-muted);
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .module-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: rgba(99, 102, 241, 0.12);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .module-icon svg {
+      width: 24px;
+      height: 24px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .module-title { font-size: 1.1rem; font-weight: 700; color: #ffffff; margin-bottom: 6px; }
+    .module-desc { font-size: 0.82rem; color: var(--text-muted); line-height: 1.4; }
+
+    /* SELEÇÃO DE SIMULADO */
+    .simulado-config-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+
+    .simulado-item {
+      background: var(--option-bg);
+      border: 1px solid var(--card-border);
+      padding: 16px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .simulado-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .simulado-info input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      accent-color: var(--primary);
+      cursor: pointer;
+    }
+
+    .simulado-qty-input {
+      width: 80px;
+      background: #1e1e2c;
+      border: 1px solid var(--card-border);
+      color: #fff;
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .simulado-qty-input:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    /* LISTA DE DISCIPLINAS */
     .discipline-grid { display: flex; flex-direction: column; gap: 12px; }
 
     .btn-discipline {
@@ -136,22 +260,31 @@
       transform: translateY(-2px);
     }
 
-    .disc-content {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
+    .disc-content { display: flex; align-items: center; gap: 14px; }
 
     .disc-icon {
-      width: 24px;
-      height: 24px;
-      fill: var(--primary);
-      display: flex;
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
+      border-radius: 12px;
+      background: rgba(99, 102, 241, 0.10);
+      color: var(--primary);
+      transition: transform 0.18s ease, background-color 0.18s ease;
     }
 
-    /* Listagem de Filtros */
+    .disc-icon svg {
+      width: 23px;
+      height: 23px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
     .filter-list {
       display: flex;
       flex-direction: column;
@@ -181,7 +314,6 @@
       cursor: pointer;
     }
 
-    /* BARRA SUPERIOR DO FEED DE QUESTÕES */
     .feed-header {
       display: flex;
       justify-content: space-between;
@@ -204,7 +336,6 @@
 
     .btn-voltar:hover { color: var(--text-main); }
 
-    /* CARTÃO DA QUESTÃO */
     .questao-card {
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -233,12 +364,7 @@
       margin-bottom: 24px;
     }
 
-    /* LISTA DE ALTERNATIVAS */
-    .options-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
+    .options-list { display: flex; flex-direction: column; gap: 12px; }
 
     .option-item {
       display: flex;
@@ -279,7 +405,6 @@
       padding-right: 36px;
     }
 
-    /* TESOURA SVG CUSTOMIZADA */
     .btn-tesoura {
       background: none;
       border: none;
@@ -298,52 +423,17 @@
       background-color: rgba(239, 68, 68, 0.1);
     }
 
-    .btn-tesoura svg {
-      width: 18px;
-      height: 18px;
-      fill: currentColor;
-    }
+    .btn-tesoura svg { width: 18px; height: 18px; fill: currentColor; }
 
-    /* Estados da Opção */
-    .option-item.selected {
-      border-color: var(--primary);
-      background-color: #1a1a2d;
-    }
+    .option-item.selected { border-color: var(--primary); background-color: #1a1a2d; }
+    .option-item.selected .letter-box { background-color: var(--primary); color: #ffffff; }
+    .option-item.struck { opacity: 0.4; }
+    .option-item.struck .option-text { text-decoration: line-through; }
+    .option-item.correct { border-color: var(--success) !important; background-color: var(--success-bg) !important; }
+    .option-item.correct .letter-box { background-color: var(--success); color: #ffffff; }
+    .option-item.incorrect { border-color: var(--danger) !important; background-color: var(--danger-bg) !important; }
+    .option-item.incorrect .letter-box { background-color: var(--danger); color: #ffffff; }
 
-    .option-item.selected .letter-box {
-      background-color: var(--primary);
-      color: #ffffff;
-    }
-
-    .option-item.struck {
-      opacity: 0.4;
-    }
-
-    .option-item.struck .option-text {
-      text-decoration: line-through;
-    }
-
-    .option-item.correct {
-      border-color: var(--success) !important;
-      background-color: var(--success-bg) !important;
-    }
-
-    .option-item.correct .letter-box {
-      background-color: var(--success);
-      color: #ffffff;
-    }
-
-    .option-item.incorrect {
-      border-color: var(--danger) !important;
-      background-color: var(--danger-bg) !important;
-    }
-
-    .option-item.incorrect .letter-box {
-      background-color: var(--danger);
-      color: #ffffff;
-    }
-
-    /* Banner Feedback */
     .feedback-banner {
       display: none;
       padding: 14px;
@@ -356,11 +446,7 @@
     .feedback-banner.success { display: block; background-color: var(--success-bg); border: 1px solid var(--success); color: #86efac; }
     .feedback-banner.error { display: block; background-color: var(--danger-bg); border: 1px solid var(--danger); color: #fca5a5; }
 
-    .q-actions {
-      margin-top: 16px;
-      display: flex;
-      justify-content: flex-end;
-    }
+    .q-actions { margin-top: 16px; display: flex; justify-content: flex-end; }
 
     .btn {
       padding: 10px 18px;
@@ -374,7 +460,6 @@
     .btn-primary { background-color: var(--primary); color: #ffffff; }
     .btn-primary:hover { background-color: #4f46e5; }
 
-    /* PAGINAÇÃO INFERIOR */
     .pagination-bar {
       display: flex;
       justify-content: space-between;
@@ -386,15 +471,9 @@
       margin-top: 10px;
     }
 
-    .page-info {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      font-weight: 600;
-    }
-
+    .page-info { font-size: 0.9rem; color: var(--text-muted); font-weight: 600; }
     strong { color: var(--accent-color); font-weight: 700; }
 
-    /* LOADING CMD */
     .cmd-loader-container {
       background-color: #000000;
       border: 1px solid var(--card-border);
@@ -415,7 +494,6 @@
     @keyframes typewriter { from { width: 0; } to { width: 100%; } }
     @keyframes blink { 50% { opacity: 0; } }
 
-    /* RODAPÉ FIXED */
     .win-taskbar {
       position: fixed;
       bottom: 0;
@@ -434,44 +512,10 @@
 
     .instagram-link { color: #0095f6; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
     .instagram-icon { width: 18px; height: 18px; fill: currentColor; }
-
-    /* Ícones das disciplinas: conjunto vetorial uniforme e mais limpo */
-    .disc-icon {
-      width: 42px;
-      height: 42px;
-      flex: 0 0 42px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 12px;
-      background: rgba(99, 102, 241, 0.10);
-      color: var(--primary);
-      box-sizing: border-box;
-      transition: transform 0.18s ease, background-color 0.18s ease;
-    }
-    .disc-icon svg {
-      width: 23px;
-      height: 23px;
-      display: block;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 1.8;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-    .disc-icon svg .solid {
-      fill: currentColor;
-      stroke: none;
-    }
-    .btn-discipline:hover .disc-icon {
-      transform: translateY(-1px) scale(1.04);
-      background: rgba(99, 102, 241, 0.17);
-    }
   </style>
 </head>
 <body>
 
-  <!-- IMAGEM DE FUNDO DO MENU -->
   <div class="menu-background" id="bg-imagem"></div>
 
   <div class="container">
@@ -483,94 +527,119 @@
       <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
     </div>
 
-    <!-- TELA 1: SELEÇÃO DE DISCIPLINAS COM ÍCONES VETORIAIS -->
-    <div class="card-hero" id="tela-selecao">
-      <span class="menu-badge">Simulados & Questões</span>
-      <div class="title-select">Menu Principal</div>
-      <div class="subtitle-select">Selecione uma matéria para iniciar o seu treino:</div>
+    <!-- TELA HUB: MENU PRINCIPAL DE MÓDULOS -->
+    <div class="card-hero" id="tela-hub">
+      <span class="menu-badge">Central de Estudos</span>
+      <div class="title-select">O que pretende estudar hoje?</div>
+      <div class="subtitle-select">Escolha a ferramenta ideal para o seu momento de preparação:</div>
 
-      <div class="discipline-grid">
-        <!-- Português (Coruja - Material Design) -->
-        <button class="btn-discipline" onclick="abrirFiltroDisciplina('portugues', 'Língua Portuguesa')">
-          <div class="disc-content">
-            <span class="disc-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17H7.5A2.5 2.5 0 0 0 5 21.5V4.5Z"/><path d="M5 4.5V21.5"/><path d="M9 7h7M9 10.5h7M9 14h5"/></svg>
-            </span>
-            <span>Língua Portuguesa</span>
+      <div class="modules-grid">
+        <!-- Módulo 1: Prática Livre de Questões -->
+        <div class="module-card" onclick="abrirModuloQuestoes()">
+          <div>
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            </div>
+            <div class="module-title">Prática de Questões</div>
+            <div class="module-desc">Estudo focado por matéria e assunto sem limite de questões.</div>
           </div>
-          ➔
-        </button>
+        </div>
 
-        <!-- Direito (Balança da Justiça - Material Design) -->
-        <button class="btn-discipline" onclick="abrirFiltroDisciplina('direito', 'Noções de Direito')">
-          <div class="disc-content">
-            <span class="disc-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13"/><path d="M5 7h14"/><path d="M4 7l-3 6a4 4 0 0 0 6 0L4 7Z"/><path d="M20 7l-3 6a4 4 0 0 0 6 0l-3-6Z"/><path d="M8 20h8"/><path d="M10 17h4"/></svg>
-            </span>
-            <span>Noções de Direito</span>
+        <!-- Módulo 2: Montar Simulado Personalizado -->
+        <div class="module-card" onclick="abrirModuloSimulado()">
+          <div>
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M16 13H8M16 17H8M10 9H8"/></svg>
+            </div>
+            <div class="module-title">Simulado Customizado</div>
+            <div class="module-desc">Escolha disciplinas e defina a quantidade exata de questões.</div>
           </div>
-          ➔
-        </button>
+        </div>
 
-        <!-- Informática (Monitor & Comando - Material Design) -->
-        <button class="btn-discipline" onclick="abrirFiltroDisciplina('informatica', 'Informática')">
-          <div class="disc-content">
-            <span class="disc-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6.5 6.5h11"/></svg>
-            </span>
-            <span>Informática</span>
+        <!-- Módulo 3: Flashcards (Futuro) -->
+        <div class="module-card disabled">
+          <span class="module-badge-soon">Em breve</span>
+          <div>
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="16" height="16" rx="2"/><path d="M6 8h8M6 12h5"/><rect x="6" y="8" width="16" height="14" rx="2" style="opacity: 0.3;"/></svg>
+            </div>
+            <div class="module-title">Flashcards</div>
+            <div class="module-desc">Memorização ativa com repetição espaçada.</div>
           </div>
-          ➔
-        </button>
+        </div>
 
-        <!-- Matemática (Calculadora & Símbolos - Material Design) -->
-        <button class="btn-discipline" onclick="abrirFiltroDisciplina('matematica', 'Matemática')">
-          <div class="disc-content">
-            <span class="disc-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2"/><path d="M8 6.5h8"/><path d="M8 10.5h2M12 10.5h2M16 10.5h0M8 14h2M12 14h2M16 14h0M8 17.5h2M12 17.5h2M16 17.5h0"/></svg>
-            </span>
-            <span>Matemática</span>
+        <!-- Módulo 4: Materiais PDF (Futuro) -->
+        <div class="module-card disabled">
+          <span class="module-badge-soon">Em breve</span>
+          <div>
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <div class="module-title">Resumos & PDF</div>
+            <div class="module-desc">Materiais de apoio e legislação.</div>
           </div>
-          ➔
-        </button>
+        </div>
       </div>
     </div>
 
-    <!-- TELA 2: FILTRO DE ASSUNTOS -->
+    <!-- TELA 1A: SELEÇÃO DE DISCIPLINAS (MODO QUESTÕES) -->
+    <div class="card-hero" id="tela-selecao-questoes" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <span class="menu-badge" style="margin-bottom: 0;">Prática de Questões</span>
+        <button class="btn-voltar" onclick="voltarParaHub()">← Menu Principal</button>
+      </div>
+      <div class="title-select">Escolha a Matéria</div>
+      <div class="subtitle-select">Selecione uma disciplina para filtrar os conteúdos:</div>
+
+      <div class="discipline-grid" id="grid-disciplinas-questoes"></div>
+    </div>
+
+    <!-- TELA 1B: CONFIGURAÇÃO DE SIMULADO PERSONALIZADO -->
+    <div class="card-hero" id="tela-config-simulado" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <span class="menu-badge" style="margin-bottom: 0;">Montar Simulado</span>
+        <button class="btn-voltar" onclick="voltarParaHub()">← Menu Principal</button>
+      </div>
+      <div class="title-select">Configurar Prova</div>
+      <div class="subtitle-select">Selecione as disciplinas e defina o número de questões por matéria:</div>
+
+      <div class="simulado-config-list" id="simulado-config-container"></div>
+
+      <button class="btn btn-primary" onclick="gerarSimuladoCustomizado()" style="width: 100%;">Gerar Simulado ➔</button>
+    </div>
+
+    <!-- TELA 2: FILTRO DE ASSUNTOS (PARA MÓDULO QUESTÕES) -->
     <div class="card-hero" id="tela-filtro" style="display: none;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
         <div class="title-select" id="filtro-titulo-materia" style="font-size: 1.3rem;">Filtro de Assuntos</div>
-        <button class="btn-voltar" onclick="voltarParaSelecao()">← Voltar</button>
+        <button class="btn-voltar" onclick="voltarParaSelecaoQuestoes()">← Voltar</button>
       </div>
       <div class="subtitle-select">Marque os assuntos que deseja praticar:</div>
 
       <div class="filter-list" id="filter-options-container"></div>
 
-      <button class="btn btn-primary" onclick="iniciarQuizComFiltro()" style="width: 100%;">Iniciar Simulado ➔</button>
+      <button class="btn btn-primary" onclick="iniciarQuizComFiltro()" style="width: 100%;">Iniciar Prática ➔</button>
     </div>
 
-    <!-- TELA 3: FEED DE QUESTÕES (10 POR PÁGINA) -->
+    <!-- TELA 3: FEED DE QUESTÕES / SIMULADO -->
     <div id="tela-quiz" style="display: none;">
       
-      <!-- CARREGANDO ESTILO CMD -->
       <div id="loading-spinner" class="cmd-loader-container">
         <div class="cmd-line">
           <span class="cmd-prompt">C:\></span>
-          <span class="typing-text">carregando_questoes</span>
+          <span class="typing-text">gerando_prova...</span>
           <span class="cmd-cursor"></span>
         </div>
       </div>
 
       <div id="quiz-content" style="display: none;">
         <div class="feed-header">
-          <span style="font-weight: 700; color: var(--text-muted);" id="feed-materia-tag">DISCIPLINA</span>
-          <button class="btn-voltar" onclick="voltarParaFiltro()">← Mudar Filtros</button>
+          <span style="font-weight: 700; color: var(--text-muted);" id="feed-materia-tag">MODO PROVA</span>
+          <button class="btn-voltar" id="btn-sair-quiz" onclick="voltarParaHub()">← Sair</button>
         </div>
 
-        <!-- Onde as 10 questões da página serão renderizadas -->
         <div id="questoes-feed-container"></div>
 
-        <!-- Paginação -->
         <div class="pagination-bar">
           <button class="btn btn-voltar" id="btn-page-prev" onclick="mudarPagina(-1)">← Página Anterior</button>
           <span class="page-info" id="page-info">Página 1 de 1</span>
@@ -596,21 +665,26 @@
   </footer>
 
   <script>
+    // LISTA DE DISCIPLINAS CADASTRADAS NO SISTEMA
+    const DISCIPLINAS_DISPONIVEIS = [
+      { id: 'portugues', nome: 'Língua Portuguesa', svg: '<path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17H7.5A2.5 2.5 0 0 0 5 21.5V4.5Z"/><path d="M5 4.5V21.5"/><path d="M9 7h7M9 10.5h7M9 14h5"/>' },
+      { id: 'direito', nome: 'Noções de Direito', svg: '<path d="M12 4v13"/><path d="M5 7h14"/><path d="M4 7l-3 6a4 4 0 0 0 6 0L4 7Z"/><path d="M20 7l-3 6a4 4 0 0 0 6 0l-3-6Z"/><path d="M8 20h8"/><path d="M10 17h4"/>' },
+      { id: 'informatica', nome: 'Informática', svg: '<rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6.5 6.5h11"/>' },
+      { id: 'matematica', nome: 'Matemática', svg: '<rect x="5" y="2.5" width="14" height="19" rx="2"/><path d="M8 6.5h8"/><path d="M8 10.5h2M12 10.5h2M16 10.5h0M8 14h2M12 14h2M16 14h0M8 17.5h2M12 17.5h2M16 17.5h0"/>' }
+    ];
+
     let pastaDisciplinaAtual = "";
     let nomeDisciplinaAtual = "";
     let listaArquivosAssuntos = [];
     let bancoQuestoes = [];
     
-    // Controle de Paginação (10 questões por página)
     let paginaAtual = 1;
     const QUESTOES_POR_PAGINA = 10;
 
-    // Estado do usuário
-    let respostasUsuario = {}; // { idQuestao: { selecionada: null, respondida: false, riscadas: [] } }
+    let respostasUsuario = {};
     let totalRespondidas = 0;
     let totalAcertos = 0;
 
-    // SVG do ícone da Tesoura (Caminho corrigido e seguro - Material Design)
     const SVG_TESOURA = `
       <svg viewBox="0 0 24 24">
         <path d="M5.5,7A2.5,2.5 0 0,0 3,9.5A2.5,2.5 0 0,0 5.5,12A2.5,2.5 0 0,0 8,9.5A2.5,2.5 0 0,0 5.5,7M5.5,8.5A1,1 0 0,1 6.5,9.5A1,1 0 0,1 5.5,10.5A1,1 0 0,1 4.5,9.5A1,1 0 0,1 5.5,8.5M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64M6,16A2,2 0 0,1 8,18A2,2 0 0,1 6,20A2,2 0 0,1 4,18A2,2 0 0,1 6,16M12,10L19,3H22V4L12,10Z"/>
@@ -622,6 +696,75 @@
       return texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     }
 
+    /* ROTEAMENTO DE TELAS */
+    function abrirModuloQuestoes() {
+      const container = document.getElementById('grid-disciplinas-questoes');
+      container.innerHTML = '';
+
+      DISCIPLINAS_DISPONIVEIS.forEach(disc => {
+        const btn = document.createElement('button');
+        btn.className = 'btn-discipline';
+        btn.onclick = () => abrirFiltroDisciplina(disc.id, disc.nome);
+        btn.innerHTML = `
+          <div class="disc-content">
+            <span class="disc-icon"><svg viewBox="0 0 24 24">${disc.svg}</svg></span>
+            <span>${disc.nome}</span>
+          </div>
+          ➔
+        `;
+        container.appendChild(btn);
+      });
+
+      document.getElementById('tela-hub').style.display = 'none';
+      document.getElementById('tela-selecao-questoes').style.display = 'block';
+    }
+
+    function abrirModuloSimulado() {
+      const container = document.getElementById('simulado-config-container');
+      container.innerHTML = '';
+
+      DISCIPLINAS_DISPONIVEIS.forEach(disc => {
+        const item = document.createElement('div');
+        item.className = 'simulado-item';
+        item.innerHTML = `
+          <div class="simulado-info">
+            <input type="checkbox" id="chk-sim-${disc.id}" class="chk-simulado-disc" onchange="toggleSimuladoInput('${disc.id}')">
+            <label for="chk-sim-${disc.id}" style="font-weight: 700; cursor: pointer;">${disc.nome}</label>
+          </div>
+          <div>
+            <input type="number" id="input-qty-${disc.id}" class="simulado-qty-input" value="5" min="1" max="100" disabled>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">questões</span>
+          </div>
+        `;
+        container.appendChild(item);
+      });
+
+      document.getElementById('tela-hub').style.display = 'none';
+      document.getElementById('tela-config-simulado').style.display = 'block';
+    }
+
+    function toggleSimuladoInput(discId) {
+      const chk = document.getElementById(`chk-sim-${discId}`);
+      const input = document.getElementById(`input-qty-${discId}`);
+      input.disabled = !chk.checked;
+    }
+
+    function voltarParaHub() {
+      document.getElementById('dashboard-stats').style.display = 'none';
+      document.getElementById('tela-selecao-questoes').style.display = 'none';
+      document.getElementById('tela-config-simulado').style.display = 'none';
+      document.getElementById('tela-filtro').style.display = 'none';
+      document.getElementById('tela-quiz').style.display = 'none';
+      document.getElementById('bg-imagem').style.opacity = '1';
+      document.getElementById('tela-hub').style.display = 'block';
+    }
+
+    function voltarParaSelecaoQuestoes() {
+      document.getElementById('tela-filtro').style.display = 'none';
+      document.getElementById('tela-selecao-questoes').style.display = 'block';
+    }
+
+    /* CARREGAMENTO DE ASSUNTOS DA DISCIPLINA */
     async function abrirFiltroDisciplina(pasta, nomeExibicao) {
       pastaDisciplinaAtual = pasta;
       nomeDisciplinaAtual = nomeExibicao;
@@ -656,7 +799,7 @@
           container.appendChild(item);
         });
 
-        document.getElementById('tela-selecao').style.display = 'none';
+        document.getElementById('tela-selecao-questoes').style.display = 'none';
         document.getElementById('tela-filtro').style.display = 'block';
 
       } catch (err) {
@@ -675,6 +818,7 @@
       document.getElementById('chk-todos').checked = todosMarcados;
     }
 
+    /* MÓDULO 1: INICIAR MODO QUESTÕES */
     async function iniciarQuizComFiltro() {
       const chks = document.querySelectorAll('.chk-assunto:checked');
       const arquivosSelecionados = Array.from(chks).map(c => c.value);
@@ -684,14 +828,8 @@
         return;
       }
 
-      bancoQuestoes = [];
-      respostasUsuario = {};
-
-      document.getElementById('tela-filtro').style.display = 'none';
-      document.getElementById('bg-imagem').style.opacity = '0';
-      document.getElementById('tela-quiz').style.display = 'block';
-      document.getElementById('loading-spinner').style.display = 'block';
-      document.getElementById('quiz-content').style.display = 'none';
+      resetarEstadoGeral();
+      exibirTelaCarregamento();
 
       try {
         let idGlobal = 0;
@@ -700,7 +838,7 @@
           if (respTxt.ok) {
             const texto = await respTxt.text();
             const assuntoDoArquivo = arq.replace('.txt', '');
-            const questoesDoArquivo = parseTXT(texto, assuntoDoArquivo);
+            const questoesDoArquivo = parseTXT(texto, assuntoDoArquivo, nomeDisciplinaAtual);
             
             questoesDoArquivo.forEach(q => {
               idGlobal++;
@@ -713,24 +851,131 @@
 
         if (bancoQuestoes.length > 0) {
           embaralharArray(bancoQuestoes);
-          paginaAtual = 1;
-
-          setTimeout(() => {
-            document.getElementById('loading-spinner').style.display = 'none';
-            document.getElementById('quiz-content').style.display = 'block';
-            document.getElementById('dashboard-stats').style.display = 'flex';
-            document.getElementById('feed-materia-tag').textContent = nomeDisciplinaAtual.toUpperCase();
-            renderizarPagina();
-          }, 1000);
-
+          exibirFeed('MODO QUESTÕES // ' + nomeDisciplinaAtual.toUpperCase());
         } else {
           alert("Nenhuma questão encontrada nos arquivos selecionados.");
-          voltarParaFiltro();
+          voltarParaHub();
         }
       } catch (err) {
         alert("Erro ao carregar questões: " + err.message);
-        voltarParaFiltro();
+        voltarParaHub();
       }
+    }
+
+    /* MÓDULO 2: GERAR SIMULADO CUSTOMIZADO */
+    async function gerarSimuladoCustomizado() {
+      const chks = document.querySelectorAll('.chk-simulado-disc:checked');
+      if (chks.length === 0) {
+        alert("Selecione pelo menos uma disciplina para o simulado!");
+        return;
+      }
+
+      resetarEstadoGeral();
+      exibirTelaCarregamento();
+
+      let idGlobal = 0;
+
+      try {
+        for (const chk of chks) {
+          const discId = chk.id.replace('chk-sim-', '');
+          const discInfo = DISCIPLINAS_DISPONIVEIS.find(d => d.id === discId);
+          const qtdDesejada = parseInt(document.getElementById(`input-qty-${discId}`).value) || 5;
+
+          // Buscar a lista de arquivos da disciplina
+          const respLista = await fetch(`questoes/${discId}/lista.json`);
+          if (respLista.ok) {
+            const arquivosAssuntos = await respLista.json();
+            let questoesDaMateria = [];
+
+            for (const arq of arquivosAssuntos) {
+              const respTxt = await fetch(`questoes/${discId}/${arq}`);
+              if (respTxt.ok) {
+                const texto = await respTxt.text();
+                const assunto = arq.replace('.txt', '');
+                const questoes = parseTXT(texto, assunto, discInfo.nome);
+                questoesDaMateria.push(...questoes);
+              }
+            }
+
+            if (questoesDaMateria.length > 0) {
+              // SELEÇÃO INTELIGENTE COM OU SEM REPETIÇÃO
+              let questoesSelecionadas = selecionarQuestoesParaSimulado(questoesDaMateria, qtdDesejada);
+
+              questoesSelecionadas.forEach(q => {
+                idGlobal++;
+                // Criar cópia para evitar conflito de IDs em caso de repetição
+                const questaoCopia = { ...q, globalId: idGlobal };
+                bancoQuestoes.push(questaoCopia);
+                respostasUsuario[idGlobal] = { selecionada: null, respondida: false, riscadas: [] };
+              });
+            }
+          }
+        }
+
+        if (bancoQuestoes.length > 0) {
+          embaralharArray(bancoQuestoes);
+          exibirFeed('SIMULADO PERSONALIZADO (' + bancoQuestoes.length + ' QUESTÕES)');
+        } else {
+          alert("Não foi possível carregar questões para as matérias selecionadas.");
+          voltarParaHub();
+        }
+
+      } catch (err) {
+        alert("Erro ao montar simulado: " + err.message);
+        voltarParaHub();
+      }
+    }
+
+    /* REGRA: SELECIONAR QUESTÕES SEM OU COM REPETIÇÃO */
+    function selecionarQuestoesParaSimulado(questoesDisponiveis, qtdDesejada) {
+      let resultado = [];
+      let copiasDisponiveis = [...questoesDisponiveis];
+      embaralharArray(copiasDisponiveis);
+
+      // 1. Tentar pegar sem repetir
+      if (copiasDisponiveis.length >= qtdDesejada) {
+        return copiasDisponiveis.slice(0, qtdDesejada);
+      }
+
+      // 2. Se não houver quantidade suficiente, adiciona todas e completa repetindo
+      resultado = [...copiasDisponiveis];
+      let faltantes = qtdDesejada - resultado.length;
+
+      for (let i = 0; i < faltantes; i++) {
+        const indiceSorteado = Math.floor(Math.random() * questoesDisponiveis.length);
+        resultado.push(questoesDisponiveis[indiceSorteado]);
+      }
+
+      return resultado;
+    }
+
+    function resetarEstadoGeral() {
+      bancoQuestoes = [];
+      respostasUsuario = {};
+      totalRespondidas = 0;
+      totalAcertos = 0;
+      paginaAtual = 1;
+      atualizarEstatisticas();
+    }
+
+    function exibirTelaCarregamento() {
+      document.getElementById('tela-selecao-questoes').style.display = 'none';
+      document.getElementById('tela-config-simulado').style.display = 'none';
+      document.getElementById('tela-filtro').style.display = 'none';
+      document.getElementById('bg-imagem').style.opacity = '0';
+      document.getElementById('tela-quiz').style.display = 'block';
+      document.getElementById('loading-spinner').style.display = 'block';
+      document.getElementById('quiz-content').style.display = 'none';
+    }
+
+    function exibirFeed(tituloTag) {
+      setTimeout(() => {
+        document.getElementById('loading-spinner').style.display = 'none';
+        document.getElementById('quiz-content').style.display = 'block';
+        document.getElementById('dashboard-stats').style.display = 'flex';
+        document.getElementById('feed-materia-tag').textContent = tituloTag;
+        renderizarPagina();
+      }, 700);
     }
 
     function embaralharArray(array) {
@@ -740,7 +985,7 @@
       }
     }
 
-    function parseTXT(texto, assunto) {
+    function parseTXT(texto, assunto, nomeMateria) {
       const blocos = texto.split('---').map(b => b.trim()).filter(b => b.length > 0);
       const mapaLetras = { 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4 };
 
@@ -750,26 +995,33 @@
         let alternativas = [];
         let correta = 0;
         let explicacao = "Sem explicação cadastrada.";
+        let chaveAtual = "";
 
         linhas.forEach(linha => {
           const l = linha.trim();
           if (l.startsWith('ENUNCIADO:')) {
+            chaveAtual = 'enunciado';
             enunciado = l.replace('ENUNCIADO:', '').trim();
           } else if (l.match(/^[A-E]\)/)) {
+            chaveAtual = 'alternativa';
             alternativas.push(l.replace(/^[A-E]\)/, '').trim());
           } else if (l.startsWith('CORRETA:')) {
+            chaveAtual = 'correta';
             const letra = l.replace('CORRETA:', '').trim().toUpperCase();
             correta = mapaLetras[letra] !== undefined ? mapaLetras[letra] : 0;
           } else if (l.startsWith('EXPLICACAO:')) {
+            chaveAtual = 'explicacao';
             explicacao = l.replace('EXPLICACAO:', '').trim();
+          } else if (l.length > 0) {
+            if (chaveAtual === 'enunciado') enunciado += '<br>' + l;
+            else if (chaveAtual === 'explicacao') explicacao += '<br>' + l;
           }
         });
 
-        return { disciplina: nomeDisciplinaAtual, assunto, enunciado, alternativas, correta, explicacao };
+        return { disciplina: nomeMateria, assunto, enunciado, alternativas, correta, explicacao };
       });
     }
 
-    /* RENDERIZAÇÃO DAS 10 QUESTÕES POR PÁGINA */
     function renderizarPagina() {
       const container = document.getElementById('questoes-feed-container');
       container.innerHTML = '';
@@ -816,7 +1068,7 @@
         });
 
         qCard.innerHTML = `
-          <div class="questao-meta">${q.assunto.toUpperCase()} // ALVO ${numeroGlobal}</div>
+          <div class="questao-meta">${q.disciplina.toUpperCase()} // ${q.assunto.toUpperCase()} // Q${numeroGlobal} DE ${bancoQuestoes.length}</div>
           <div class="enunciado">${formatarTexto(q.enunciado)}</div>
           <div class="options-list">${htmlAlternativas}</div>
           <div class="feedback-banner" id="feedback-${q.globalId}"></div>
@@ -931,21 +1183,6 @@
       document.getElementById('stat-acertos').textContent = totalAcertos;
       const pct = totalRespondidas > 0 ? ((totalAcertos / totalRespondidas) * 100).toFixed(0) : 0;
       document.getElementById('stat-pct').textContent = `${pct}%`;
-    }
-
-    function voltarParaSelecao() {
-      document.getElementById('dashboard-stats').style.display = 'none';
-      document.getElementById('tela-filtro').style.display = 'none';
-      document.getElementById('tela-quiz').style.display = 'none';
-      document.getElementById('bg-imagem').style.opacity = '1';
-      document.getElementById('tela-selecao').style.display = 'block';
-    }
-
-    function voltarParaFiltro() {
-      document.getElementById('dashboard-stats').style.display = 'none';
-      document.getElementById('tela-quiz').style.display = 'none';
-      document.getElementById('bg-imagem').style.opacity = '1';
-      document.getElementById('tela-filtro').style.display = 'block';
     }
   </script>
 </body>
