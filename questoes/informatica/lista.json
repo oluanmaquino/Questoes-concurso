@@ -1,5 +1,14 @@
 [
-  "Windows-11.txt",
-  "Malware.txt",
-  "Google-Chromme.txt"
+  {
+    "prefixo": "windows11",
+    "nome": "Windows 11"
+  },
+  {
+    "prefixo": "googlechrome",
+    "nome": "Google Chrome"
+  },
+  {
+    "prefixo": "malware",
+    "nome": "Malwares e Ameaças"
+  }
 ]

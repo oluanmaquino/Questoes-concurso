@@ -1,5 +1,14 @@
 [
-  "conjuncoes.txt",
-  "crase.txt",
-  "adverbios.txt"
+  {
+    "prefixo": "crase",
+    "nome": "Crase"
+  },
+  {
+    "prefixo": "conjuncao",
+    "nome": "Conjunção"
+  },
+  {
+    "prefixo": "adverbio",
+    "nome": "Advérbio"
+  }
 ]

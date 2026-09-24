@@ -1,3 +1,10 @@
 [
-    "porcentagem.txt"
+  {
+    "prefixo": "porcentagem",
+    "nome": "Porcentagem"
+  },
+  {
+    "prefixo": "equacao1grau",
+    "nome": "Equação do 1º Grau"
+  }
 ]

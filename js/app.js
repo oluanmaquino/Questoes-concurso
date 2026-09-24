@@ -97,6 +97,37 @@ function voltarParaSelecaoQuestoes() {
   document.getElementById('tela-selecao-questoes').style.display = 'block';
 }
 
+/* BUSCA AUTOMÁTICA DE ARQUIVOS COM MESMO PREFIXO */
+async function carregarTodosArquivosDoAssunto(pasta, prefixo, nomeAssunto, nomeMateria) {
+  let questoesDoAssunto = [];
+
+  // 1. Tenta carregar o arquivo base (ex: porcentagem.txt)
+  try {
+    const respBase = await fetch(`questoes/${pasta}/${prefixo}.txt`);
+    if (respBase.ok) {
+      const texto = await respBase.text();
+      questoesDoAssunto.push(...parseTXT(texto, nomeAssunto, nomeMateria));
+    }
+  } catch (e) {}
+
+  // 2. Tenta em sequência: porcentagem1.txt, porcentagem2.txt, porcentagem3.txt...
+  let num = 1;
+  while (num <= 50) { // Limite máximo de segurança de 50 arquivos por assunto
+    try {
+      const resp = await fetch(`questoes/${pasta}/${prefixo}${num}.txt`);
+      if (!resp.ok) break; // Quando o arquivo não for encontrado (404), interrompe a busca
+
+      const texto = await resp.text();
+      questoesDoAssunto.push(...parseTXT(texto, nomeAssunto, nomeMateria));
+      num++;
+    } catch (e) {
+      break;
+    }
+  }
+
+  return questoesDoAssunto;
+}
+
 /* CARREGAMENTO DE ASSUNTOS DA DISCIPLINA */
 async function abrirFiltroDisciplina(pasta, nomeExibicao) {
   pastaDisciplinaAtual = pasta;
@@ -108,7 +139,10 @@ async function abrirFiltroDisciplina(pasta, nomeExibicao) {
     const respLista = await fetch(`questoes/${pasta}/lista.json`);
     if (!respLista.ok) throw new Error("Não foi possível carregar a lista de assuntos desta matéria.");
 
-    listaArquivosAssuntos = await respLista.json();
+    const textoJson = await respLista.text();
+    if (!textoJson.trim()) throw new Error("O arquivo 'lista.json' está vazio.");
+    
+    listaArquivosAssuntos = JSON.parse(textoJson);
 
     const container = document.getElementById('filter-options-container');
     container.innerHTML = '';
@@ -121,22 +155,24 @@ async function abrirFiltroDisciplina(pasta, nomeExibicao) {
     `;
     container.appendChild(itemTodos);
 
-    listaArquivosAssuntos.forEach(arq => {
-      const nomeAssunto = arq.replace('.txt', '');
-      const item = document.createElement('label');
-      item.className = 'filter-item';
-      item.innerHTML = `
-        <input type="checkbox" class="chk-assunto" value="${arq}" checked onchange="verificarSelecaoFiltros()">
+    listaArquivosAssuntos.forEach(item => {
+      const prefixo = typeof item === 'object' ? (item.prefixo || item.arquivo?.replace('.txt', '')) : item.replace('.txt', '');
+      const nomeAssunto = typeof item === 'object' ? (item.nome || prefixo) : prefixo;
+
+      const el = document.createElement('label');
+      el.className = 'filter-item';
+      el.innerHTML = `
+        <input type="checkbox" class="chk-assunto" value="${prefixo}" data-nome="${nomeAssunto}" checked onchange="verificarSelecaoFiltros()">
         <span>${nomeAssunto}</span>
       `;
-      container.appendChild(item);
+      container.appendChild(el);
     });
 
     document.getElementById('tela-selecao-questoes').style.display = 'none';
     document.getElementById('tela-filtro').style.display = 'block';
 
   } catch (err) {
-    alert("Atenção: " + err.message + "\n\nCrie a pasta 'questoes/" + pasta + "' e adicione o arquivo 'lista.json'.");
+    alert("Atenção: " + err.message + "\n\nVerifique se o arquivo 'lista.json' existe na pasta 'questoes/" + pasta + "'.");
   }
 }
 
@@ -154,9 +190,7 @@ function verificarSelecaoFiltros() {
 /* MÓDULO 1: INICIAR MODO QUESTÕES */
 async function iniciarQuizComFiltro() {
   const chks = document.querySelectorAll('.chk-assunto:checked');
-  const arquivosSelecionados = Array.from(chks).map(c => c.value);
-
-  if (arquivosSelecionados.length === 0) {
+  if (chks.length === 0) {
     alert("Selecione pelo menos um assunto para continuar!");
     return;
   }
@@ -166,20 +200,23 @@ async function iniciarQuizComFiltro() {
 
   try {
     let idGlobal = 0;
-    for (const arq of arquivosSelecionados) {
-      const respTxt = await fetch(`questoes/${pastaDisciplinaAtual}/${arq}`);
-      if (respTxt.ok) {
-        const texto = await respTxt.text();
-        const assuntoDoArquivo = arq.replace('.txt', '');
-        const questoesDoArquivo = parseTXT(texto, assuntoDoArquivo, nomeDisciplinaAtual);
-        
-        questoesDoArquivo.forEach(q => {
-          idGlobal++;
-          q.globalId = idGlobal;
-          bancoQuestoes.push(q);
-          respostasUsuario[idGlobal] = { selecionada: null, respondida: false, riscadas: [] };
-        });
-      }
+    for (const chk of chks) {
+      const prefixo = chk.value;
+      const assuntoNome = chk.dataset.nome || prefixo;
+
+      const questoesDoAssunto = await carregarTodosArquivosDoAssunto(
+        pastaDisciplinaAtual,
+        prefixo,
+        assuntoNome,
+        nomeDisciplinaAtual
+      );
+
+      questoesDoAssunto.forEach(q => {
+        idGlobal++;
+        q.globalId = idGlobal;
+        bancoQuestoes.push(q);
+        respostasUsuario[idGlobal] = { selecionada: null, respondida: false, riscadas: [] };
+      });
     }
 
     if (bancoQuestoes.length > 0) {
@@ -216,17 +253,18 @@ async function gerarSimuladoCustomizado() {
 
       const respLista = await fetch(`questoes/${discId}/lista.json`);
       if (respLista.ok) {
-        const arquivosAssuntos = await respLista.json();
+        const textoJson = await respLista.text();
+        if (!textoJson.trim()) continue;
+
+        const assuntos = JSON.parse(textoJson);
         let questoesDaMateria = [];
 
-        for (const arq of arquivosAssuntos) {
-          const respTxt = await fetch(`questoes/${discId}/${arq}`);
-          if (respTxt.ok) {
-            const texto = await respTxt.text();
-            const assunto = arq.replace('.txt', '');
-            const questoes = parseTXT(texto, assunto, discInfo.nome);
-            questoesDaMateria.push(...questoes);
-          }
+        for (const item of assuntos) {
+          const prefixo = typeof item === 'object' ? (item.prefixo || item.arquivo?.replace('.txt', '')) : item.replace('.txt', '');
+          const nomeAssunto = typeof item === 'object' ? (item.nome || prefixo) : prefixo;
+
+          const questoesAssunto = await carregarTodosArquivosDoAssunto(discId, prefixo, nomeAssunto, discInfo.nome);
+          questoesDaMateria.push(...questoesAssunto);
         }
 
         if (questoesDaMateria.length > 0) {
