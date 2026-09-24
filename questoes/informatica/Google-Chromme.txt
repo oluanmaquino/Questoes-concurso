@@ -1,0 +1,269 @@
+ENUNCIADO: Qual atalho de teclado é utilizado para abrir uma nova guia (aba) no Google Chrome?
+A) Ctrl + N
+B) Ctrl + T
+C) Ctrl + W
+D) Ctrl + Shift + N
+E) Ctrl + Tab
+CORRETA: B
+EXPLICACAO: O comando **Ctrl + T** abre instantaneamente uma nova guia na janela ativa do Google Chrome.
+---
+ENUNCIADO: Qual combinação de teclas fecha a guia (aba) que está atualmente ativa no Google Chrome?
+A) Ctrl + W
+B) Ctrl + T
+C) Ctrl + Shift + T
+D) Alt + F4
+E) Ctrl + Q
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + W** fecha apenas a aba atual do navegador.
+---
+ENUNCIADO: O que acontece quando você navega na internet utilizando a Janela Anônima (Incognito) do Google Chrome?
+A) O seu provedor de internet não consegue ver os sites que você acessa
+B) O Chrome não salva o seu histórico de navegação, cookies e dados preenchidos em formulários neste dispositivo
+C) O computador fica completamente imune a vírus e programas maliciosos
+D) A velocidade da sua conexão com a internet é duplicada automaticamente
+E) Todos os anúncios de todos os sites são bloqueados
+CORRETA: B
+EXPLICACAO: A **Janela Anônima** impede que o Chrome guarde localmente o histórico e os cookies da sessão após o fechamento da janela.
+---
+ENUNCIADO: Qual é o atalho de teclado para abrir uma nova Janela Anônima no Google Chrome no Windows?
+A) Ctrl + N
+B) Ctrl + Shift + N
+C) Ctrl + Alt + N
+D) Ctrl + T
+E) Ctrl + Shift + T
+CORRETA: B
+EXPLICACAO: A combinação **Ctrl + Shift + N** abre diretamente uma nova janela em modo anônimo.
+---
+ENUNCIADO: Para reabrir a última guia que foi fechada acidentalmente no Google Chrome, qual atalho deve ser utilizado?
+A) Ctrl + Z
+B) Ctrl + Shift + T
+C) Ctrl + H
+D) Ctrl + Y
+E) Alt + Z
+CORRETA: B
+EXPLICACAO: O atalho **Ctrl + Shift + T** restaura na ordem as abas que foram fechadas recentemente.
+---
+ENUNCIADO: Qual atalho de teclado abre diretamente a página do Histórico de navegação no Google Chrome?
+A) Ctrl + H
+B) Ctrl + J
+C) Ctrl + D
+D) Ctrl + F
+E) Ctrl + Shift + H
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + H** (de *History*) abre a aba com a lista de sites visitados anteriormente.
+---
+ENUNCIADO: Qual combinação de teclas abre a guia de Downloads no Google Chrome?
+A) Ctrl + D
+B) Ctrl + J
+C) Ctrl + H
+D) Ctrl + Down
+E) Ctrl + Shift + D
+CORRETA: B
+EXPLICACAO: O atalho **Ctrl + J** leva direto para a página que lista os arquivos baixados pelo navegador.
+---
+ENUNCIADO: Como é chamada a barra superior do Google Chrome que aceita tanto a digitação de endereços web (URLs) quanto pesquisas diretas?
+A) Barra do Windows
+B) Omnibox
+C) Barra de Ferramentas
+D) SearchBox
+E) Barra de Notificações
+CORRETA: B
+EXPLICACAO: A barra de endereços unificada do Google Chrome é tecnicamente chamada de **Omnibox**.
+---
+ENUNCIADO: Qual atalho adiciona a página atual aos Favoritos (Bookmarks) no Google Chrome?
+A) Ctrl + B
+B) Ctrl + D
+C) Ctrl + F
+D) Ctrl + S
+E) Ctrl + Star
+CORRETA: B
+EXPLICACAO: O comando **Ctrl + D** salva a página aberta atualmente na sua lista de Favoritos.
+---
+ENUNCIADO: Para localizar uma palavra ou frase específica dentro da página web aberta no momento, qual atalho deve ser utilizado?
+A) Ctrl + F
+B) Ctrl + H
+C) Ctrl + G
+D) Ctrl + P
+E) Alt + F
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + F** (de *Find*) abre a caixa de busca interna da página.
+---
+ENUNCIADO: Qual a função das "Extensões" disponíveis na loja Chrome Web Store?
+A) Aumentar a resolução da tela do monitor
+B) Adicionar novos recursos e funcionalidades personalizadas ao navegador
+C) Atualizar os drivers da placa de vídeo
+D) Aumentar o desempenho físico do processador
+E) Substituir o sistema operacional do computador
+CORRETA: B
+EXPLICACAO: As **Extensões** são pequenos programas que agregam novas funções ao Chrome, como bloqueadores de anúncios e tradutores.
+---
+ENUNCIADO: Qual tecla de atalho alterna a exibição da página no Google Chrome para o modo Tela Cheia (Full Screen)?
+A) F5
+B) F11
+C) F12
+D) Esc
+E) Alt + Enter
+CORRETA: B
+EXPLICACAO: Pressionar **F11** expande a visualização da página ocupando 100% da tela, ocultando as barras de ferramentas.
+---
+ENUNCIADO: Qual atalho de teclado abre o menu para Limpar dados de navegação (como histórico, cache e cookies) no Google Chrome?
+A) Ctrl + Shift + Delete
+B) Ctrl + Alt + Delete
+C) Ctrl + Delete
+D) Shift + Delete
+E) Alt + Shift + Delete
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + Shift + Delete** abre o painel direto para remoção de cache, cookies e histórico.
+---
+ENUNCIADO: Ao fazer login com uma Conta do Google no navegador Chrome, qual é a principal vantagem oferecida ao usuário?
+A) Acesso gratuito a jogos pagos do computador
+B) Sincronização de favoritos, histórico e senhas entre diferentes dispositivos
+C) Aumento da memória RAM do computador
+D) Isenção de pagamento da fatura da internet
+E) Bloqueio de chamadas telefônicas indesejadas
+CORRETA: B
+EXPLICACAO: A **sincronização de conta** permite que seus dados de navegação (favoritos, senhas e histórico) fiquem disponíveis no celular e em outros PCs.
+---
+ENUNCIADO: Qual atalho de teclado aciona a função de Imprimir a página web atual no Google Chrome?
+A) Ctrl + P
+B) Ctrl + I
+C) Ctrl + Imp
+D) Shift + P
+E) Alt + P
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + P** (de *Print*) abre a janela de pré-visualização e configurações de impressão da página.
+---
+ENUNCIADO: Para aumentar o Zoom de exibição do conteúdo de uma página web no Google Chrome, qual atalho de teclado pode ser utilizado?
+A) Ctrl + Sinal de Mais (+)
+B) Ctrl + Sinal de Menos (-)
+C) Shift + Sinal de Mais (+)
+D) Alt + Seta para Cima
+E) Tab + Sinal de Mais (+)
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + (+)** amplia o tamanho de textos e imagens na página web.
+---
+ENUNCIADO: Qual combinação de teclas abre uma NOVA JANELA padrão (não anônima) do Google Chrome?
+A) Ctrl + N
+B) Ctrl + T
+C) Ctrl + M
+D) Alt + N
+E) Shift + N
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + N** abre uma janela de navegação completamente nova.
+---
+ENUNCIADO: O que são os "Cookies" armazenados pelo Google Chrome ao visitar os sites?
+A) Vírus criados para danificar o computador
+B) Pequenos arquivos de texto que salvam dados de preferências e sessões de login do usuário
+C) Imagens em alta definição baixadas automaticamente
+D) Arquivos executáveis que travam o sistema operacional
+E) Programas pagos baixados sem consentimento
+CORRETA: B
+EXPLICACAO: Os **Cookies** mantêm informações como dados de login para que você não precise digitar sua senha todas as vezes que retornar ao site.
+---
+ENUNCIADO: Qual atalho de teclado seleciona automaticamente o texto da barra de endereços (Omnibox) no Chrome para digitação rápida?
+A) Ctrl + L
+B) Ctrl + A + Tab
+C) Ctrl + Shift + B
+D) Alt + Space
+E) Shift + Esc
+CORRETA: A
+EXPLICACAO: Os atalhos **Ctrl + L**, **F6** ou **Alt + D** selecionam a barra de endereços para você digitar um novo link imediatamente.
+---
+ENUNCIADO: Qual atalho abre o Gerenciador de Tarefas interno do próprio Google Chrome para verificar o uso de memória de cada aba?
+A) Ctrl + Alt + Delete
+B) Shift + Esc
+C) Ctrl + Shift + Esc
+D) Alt + F4
+E) Ctrl + Shift + M
+CORRETA: B
+EXPLICACAO: A combinação **Shift + Esc** abre o gerenciador nativo do Chrome para encerrar abas ou extensões que estejam travadas.
+---
+ENUNCIADO: Como se chama o recurso do Chrome que permite agrupar várias guias abertas, organizando-as por nome e cores?
+A) Pastas do Windows
+B) Grupos de Guias (Tab Groups)
+C) Coleções de Janelas
+D) Bloco de Abas
+E) Marcadores Dinâmicos
+CORRETA: B
+EXPLICACAO: O recurso **Grupos de Guias** permite organizar visualmente o fluxo de trabalho rotulando abas com cores e títulos.
+---
+ENUNCIADO: Qual é o comportamento padrão ao clicar com o botão do meio do mouse (scroll) sobre um link no Google Chrome?
+A) O link é aberto em uma nova guia em segundo plano
+B) O link é copiado para a memória
+C) O link é adicionado automaticamente aos favoritos
+D) A página atual é fechada
+E) O link é baixado em formato PDF
+CORRETA: A
+EXPLICACAO: Clicar com a roda/scroll do mouse sobre qualquer link força sua abertura em uma **nova guia** sem sair da página atual.
+---
+ENUNCIADO: Qual atalho redefine o Zoom da página no Google Chrome para o seu valor padrão de 100%?
+A) Ctrl + 0 (Zero)
+B) Ctrl + 1
+C) Ctrl + 100
+D) Alt + 0
+E) Shift + 0
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + 0** reseta qualquer alteração de zoom feita anteriormente, voltando a tela para 100%.
+---
+ENUNCIADO: No Google Chrome, o que indica o ícone exibido ao lado esquerdo da URL na barra de endereços?
+A) Que o site cobra mensalidade de uso
+B) As permissões do site e o status da conexão de segurança (criptografia HTTPS)
+C) Que a página pertence exclusivamente ao governo
+D) Que o site foi bloqueado pelo antivírus do Windows
+E) Que a internet está desconectada
+CORRETA: B
+EXPLICACAO: O ícone ao lado do endereço permite verificar a **segurança do certificado do site** e gerenciar permissões (como câmera, microfone e localização).
+---
+ENUNCIADO: Qual atalho do teclado alterna para a PRÓXIMA guia (aba) posicionada à direita na janela do Google Chrome?
+A) Ctrl + Tab
+B) Ctrl + Shift + Tab
+C) Alt + Tab
+D) Ctrl + Alt + Tab
+E) Shift + Tab
+CORRETA: A
+EXPLICACAO: A combinação **Ctrl + Tab** avança para a próxima aba à direita. Para voltar à esquerda, utiliza-se **Ctrl + Shift + Tab**.
+---
+ENUNCIADO: Qual ferramenta nativa do Google Chrome permite traduzir páginas web inteiras escritas em idiomas estrangeiros?
+A) Microsoft Translator
+B) Google Tradutor
+C) Deepl Chrome
+D) Bing Translate
+E) Dicionário Aurélio
+CORRETA: B
+EXPLICACAO: O **Google Tradutor** é integrado nativamente ao Chrome e oferece tradução automática de páginas em idioma estrangeiro.
+---
+ENUNCIADO: Qual atalho oculta ou exibe a Barra de Favoritos posicionada logo abaixo da barra de endereços do Chrome?
+A) Ctrl + Shift + B
+B) Ctrl + Alt + B
+C) Ctrl + F
+D) Alt + B
+E) Shift + B
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + Shift + B** alterna a exibição visível da barra de favoritos.
+---
+ENUNCIADO: Qual atalho de teclado salva a página web atual como um arquivo no disco rígido do computador?
+A) Ctrl + S
+B) Ctrl + P
+C) Ctrl + D
+D) Shift + S
+E) Alt + S
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + S** (de *Save*) faz o download do código e arquivos da página para acesso offline.
+---
+ENUNCIADO: O que acontece quando você clica e arrasta uma guia (aba) para fora da janela principal do Google Chrome?
+A) A guia é destruída
+B) A guia se transforma em uma nova janela independente
+C) A guia é salva no histórico
+D) O navegador fecha todas as outras abas
+E) O link é enviado para a lixeira
+CORRETA: B
+EXPLICACAO: Arrastar uma aba para fora cria uma **nova janela separada** com aquela página.
+---
+ENUNCIADO: Qual atalho de teclado abre as Ferramentas do Desenvolvedor (DevTools) no Google Chrome?
+A) F12 (ou Ctrl + Shift + I)
+B) F2
+C) F5
+D) Ctrl + Alt + D
+E) Shift + F1
+CORRETA: A
+EXPLICACAO: A tecla **F12** (ou o atalho **Ctrl + Shift + I**) abre o painel DevTools para inspecionar códigos HTML, CSS e scripts da página.

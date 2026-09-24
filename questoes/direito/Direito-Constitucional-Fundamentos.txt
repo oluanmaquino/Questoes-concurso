@@ -1,0 +1,269 @@
+ENUNCIADO: Segundo o artigo 1º da Constituição Federal de 1988, qual é a forma de Estado adotada pela República Federativa do Brasil?
+A) Estado Unitário
+B) Federação
+C) Confederação
+D) Monarquia
+E) Anarquia
+CORRETA: B
+EXPLICACAO: O artigo 1º caput estabelece expressamente a "República Federativa do Brasil", adotando a **Federação** como forma de Estado.
+---
+ENUNCIADO: De acordo com o artigo 1º da Constituição Federal, qual é a forma de Governo do Brasil?
+A) Monarquia Constitucional
+B) Parlamentarismo
+C) República
+D) Presidencialismo
+E) Ditadura
+CORRETA: C
+EXPLICACAO: O Brasil adota a **República** como forma de governo (o Presidencialismo é o sistema de governo).
+---
+ENUNCIADO: Qual das alternativas abaixo NÃO apresenta um dos Fundamentos da República Federativa do Brasil previstos no artigo 1º da CF/88?
+A) Soberania
+B) Cidadania
+C) Dignidade da pessoa humana
+D) Erradicação da pobreza
+E) Pluralismo político
+CORRETA: D
+EXPLICACAO: "Erradicar a pobreza" é um **Objetivo Fundamental** (Art. 3º, III) e não um Fundamento (Art. 1º). Macete dos fundamentos: SO-CI-VA-DIV-PLU.
+---
+ENUNCIADO: Conforme o parágrafo único do artigo 1º da Constituição de 1988, de onde emana todo o poder da República?
+A) Das Forças Armadas
+B) Do Presidente da República
+C) Do Povo
+D) Dos Juízes e Tribunais
+E) Do Congresso Nacional
+CORRETA: C
+EXPLICACAO: O parágrafo único do Art. 1º determina: "Todo o poder emana do **povo**, que o exerce por meio de representantes eleitos ou diretamente...".
+---
+ENUNCIADO: O artigo 1º, inciso IV, da CF/88 estabelece como fundamento do Estado brasileiro os valores sociais do trabalho e da:
+A) Livre iniciativa
+B) Propriedade privada obrigatória
+C) Estabilização de preços
+D) Estatização dos meios de produção
+E) Centralização econômica
+CORRETA: A
+EXPLICACAO: O inciso IV do Art. 1º consagra como fundamento "os valores sociais do trabalho e da **livre iniciativa**".
+---
+ENUNCIADO: O que garante o princípio do "Pluralismo Político", previsto no artigo 1º, inciso V, da Constituição Federal?
+A) A existência de apenas um partido político oficial
+B) A liberdade de ideias, pensamentos, convicções e diversidade de partidos políticos
+C) A proibição de manifestação política por cidadãos comuns
+D) O controle do Estado sobre os meios de comunicação
+E) A obrigatoriedade de filiação partidária para todos os eleitores
+CORRETA: B
+EXPLICACAO: O **Pluralismo Político** assegura a diversidade de ideias, opiniões, ideologias e a coexistência de múltiplos partidos políticos.
+---
+ENUNCIADO: Quais são os Poderes da União, independentes e harmônicos entre si, previstos no artigo 2º da Constituição Federal?
+A) Executivo, Legislativo e Forças Armadas
+B) Executivo, Legislativo e Judiciário
+C) Executivo, Judiciário e Ministério Público
+D) Legislativo, Judiciário e Defensoria Pública
+E) Presidência, Senado e Câmara dos Deputados
+CORRETA: B
+EXPLICACAO: O artigo 2º da CF/88 determina: "São Poderes da União, independentes e harmônicos entre si, o **Legislativo**, o **Executivo** e o **Judiciário**".
+---
+ENUNCIADO: O artigo 2º da Constituição especifica que os Poderes da União devem atuar entre si de forma:
+A) Subordinada e hierárquica
+B) Unificada e centralizada
+C) Independentes e harmônicos
+D) Conflitante e soberana
+E) Provisória e dependente
+CORRETA: C
+EXPLICACAO: O texto constitucional expressa que os três Poderes são **independentes e harmônicos** entre si.
+---
+ENUNCIADO: Qual das opções abaixo traz um dos Objetivos Fundamentais da República Federativa do Brasil contido no artigo 3º da CF/88?
+A) Soberania
+B) Construir uma sociedade livre, justa e solidária
+C) Pluralismo político
+D) Concessão de asilo político
+E) Autodeterminação dos povos
+CORRETA: B
+EXPLICACAO: O Art. 3º, inciso I, coloca como objetivo fundamental "construir uma sociedade livre, justa e solidária".
+---
+ENUNCIADO: Uma característica marcante na redação do artigo 3º da CF/88, que trata dos Objetivos Fundamentais, é que todos os seus incisos iniciam com:
+A) Substantivos abstratos
+B) Verbos no infinitivo expressando metas/ações
+C) Nomes de países
+D) Siglas de partidos políticos
+E) Termos em latim
+CORRETA: B
+EXPLICACAO: Os objetivos indicam metas de ação futura, por isso começam com verbos no infinitivo: **Construir**, **Garantir**, **Erradicar/Reduzir** e **Promover**.
+---
+ENUNCIADO: Segundo o artigo 3º, inciso II, da Constituição Federal, é objetivo fundamental do Brasil garantir o(a):
+A) Crescimento exclusivo das grandes metrópoles
+B) Desenvolvimento nacional
+C) Intervenção militar em outros países
+D) Fim da propriedade privada
+E) Isolamento comercial do país
+CORRETA: B
+EXPLICACAO: O artigo 3º, II, estabelece explicitamente o objetivo de "garantir o **desenvolvimento nacional**".
+---
+ENUNCIADO: O artigo 3º, inciso III, prevê como objetivo fundamental da República erradicar a pobreza e a marginalização, além de:
+A) Aumentar os impostos de renda
+B) Reduzir as desigualdades sociais e regionais
+C) Eliminar a concorrência comercial
+D) Extinguir os estados da federação
+E) Centralizar a receita nos municípios
+CORRETA: B
+EXPLICACAO: O texto prevê expressamente: "erradicar a pobreza e a marginalização e **reduzir as desigualdades sociais e regionais**".
+---
+ENUNCIADO: De acordo com o artigo 3º, inciso IV, o Brasil deve promover o bem de todos, sem preconceitos de:
+A) Apenas de renda e escolaridade
+B) Origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação
+C) Apenas de religião e convicção política
+D) Apenas de nacionalidade
+E) Orientação geográfica exclusiva
+CORRETA: B
+EXPLICACAO: O artigo 3º, IV, proíbe preconceitos de "origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação".
+---
+ENUNCIADO: O artigo 4º da Constituição Federal de 1988 rege a República Federativa do Brasil especificamente em suas:
+A) Leis estaduais de trânsito
+B) Relações internacionais
+C) Decisões de impostos municipais
+D) Regras do processo civil interno
+E) Diretrizes de tráfego urbano
+CORRETA: B
+EXPLICACAO: O artigo 4º estabelece os princípios pelos quais o Brasil se rege nas suas **relações internacionais**.
+---
+ENUNCIADO: Qual dos princípios abaixo rege o Brasil em suas Relações Internacionais, conforme o artigo 4º, inciso I, da CF/88?
+A) Dependência econômica
+B) Submissão a potências estrangeiras
+C) Independência nacional
+D) Anexação territorial forçada
+E) Intervenção nos vizinhos
+CORRETA: C
+EXPLICACAO: O inciso I do Art. 4º estabelece a **independência nacional** como primeiro princípio nas relações internacionais.
+---
+ENUNCIADO: Nas suas relações internacionais, a República Federativa do Brasil defende a prevalência de qual valor, nos termos do artigo 4º, inciso II?
+A) Do comércio ilegal
+B) Dos Direitos Humanos
+C) Das armas nucleares
+D) Das decisões imperiais
+E) Da censura governamental
+CORRETA: B
+EXPLICACAO: O Art. 4º, inciso II, estabelece como princípio a **prevalência dos direitos humanos**.
+---
+ENUNCIADO: O artigo 4º, inciso III, consagra a "autodeterminação dos povos". Esse princípio internacional significa que:
+A) O Brasil pode invadir países menores
+B) Cada povo/nação tem o direito de decidir seu próprio destino e governo sem ingerência externa
+C) A ONU deve governar todos os países diretamente
+D) O Brasil deve copiar as leis de outros países
+E) Os países ricos mandam nos países pobres
+CORRETA: B
+EXPLICACAO: A **autodeterminação dos povos** garante a autonomia política de cada nação escolher seus rumos sem interferência de terceiros.
+---
+ENUNCIADO: Qual princípio das relações internacionais (Art. 4º, inciso IV) impede que o Brasil interfira nos assuntos internos de outros Estados soberanos?
+A) Não-intervenção
+B) Solução armada
+C) Defesa de fronteiras
+D) Concessão de asilo
+E) Pluralismo político
+CORRETA: A
+EXPLICACAO: O princípio da **não-intervenção** dita que o país não deve se imiscuir nos assuntos internos de outras nações.
+---
+ENUNCIADO: Em caso de conflitos entre nações, qual conduta o Brasil deve adotar segundo o artigo 4º, inciso VII, da CF/88?
+A) Declaração imediata de guerra
+B) Solução pacífica dos conflitos
+C) Corte total de energia elétrica
+D) Financiamento de grupos rebeldes
+E) Envio automático de tropas de combate
+CORRETA: B
+EXPLICACAO: A CF/88 determina no Art. 4º, VII, a **solução pacífica dos conflitos** por meio do diálogo e da diplomacia.
+---
+ENUNCIADO: O artigo 4º, inciso VIII, da Constituição Federal estabelece o repúdio veemente a quais práticas nas relações internacionais?
+A) Ao comércio e ao turismo
+B) Ao terrorismo e ao racismo
+C) À diplomacia e à paz
+D) Às exportações e importações
+E) À cooperação cultural
+CORRETA: B
+EXPLICACAO: O inciso VIII do Art. 4º prevê expressamente o **repúdio ao terrorismo e ao racismo**.
+---
+ENUNCIADO: O ato de conceder abrigo e proteção jurídica a estrangeiros perseguidos politicamente em seu país de origem está previsto no artigo 4º, inciso X, como:
+A) Extradição compulsória
+B) Concessão de asilo político
+C) Expulsão imediata
+D) Deportação sumária
+E) Prisão preventiva internacional
+CORRETA: B
+EXPLICACAO: O Art. 4º, X, estabelece a **concessão de asilo político** como princípio das relações internacionais brasileiras.
+---
+ENUNCIADO: Segundo o parágrafo único do artigo 4º da CF/88, o Brasil buscará a integração econômica, política, social e cultural dos povos de qual região?
+A) Da União Europeia
+B) Da América Latina
+C) Do Norte da África
+D) Do Oriente Médio
+E) Da Ásia Ocidental
+CORRETA: B
+EXPLICACAO: O parágrafo único do Art. 4º estabelece que o Brasil buscará a integração dos povos da **América Latina**, visando à formação de uma comunidade latino-americana de nações.
+---
+ENUNCIADO: Assinale a alternativa que indica CORRETAMENTE um fundamento da República (Art. 1º) e NÃO um objetivo (Art. 3º):
+A) Erradicar a marginalização
+B) Garantir o desenvolvimento nacional
+C) Cidadania
+D) Promover o bem de todos
+E) Reduzir desigualdades regionais
+CORRETA: C
+EXPLICACAO: A **Cidadania** é um dos fundamentos (SO-CI-VA-DIV-PLU, Art. 1º). As demais alternativas são objetivos fundamentais (Art. 3º).
+---
+ENUNCIADO: A "Soberania", prevista no artigo 1º, inciso I, da CF/88, significa que o Estado brasileiro:
+A) É subordinado às ordens de países vizinhos
+B) Possui poder supremo no âmbito interno e independente no âmbito internacional
+C) Não pode criar suas próprias leis
+D) Deve pedir autorização internacional para fazer eleições
+E) Está sujeito às decisões da União Europeia
+CORRETA: B
+EXPLICACAO: A **Soberania** expressa a supremacia do Estado no plano interno e sua independência frente a outros Estados no plano internacional.
+---
+ENUNCIADO: Como se divide o exercício da democracia pelo povo brasileiro, conforme a regra do parágrafo único do artigo 1º da CF/88?
+A) Exclusivamente de forma indireta, apenas votando em deputados
+B) Por meio de representantes eleitos ou diretamente, nos termos da Constituição
+C) Apenas através de decisões das Forças Armadas
+D) Apenas por meio de plebiscitos semanais obrigatoriamente
+E) Exclusivamente por indicações do Presidente
+CORRETA: B
+EXPLICACAO: O país adota uma democracia semidireta (ou participativa): o povo exerce o poder **por representantes eleitos** (indireta) **ou diretamente** (plebiscito, referendo, iniciativa popular).
+---
+ENUNCIADO: A igualdade entre os Estados é um princípio das Relações Internacionais do Brasil (Art. 4º, V). Isso significa que:
+A) Todos os países possuem a mesma extensão territorial
+B) Todos os Estados soberanos são juridicamente iguais perante o direito internacional
+C) O Brasil só negocia com países de mesmo tamanho
+D) Os países mais ricos têm mais direitos jurídicos que os pobres
+E) Todos os países devem usar a mesma moeda
+CORRETA: B
+EXPLICACAO: A **igualdade entre os Estados** garante que, no plano jurídico internacional, todos os países soberanos possuem os mesmos direitos e deveres básicos.
+---
+ENUNCIADO: O princípio da "Defesa da Paz", estampado no artigo 4º, inciso VI, da CF/88, orienta que o Brasil deve:
+A) Priorizar soluções diplomáticas e evitar o uso injustificado da força militar
+B) Desarmar completamente suas forças policiais
+C) Atacar países vizinhos sem aviso prévio
+D) Proibir o treinamento de soldados
+E) Recusar participar da Organização das Nações Unidas (ONU)
+CORRETA: A
+EXPLICACAO: A **defesa da paz** compromete o Estado brasileiro com a manutenção da harmonia internacional e o desestímulo a guerras de agressão.
+---
+ENUNCIADO: Qual dos itens a seguir representa a Dignidade da Pessoa Humana no texto constitucional (Art. 1º, III)?
+A) Um objetivo a ser alcançado apenas no futuro
+B) Um fundamento supremo que coloca o ser humano como valor central do Estado
+C) Uma norma válida apenas para estrangeiros
+D) Um princípio aplicável somente no Direito Penal
+E) Uma regra de trânsito urbano
+CORRETA: B
+EXPLICACAO: A **Dignidade da Pessoa Humana** é um fundamento vetor que coloca o indivíduo e seus direitos essenciais no centro de todo o ordenamento jurídico.
+---
+ENUNCIADO: A cooperação entre os povos para o progresso da humanidade está prevista no artigo 4º, inciso IX, como um princípio de:
+A) Direito Administrativo Municipal
+B) Relações Internacionais do Brasil
+C) Direito Tributário Estadual
+D) Processo Penal Militar
+E) Organização dos Municípios
+CORRETA: B
+EXPLICACAO: O Art. 4º, IX, estabelece a **cooperação entre os povos para o progresso da humanidade** como diretriz internacional do Brasil.
+---
+ENUNCIADO: Se uma questão de prova pedir para identificar a "Forma de Estado", o "Sistema de Governo" e a "Forma de Governo" do Brasil, a resposta correta de acordo com a doutrina e a CF/88 é, respectivamente:
+A) Federação / Presidencialismo / República
+B) República / Federação / Presidencialismo
+C) Presidencialismo / República / Federação
+D) Confederação / Parlamentarismo / Monarquia
+E) Estado Unitário / Presidencialismo / República
+CORRETA: A
+EXPLICACAO: Forma de Estado = **Federação**; Sistema de Governo = **Presidencialismo**; Forma de Governo = **República**. (Mnemônico clássico: Fogo na República, Fé no Estado).
