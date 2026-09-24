@@ -34,7 +34,7 @@
 
     body {
       background-color: var(--bg-color);
-      /* Padrão de Pontos (Dotted Grid) igual ao da imagem */
+      /* Padrão de Pontos (Dotted Grid) */
       background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
       background-size: 18px 18px;
       color: var(--text-main);
@@ -46,7 +46,7 @@
       min-height: 100vh;
     }
 
-    /* IMAGEM DE FUNDO EXCLUSIVA DO MENU */
+    /* IMAGEM DE FUNDO DO MENU */
     .menu-background {
       position: fixed;
       top: 0;
@@ -119,14 +119,14 @@
       background: rgba(26, 26, 36, 0.9);
       border: 1px solid var(--card-border);
       color: var(--text-main);
-      padding: 18px 20px;
+      padding: 16px 20px;
       border-radius: 12px;
       font-size: 1.05rem;
       font-weight: 600;
       cursor: pointer;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
       transition: all 0.25s ease;
     }
 
@@ -136,7 +136,22 @@
       transform: translateY(-2px);
     }
 
-    /* Lista de Filtros (Checkboxes) */
+    .disc-content {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .disc-icon {
+      width: 24px;
+      height: 24px;
+      fill: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Listagem de Filtros */
     .filter-list {
       display: flex;
       flex-direction: column;
@@ -189,7 +204,7 @@
 
     .btn-voltar:hover { color: var(--text-main); }
 
-    /* CARTÃO DA QUESTÃO (Inspirado exatamente na Imagem) */
+    /* CARTÃO DA QUESTÃO */
     .questao-card {
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -218,7 +233,7 @@
       margin-bottom: 24px;
     }
 
-    /* LISTA DE ALTERNATIVAS (LAYOUT DA IMAGEM) */
+    /* LISTA DE ALTERNATIVAS */
     .options-list {
       display: flex;
       flex-direction: column;
@@ -242,7 +257,6 @@
       background-color: #1a1a24;
     }
 
-    /* Caixa da Letra (A, B, C, D, E) */
     .letter-box {
       width: 36px;
       height: 36px;
@@ -329,7 +343,7 @@
       color: #ffffff;
     }
 
-    /* Banner Feedback e Ações da Questão */
+    /* Banner Feedback */
     .feedback-banner {
       display: none;
       padding: 14px;
@@ -436,15 +450,55 @@
       <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
     </div>
 
-    <!-- TELA 1: SELEÇÃO DE DISCIPLINAS -->
+    <!-- TELA 1: SELEÇÃO DE DISCIPLINAS COM ÍCONES VETORIAIS -->
     <div class="card-hero" id="tela-selecao">
       <span class="menu-badge">Simulados & Questões</span>
       <div class="title-select">Menu Principal</div>
       <div class="subtitle-select">Selecione uma matéria para iniciar o seu treino:</div>
 
       <div class="discipline-grid">
+        <!-- Português (Coruja) -->
         <button class="btn-discipline" onclick="abrirFiltroDisciplina('portugues', 'Língua Portuguesa')">
-          <span>📚 Língua Portuguesa</span> ➔
+          <div class="disc-content">
+            <span class="disc-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9a9 9 0 0 0-9-9zm-3 5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm6 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm-3 11a7 7 0 0 1-5.19-2.32c.38-.85 2.06-1.68 5.19-1.68 3.13 0 4.81.83 5.19 1.68A7 7 0 0 1 12 18z"/><circle cx="9" cy="9.5" r="1.2"/><circle cx="15" cy="9.5" r="1.2"/></svg>
+            </span>
+            <span>Língua Portuguesa</span>
+          </div>
+          ➔
+        </button>
+
+        <!-- Direito (Balança da Justiça) -->
+        <button class="btn-discipline" onclick="abrirFiltroDisciplina('direito', 'Noções de Direito')">
+          <div class="disc-content">
+            <span class="disc-icon">
+              <svg viewBox="0 0 24 24"><path d="M11 2v2.07B8.001 8.001 0 0 0 4.07 11H2v2h2.07A8.001 8.001 0 0 0 11 19.93V22h2v-2.07A8.001 8.001 0 0 0 19.93 13H22v-2h-2.07A8.001 8.001 0 0 0 13 4.07V2h-2zm1 4a6 6 0 1 1 0 12 6 6 0 0 1 0-12zM6.5 8.5l-3.5 6h7l-3.5-6zm11 0l-3.5 6h7l-3.5-6z"/></svg>
+            </span>
+            <span>Noções de Direito</span>
+          </div>
+          ➔
+        </button>
+
+        <!-- Informática (Tela com Comando </>) -->
+        <button class="btn-discipline" onclick="abrirFiltroDisciplina('informatica', 'Informática')">
+          <div class="disc-content">
+            <span class="disc-icon">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h6l-2 3v1h8v-1l-2-3h6c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 12H4V6h16v10zM8.5 13.5l-2.5-2.5 2.5-2.5L7.09 7.09 3.18 11l3.91 3.91L8.5 13.5zm7 0l2.5-2.5-2.5-2.5 1.41-1.41L20.82 11l-3.91 3.91-1.41-1.41z"/></svg>
+            </span>
+            <span>Informática</span>
+          </div>
+          ➔
+        </button>
+
+        <!-- Matemática (+ - * /) -->
+        <button class="btn-discipline" onclick="abrirFiltroDisciplina('matematica', 'Raciocínio Lógico & Matemática')">
+          <div class="disc-content">
+            <span class="disc-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 10.5h-5v-5h-2v5H7v2h5v5h2v-5h5v-2zM5 4h6v2H5V4zm14 14h-6v-2h6v2zm-2.12-7.88l-2.83 2.83 1.41 1.41 2.83-2.83 2.83 2.83 1.41-1.41-2.83-2.83 2.83-2.83-1.41-1.41-2.83 2.83z"/></svg>
+            </span>
+            <span>Matemática / RLM</span>
+          </div>
+          ➔
         </button>
       </div>
     </div>
@@ -543,7 +597,7 @@
 
       try {
         const respLista = await fetch(`questoes/${pasta}/lista.json`);
-        if (!respLista.ok) throw new Error("Não foi possível carregar a lista de assuntos.");
+        if (!respLista.ok) throw new Error("Não foi possível carregar a lista de assuntos desta matéria.");
 
         listaArquivosAssuntos = await respLista.json();
 
@@ -573,7 +627,7 @@
         document.getElementById('tela-filtro').style.display = 'block';
 
       } catch (err) {
-        alert("Erro ao carregar assuntos: " + err.message);
+        alert("Atenção: " + err.message + "\n\nCrie a pasta 'questoes/" + pasta + "' e adicione o arquivo 'lista.json'.");
       }
     }
 
@@ -634,10 +688,10 @@
             document.getElementById('dashboard-stats').style.display = 'flex';
             document.getElementById('feed-materia-tag').textContent = nomeDisciplinaAtual.toUpperCase();
             renderizarPagina();
-          }, 1200);
+          }, 1000);
 
         } else {
-          alert("Nenhuma questão encontrada nos assuntos selecionados.");
+          alert("Nenhuma questão encontrada nos arquivos selecionados.");
           voltarParaFiltro();
         }
       } catch (err) {
@@ -747,7 +801,6 @@
         }
       });
 
-      // Atualiza controles da paginação
       document.getElementById('page-info').textContent = `Página ${paginaAtual} de ${totalPaginas}`;
       document.getElementById('btn-page-prev').style.visibility = paginaAtual === 1 ? 'hidden' : 'visible';
       document.getElementById('btn-page-next').style.visibility = paginaAtual === totalPaginas ? 'hidden' : 'visible';
@@ -761,11 +814,9 @@
 
       estado.selecionada = idx;
 
-      // Remove risco se clicar para selecionar
       const posRisco = estado.riscadas.indexOf(idx);
       if (posRisco > -1) estado.riscadas.splice(posRisco, 1);
 
-      // Atualiza visual
       const card = document.getElementById(`card-q-${globalId}`);
       const opts = card.querySelectorAll('.option-item');
       opts.forEach((opt, index) => {
@@ -810,7 +861,6 @@
 
       atualizarEstatisticas();
 
-      // Recarrega o elemento da questão com a correção
       const optSelecionada = document.getElementById(`opt-${globalId}-${estado.selecionada}`);
       const optCorreta = document.getElementById(`opt-${globalId}-${q.correta}`);
 
