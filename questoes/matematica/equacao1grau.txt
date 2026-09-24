@@ -1,0 +1,270 @@
+ENUNCIADO: Qual é o valor de x na equação **x + 7 = 15**?
+A) 6
+B) 7
+C) 8
+D) 9
+E) 10
+CORRETA: C
+EXPLICACAO: Isolando o x: x = 15 - 7, logo x = 8.
+---
+ENUNCIADO: Resolva a equação: **x - 9 = 4**.
+A) 11
+B) 12
+C) 13
+D) 14
+E) 15
+CORRETA: C
+EXPLICACAO: Isolando o x: x = 4 + 9, logo x = 13.
+---
+ENUNCIADO: Determine o valor de x na equação **2x = 18**.
+A) 8
+B) 9
+C) 10
+D) 11
+E) 12
+CORRETA: B
+EXPLICACAO: Passando o 2 dividindo: x = 18 / 2, logo x = 9.
+---
+ENUNCIADO: Qual é a solução da equação **3x = 21**?
+A) 5
+B) 6
+C) 7
+D) 8
+E) 9
+CORRETA: C
+EXPLICACAO: Passando o 3 dividindo: x = 21 / 3, logo x = 7.
+---
+ENUNCIADO: Calcule o valor de x em **x / 4 = 5**.
+A) 15
+B) 16
+C) 18
+D) 20
+E) 24
+CORRETA: D
+EXPLICACAO: Passando o 4 multiplicando: x = 5 * 4, logo x = 20.
+---
+ENUNCIADO: Qual é o valor de x na equação **2x + 3 = 11**?
+A) 2
+B) 3
+C) 4
+D) 5
+E) 6
+CORRETA: C
+EXPLICACAO: Subtraindo 3 dos dois lados: 2x = 11 - 3 => 2x = 8 => x = 8 / 2 = 4.
+---
+ENUNCIADO: Resolva a equação **3x - 5 = 10**.
+A) 3
+B) 4
+C) 5
+D) 6
+E) 7
+CORRETA: C
+EXPLICACAO: Somando 5 dos dois lados: 3x = 10 + 5 => 3x = 15 => x = 15 / 3 = 5.
+---
+ENUNCIADO: Encontre o valor de x na equação **4x + 2 = 18**.
+A) 3
+B) 4
+C) 5
+D) 6
+E) 7
+CORRETA: B
+EXPLICACAO: Subtraindo 2 dos dois lados: 4x = 18 - 2 => 4x = 16 => x = 16 / 4 = 4.
+---
+ENUNCIADO: Qual é o valor de x em **5x - 10 = 15**?
+A) 4
+B) 5
+C) 6
+D) 7
+E) 8
+CORRETA: B
+EXPLICACAO: Somando 10 dos dois lados: 5x = 15 + 10 => 5x = 25 => x = 25 / 5 = 5.
+---
+ENUNCIADO: Determine o valor de x na equação **x + 12 = 30**.
+A) 16
+B) 17
+C) 18
+D) 19
+E) 20
+CORRETA: C
+EXPLICACAO: Isolando o x: x = 30 - 12, logo x = 18.
+---
+ENUNCIADO: Resolva a equação **x - 15 = 20**.
+A) 25
+B) 30
+C) 35
+D) 40
+E) 45
+CORRETA: C
+EXPLICACAO: Isolando o x: x = 20 + 15, logo x = 35.
+---
+ENUNCIADO: Qual é a solução da equação **6x = 42**?
+A) 6
+B) 7
+C) 8
+D) 9
+E) 10
+CORRETA: B
+EXPLICACAO: Passando o 6 dividindo: x = 42 / 6, logo x = 7.
+---
+ENUNCIADO: Calcule o valor de x na equação **x / 3 = 9**.
+A) 18
+B) 21
+C) 24
+D) 27
+E) 30
+CORRETA: D
+EXPLICACAO: Passando o 3 multiplicando: x = 9 * 3, logo x = 27.
+---
+ENUNCIADO: Encontre a raiz da equação **2x + 10 = 20**.
+A) 4
+B) 5
+C) 6
+D) 8
+E) 10
+CORRETA: B
+EXPLICACAO: Isolando os termos: 2x = 20 - 10 => 2x = 10 => x = 10 / 2 = 5.
+---
+ENUNCIADO: Qual é o valor de x em **3x + 1 = 16**?
+A) 3
+B) 4
+C) 5
+D) 6
+E) 7
+CORRETA: C
+EXPLICACAO: Isolando os termos: 3x = 16 - 1 => 3x = 15 => x = 15 / 3 = 5.
+---
+ENUNCIADO: Resolva a equação **4x - 8 = 12**.
+A) 4
+B) 5
+C) 6
+D) 7
+E) 8
+CORRETA: B
+EXPLICACAO: Isolando os termos: 4x = 12 + 8 => 4x = 20 => x = 20 / 4 = 5.
+---
+ENUNCIADO: Qual é o valor de x na equação **x + 25 = 50**?
+A) 20
+B) 25
+C) 30
+D) 35
+E) 40
+CORRETA: B
+EXPLICACAO: Isolando o x: x = 50 - 25, logo x = 25.
+---
+ENUNCIADO: Determine o valor de x em **7x = 35**.
+A) 4
+B) 5
+C) 6
+D) 7
+E) 8
+CORRETA: B
+EXPLICACAO: Passando o 7 dividindo: x = 35 / 7, logo x = 5.
+---
+ENUNCIADO: Qual é a solução de **2x - 4 = 10**?
+A) 5
+B) 6
+C) 7
+D) 8
+E) 9
+CORRETA: C
+EXPLICACAO: Isolando os termos: 2x = 10 + 4 => 2x = 14 => x = 14 / 2 = 7.
+---
+ENUNCIADO: Calcule x na equação **x / 5 = 6**.
+A) 20
+B) 25
+C) 30
+D) 35
+E) 40
+CORRETA: C
+EXPLICACAO: Passando o 5 multiplicando: x = 6 * 5, logo x = 30.
+---
+ENUNCIADO: O dobro de um número somado a 5 é igual a 17. Que número é esse?
+A) 4
+B) 5
+C) 6
+D) 7
+E) 8
+CORRETA: C
+EXPLICACAO: Montando a equação: 2x + 5 = 17 => 2x = 12 => x = 12 / 2 = 6.
+---
+ENUNCIADO: O triplo de um número menos 4 é igual a 11. Qual é o número?
+A) 3
+B) 4
+C) 5
+D) 6
+E) 7
+CORRETA: C
+EXPLICACAO: Montando a equação: 3x - 4 = 11 => 3x = 15 => x = 15 / 3 = 5.
+---
+ENUNCIADO: A metade de um número é igual a 12. Qual é esse número?
+A) 18
+B) 20
+C) 22
+D) 24
+E) 26
+CORRETA: D
+EXPLICACAO: Montando a equação: x / 2 = 12 => x = 12 * 2 = 24.
+---
+ENUNCIADO: Resolva a equação **5x + 5 = 30**.
+A) 3
+B) 4
+C) 5
+D) 6
+E) 7
+CORRETA: C
+EXPLICACAO: Isolando os termos: 5x = 30 - 5 => 5x = 25 => x = 25 / 5 = 5.
+---
+ENUNCIADO: Qual é o valor de x em **8x = 64**?
+A) 6
+B) 7
+C) 8
+D) 9
+E) 10
+CORRETA: C
+EXPLICACAO: Passando o 8 dividindo: x = 64 / 8, logo x = 8.
+---
+ENUNCIADO: Encontre a solução para a equação **x - 18 = 12**.
+A) 24
+B) 28
+C) 30
+D) 32
+E) 36
+CORRETA: C
+EXPLICACAO: Isolando o x: x = 12 + 18, logo x = 30.
+---
+ENUNCIADO: Resolva a equação **3x + 9 = 27**.
+A) 4
+B) 5
+C) 6
+D) 7
+E) 8
+CORRETA: C
+EXPLICACAO: Isolando os termos: 3x = 27 - 9 => 3x = 18 => x = 18 / 3 = 6.
+---
+ENUNCIADO: O quádruplo de um número é igual a 36. Que número é esse?
+A) 7
+B) 8
+C) 9
+D) 10
+E) 12
+CORRETA: C
+EXPLICACAO: Montando a equação: 4x = 36 => x = 36 / 4 = 9.
+---
+ENUNCIADO: Qual é o valor de x na equação **2x + 8 = 24**?
+A) 6
+B) 7
+C) 8
+D) 9
+E) 10
+CORRETA: C
+EXPLICACAO: Isolando os termos: 2x = 24 - 8 => 2x = 16 => x = 16 / 2 = 8.
+---
+ENUNCIADO: Calcule o valor de x na equação **10x - 20 = 80**.
+A) 8
+B) 9
+C) 10
+D) 11
+E) 12
+CORRETA: C
+EXPLICACAO: Isolando os termos: 10x = 80 + 20 => 10x = 100 => x = 100 / 10 = 10.
+---
