@@ -18,6 +18,8 @@ let respostasUsuario = {};
 let totalRespondidas = 0;
 let totalAcertos = 0;
 
+let meuGraficoRendimento = null;
+
 const SVG_TESOURA = `
   <svg viewBox="0 0 24 24">
     <path d="M5.5,7A2.5,2.5 0 0,0 3,9.5A2.5,2.5 0 0,0 5.5,12A2.5,2.5 0 0,0 8,9.5A2.5,2.5 0 0,0 5.5,7M5.5,8.5A1,1 0 0,1 6.5,9.5A1,1 0 0,1 5.5,10.5A1,1 0 0,1 4.5,9.5A1,1 0 0,1 5.5,8.5M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64M6,16A2,2 0 0,1 8,18A2,2 0 0,1 6,20A2,2 0 0,1 4,18A2,2 0 0,1 6,16M12,10L19,3H22V4L12,10Z"/>
@@ -101,7 +103,6 @@ function voltarParaSelecaoQuestoes() {
 async function carregarTodosArquivosDoAssunto(pasta, prefixo, nomeAssunto, nomeMateria) {
   let questoesDoAssunto = [];
 
-  // 1. Tenta carregar o arquivo base (ex: porcentagem.txt)
   try {
     const respBase = await fetch(`questoes/${pasta}/${prefixo}.txt`);
     if (respBase.ok) {
@@ -110,12 +111,11 @@ async function carregarTodosArquivosDoAssunto(pasta, prefixo, nomeAssunto, nomeM
     }
   } catch (e) {}
 
-  // 2. Tenta em sequência: porcentagem1.txt, porcentagem2.txt, porcentagem3.txt...
   let num = 1;
-  while (num <= 50) { // Limite máximo de segurança de 50 arquivos por assunto
+  while (num <= 50) {
     try {
       const resp = await fetch(`questoes/${pasta}/${prefixo}${num}.txt`);
-      if (!resp.ok) break; // Quando o arquivo não for encontrado (404), interrompe a busca
+      if (!resp.ok) break;
 
       const texto = await resp.text();
       questoesDoAssunto.push(...parseTXT(texto, nomeAssunto, nomeMateria));
@@ -294,7 +294,6 @@ async function gerarSimuladoCustomizado() {
   }
 }
 
-/* REGRA: SELECIONAR QUESTÕES SEM OU COM REPETIÇÃO */
 function selecionarQuestoesParaSimulado(questoesDisponiveis, qtdDesejada) {
   let resultado = [];
   let copiasDisponiveis = [...questoesDisponiveis];
@@ -544,9 +543,52 @@ function mudarPagina(delta) {
   renderizarPagina();
 }
 
+/* ATUALIZAÇÃO DAS ESTATÍSTICAS E RENDIMENTO DO GRÁFICO */
 function atualizarEstatisticas() {
   document.getElementById('stat-total').textContent = totalRespondidas;
   document.getElementById('stat-acertos').textContent = totalAcertos;
   const pct = totalRespondidas > 0 ? ((totalAcertos / totalRespondidas) * 100).toFixed(0) : 0;
   document.getElementById('stat-pct').textContent = `${pct}%`;
+
+  atualizarGraficoDashboard(totalAcertos, totalRespondidas - totalAcertos);
+}
+
+function atualizarGraficoDashboard(acertos, erros) {
+  const canvas = document.getElementById('chartRendimento');
+  if (!canvas) return;
+
+  const ctx = canvas.getContext('2d');
+  const total = acertos + erros;
+
+  // Se ainda não houver dados, mostra gráfico neutro cinzento
+  const dataValues = total > 0 ? [acertos, erros] : [0, 1];
+  const bgColors = total > 0 ? ['#22c55e', '#ef4444'] : ['#23232f', '#23232f'];
+
+  if (meuGraficoRendimento) {
+    meuGraficoRendimento.data.datasets[0].data = dataValues;
+    meuGraficoRendimento.data.datasets[0].backgroundColor = bgColors;
+    meuGraficoRendimento.update();
+  } else {
+    meuGraficoRendimento = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Acertos', 'Erros'],
+        datasets: [{
+          data: dataValues,
+          backgroundColor: bgColors,
+          borderWidth: 0,
+          hoverOffset: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: total > 0 }
+        },
+        cutout: '75%'
+      }
+    });
+  }
 }
