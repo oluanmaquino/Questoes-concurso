@@ -1,0 +1,269 @@
+ENUNCIADO: Por padrão, em qual posição da barra de tarefas ficam centralizados os ícones dos aplicativos e o botão do Menu Iniciar no Windows 11?
+A) No canto superior esquerdo
+B) Na parte central
+C) No canto direito, junto ao relógio
+D) Na vertical, do lado esquerdo da tela
+E) No canto superior direito
+CORRETA: B
+EXPLICACAO: Uma das principais mudanças visuais do Windows 11 foi posicionar os ícones e o botão do **Menu Iniciar centralizados** na Barra de Tarefas.
+---
+ENUNCIADO: Qual atalho de teclado no Windows 11 é utilizado para abrir diretamente o Explorador de Arquivos (File Explorer)?
+A) Win + E
+B) Win + R
+C) Win + I
+D) Win + F
+E) Win + L
+CORRETA: A
+EXPLICACAO: A combinação de teclas **Win + E** abre diretamente o Explorador de Arquivos.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para abrir o painel de Configurações do Windows 11?
+A) Win + C
+B) Win + S
+C) Win + I
+D) Win + P
+E) Win + X
+CORRETA: C
+EXPLICACAO: O atalho **Win + I** abre a janela de Configurações do sistema operacional.
+---
+ENUNCIADO: Qual atalho do Windows 11 bloqueia rapidamente a sessão do usuário atual, exigindo senha para retornar?
+A) Win + D
+B) Win + L
+C) Win + M
+D) Win + B
+E) Win + E
+CORRETA: B
+EXPLICACAO: O atalho **Win + L** (de *Lock*) bloqueia imediatamente a tela do computador.
+---
+ENUNCIADO: Qual a principal função da Lixeira no Windows 11?
+A) Armazenar arquivos permanentemente sem ocupar espaço no disco
+B) Guardar arquivos excluídos temporariamente, permitindo sua restauração
+C) Fazer cópia de segurança automática na nuvem
+D) Otimizar a velocidade do processador
+E) Bloquear vírus e malwares baixados da internet
+CORRETA: B
+EXPLICACAO: A **Lixeira** armazena temporariamente os itens excluídos, permitindo que o usuário recupere arquivos apagados por engano.
+---
+ENUNCIADO: Qual combinação de teclas minimiza todas as janelas abertas e mostra a Área de Trabalho (Desktop)?
+A) Win + D
+B) Alt + F4
+C) Ctrl + Shift + Esc
+D) Win + Tab
+E) Alt + Tab
+CORRETA: A
+EXPLICACAO: O atalho **Win + D** alterna entre mostrar a Área de Trabalho e restaurar as janelas abertas.
+---
+ENUNCIADO: Qual navegador de internet padrão já vem pré-instalado no Windows 11?
+A) Google Chrome
+B) Mozilla Firefox
+C) Microsoft Edge
+D) Opera
+E) Internet Explorer
+CORRETA: C
+EXPLICACAO: O **Microsoft Edge** é o navegador web nativo e padrão do Windows 11.
+---
+ENUNCIADO: Como se chama o recurso do Windows 11 que permite organizar e alinhar janelas abertas na tela ao passar o ponteiro sobre o botão de maximizar?
+A) Windows Copilot
+B) Snap Layouts (Layouts de Ajuste)
+C) Task View
+D) Widgets
+E) Corta-Vento
+CORRETA: B
+EXPLICACAO: O **Snap Layouts** permite escolher arranjos predefinidos para dividir e organizar múltiplas janelas na tela.
+---
+ENUNCIADO: Qual recurso nativo do Windows 11 oferece proteção em tempo real contra vírus e ameaças de segurança?
+A) Windows Defender / Segurança do Windows
+B) Windows Update
+C) Avast Free
+D) Firewall de Terceiros
+E) CCleaner
+CORRETA: A
+EXPLICACAO: A **Segurança do Windows** (antigo Windows Defender) é a solução antivírus nativa e gratuita do sistema.
+---
+ENUNCIADO: Qual atalho de teclado aciona o recurso de captura de tela parcial (Ferramenta de Captura) no Windows 11?
+A) Win + Shift + S
+B) Alt + Print Screen
+C) Ctrl + P
+D) Win + Alt + G
+E) Ctrl + Shift + C
+CORRETA: A
+EXPLICACAO: O atalho **Win + Shift + S** abre a barra da Ferramenta de Captura para selecionar a área exata da tela que deseja capturar.
+---
+ENUNCIADO: Para alternar rapidamente entre as janelas dos aplicativos que já estão abertos, qual combinação de teclas deve ser utilizada?
+A) Ctrl + C
+B) Alt + Tab
+C) Shift + Esc
+D) Win + P
+E) Alt + F8
+CORRETA: B
+EXPLICACAO: Manter a tecla **Alt** pressionada e pressionar **Tab** permite navegar e alternar entre as janelas abertas.
+---
+ENUNCIADO: Qual atalho abre diretamente o Gerenciador de Tarefas do Windows?
+A) Ctrl + Alt + Delete
+B) Ctrl + Shift + Esc
+C) Win + R
+D) Alt + Space
+E) Ctrl + F4
+CORRETA: B
+EXPLICACAO: Embora o Ctrl + Alt + Del abra uma tela de opções, o atalho direto para o **Gerenciador de Tarefas** é **Ctrl + Shift + Esc**.
+---
+ENUNCIADO: O que acontece ao selecionar um arquivo no Windows 11 e pressionar a tecla F2?
+A) O arquivo é excluído para a lixeira
+B) O arquivo é copiado
+C) O modo de renomear o arquivo é ativado
+D) As propriedades do arquivo são abertas
+E) O arquivo é enviado por e-mail
+CORRETA: C
+EXPLICACAO: A tecla de atalho **F2** permite renomear rapidamente o arquivo ou pasta selecionado.
+---
+ENUNCIADO: Qual atalho permite visualizar o Histórico da Área de Transferência (textos e imagens copiados recentemente)?
+A) Win + V
+B) Ctrl + V
+C) Shift + V
+D) Alt + V
+E) Win + C
+CORRETA: A
+EXPLICACAO: O atalho **Win + V** abre a janela do histórico da área de transferência com os últimos itens copiados.
+---
+ENUNCIADO: Qual a função da combinação de teclas Ctrl + Z na maioria dos programas e no Explorador de Arquivos do Windows?
+A) Refazer a última ação
+B) Desfazer a última ação
+C) Fechar o programa
+D) Salvar o arquivo
+E) Imprimir o documento
+CORRETA: B
+EXPLICACAO: O comando **Ctrl + Z** é universalmente utilizado para desfazer a última ação realizada.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para selecionar TODOS os itens ou textos em uma pasta ou documento no Windows em português?
+A) Ctrl + S
+B) Ctrl + A
+C) Ctrl + T
+D) Ctrl + E
+E) Win + A
+CORRETA: B
+EXPLICACAO: O comando **Ctrl + A** seleciona todos os arquivos de um diretório ou todo o texto de um documento.
+---
+ENUNCIADO: Como se chama o serviço de armazenamento na nuvem da Microsoft integrado nativamente ao Windows 11?
+A) Google Drive
+B) iCloud
+C) Dropbox
+D) OneDrive
+E) Mega
+CORRETA: D
+EXPLICACAO: O **OneDrive** é o serviço de nuvem nativo da Microsoft integrado ao Explorador de Arquivos do Windows 11.
+---
+ENUNCIADO: Qual é o atalho utilizado para abrir a janela "Executar" do Windows, onde é possível digitar comandos como "cmd" ou "calc"?
+A) Win + R
+B) Win + X
+C) Win + Run
+D) Ctrl + R
+E) Alt + R
+CORRETA: A
+EXPLICACAO: O atalho **Win + R** (de *Run*) abre a caixa de diálogo do comando Executar.
+---
+ENUNCIADO: Ao pressionar as teclas Shift + Delete em um arquivo selecionado no Windows 11, o que acontece?
+A) O arquivo vai para a Lixeira
+B) O arquivo é copiado para a nuvem
+C) O arquivo é excluído permanentemente, sem passar pela Lixeira
+D) O arquivo é compactado em formato ZIP
+E) O arquivo é ocultado
+CORRETA: C
+EXPLICACAO: A combinação **Shift + Delete** ignora a Lixeira e apaga o arquivo de forma permanente.
+---
+ENUNCIADO: Qual painel do Windows 11 é aberto ao pressionar o atalho Win + A?
+A) Central de Notificações e Calendário
+B) Configurações Rápidas (Wi-Fi, Bluetooth, Som e Brilho)
+C) Menu Iniciar
+D) Gerenciador de Dispositivos
+E) Painel de Controle Antigo
+CORRETA: B
+EXPLICACAO: O atalho **Win + A** abre o menu de **Configurações Rápidas** no canto inferior direito da tela.
+---
+ENUNCIADO: Qual tecla de atalho é comumente utilizada para atualizar (recarregar) a janela ativa ou a página do navegador no Windows?
+A) F1
+B) F5
+C) F8
+D) F11
+E) Esc
+CORRETA: B
+EXPLICACAO: A tecla **F5** é o padrão no Windows para atualizar o conteúdo da janela ou página web ativa.
+---
+ENUNCIADO: No Windows 11, qual formato/extensão de arquivo compactado pode ser extraído e criado nativamente sem necessidade de programas externos como WinRAR?
+A) .RAR
+B) .7Z
+C) .ZIP
+D) .TAR
+E) .ISO
+CORRETA: C
+EXPLICACAO: O formato **.ZIP** possui suporte nativo no Windows para compactação e descompactação de pastas e arquivos.
+---
+ENUNCIADO: Qual atalho abre o painel de Projeção de Tela para configurar segundo monitor ou datashow?
+A) Win + P
+B) Win + K
+C) Alt + P
+D) Ctrl + P
+E) Win + Shift + P
+CORRETA: A
+EXPLICACAO: O atalho **Win + P** (de *Project*) abre a barra lateral para escolher opções de exibição em múltiplos monitores.
+---
+ENUNCIADO: O que acontece ao pressionar as teclas Alt + F4 com uma janela de aplicativo selecionada?
+A) O aplicativo é minimizado
+B) O aplicativo é fechado
+C) O aplicativo é maximizado
+D) O computador reinicia imediatamente
+E) O aplicativo tira um print da tela
+CORRETA: B
+EXPLICACAO: A combinação **Alt + F4** fecha a janela ou aplicativo que está ativo no momento.
+---
+ENUNCIADO: Qual atalho abre a Central de Notificações e o Calendário no Windows 11?
+A) Win + N
+B) Win + C
+C) Win + A
+D) Win + K
+E) Win + Alt + N
+CORRETA: A
+EXPLICACAO: O atalho **Win + N** abre o painel combinado de Notificações e o Calendário do sistema.
+---
+ENUNCIADO: Qual recurso do Windows 11 ajusta as cores da tela para tons mais quentes à noite, reduzindo a emissão de luz azul para diminuir o cansaço visual?
+A) Modo de Economia de Energia
+B) Luz Noturna
+C) Alto Contraste
+D) Calibração de Cores HDR
+E) Tema Escuro
+CORRETA: B
+EXPLICACAO: A **Luz Noturna** reduz a luz azul emitida pelo monitor, ajudando a evitar o cansaço visual no período noturno.
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual comando de atalho é utilizado para COPIAR o item selecionado?
+A) Ctrl + X
+B) Ctrl + V
+C) Ctrl + C
+D) Ctrl + P
+E) Ctrl + D
+CORRETA: C
+EXPLICACAO: O comando **Ctrl + C** cria uma cópia do item selecionado na memória (Área de Transferência).
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual comando de atalho é utilizado para COLAR um item previamente copiado ou recortado?
+A) Ctrl + C
+B) Ctrl + V
+C) Ctrl + X
+D) Ctrl + Z
+E) Ctrl + A
+CORRETA: B
+EXPLICACAO: O comando **Ctrl + V** cola o conteúdo que está na Área de Transferência no local desejado.
+---
+ENUNCIADO: O comando de atalho Ctrl + X no Windows tem qual função principal?
+A) Duplicar o item
+B) Recortar o item (mover)
+C) Excluir o item para a Lixeira
+D) Fechar a pasta
+E) Imprimir a seleção
+CORRETA: B
+EXPLICACAO: O comando **Ctrl + X** remove o item da sua localização original para que ele seja movido ao ser colado em outro lugar.
+---
+ENUNCIADO: Qual ferramenta nativa do Windows 11 é utilizada para verificar as atualizações de segurança e correções disponibilizadas pela Microsoft?
+A) Windows Update
+B) Microsoft Store
+C) Gerenciador de Dispositivos
+D) Painel de Controle
+E) Restauração do Sistema
+CORRETA: A
+EXPLICACAO: O **Windows Update** é o serviço responsável por baixar e instalar atualizações, patches de segurança e melhorias no sistema.
