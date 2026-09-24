@@ -4,11 +4,11 @@
     "nome": "Crase"
   },
   {
-    "prefixo": "conjuncao",
+    "prefixo": "conj",
     "nome": "Conjunção"
   },
   {
-    "prefixo": "adverbio",
+    "prefixo": "adv",
     "nome": "Advérbio"
   }
 ]
