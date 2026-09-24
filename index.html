@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plataforma de Estudos</title>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Chart.js para o Gráfico de Desempenho -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
@@ -12,11 +14,18 @@
 
   <div class="container">
     
-    <!-- Dashboard Superior -->
+    <!-- Dashboard Superior com Gráfico integrado -->
     <div class="dashboard" id="dashboard-stats" style="display: none;">
-      <div class="stat-item"><div class="stat-value" id="stat-total">0</div><div class="stat-label">Respondidas</div></div>
-      <div class="stat-item"><div class="stat-value" id="stat-acertos">0</div><div class="stat-label">Acertos</div></div>
-      <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
+      <div class="dashboard-text-group">
+        <div class="stat-item"><div class="stat-value" id="stat-total">0</div><div class="stat-label">Respondidas</div></div>
+        <div class="stat-item"><div class="stat-value" id="stat-acertos">0</div><div class="stat-label">Acertos</div></div>
+        <div class="stat-item"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Rendimento</div></div>
+      </div>
+      
+      <!-- Contentor do Gráfico de Rosca -->
+      <div class="dashboard-chart-container">
+        <canvas id="chartRendimento"></canvas>
+      </div>
     </div>
 
     <!-- TELA HUB: MENU PRINCIPAL DE MÓDULOS -->

@@ -63,12 +63,27 @@ body {
   backdrop-filter: blur(12px);
   border: 1px solid var(--card-border);
   border-radius: 12px;
-  padding: 16px;
+  padding: 16px 24px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  gap: 16px;
+}
+
+.dashboard-text-group {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+
+.dashboard-chart-container {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  flex-shrink: 0;
 }
 
 .stat-item { text-align: center; }
