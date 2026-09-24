@@ -434,6 +434,39 @@
 
     .instagram-link { color: #0095f6; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
     .instagram-icon { width: 18px; height: 18px; fill: currentColor; }
+
+    /* Ícones das disciplinas: conjunto vetorial uniforme e mais limpo */
+    .disc-icon {
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: rgba(99, 102, 241, 0.10);
+      color: var(--primary);
+      box-sizing: border-box;
+      transition: transform 0.18s ease, background-color 0.18s ease;
+    }
+    .disc-icon svg {
+      width: 23px;
+      height: 23px;
+      display: block;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .disc-icon svg .solid {
+      fill: currentColor;
+      stroke: none;
+    }
+    .btn-discipline:hover .disc-icon {
+      transform: translateY(-1px) scale(1.04);
+      background: rgba(99, 102, 241, 0.17);
+    }
   </style>
 </head>
 <body>
@@ -457,46 +490,46 @@
       <div class="subtitle-select">Selecione uma matéria para iniciar o seu treino:</div>
 
       <div class="discipline-grid">
-        <!-- Português (Coruja) -->
+        <!-- Português (Coruja - Material Design) -->
         <button class="btn-discipline" onclick="abrirFiltroDisciplina('portugues', 'Língua Portuguesa')">
           <div class="disc-content">
             <span class="disc-icon">
-              <svg viewBox="0 0 24 24"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9a9 9 0 0 0-9-9zm-3 5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm6 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm-3 11a7 7 0 0 1-5.19-2.32c.38-.85 2.06-1.68 5.19-1.68 3.13 0 4.81.83 5.19 1.68A7 7 0 0 1 12 18z"/><circle cx="9" cy="9.5" r="1.2"/><circle cx="15" cy="9.5" r="1.2"/></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17H7.5A2.5 2.5 0 0 0 5 21.5V4.5Z"/><path d="M5 4.5V21.5"/><path d="M9 7h7M9 10.5h7M9 14h5"/></svg>
             </span>
             <span>Língua Portuguesa</span>
           </div>
           ➔
         </button>
 
-        <!-- Direito (Balança da Justiça) -->
+        <!-- Direito (Balança da Justiça - Material Design) -->
         <button class="btn-discipline" onclick="abrirFiltroDisciplina('direito', 'Noções de Direito')">
           <div class="disc-content">
             <span class="disc-icon">
-              <svg viewBox="0 0 24 24"><path d="M11 2v2.07B8.001 8.001 0 0 0 4.07 11H2v2h2.07A8.001 8.001 0 0 0 11 19.93V22h2v-2.07A8.001 8.001 0 0 0 19.93 13H22v-2h-2.07A8.001 8.001 0 0 0 13 4.07V2h-2zm1 4a6 6 0 1 1 0 12 6 6 0 0 1 0-12zM6.5 8.5l-3.5 6h7l-3.5-6zm11 0l-3.5 6h7l-3.5-6z"/></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13"/><path d="M5 7h14"/><path d="M4 7l-3 6a4 4 0 0 0 6 0L4 7Z"/><path d="M20 7l-3 6a4 4 0 0 0 6 0l-3-6Z"/><path d="M8 20h8"/><path d="M10 17h4"/></svg>
             </span>
             <span>Noções de Direito</span>
           </div>
           ➔
         </button>
 
-        <!-- Informática (Tela com Comando </>) -->
+        <!-- Informática (Monitor & Comando - Material Design) -->
         <button class="btn-discipline" onclick="abrirFiltroDisciplina('informatica', 'Informática')">
           <div class="disc-content">
             <span class="disc-icon">
-              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h6l-2 3v1h8v-1l-2-3h6c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 12H4V6h16v10zM8.5 13.5l-2.5-2.5 2.5-2.5L7.09 7.09 3.18 11l3.91 3.91L8.5 13.5zm7 0l2.5-2.5-2.5-2.5 1.41-1.41L20.82 11l-3.91 3.91-1.41-1.41z"/></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6.5 6.5h11"/></svg>
             </span>
             <span>Informática</span>
           </div>
           ➔
         </button>
 
-        <!-- Matemática (+ - * /) -->
-        <button class="btn-discipline" onclick="abrirFiltroDisciplina('matematica', 'Raciocínio Lógico & Matemática')">
+        <!-- Matemática (Calculadora & Símbolos - Material Design) -->
+        <button class="btn-discipline" onclick="abrirFiltroDisciplina('matematica', 'Matemática')">
           <div class="disc-content">
             <span class="disc-icon">
-              <svg viewBox="0 0 24 24"><path d="M19 10.5h-5v-5h-2v5H7v2h5v5h2v-5h5v-2zM5 4h6v2H5V4zm14 14h-6v-2h6v2zm-2.12-7.88l-2.83 2.83 1.41 1.41 2.83-2.83 2.83 2.83 1.41-1.41-2.83-2.83 2.83-2.83-1.41-1.41-2.83 2.83z"/></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2"/><path d="M8 6.5h8"/><path d="M8 10.5h2M12 10.5h2M16 10.5h0M8 14h2M12 14h2M16 14h0M8 17.5h2M12 17.5h2M16 17.5h0"/></svg>
             </span>
-            <span>Matemática / RLM</span>
+            <span>Matemática</span>
           </div>
           ➔
         </button>
@@ -577,10 +610,10 @@
     let totalRespondidas = 0;
     let totalAcertos = 0;
 
-    // SVG do ícone da Tesoura
+    // SVG do ícone da Tesoura (Caminho corrigido e seguro - Material Design)
     const SVG_TESOURA = `
       <svg viewBox="0 0 24 24">
-        <path d="M9.64 7.64a3.5 3.5 0 1 1-1.41-1.41l3.54 3.54 3.54-3.54a3.5 3.5 0 1 1 1.41 1.41L13.17 11.2l3.55 3.55a3.5 3.5 0 1 1-1.41 1.41L11.76 12.6l-3.55 3.55a3.5 3.5 0 1 1-1.41-1.41l3.54-3.54-3.7-3.56zM6 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm12 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-12 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm12 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+        <path d="M5.5,7A2.5,2.5 0 0,0 3,9.5A2.5,2.5 0 0,0 5.5,12A2.5,2.5 0 0,0 8,9.5A2.5,2.5 0 0,0 5.5,7M5.5,8.5A1,1 0 0,1 6.5,9.5A1,1 0 0,1 5.5,10.5A1,1 0 0,1 4.5,9.5A1,1 0 0,1 5.5,8.5M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64M6,16A2,2 0 0,1 8,18A2,2 0 0,1 6,20A2,2 0 0,1 4,18A2,2 0 0,1 6,16M12,10L19,3H22V4L12,10Z"/>
       </svg>
     `;
 
