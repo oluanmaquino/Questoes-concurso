@@ -1,0 +1,269 @@
+ENUNCIADO: Quanto é 10% de 100?
+A) 5
+B) 10
+C) 15
+D) 20
+E) 100
+CORRETA: B
+EXPLICACAO: Para calcular 10% de 100, basta multiplicar 100 por 0,10 (ou dividir por 10), resultando em 10.
+---
+ENUNCIADO: Quanto é 50% de 80?
+A) 20
+B) 30
+C) 40
+D) 50
+E) 60
+CORRETA: C
+EXPLICACAO: Calcular 50% de um valor equivale a encontrar a sua metade. A metade de 80 é 40.
+---
+ENUNCIADO: Quanto é 25% de 200?
+A) 25
+B) 50
+C) 75
+D) 100
+E) 125
+CORRETA: B
+EXPLICACAO: Calcular 25% equivale a dividir o valor por 4. Dividindo 200 por 4, obtemos 50.
+---
+ENUNCIADO: Como se escreve a porcentagem 20% na forma decimal?
+A) 0,02
+B) 0,20
+C) 2,00
+D) 20,0
+E) 0,002
+CORRETA: B
+EXPLICACAO: Para converter porcentagem em número decimal, divide-se o valor por 100: 20 / 100 = 0,20 (ou 0,2).
+---
+ENUNCIADO: A fração 1/2 corresponde a qual porcentagem?
+A) 12%
+B) 20%
+C) 25%
+D) 50%
+E) 100%
+CORRETA: D
+EXPLICACAO: A fração 1/2 representa 1 dividido por 2, que é igual a 0,50, ou seja, 50%.
+---
+ENUNCIADO: Um produto custa R$ 100,00 e recebeu um desconto de 10%. Qual é o valor final do produto?
+A) R$ 80,00
+B) R$ 85,00
+C) R$ 90,00
+D) R$ 95,00
+E) R$ 99,00
+CORRETA: C
+EXPLICACAO: O desconto é de 10% de R$ 100,00, que é R$ 10,00. Subtraindo do valor original: 100 - 10 = R$ 90,00.
+---
+ENUNCIADO: Quanto é 15% de 60?
+A) 6
+B) 8
+C) 9
+D) 12
+E) 15
+CORRETA: C
+EXPLICACAO: 10% de 60 é igual a 6. 5% de 60 é a metade de 6, que é 3. Somando 6 + 3, temos 15%, que é igual a 9.
+---
+ENUNCIADO: Quanto é 100% de 45?
+A) 0
+B) 4,5
+C) 45
+D) 90
+E) 450
+CORRETA: C
+EXPLICACAO: 100% representa a totalidade do número. Portanto, 100% de 45 é o próprio 45.
+---
+ENUNCIADO: Quanto é 0% de 500?
+A) 0
+B) 5
+C) 50
+D) 500
+E) 1
+CORRETA: A
+EXPLICACAO: 0% de qualquer valor é sempre igual a 0.
+---
+ENUNCIADO: Em uma sala com 40 alunos, 50% são meninas. Quantas meninas há nessa sala?
+A) 10
+B) 15
+C) 20
+D) 25
+E) 30
+CORRETA: C
+EXPLICACAO: 50% representa a metade do total. A metade de 40 alunos é igual a 20 meninas.
+---
+ENUNCIADO: A fração 1/4 representa qual porcentagem de um total?
+A) 10%
+B) 15%
+C) 20%
+D) 25%
+E) 40%
+CORRETA: D
+EXPLICACAO: Dividindo 1 por 4 obtemos 0,25. Multiplicando por 100, temos 25%.
+---
+ENUNCIADO: Um tênis custa R$ 200,00 e sofreu um aumento de 10%. Qual o novo preço do tênis?
+A) R$ 205,00
+B) R$ 210,00
+C) R$ 220,00
+D) R$ 230,00
+E) R$ 250,00
+CORRETA: C
+EXPLICACAO: O aumento de 10% sobre R$ 200,00 é de R$ 20,00. Somando ao valor inicial: 200 + 20 = R$ 220,00.
+---
+ENUNCIADO: Quanto é 20% de 150?
+A) 15
+B) 20
+C) 25
+D) 30
+E) 35
+CORRETA: D
+EXPLICACAO: 10% de 150 é 15. Como queremos 20%, multiplicamos 15 por 2, resultando em 30.
+---
+ENUNCIADO: Se você acertou 8 de um total de 10 questões em uma avaliação, qual foi a sua taxa de acerto?
+A) 60%
+B) 70%
+C) 80%
+D) 85%
+E) 90%
+CORRETA: C
+EXPLICACAO: 8 acertos de 10 correspondem à fração 8/10, que equivale a 0,80 ou 80%.
+---
+ENUNCIADO: Quanto é 5% de 200?
+A) 5
+B) 10
+C) 15
+D) 20
+E) 25
+CORRETA: B
+EXPLICACAO: 10% de 200 é 20. Como 5% é a metade de 10%, a resposta é a metade de 20, ou seja, 10.
+---
+ENUNCIADO: Uma camiseta que custava R$ 50,00 teve um desconto de 20%. Qual foi o valor do DESCONTO em reais?
+A) R$ 5,00
+B) R$ 10,00
+C) R$ 15,00
+D) R$ 20,00
+E) R$ 40,00
+CORRETA: B
+EXPLICACAO: 20% de R$ 50,00 é calculado multiplicando 50 por 0,20, o que resulta em R$ 10,00 de desconto.
+---
+ENUNCIADO: O que significa a expressão "porcentagem"?
+A) Uma razão ou divisão por 10
+B) Uma razão ou divisão por 100
+C) Uma multiplicação por 1000
+D) Uma subtração por 100
+E) A metade de um valor inteiro
+CORRETA: B
+EXPLICACAO: Porcentagem (ou percentagem) é uma medida de razão cuja base é uma divisão por 100 (por cento).
+---
+ENUNCIADO: Quanto é 30% de 300?
+A) 30
+B) 60
+C) 90
+D) 120
+E) 150
+CORRETA: C
+EXPLICACAO: 10% de 300 é igual a 30. Multiplicando esse valor por 3 para obter 30%, temos 30 x 3 = 90.
+---
+ENUNCIADO: Qual é o número decimal correspondente a 75%?
+A) 7,5
+B) 0,75
+C) 0,075
+D) 75,0
+E) 0,0075
+CORRETA: B
+EXPLICACAO: Dividindo 75 por 100 para converter de porcentagem para decimal, obtemos 0,75.
+---
+ENUNCIADO: Em uma caixa há 100 bolinhas, das quais 15 são vermelhas. Qual é a porcentagem de bolinhas vermelhas na caixa?
+A) 5%
+B) 10%
+C) 15%
+D) 30%
+E) 50%
+CORRETA: C
+EXPLICACAO: Como o total já é 100 bolinhas, a quantidade direta de 15 representa exatamente 15%.
+---
+ENUNCIADO: Quanto é 70% de 10?
+A) 1
+B) 5
+C) 7
+D) 8
+E) 10
+CORRETA: C
+EXPLICACAO: Multiplicando 10 por 0,70 (representação decimal de 70%), obtemos 7.
+---
+ENUNCIADO: Um funcionário que ganha R$ 1.000,00 recebeu um aumento salarial de 5%. Qual foi o valor em reais desse AUMENTO?
+A) R$ 5,00
+B) R$ 50,00
+C) R$ 100,00
+D) R$ 150,00
+E) R$ 500,00
+CORRETA: B
+EXPLICACAO: 5% de R$ 1.000,00 é calculado multiplicando 1000 por 0,05, o que resulta em R$ 50,00.
+---
+ENUNCIADO: A fração 3/4 equivale a qual porcentagem?
+A) 30%
+B) 40%
+C) 50%
+D) 75%
+E) 80%
+CORRETA: D
+EXPLICACAO: Dividindo 3 por 4 obtemos 0,75, que ao multiplicar por 100 resulta em 75%.
+---
+ENUNCIADO: Quanto é 40% de 50?
+A) 10
+B) 15
+C) 20
+D) 25
+E) 30
+CORRETA: C
+EXPLICACAO: 10% de 50 é 5. Para obter 40%, multiplicamos 5 por 4, totalizando 20.
+---
+ENUNCIADO: Uma loja vendeu uma calça de R$ 80,00 com 50% de desconto. Quanto o cliente pagou pela calça?
+A) R$ 20,00
+B) R$ 30,00
+C) R$ 40,00
+D) R$ 50,00
+E) R$ 60,00
+CORRETA: C
+EXPLICACAO: 50% é a metade do valor. A metade de R$ 80,00 é R$ 40,00.
+---
+ENUNCIADO: Como é representada a fração 1/10 em porcentagem?
+A) 1%
+B) 5%
+C) 10%
+D) 100%
+E) 0,1%
+CORRETA: C
+EXPLICACAO: Dividindo 1 por 10 obtemos 0,10, o que equivale a 10%.
+---
+ENUNCIADO: Sabendo que 50% de um número é igual a 15, qual é esse número inteiro?
+A) 20
+B) 25
+C) 30
+D) 45
+E) 60
+CORRETA: C
+EXPLICACAO: Se 50% (a metade) é 15, o número inteiro (100%) é o dobro de 15, que é igual a 30.
+---
+ENUNCIADO: Em uma pesquisa feita com 200 pessoas, 10% disseram preferir a cor azul. Quantas pessoas preferem a cor azul?
+A) 10
+B) 20
+C) 30
+D) 40
+E) 50
+CORRETA: B
+EXPLICACAO: 10% de 200 é obtido dividindo 200 por 10, o que resulta em 20 pessoas.
+---
+ENUNCIADO: Quanto é 80% de 50?
+A) 30
+B) 35
+C) 40
+D) 45
+E) 50
+CORRETA: C
+EXPLICACAO: 10% de 50 é 5. Multiplicando 5 por 8 para obter 80%, temos 40.
+---
+ENUNCIADO: Um produto custa R$ 120,00 e sofreu um reajuste para cima de 10%. Qual foi o valor exato do AUMENTO em reais?
+A) R$ 10,00
+B) R$ 12,00
+C) R$ 15,00
+D) R$ 20,00
+E) R$ 132,00
+CORRETA: B
+EXPLICACAO: O valor do aumento corresponde a 10% de R$ 120,00, que é R$ 12,00.
