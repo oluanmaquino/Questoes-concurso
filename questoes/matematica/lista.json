@@ -1,10 +1,4 @@
 [
-  {
-    "prefixo": "cu",
-    "nome": "Porcentagem"
-  },
-  {
-    "prefixo": "equacao1grau",
-    "nome": "Equação do 1º Grau"
-  }
+  { "prefixo": "equacao1grau", "nome": "Equação do 1º Grau" },
+  { "prefixo": "porcentagem", "nome": "Porcentagem" }
 ]

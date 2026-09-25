@@ -1,6 +1,5 @@
 [
-  {
-    "prefixo": "constituicao",
-    "nome": "Direito Constitucional"
-  }
+  { "prefixo": "cadh", "nome": "Convenção Americana de Direitos Humanos" },
+  { "prefixo": "constituicao", "nome": "Constituição Federal" },
+  { "prefixo": "dudh", "nome": "Declaração Universal dos Direitos Humanos" }
 ]

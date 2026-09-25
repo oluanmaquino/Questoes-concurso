@@ -1,14 +1,7 @@
 [
-  {
-    "prefixo": "windows11",
-    "nome": "Windows 11"
-  },
-  {
-    "prefixo": "googlechrome",
-    "nome": "Google Chrome"
-  },
-  {
-    "prefixo": "malware",
-    "nome": "Malwares e Ameaças"
-  }
+  { "prefixo": "excel", "nome": "Microsoft Excel" },
+  { "prefixo": "googlechromme", "nome": "Google Chrome" },
+  { "prefixo": "malwares", "nome": "Malwares e Segurança" },
+  { "prefixo": "windows11", "nome": "Windows 11" },
+  { "prefixo": "word", "nome": "Microsoft Word" }
 ]

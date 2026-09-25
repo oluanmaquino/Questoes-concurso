@@ -31,27 +31,57 @@ function formatarTexto(texto) {
   return texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 }
 
-/* ROTEAMENTO DE TELAS */
-function abrirModuloQuestoes() {
+/* ROTEAMENTO DE TELAS DO HUB */
+async function abrirModuloQuestoes() {
   const container = document.getElementById('grid-disciplinas-questoes');
+  container.innerHTML = '<div style="color: var(--text-muted); grid-column: 1 / -1; text-align: center; padding: 20px;">Carregando disciplinas e quantidade de questões...</div>';
+
+  document.getElementById('tela-hub').style.display = 'none';
+  document.getElementById('tela-selecao-questoes').style.display = 'block';
+
   container.innerHTML = '';
 
-  DISCIPLINAS_DISPONIVEIS.forEach(disc => {
+  for (const disc of DISCIPLINAS_DISPONIVEIS) {
+    let totalQuestoesDisciplina = 0;
+
+    try {
+      const respLista = await fetch(`questoes/${disc.id}/lista.json`);
+      if (respLista.ok) {
+        const textoJson = await respLista.text();
+        if (textoJson.trim()) {
+          const listaAssuntos = JSON.parse(textoJson);
+          
+          const promessasAssuntos = listaAssuntos.map(async (item) => {
+            const prefixo = typeof item === 'object' ? (item.prefixo || item.arquivo?.replace('.txt', '')) : item.replace('.txt', '');
+            const nomeAssunto = typeof item === 'object' ? (item.nome || prefixo) : prefixo;
+            
+            const questoesAssunto = await carregarTodosArquivosDoAssunto(disc.id, prefixo, nomeAssunto, disc.nome);
+            return questoesAssunto.length;
+          });
+
+          const totaisPorAssunto = await Promise.all(promessasAssuntos);
+          totalQuestoesDisciplina = totaisPorAssunto.reduce((a, b) => a + b, 0);
+        }
+      }
+    } catch (e) {
+      console.error(`Erro ao carregar contagem para ${disc.nome}:`, e);
+    }
+
     const btn = document.createElement('button');
     btn.className = 'btn-discipline';
     btn.onclick = () => abrirFiltroDisciplina(disc.id, disc.nome);
     btn.innerHTML = `
       <div class="disc-content">
         <span class="disc-icon"><svg viewBox="0 0 24 24">${disc.svg}</svg></span>
-        <span>${disc.nome}</span>
+        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+          <span>${disc.nome}</span>
+          <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500; margin-top: 2px;">${totalQuestoesDisciplina} questões disponíveis</span>
+        </div>
       </div>
       ➔
     `;
     container.appendChild(btn);
-  });
-
-  document.getElementById('tela-hub').style.display = 'none';
-  document.getElementById('tela-selecao-questoes').style.display = 'block';
+  }
 }
 
 function abrirModuloSimulado() {
@@ -99,7 +129,7 @@ function voltarParaSelecaoQuestoes() {
   document.getElementById('tela-selecao-questoes').style.display = 'block';
 }
 
-/* BUSCA AUTOMÁTICA DE ARQUIVOS COM MESMO PREFIXO */
+/* CARREGAMENTO DE ARQUIVOS E PARSER TXT */
 async function carregarTodosArquivosDoAssunto(pasta, prefixo, nomeAssunto, nomeMateria) {
   let questoesDoAssunto = [];
 
@@ -128,7 +158,6 @@ async function carregarTodosArquivosDoAssunto(pasta, prefixo, nomeAssunto, nomeM
   return questoesDoAssunto;
 }
 
-/* CARREGAMENTO DE ASSUNTOS DA DISCIPLINA */
 async function abrirFiltroDisciplina(pasta, nomeExibicao) {
   pastaDisciplinaAtual = pasta;
   nomeDisciplinaAtual = nomeExibicao;
@@ -187,7 +216,7 @@ function verificarSelecaoFiltros() {
   document.getElementById('chk-todos').checked = todosMarcados;
 }
 
-/* MÓDULO 1: INICIAR MODO QUESTÕES */
+/* INICIALIZAÇÃO DO QUIZ E SIMULADOS */
 async function iniciarQuizComFiltro() {
   const chks = document.querySelectorAll('.chk-assunto:checked');
   if (chks.length === 0) {
@@ -232,7 +261,6 @@ async function iniciarQuizComFiltro() {
   }
 }
 
-/* MÓDULO 2: GERAR SIMULADO CUSTOMIZADO */
 async function gerarSimuladoCustomizado() {
   const chks = document.querySelectorAll('.chk-simulado-disc:checked');
   if (chks.length === 0) {
@@ -387,11 +415,12 @@ function parseTXT(texto, assunto, nomeMateria) {
   });
 }
 
+/* RENDERIZAÇÃO DA PÁGINA E INTERAÇÕES DAS QUESTÕES */
 function renderizarPagina() {
   const container = document.getElementById('questoes-feed-container');
   container.innerHTML = '';
 
-  const totalPaginas = Math.ceil(bancoQuestoes.length / QUESTOES_POR_PAGINA);
+  const totalPaginas = Math.ceil(bancoQuestoes.length / QUESTOES_POR_PAGINA) || 1;
   const inicio = (paginaAtual - 1) * QUESTOES_POR_PAGINA;
   const fim = Math.min(inicio + QUESTOES_POR_PAGINA, bancoQuestoes.length);
 
@@ -543,7 +572,7 @@ function mudarPagina(delta) {
   renderizarPagina();
 }
 
-/* ATUALIZAÇÃO DAS ESTATÍSTICAS E RENDIMENTO DO GRÁFICO */
+/* ESTATÍSTICAS E GRÁFICO DE RENDIMENTO */
 function atualizarEstatisticas() {
   document.getElementById('stat-total').textContent = totalRespondidas;
   document.getElementById('stat-acertos').textContent = totalAcertos;
@@ -560,7 +589,6 @@ function atualizarGraficoDashboard(acertos, erros) {
   const ctx = canvas.getContext('2d');
   const total = acertos + erros;
 
-  // Se ainda não houver dados, mostra gráfico neutro cinzento
   const dataValues = total > 0 ? [acertos, erros] : [0, 1];
   const bgColors = total > 0 ? ['#22c55e', '#ef4444'] : ['#23232f', '#23232f'];
 

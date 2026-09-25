@@ -1,14 +1,10 @@
 [
-  {
-    "prefixo": "crase",
-    "nome": "Crase"
-  },
-  {
-    "prefixo": "conj",
-    "nome": "Conjunção"
-  },
-  {
-    "prefixo": "adv",
-    "nome": "Advérbio"
-  }
+  { "prefixo": "acentuacao", "nome": "Acentuação Gráfica" },
+  { "prefixo": "adverbios", "nome": "Advérbios" },
+  { "prefixo": "classesgramaticais", "nome": "Classes Gramaticais" },
+  { "prefixo": "colocacaopronominal", "nome": "Colocação Pronominal" },
+  { "prefixo": "conjuncoes", "nome": "Conjunções" },
+  { "prefixo": "crase", "nome": "Crase" },
+  { "prefixo": "pontuacao", "nome": "Pontuação" },
+  { "prefixo": "sujeito", "nome": "Sujeito e Termos da Oração" }
 ]
