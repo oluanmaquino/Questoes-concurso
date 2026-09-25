@@ -1,0 +1,134 @@
+ENUNCIADO: De acordo com a Declaração Universal dos Direitos Humanos (DUDH), todos os seres humanos nascem livres e iguais em dignidade e em direitos. Dotados de razão e de consciência, devem agir uns para com os outros em espírito de:
+A) Competição
+B) Fraternidade
+C) Subordinação
+D) Indiferença
+E) Isolamento
+CORRETA: B
+EXPLICACAO: O artigo 1º da DUDH estabelece expressamente que todos os seres humanos nascem livres e iguais em dignidade e direitos, devendo agir uns para com os outros em espírito de fraternidade.
+---
+ENUNCIADO: Segundo a Declaração Universal dos Direitos Humanos, todo ser humano tem capacidade para gozar os direitos e os liberdades estabelecidos na Declaração, sem distinção de qualquer espécie, seja de raça, cor, sexo, língua, religião, opinião política ou outra, origem nacional ou social, riqueza, nascimento ou:
+A) Apenas estado civil
+B) Apenas profissão
+C) Qualquer outra condição
+D) Apenas nível de escolaridade
+E) Apenas histórico criminal
+CORRETA: C
+EXPLICACAO: Conforme o Artigo 2º da DUDH, a proteção dos direitos aplica-se a todos sem distinção alguma, abrangendo "qualquer outra condição".
+---
+ENUNCIADO: Conforme a DUDH, todo ser humano tem direito à vida, à liberdade e à segurança:
+A) Patrimonial
+B) Pessoal
+C) Institucional
+D) Digital
+E) Empresarial
+CORRETA: B
+EXPLICACAO: O Artigo 3º da DUDH garante de forma direta e sucinta que todo ser humano tem direito à vida, à liberdade e à segurança pessoal.
+---
+ENUNCIADO: A Declaração Universal dos Direitos Humanos proíbe terminantemente que alguém seja mantido em escravidão ou em servidão, estipulando que a escravidão e o tráfico de escravos estarão proibidos em:
+A) Algumas regiões
+B) Todas as suas formas
+C) Situações de conflito armado
+D) Âmbito exclusivamente comercial
+E) Casos de condenação penal severa
+CORRETA: B
+EXPLICACAO: O Artigo 4º da DUDH afirma categoricamente que ninguém será mantido em escravidão ou servidão, sendo proibidas em todas as suas formas.
+---
+ENUNCIADO: De acordo com o Artigo 5º da DUDH, ninguém será submetido à tortura nem a tratamento ou a pena:
+A) Pecuniária excessiva
+B) Coletiva
+C) Cruel, desumana ou degradante
+D) Privativa de liberdade superior a 30 anos
+E) Restritiva de direitos civis
+CORRETA: C
+EXPLICACAO: O texto literal do Artigo 5º da DUDH protege a integridade física e moral vedando torturas e tratamentos cruéis, desumanos ou degradantes.
+---
+ENUNCIADO: Todo ser humano tem o direito de ser reconhecido, em todos os lugares, como pessoa perante a:
+A) Lei
+B) Religião
+C) Sociedade empresarial
+D) Família
+E) Comunidade internacional
+CORRETA: A
+EXPLICACAO: O Artigo 6º da DUDH assegura o direito fundamental ao reconhecimento da personalidade jurídica, ou seja, ser pessoa perante a lei.
+---
+ENUNCIADO: Segundo a DUDH, todos são iguais perante a lei e têm direito, sem qualquer distinção, a:
+A) Igual remuneração corporativa
+B) Igual proteção da lei
+C) Votação obrigatória
+D) Isenção de impostos
+E) Cargos públicos vitalícios
+CORRETA: B
+EXPLICACAO: O Artigo 7º da DUDH consagra a igualdade perante a lei e o direito à igual proteção contra qualquer discriminação.
+---
+ENUNCIADO: Todo ser humano tem direito a receber dos tribunais nacionais competentes remédio efetivo para os atos que violem os direitos fundamentais que lhe sejam reconhecidos pela:
+A) Polícia civil
+B) Constituição ou pela lei
+C) Guarda municipal
+D) Administração pública municipal
+E) Convenção coletiva de trabalho
+CORRETA: B
+EXPLICACAO: O Artigo 8º da DUDH trata do direito de recurso a tribunais competentes contra violações de direitos garantidos pela constituição ou pelas leis.
+---
+ENUNCIADO: De acordo com a DUDH, ninguém será sujeito a prisão, detenção ou exílio:
+A) Sem mandado de busca e apreensão
+B) Arbitrários
+C) Durante feriados nacionais
+D) Por dívidas civis de consumo
+E) Sem a presença de um familiar
+CORRETA: B
+EXPLICACAO: O Artigo 9º da DUDH veda expressamente a prisão, detenção ou o exílio arbitrários.
+---
+ENUNCIADO: Todo ser humano tem direito, em plena igualdade, a uma justa e pública audiência por parte de um tribunal independente e imparcial, para decidi-sê-re sobre seus direitos e deveres ou do fundamento de:
+A) Qualquer acusação criminal contra ele
+B) Dívidas comerciais contraídas
+C) Contratos de locação residencial
+D) Acordos trabalhistas informais
+E) Desentendimentos familiares
+CORRETA: A
+EXPLICACAO: O Artigo 10 da DUDH garante o direito a um julgamento justo, público, independente e imparcial, especialmente em acusações de caráter criminal.
+---
+ENUNCIADO: Toda pessoa acusada de um ato delituoso tem o direito de ser presumida inocente até que a sua culpa tenha sido provada de acordo com a lei, em julgamento público no qual lhe tenham sido asseguradas todas as garantias necessárias para a sua:
+A) Progressão de regime
+B) Defesa
+C) Indonímia financeira
+D) Progressão funcional
+E) Cidadania estrangeira
+CORRETA: B
+EXPLICACAO: O Artigo 11, item 1, da DUDH consagra o princípio fundamental da presunção de inocência e o direito à ampla defesa.
+---
+ENUNCIADO: Ninguém será arbitrariamente interferido em sua vida privada, em sua família, em seu domicílio ou em sua correspondência, nem sofrerá ataques à sua honra e à sua reputação. Toda pessoa tem direito à proteção da lei contra tais interferências ou:
+A) Censuras políticas
+B) Ataques
+C) Multas fiscais
+D) Desapropriações urbanas
+E) Confinamentos territoriais
+CORRETA: B
+EXPLICACAO: O Artigo 12 da DUDH protege a privacidade, o domicílio e a honra contra interferências arbitrárias e ataques.
+---
+ENUNCIADO: Todo ser humano tem direito à liberdade de locomoção e residência dentro das fronteiras de cada:
+A) Continente
+B) Estado
+C) Município metropolitano
+D) Bloco econômico
+E) Província autônoma
+CORRETA: B
+EXPLICACAO: O Artigo 13, item 1, da DUDH garante que todo ser humano tem direito à livre circulação e escolha de residência dentro das fronteiras de cada Estado.
+---
+ENUNCIADO: Todo ser humano, vítima de perseguição, tem o direito de procurar e de gozar asilo em:
+A) Embaixadas militares
+B) Outros países
+C) Organizações não governamentais
+D) Tribunais internacionais
+E) Zonas francas de comércio
+CORRETA: B
+EXPLICACAO: O Artigo 14, item 1, da DUDH assegura o direito de buscar e obter asilo político em outros países em caso de perseguição.
+---
+ENUNCIADO: Todo ser humano tem direito a uma nacionalidade. Ninguém será arbitrariamente privado de sua nacionalidade nem do direito de mudar de:
+A) Partido político
+B) Nacionalidade
+C) Residência fiscal
+D) Profissão regulamentada
+E) Convenção religiosa
+CORRETA: B
+EXPLICACAO: O Artigo 15 da DUDH estabelece que todo indivíduo tem direito a uma nacionalidade e veda a privação arbitrária dela ou do direito de alterá-la.

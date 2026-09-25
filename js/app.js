@@ -3,7 +3,8 @@ const DISCIPLINAS_DISPONIVEIS = [
   { id: 'portugues', nome: 'Língua Portuguesa', svg: '<path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17H7.5A2.5 2.5 0 0 0 5 21.5V4.5Z"/><path d="M5 4.5V21.5"/><path d="M9 7h7M9 10.5h7M9 14h5"/>' },
   { id: 'direito', nome: 'Noções de Direito', svg: '<path d="M12 4v13"/><path d="M5 7h14"/><path d="M4 7l-3 6a4 4 0 0 0 6 0L4 7Z"/><path d="M20 7l-3 6a4 4 0 0 0 6 0l-3-6Z"/><path d="M8 20h8"/><path d="M10 17h4"/>' },
   { id: 'informatica', nome: 'Informática', svg: '<rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6.5 6.5h11"/>' },
-  { id: 'matematica', nome: 'Matemática', svg: '<rect x="5" y="2.5" width="14" height="19" rx="2"/><path d="M8 6.5h8"/><path d="M8 10.5h2M12 10.5h2M16 10.5h0M8 14h2M12 14h2M16 14h0M8 17.5h2M12 17.5h2M16 17.5h0"/>' }
+  { id: 'matematica', nome: 'Matemática', svg: '<rect x="5" y="2.5" width="14" height="19" rx="2"/><path d="M8 6.5h8"/><path d="M8 10.5h2M12 10.5h2M16 10.5h0M8 14h2M12 14h2M16 14h0M8 17.5h2M12 17.5h2M16 17.5h0"/>' },
+  { id: 'contabilidade', nome: 'Contabilidade', svg: '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h2M6 10h2M6 14h2M12 6h6M12 10h6M12 14h6"/>' }
 ];
 
 let pastaDisciplinaAtual = "";

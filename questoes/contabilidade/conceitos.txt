@@ -1,0 +1,449 @@
+ENUNCIADO: De acordo com a doutrina e os conceitos fundamentais da disciplina, a Contabilidade é classificada primariamente como uma:
+A) Ciência exata
+B) Ciência social
+C) Técnica puramente comercial
+D) Arte abstrata
+E) Metodologia estatística
+CORRETA: B
+EXPLICACAO: A contabilidade é classificada como uma ciência social (ou ciência social aplicada / ramo autônomo de conhecimento), jamais como ciência exata ou arte.
+---
+ENUNCIADO: Assinale a alternativa que apresenta o objeto principal de estudo da Contabilidade:
+A) O lucro líquido operacional
+B) O patrimônio de uma entidade
+C) O fluxo de caixa projetado
+D) As obrigações tributárias federais
+E) O mercado financeiro global
+CORRETA: B
+EXPLICACAO: O objeto de estudo da contabilidade são os fenômenos patrimoniais, ou seja, o patrimônio (bens, direitos e obrigações) de uma entidade.
+---
+ENUNCIADO: O campo de aplicação da Contabilidade é amplo e abrange qualquer entidade ou organização econômica que possua patrimônio, sendo representada na doutrina pelo termo italiano:
+A) Custo
+B) Azienda
+C) Passivo
+D) Ativo
+E) Balanço
+CORRETA: B
+EXPLICACAO: O campo de aplicação da contabilidade resume-se ao termo italiano azienda, que engloba empresas, entes públicos e até o patrimônio relevante de pessoas físicas.
+---
+ENUNCIADO: O acrônimo CORE é utilizado para memorizar as funções básicas da Contabilidade. O que significam as letras dessa sigla?
+A) Custo, Orçamento, Receita e Estoque
+B) Controle, Organização, Registro e Estudo
+C) Crédito, Operação, Renda e Empréstimo
+D) Capital, Obrigação, Resultado e Economia
+E) Classificação, Organização, Remuneração e Escrita
+CORRETA: B
+EXPLICACAO: As funções da contabilidade estudadas pelo macete CORE são: Controle, Organização (ou Orientação), Registro e Estudo (Análise).
+---
+ENUNCIADO: Segundo o conceito estabelecido pelo Primeiro Congresso de Contabilidade, realizado em 1924, a contabilidade tem como função a organização, o controle e o registro de:
+A) Apenas os lucros e prejuízos
+B) Atos e fatos de uma entidade
+C) Apenas as obrigações trabalhistas
+D) Títulos e valores mobiliários
+E) Movimentações bancárias diárias
+CORRETA: B
+EXPLICACAO: O Primeiro Congresso de Contabilidade (1924) definiu a contabilidade como a ciência social que estuda e pratica a função de organização, controle e registro dos atos e fatos de uma entidade.
+---
+ENUNCIADO: Em abordagens contemporâneas e por instituições como o IBRACON, a contabilidade também pode ser conceituada como um(a):
+A) Sistema de informações financeiras
+B) Ferramenta exclusiva de auditoria fiscal
+C) Método de cálculo de impostos estaduais
+D) Registro linear de transações mercantis
+E) Técnica de controle de produção industrial
+CORRETA: A
+EXPLICACAO: A contabilidade contemporânea é frequentemente compreendida como um sistema de informações financeiras voltado para o suporte à gestão e tomada de decisões.
+---
+ENUNCIADO: Dentre as classificações abaixo, aquela que NÃO corresponde à natureza da Contabilidade é:
+A) Ciência social aplicada
+B) Ramo autônomo de conhecimento
+C) Ciência exata
+D) Ciência social
+E) Sistema de informações financeiras
+CORRETA: C
+EXPLICACAO: A contabilidade não é uma ciência exata; ela lida com relações sociais e patrimoniais, sendo classificada como ciência social.
+---
+ENUNCIADO: A função de Controle, integrante do acrônimo CORE, tem por objetivo principal na contabilidade:
+A) Calcular o imposto de renda retido na fonte
+B) Acompanhar e verificar a integridade e o estado do patrimônio
+C) Determinar o preço de venda dos produtos
+D) Elaborar propagandas institucionais
+E) Recrutar profissionais para o setor financeiro
+CORRETA: B
+EXPLICACAO: A função de controle serve para acompanhar e verificar o estado do patrimônio, prevenindo desvios e possibilitando auditorias.
+---
+ENUNCIADO: O patrimônio, objeto de estudo da contabilidade, é composto tecnicamente por:
+A) Apenas dinheiro em espécie e depósitos bancários
+B) Bens, direitos e obrigações
+C) Apenas bens imóveis e móveis
+D) Receitas, despesas, custos e lucros
+E) Apenas dívidas de curto prazo
+CORRETA: B
+EXPLICACAO: Patrimônio é o conjunto de bens, direitos e obrigações de uma entidade, seja pessoa física ou jurídica.
+---
+ENUNCIADO: Além do registro das operações, a contabilidade também realiza a mensuração e a:
+A) Avaliação do patrimônio
+B) Liquidação judicial das dívidas
+C) Fiscalização trabalhista dos funcionários
+D) Auditoria externa obrigatória dos concorrentes
+E) Coleta de impostos municipais
+CORRETA: A
+EXPLICACAO: A contabilidade mede e avalia os elementos patrimoniais, aplicando critérios e normas próprias de mensuração.
+---
+ENUNCIADO: Assinale a alternativa correta sobre o que a Contabilidade NÃO é, de acordo com a doutrina contábil clássica:
+A) Uma ciência
+B) Uma arte ou mera técnica isolada
+C) Um sistema de informações
+D) Um ramo autônomo de conhecimento
+E) Uma ciência social
+CORRETA: B
+EXPLICACAO: A doutrina reforça que a contabilidade não é arte, nem mera técnica isolada ou prática sem embasamento científico, mas sim uma ciência.
+---
+ENUNCIADO: O termo azienda, que define o campo de aplicação da contabilidade, refere-se a:
+A) Apenas empresas multinacionais de capital aberto
+B) Qualquer organização ou atividade econômica com patrimônio
+C) Exclusivamente órgãos da administração pública federal
+D) Associações sem fins lucrativos sem empregados
+E) Instituições financeiras autorizadas pelo Banco Central
+CORRETA: B
+EXPLICACAO: Azienda é o conceito italiano que abrange qualquer organização ou atividade econômica, incluindo empresas, entes públicos e o patrimônio de pessoas físicas.
+---
+ENUNCIADO: A função de Registro (parte do acrônimo CORE) consiste basicamente em:
+A) Elaborar o planejamento estratégico da empresa
+B) Documentar atos e fatos contábeis de forma cronológica e organizada
+C) Definir a missão e os valores corporativos
+D) Realizar o atendimento ao cliente final
+E) Emitir notas fiscais eletrônicas de venda
+CORRETA: B
+EXPLICACAO: O registro é o sistema de escrituração que documenta cronológica e organizadamente os atos e fatos contábeis.
+---
+ENUNCIADO: A função de Estudo ou Análise (letra E do CORE) tem por finalidade:
+A) Interpretar as informações contábeis para subsidiar decisões
+B) Arquivar documentos físicos em pastas suspensas
+C) Preencher guias de recolhimento de tributos
+D) Realizar inventário físico de mercadorias no estoque
+E) Controlar o ponto eletrônico dos funcionários
+CORRETA: A
+EXPLICACAO: A função de estudo consiste na análise e interpretação das informações geradas para subsidiar o conhecimento e a tomada de decisões.
+---
+ENUNCIADO: Em relação à incidência de cálculos em provas de concursos para o tópico de conceitos iniciais da contabilidade, é correto afirmar que:
+A) A cobrança de cálculos complexos é superior a 80%
+B) O foco recai massivamente sobre conceitos, interpretações e normas, com baixa incidência de cálculos
+C) É exigida a elaboração completa de um balanço patrimonial com fórmulas estatísticas
+D) O conteúdo exige conhecimentos avançados de matemática financeira
+E) Os cálculos representam a metade da nota da prova
+CORRETA: B
+EXPLICACAO: A expectativa teórica e prática para provas indica uma baixa incidência de cálculos nos conceitos iniciais, focando-se em definições e interpretações.
+---
+ENUNCIADO: A contabilidade pode ser aplicada:
+A) Exclusivamente a empresas comerciais com fins lucrativos
+B) Apenas a sociedades anônimas de capital aberto
+C) A qualquer pessoa (física ou jurídica) que possua patrimônio relevante
+D) Somente a órgãos governamentais federais
+E) Apenas a empresas prestadoras de serviços
+CORRETA: C
+EXPLICACAO: O campo de aplicação abrange entidades públicas, empresas privadas e também a gestão patrimonial de pessoas físicas.
+---
+ENUNCIADO: Quando uma questão de prova afirma que "a contabilidade é uma ciência exata", o candidato deve considerar a afirmação como:
+A) Correta, pois utiliza números e balanços
+B) Incorreta, pois a contabilidade é uma ciência social
+C) Parcialmente correta em âmbito fiscal
+D) Correta apenas para empresas S.A.
+E) Correta segundo o IBRACON
+CORRETA: B
+EXPLICACAO: Trata-se de uma pegadinha clássica de banca: a contabilidade não é ciência exata, mas sim ciência social (ou social aplicada).
+---
+ENUNCIADO: A contabilidade é considerada um ramo autônomo de conhecimento por doutrinadores renomados como:
+A) López de Sá
+B) Adam Smith
+C) Karl Marx
+D) Albert Einstein
+E) John Keynes
+CORRETA: A
+EXPLICACAO: Doutrinadores como López de Sá reconhecem formalmente a contabilidade como um ramo autônomo de conhecimento e ciência social.
+---
+ENUNCIADO: O termo "social" na expressão "ciência social" aplicada à contabilidade refere-se principalmente:
+A) Aos programas de assistência social do governo
+B) Às relações entre os elementos patrimoniais (contas) e os usuários/donos do patrimônio
+C) À quantidade de funcionários contratados por uma empresa
+D) Aos impostos pagos sobre a folha de pagamento
+E) Ao sindicato dos profissionais da área contábil
+CORRETA: B
+EXPLICACAO: O termo social traduz os vínculos informacionais e as relações entre o patrimônio e os entes/pessoas que o controlam ou dele dependem.
+---
+ENUNCIADO: O conceito ampliado da contabilidade, compilado das bancas examinadoras, destaca as funções do CORE. O que significa a letra 'O' nessa sigla?
+A) Orçamento
+B) Organização (ou Orientação)
+C) Obrigação
+D) Operação
+E) Outorga
+CORRETA: B
+EXPLICACAO: A letra O refere-se à Organização (ou Organização/Orientação), estruturando procedimentos para garantir consistência e comparabilidade.
+---
+ENUNCIADO: Assinale a alternativa que descreve corretamente a utilidade da contabilidade como sistema de informações:
+A) Fornecer dados úteis e relevantes para usuários internos e externos
+B) Substituir os sistemas de segurança digital de uma empresa
+C) Controlar exclusivamente os gastos pessoais dos sócios
+D) Isentar a empresa de quaisquer obrigações fiscais perante o Estado
+E) Realizar auditorias de qualidade na produção industrial
+CORRETA: A
+EXPLICACAO: Como sistema de informações financeiras, a contabilidade fornece dados úteis para gestores, investidores, fisco e credores tomarem decisões.
+---
+ENUNCIADO: O estudo da contabilidade possui um caráter sequencial. Isso significa que:
+A) Pode-se estudar qualquer tópico de forma aleatória sem prejuízo
+B) Os conceitos iniciais servem de base indispensável para os temas posteriores
+C) A matéria deve ser estudada de trás para frente
+D) O aluno só deve aprender fórmulas matemáticas avançadas no início
+E) A ordem dos assuntos não interfere no aprendizado
+CORRETA: B
+EXPLICACAO: A matéria é estritamente sequencial; um "furo" conceitual nos tópicos iniciais compromete o entendimento de toda a matéria à frente.
+---
+ENUNCIADO: A contabilidade estuda os fenômenos patrimoniais. Tais fenômenos decorrem de:
+A) Apenas atos da natureza sem intervenção humana
+B) Atos e fatos que afetam o patrimônio de uma entidade
+C) Decisões judiciais de tribunais internacionais
+D) Flutuações climáticas sazonais
+E) Variações no câmbio internacional de moedas exclusivamente
+CORRETA: B
+EXPLICACAO: Os fenômenos patrimoniais são exatamente os atos e fatos administrativos que alteram ou afetam o patrimônio da entidade.
+---
+ENUNCIADO: O cruzamento de dados fiscais (como o uso de CPF em notas fiscais e a verificação de renda) exemplifica a contabilidade atuando como:
+A) Ciência exata pura
+B) Sistema de informações financeiras e de controle
+C) Atividade artística e recreativa
+D) Ferramenta de marketing empresarial
+E) Método de controle de trânsito urbano
+CORRETA: B
+EXPLICACAO: O cruzamento de dados demonstra o papel informacional e de fiscalização/controle atribuído aos sistemas contábeis e fiscais modernos.
+---
+ENUNCIADO: De acordo com a teoria contábil, a avaliação e a mensuração do patrimônio consistem em:
+A) Atribuir valores monetários e critérios técnicos aos elementos patrimoniais
+B) Estimar o valor sentimental dos bens da empresa
+C) Calcular a depreciação física sem regras normativas
+D) Vender os bens de raiz para apurar capital de giro
+E) Distribuir lucros sem apuração de resultado
+CORRETA: A
+EXPLICACAO: A mensuração aplica critérios técnicos e normas para avaliar e quantificar monetariamente os elementos do patrimônio.
+---
+ENUNCIADO: Assinale a alternativa que apresenta uma incorreção frequentemente cobrada em provas sobre a natureza da contabilidade:
+A) Afirmar que é uma ciência social
+B) Afirmar que é uma mera técnica sem embasamento científico
+C) Reconhecê-la como um ramo autônomo de conhecimento
+D) Destacar seu papel como sistema de informações
+E) Apontá-la como ferramenta de suporte à tomada de decisões
+CORRETA: B
+EXPLICACAO: Dizer que a contabilidade é "mera técnica sem embasamento científico" é incorreto, sendo uma pegadinha recorrente em exames.
+---
+ENUNCIADO: O Primeiro Congresso de Contabilidade ocorreu em que ano, sendo referência clássica em questões de prova?
+A) 1900
+B) 1924
+C) 1950
+D) 1976
+E) 1988
+CORRETA: B
+EXPLICACAO: O Primeiro Congresso de Contabilidade ocorreu em 1924, cujo conceito histórico foca na organização, controle e registro dos atos e fatos.
+---
+ENUNCIADO: Sobre a abrangência da contabilidade para pessoas físicas, é correto afirmar que:
+A) É proibida por lei a aplicação de conceitos contábeis a CPFs
+B) Apenas pessoas jurídicas de direito público podem utilizar a contabilidade
+C) A administração de bens e patrimônio relevante de pessoas físicas pode ser objeto da contabilidade
+D) O patrimônio pessoal não gera fenômenos patrimoniais
+E) A contabilidade restringe-se a grandes corporações multinacionais
+CORRETA: C
+EXPLICACAO: O campo de aplicação da contabilidade abrange qualquer entidade ou pessoa (inclusive física) que possua patrimônio a ser controlado.
+---
+ENUNCIADO: Qual das seguintes alternativas descreve melhor a função de Orientação (ou Organização) dentro do acrônimo CORE?
+A) Estruturar informações e procedimentos para garantir consistência e comparabilidade
+B) Coletar impostos alfandegários nas fronteiras do país
+C) Vender ativos imobilizados obsoletos da empresa
+D) Contratar novos colaboradores para o departamento financeiro
+E) Realizar empréstimos bancários de longo prazo
+CORRETA: A
+EXPLICACAO: Organização e orientação estruturam dados e procedimentos para gerar relatórios consistentes e comparáveis.
+---
+ENUNCIADO: Por que a repetição constante dos conceitos iniciais é recomendada para o estudo da contabilidade?
+A) Porque a disciplina exige ratificação contínua devido à sua base conceitual teórica e normativa
+B) Porque as bancas repetem exatamente as mesmas questões sem alterar palavras
+C) Porque a contabilidade possui centenas de fórmulas matemáticas complexas para decorar
+D) Porque o aluno esquece o alfabeto contábil rapidamente
+E) Porque não existem livros atualizados sobre a matéria
+CORRETA: A
+EXPLICACAO: A contabilidade exige repetição e revisão constante para fixar conceitos teóricos que servem de alicerce para toda a disciplina.
+---
+ENUNCIADO: Quando uma banca utiliza alternativas como "arte", "técnica isolada" ou "metodologia pura" para definir a contabilidade, o candidato deve:
+A) Assinalar como correta, pois são sinônimos oficiais
+B) Desconsiderar, pois tais termos são armadilhas comuns em questões sobre a natureza da ciência
+C) Escolher a alternativa se houver menção ao IBRACON
+D) Considerar apenas se a questão for de nível superior
+E) Validar a resposta se o enunciado citar o ano de 1924
+CORRETA: B
+EXPLICACAO: Bancas usam "arte" ou "mera técnica" como pegadinhas clássicas para induzir o candidato ao erro sobre a natureza científica da contabilidade.
+---
+ENUNCIADO: O patrimônio de uma entidade é dinâmico porque:
+A) Os elementos que o compõem sofrem alterações constantes decorrentes de fatos contábeis
+B) Os bens materiais evaporam com o tempo físico
+C) As obrigações fiscais extinguem-se automaticamente todos os meses
+D) A moeda oficial do país muda diariamente
+E) Os direitos de uma empresa nunca podem ser cobrados
+CORRETA: A
+EXPLICACAO: O patrimônio é dinâmico em virtude dos fenômenos patrimoniais (fatos e atos administrativos) que modificam constantemente sua composição.
+---
+ENUNCIADO: A contabilidade interage diretamente com outras áreas do conhecimento. Qual é a principal interface prática destacada no material de estudo?
+A) Com a engenharia civil e arquitetura urbana
+B) Com a legislação, normas técnicas (como CPC) e regulação fiscal
+C) Com a medicina legal e farmacologia
+D) Com a agronomia e veterinária de grande porte
+E) Com a astronomia e exploração espacial
+CORRETA: B
+EXPLICACAO: A contabilidade faz cruzamento direto com a legislação, normas profissionais e regulamentos fiscais/tributários.
+---
+ENUNCIADO: A identificação correta da tipologia conceitual em uma prova de concurso exige que o candidato saiba distinguir entre:
+A) Definições doutrinárias, legais e normativas
+B) Apenas cálculos de juros compostos e simples
+C) O nome dos donos da empresa e o capital social
+D) A marca dos softwares de gestão utilizados
+E) O faturamento bruto e o lucro líquido
+CORRETA: A
+EXPLICACAO: Identificar se o enunciado busca a definição doutrinária, legal ou conceitual de normas específicas é essencial para não cair em pegadinhas.
+---
+ENUNCIADO: O objetivo principal de fornecer informações econômicas e financeiras relevantes através da contabilidade é:
+A) Subsidiar a tomada de decisões pelos usuários da informação
+B) Prender a atenção dos órgãos fiscalizadores de trânsito
+C) Impedir que a empresa realize investimentos externos
+D) Ocultar informações dos acionistas minoritários
+E) Substituir a auditoria interna por relatórios informais
+CORRETA: A
+EXPLICACAO: O propósito final de fornecer dados econômicos e financeiros é servir de suporte e relevância para a tomada de decisões.
+---
+ENUNCIADO: O que caracteriza um sistema de informações financeiras na visão contábil contemporânea?
+A) Um conjunto organizado de registros, processos e relatórios úteis à gestão e fiscalização
+B) Um programa de computador exclusivo para jogos de simulação empresarial
+C) Uma planilha eletrônica simples sem backup ou segurança
+D) Um registro informal de caixa feito em caderno de anotações particulares
+E) Um arquivo morto sem acesso por parte dos gestores
+CORRETA: A
+EXPLICACAO: O sistema de informações financeiras engloba processos, registros estruturados e relatórios úteis a gestores, fisco e investidores.
+---
+ENUNCIADO: No contexto do estudo patrimonial, as obrigações representam:
+A) Os bens de uso duradouro da entidade
+B) Os direitos a receber de clientes a prazo
+C) As dívidas e exigibilidades assumidas perante terceiros
+D) O capital próprio investido pelos sócios
+E) As reservas de lucros acumulados
+CORRETA: C
+EXPLICACAO: As obrigações constituem a parte passiva do patrimônio, refletindo as dívidas e compromissos exigíveis perante terceiros.
+---
+ENUNCIADO: Os direitos, dentro da estrutura patrimonial, representam:
+A) Valores a receber, créditos e recursos que a entidade possui em poder de terceiros
+B) Obrigações fiscais vencidas e não pagas
+C) Bens de consumo imediato utilizados na produção
+D) Prejuízos acumulados de exercícios anteriores
+E) O capital social subscrito e não integralizado pelos acionistas
+CORRETA: A
+EXPLICACAO: Direitos são os valores a receber e créditos que a entidade tem a seu favor perante terceiros.
+---
+ENUNCIADO: Os bens, que compõem o patrimônio juntamente com direitos e obrigações, podem ser classificados genericamente como:
+A) Coisas úteis e capazes de satisfazer as necessidades da entidade e possuir valor econômico
+B) Apenas dinheiro em espécie guardado em cofre forte
+C) Somente imóveis urbanos registrados em cartório
+D) Exclusivamente marcas e patentes comerciais
+E) Dívidas de longo prazo com instituições financeiras
+CORRETA: A
+EXPLICACAO: Bens são todas as coisas tangíveis ou intangíveis úteis à entidade, dotadas de expressão econômica.
+---
+ENUNCIADO: Qual a relevância do estudo aprofundado dos conceitos iniciais para o candidato a concursos públicos?
+A) Garantir que o candidato acerte questões conceituais básicas e construa uma base sólida para tópicos avançados
+B) Servir apenas para preencher o edital sem utilidade prática na prova
+C) Substituir a necessidade de estudar balanço patrimonial
+D) Permitir que o candidato atue como advogado tributarista imediatamente
+E) Dispensar a leitura da legislação societária
+CORRETA: A
+EXPLICACAO: Dominar os conceitos iniciais garante pontos essenciais em questões teóricas e assegura a compreensão dos tópicos complexos subsequentes.
+---
+ENUNCIADO: A leitura atenta do enunciado da questão é apontada nas orientações de estudo como fator crítico porque:
+A) Muitas alternativas incorretas decorrem de confusões geradas por leitura apressada (ex: confundir ciência exata com social)
+B) As provas de contabilidade não possuem texto nas perguntas
+C) O tempo de prova é sempre inferior a dez minutos
+D) As bancas utilizam letras estrangeiras nos enunciados
+E) A contabilidade não admite interpretação de texto
+CORRETA: A
+EXPLICACAO: A pressa na leitura é a principal causa de erros em questões conceituais simples, como confundir a natureza da ciência contábil.
+---
+ENUNCIADO: O termo "Controle" na sigla CORE refere-se diretamente a qual atividade contábil?
+A) Acompanhar e verificar a integridade patrimonial para prevenir desvios
+B) Controlar a vida pessoal dos acionistas majoritários
+C) Fiscalizar o cumprimento de metas de vendas comerciais
+D) Gerenciar a equipe de limpeza e portaria da empresa
+E) Determinar o cronograma de férias dos funcionários
+CORRETA: A
+EXPLICACAO: A função de controle visa proteger o patrimônio, acompanhar sua integridade e viabilizar auditorias preventivas.
+---
+ENUNCIADO: Assinale a alternativa correta quanto à abrangência da ciência contábil em relação ao lucro:
+A) A contabilidade restringe-se exclusivamente a apurar o lucro das empresas privadas mercantis
+B) A contabilidade vai muito além da apuração do lucro, estudando todo o patrimônio e seus fenômenos
+C) O único objetivo da contabilidade é calcular dividendos para acionistas
+D) Entes públicos possuem contabilidade mas nunca geram relatórios patrimoniais
+E) Pessoas físicas não podem apurar resultados econômicos
+CORRETA: B
+EXPLICACAO: Embora o lucro seja importante, o objeto da contabilidade é o patrimônio integral e seus fenômenos, abrangendo entidades com ou sem fins lucrativos.
+---
+ENUNCIADO: Qual das alternativas abaixo representa uma característica essencial para que a contabilidade seja considerada ciência?
+A) Possuir objeto próprio de estudo, finalidade, método e campo de aplicação definidos
+B) Basear-se em opiniões empíricas sem comprovação formal
+C) Depender exclusivamente da vontade subjetiva do administrador
+D) Alterar seus conceitos fundamentais a cada semana
+E) Não possuir normas ou princípios reguladores
+CORRETA: A
+EXPLICACAO: A contabilidade é ciência porque possui objeto próprio (patrimônio), finalidade, campo de aplicação (azienda) e normas técnicas próprias.
+---
+ENUNCIADO: O desenvolvimento da contabilidade como sistema de informações financeiras atende primordialmente a quais grupos de usuários?
+A) Apenas aos proprietários ocultos da empresa
+B) Gestores, investidores, fisco, credores e sociedade em geral
+C) Exclusivamente aos concorrentes comerciais do mercado
+D) Somente aos tribunais de justiça criminal
+E) Apenas aos auditores fiscais municipais
+CORRETA: B
+EXPLICACAO: Os relatórios contábeis servem a uma ampla gama de usuários internos (gestores) e externos (fisco, investidores, credores).
+---
+ENUNCIADO: O que estipula a visão de López de Sá e outros doutrinadores clássicos sobre a autonomia da contabilidade?
+A) Que ela é um ramo autônomo de conhecimento científico
+B) Que ela é um subdepartamento da matemática financeira
+C) Que ela depende inteiramente da ciência do direito para existir
+D) Que ela não possui regras próprias de escrituração
+E) Que ela deve ser agrupada junto à estatística descritiva
+CORRETA: A
+EXPLICACAO: Doutrinadores clássicos defendem a autonomia científica da contabilidade como ramo autônomo do saber humano.
+---
+ENUNCIADO: A função de Estudo (análise) na contabilidade moderna é potencializada por qual ferramenta tecnológica ou processual?
+A) Cruzamento automatizado de dados e sistemas de relatórios gerenciais avançados
+B) Folhas de papel quadriculado preenchidas manualmente a lápis
+C) Calculadoras de quatro operações sem memória
+D) Arquivos físicos de papel em armários de aço
+E) Livros diários encadernados à mão
+CORRETA: A
+EXPLICACAO: Atualmente, a análise e o estudo contábil utilizam sistemas informatizados, cruzamento de dados (como CPF, notas fiscais) e relatórios gerenciais robustos.
+---
+ENUNCIADO: Dentre as opções abaixo, qual delas descreve corretamente um "fato contábil" que afeta o objeto da contabilidade?
+A) A contratação de um empregado sem movimentação financeira imediata
+B) O pagamento de uma dívida com juros, alterando o valor do patrimônio líquido
+C) A assinatura de uma carta de intenções de parceria comercial futura
+D) A elaboração de um memorando interno de diretrizes administrativas
+E) A visita de um cliente potencial às instalações da empresa
+CORRETA: B
+EXPLICACAO: Fatos contábeis são eventos que alteram (modificam) o patrimônio da entidade, ao contrário dos atos puramente administrativos.
+---
+ENUNCIADO: O encerramento do estudo dos conceitos iniciais com foco na aprovação em concursos públicos exige do estudante:
+A) Memorização passiva sem resolução de exercícios
+B) Consolidação sólida dos conceitos para evitar lacunas nas etapas sequenciais da matéria
+C) Foco exclusivo em fórmulas de contabilidade de custos avançada
+D) Leitura dinâmica sem fixação de siglas como o CORE
+E) Substituição do material teórico por resumos de outras disciplinas
+CORRETA: B
+EXPLICACAO: Consolidar os conceitos iniciais impede falhas na sequência lógica da disciplina, garantindo segurança para os tópicos mais avançados.
+---
+ENUNCIADO: O sucesso na preparação para concursos públicos através de questões de contabilidade depende essencialmente de:
+A) Decoreba sem compreensão lógica dos conceitos iniciais
+B) Compreensão teórica sólida, resolução constante de questões e revisão dos tópicos fundamentais
+C) Abandono da teoria após a primeira semana de estudo
+D) Foco exclusivo em matérias de exatas
+E) Leitura apressada dos enunciados das bancas
+CORRETA: B
+EXPLICACAO: A preparação de alta performance exige uma base teórica sólida nos conceitos iniciais, aliada à prática constante por questões e revisões frequentes.
