@@ -9,7 +9,7 @@
   --text-main: #f1f1f5;
   --text-muted: #9ba1b0;
   --accent-color: #facc15;
-  --primary: #526541; /* Tom de verde/oliva similar ao da imagem de referência */
+  --primary: #526541;
   --primary-hover: #5f754b;
   
   --success: #22c55e;
@@ -24,6 +24,7 @@
   margin: 0;
   padding: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent; /* Remove o destaque cinza/azul ao tocar no telemóvel */
 }
 
 body {
@@ -298,6 +299,7 @@ body {
   padding: 14px 16px;
   border-radius: 10px;
   cursor: pointer;
+  user-select: none;
 }
 
 .filter-item input[type="checkbox"] {
@@ -358,27 +360,21 @@ body {
 
 .options-list { display: flex; flex-direction: column; gap: 12px; }
 
+/* BLOCO DA ALTERNATIVA */
 .option-item {
   display: flex;
   align-items: center;
   background-color: var(--option-bg);
   border: 1px solid var(--option-border);
   border-radius: 8px;
-  padding: 10px 14px;
+  padding: 12px 14px;
   cursor: pointer;
   transition: all 0.2s ease;
   position: relative;
-  user-select: none; /* Evita que o texto fique azul/selecionado no PC */
-}
-
-/* Garante que os filhos diretos não bloqueiam o clique do card principal */
-.option-item * {
-  pointer-events: none;
-}
-
-/* Exceção: o botão da tesoura precisa continuar a aceitar o clique */
-.option-item .btn-tesoura {
-  pointer-events: auto;
+  user-select: none;          /* Bloqueia seleção de texto indesejada */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .option-item:hover:not(.disabled) {
@@ -400,19 +396,21 @@ body {
   color: var(--text-muted);
   margin-right: 16px;
   flex-shrink: 0;
+  user-select: none;
 }
 
 .option-text {
   flex-grow: 1;
   font-size: 0.95rem;
   color: var(--text-main);
+  user-select: none;
 }
 
 .btn-tesoura {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 6px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -420,6 +418,7 @@ body {
   transition: all 0.2s;
   border-radius: 6px;
   margin-left: 8px;
+  z-index: 2; /* Garante prioridade de toque */
 }
 
 .btn-tesoura:hover {
@@ -427,7 +426,7 @@ body {
   background-color: rgba(239, 68, 68, 0.1);
 }
 
-.btn-tesoura svg { width: 18px; height: 18px; fill: currentColor; }
+.btn-tesoura svg { width: 18px; height: 18px; fill: currentColor; pointer-events: none; }
 
 .option-item.selected { border-color: var(--primary); background-color: rgba(82, 101, 65, 0.15); }
 .option-item.selected .letter-box { background-color: var(--primary); border-color: var(--primary); color: #ffffff; }

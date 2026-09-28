@@ -34,12 +34,14 @@ function formatarTexto(texto) {
 
 /* ROTEAMENTO DE TELAS DO HUB */
 async function abrirModuloQuestoes() {
-  const container = document.getElementById('grid-disciplinas-questoes');
-  container.innerHTML = '<div style="color: var(--text-muted); grid-column: 1 / -1; text-align: center; padding: 20px;">Carregando disciplinas e quantidade de questões...</div>';
-
+  // Esconde o hub e exibe o loader em tela cheia
   document.getElementById('tela-hub').style.display = 'none';
-  document.getElementById('tela-selecao-questoes').style.display = 'block';
+  document.getElementById('bg-imagem').style.opacity = '0';
+  document.getElementById('tela-quiz').style.display = 'block'; // Reutiliza a div do quiz que já contém o loader
+  document.getElementById('loading-spinner').style.display = 'flex';
+  document.getElementById('quiz-content').style.display = 'none';
 
+  const container = document.getElementById('grid-disciplinas-questoes');
   container.innerHTML = '';
 
   for (const disc of DISCIPLINAS_DISPONIVEIS) {
@@ -83,6 +85,12 @@ async function abrirModuloQuestoes() {
     `;
     container.appendChild(btn);
   }
+
+  // Oculta o loader, restaura o fundo e exibe o ecrã de seleção de disciplinas
+  document.getElementById('loading-spinner').style.display = 'none';
+  document.getElementById('tela-quiz').style.display = 'none';
+  document.getElementById('bg-imagem').style.opacity = '1';
+  document.getElementById('tela-selecao-questoes').style.display = 'block';
 }
 
 function abrirModuloSimulado() {
@@ -358,7 +366,7 @@ function exibirTelaCarregamento() {
   document.getElementById('tela-filtro').style.display = 'none';
   document.getElementById('bg-imagem').style.opacity = '0';
   document.getElementById('tela-quiz').style.display = 'block';
-  document.getElementById('loading-spinner').style.display = 'block';
+  document.getElementById('loading-spinner').style.display = 'flex';
   document.getElementById('quiz-content').style.display = 'none';
 }
 
@@ -452,9 +460,9 @@ function renderizarPagina() {
       }
 
       htmlAlternativas += `
-        <div class="${classeOpt}" id="opt-${q.globalId}-${idx}">
+        <div class="${classeOpt}" id="opt-${q.globalId}-${idx}" onclick="selecionarOpcao(${q.globalId}, ${idx})">
           <div class="letter-box">${letras[idx]}</div>
-          <div class="option-text" onclick="selecionarOpcao(${q.globalId}, ${idx})">${formatarTexto(alt)}</div>
+          <div class="option-text">${formatarTexto(alt)}</div>
           <button class="btn-tesoura" onclick="toggleRiscar(event, ${q.globalId}, ${idx})" title="Eliminar alternativa">
             ${SVG_TESOURA}
           </button>
