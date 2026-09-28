@@ -1,4 +1,3 @@
----
 ENUNCIADO: O que é um "Software" no contexto da informática?
 A) O conjunto de peças físicas e circuitos eletrônicos do computador
 B) A sequência de instruções e programas que orientam o hardware a executar tarefas específicas

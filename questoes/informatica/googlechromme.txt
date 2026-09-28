@@ -1,4 +1,3 @@
----
 ENUNCIADO: Qual atalho de teclado é utilizado para abrir uma nova guia (aba) no Google Chrome?
 A) Ctrl + N
 B) Ctrl + T
