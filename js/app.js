@@ -34,10 +34,8 @@ function formatarTexto(texto) {
 
 /* ROTEAMENTO DE TELAS DO HUB */
 async function abrirModuloQuestoes() {
-  // Esconde o hub e exibe o loader em tela cheia
   document.getElementById('tela-hub').style.display = 'none';
-  document.getElementById('bg-imagem').style.opacity = '0';
-  document.getElementById('tela-quiz').style.display = 'block'; // Reutiliza a div do quiz que já contém o loader
+  document.getElementById('tela-quiz').style.display = 'block';
   document.getElementById('loading-spinner').style.display = 'flex';
   document.getElementById('quiz-content').style.display = 'none';
 
@@ -86,10 +84,8 @@ async function abrirModuloQuestoes() {
     container.appendChild(btn);
   }
 
-  // Oculta o loader, restaura o fundo e exibe o ecrã de seleção de disciplinas
   document.getElementById('loading-spinner').style.display = 'none';
   document.getElementById('tela-quiz').style.display = 'none';
-  document.getElementById('bg-imagem').style.opacity = '1';
   document.getElementById('tela-selecao-questoes').style.display = 'block';
 }
 
@@ -129,8 +125,8 @@ function voltarParaHub() {
   document.getElementById('tela-config-simulado').style.display = 'none';
   document.getElementById('tela-filtro').style.display = 'none';
   document.getElementById('tela-quiz').style.display = 'none';
-  document.getElementById('bg-imagem').style.opacity = '1';
   document.getElementById('tela-hub').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function voltarParaSelecaoQuestoes() {
@@ -364,7 +360,6 @@ function exibirTelaCarregamento() {
   document.getElementById('tela-selecao-questoes').style.display = 'none';
   document.getElementById('tela-config-simulado').style.display = 'none';
   document.getElementById('tela-filtro').style.display = 'none';
-  document.getElementById('bg-imagem').style.opacity = '0';
   document.getElementById('tela-quiz').style.display = 'block';
   document.getElementById('loading-spinner').style.display = 'flex';
   document.getElementById('quiz-content').style.display = 'none';
