@@ -1,0 +1,891 @@
+---
+ENUNCIADO: Qual componente do computador é considerado o "cérebro" do sistema, responsável por processar dados e executar instruções?
+A) Disco Rígido (HD)
+B) Processador (CPU)
+C) Memória RAM
+D) Fonte de Alimentação
+E) Placa de Vídeo
+CORRETA: B
+EXPLICACAO: A CPU (Unidade Central de Processamento) é o componente principal encarregado de executar instruções e processar dados no computador.
+---
+ENUNCIADO: Qual componente é responsável por armazenar temporariamente os dados que o processador precisa acessar rapidamente durante a execução de programas?
+A) Hard Disk (HD)
+B) Memória RAM
+C) Processador
+D) Pen Drive
+E) Placa Mãe
+CORRETA: B
+EXPLICACAO: A memória RAM é uma memória volátil usada para armazenar temporariamente os dados de programas ativos em execução.
+---
+ENUNCIADO: O que acontece com os dados armazenados na memória RAM quando o computador é desligado?
+A) Eles são salvos na nuvem automaticamente
+B) Eles são gravados permanentemente no processador
+C) Eles são completamente apagados, pois a RAM é volátil
+D) Eles são transferidos para a ROM
+E) Eles permanecem intactos até o próximo boot
+CORRETA: C
+EXPLICACAO: A memória RAM é uma memória volátil, o que significa que ela necessita de energia para manter as informações; ao desligar o PC, os dados são perdidos.
+---
+ENUNCIADO: Qual dispositivo de hardware é utilizado para armazenar arquivos e o sistema operacional de forma permanente mesmo com o PC desligado?
+A) Memória RAM
+B) Memória Cache
+C) Disco Rígido (HD) / SSD
+D) Cooler
+E) Barramento PCI
+CORRETA: C
+EXPLICACAO: Dispositivos de armazenamento secundário como HDs e SSDs são não-voláteis e mantêm os dados gravados permanentemente.
+---
+ENUNCIADO: Qual é a principal vantagem de um SSD (Solid State Drive) em comparação a um HD (Hard Disk) tradicional?
+A) Maior consumo de energia
+B) Velocidade de leitura e escrita muito mais rápida por não possuir partes mecânicas
+C) Menor durabilidade dos dados
+D) Necessidade de refrigeração líquida
+E) Utilizar fitas magnéticas para gravação
+CORRETA: B
+EXPLICACAO: Os SSDs utilizam memória flash sem partes móveis, oferecendo taxas de transferência e tempos de acesso muito superiores aos HDs mecânicos.
+---
+ENUNCIADO: Qual placa é responsável por conectar e interligar todos os componentes de hardware do computador, como CPU, RAM e HD?
+A) Placa de Vídeo
+B) Placa Mãe (Motherboard)
+C) Placa de Som
+D) Placa de Rede
+E) Fonte de Alimentação
+CORRETA: B
+EXPLICACAO: A Placa Mãe é o circuito impresso principal que provê conexões físicas e elétricas para todos os componentes do sistema.
+---
+ENUNCIADO: Qual componente de hardware é encarregado de converter a corrente elétrica da tomada (CA) para as tensões contínuas (CC) usadas pelos componentes do PC?
+A) Estabilizador
+B) Processador
+C) Fonte de Alimentação (PSU)
+D) Nobreak
+E) Dissipador de calor
+CORRETA: C
+EXPLICACAO: A Fonte de Alimentação transforma a corrente alternada da rede elétrica residencial nas tensões adequadas para alimentar os circuitos internos do PC.
+---
+ENUNCIADO: Qual das opções a seguir é considerada um periférico estritamente de ENTRADA de dados?
+A) Monitor de Vídeo
+B) Impressora Jato de Tinta
+C) Teclado
+D) Caixa de Som
+E) Projetor
+CORRETA: C
+EXPLICACAO: O teclado envia informações inseridas pelo usuário para o computador, caracterizando-se como um periférico de entrada.
+---
+ENUNCIADO: Qual das opções a seguir é um periférico estritamente de SAÍDA de dados?
+A) Mouse
+B) Monitor de Vídeo
+C) Scanner
+D) Microfone
+E) Webcam
+CORRETA: B
+EXPLICACAO: O monitor exibe visualmente os dados processados pelo computador para o usuário, sendo um periférico de saída.
+---
+ENUNCIADO: Qual periférico pode ser classificado tanto como dispositivo de entrada quanto de saída de dados (misto)?
+A) Teclado
+B) Mouse Óptico
+C) Monitor Touchscreen (Tela Sensível ao Toque)
+D) Caixa de Som
+E) Scanner de Mesa
+CORRETA: C
+EXPLICACAO: A tela touchscreen exibe imagens (saída) e ao mesmo tempo capta os toques do usuário para enviar comandos (entrada).
+---
+ENUNCIADO: Qual é a principal função da Placa de Vídeo (GPU)?
+A) Processar o áudio dos jogos
+B) Processar e renderizar as imagens e gráficos que aparecem na tela
+C) Armazenar os arquivos do sistema
+D) Controlar a velocidade da internet
+E) Fornecer energia para o monitor
+CORRETA: B
+EXPLICACAO: A GPU (Unidade de Processamento Gráfico) é especializada no cálculo e renderização de imagens, vídeos e gráficos 3D.
+---
+ENUNCIADO: Como é chamado o componente composto por um bloco metálico e uma ventoinha usado para resfriar o processador?
+A) Fonte ATX
+B) Cooler / Dissipador
+C) Soquete
+D) Barramento
+E) Jumper
+CORRETA: B
+EXPLICACAO: O conjunto cooler/dissipador é responsável por dissipar o calor gerado pelo processador e manter a temperatura em níveis seguros.
+---
+ENUNCIADO: Qual pasta especial deve ser aplicada entre a superfície do processador e o dissipador do cooler para melhorar a condução térmica?
+A) Pasta Térmica
+B) Cola de Silicone
+C) Graxa Mecânica
+D) Pasta de Dente
+E) Vaselina Líquida
+CORRETA: A
+EXPLICACAO: A pasta térmica preenche as microimperfeições no contato entre a CPU e o dissipador, garantindo a rápida transferência de calor.
+---
+ENUNCIADO: Qual conector/porta universal é amplamente utilizado hoje para conectar periféricos como mouses, teclados e pen drives?
+A) Porta Serial
+B) Porta Paralela
+C) USB (Universal Serial Bus)
+D) Porta VGA
+E) Porta PS/2
+CORRETA: C
+EXPLICACAO: O padrão USB tornou-se o meio de conexão universal mais popular para diversos dispositivos periféricos.
+---
+ENUNCIADO: Qual porta visual analógica, de cor azul tradicionalmente, era muito usada para conectar monitores antigos ao computador?
+A) HDMI
+B) DisplayPort
+C) VGA
+D) DVI
+E) USB-C
+CORRETA: C
+EXPLICACAO: A conexão VGA (Video Graphics Array) é um padrão analógico legado identificável pelo conector de 15 pinos azul.
+---
+ENUNCIADO: Qual conexão digital moderna transmite simultaneamente sinais de áudio e vídeo de alta definição em um único cabo?
+A) VGA
+B) P2
+C) HDMI
+D) USB Tipo A
+E) RJ-45
+CORRETA: C
+EXPLICACAO: A interface HDMI (High-Definition Multimedia Interface) envia áudio e vídeo digitais não compactados através de um único cabo.
+---
+ENUNCIADO: Como é chamada a memória interna gravada de fábrica na placa mãe que contém o firmware do sistema (como a BIOS/UEFI)?
+A) Memória RAM
+B) Memória ROM
+C) Memória Cache
+D) Memória Virtual
+E) Registrador
+CORRETA: B
+EXPLICACAO: A memória ROM (Read-Only Memory) armazena instruções permanentes gravadas de fábrica indispensáveis para a inicialização do hardware.
+---
+ENUNCIADO: O que é a BIOS (ou UEFI) presente nos computadores?
+A) Um antivírus instalado no HD
+B) O programa básico de inicialização gravado na placa mãe que testa o hardware e carrega o sistema operacional
+C) O navegador de internet nativo do chip
+D) Um programa de edição de textos
+E) O driver da placa de som
+CORRETA: B
+EXPLICACAO: O firmware BIOS/UEFI é responsável por fazer o teste inicial do hardware (POST) e dar a partida no carregamento do sistema operacional.
+---
+ENUNCIADO: Como se chama o conector padrão utilizado no cabo de rede para conexões de internet via cabo de par trançado?
+A) RJ-11
+B) RJ-45
+C) HDMI
+D) USB
+E) BNC
+CORRETA: B
+EXPLICACAO: O conector RJ-45 é o padrão físico utilizado em cabos Ethernet para rede e acesso à internet.
+---
+ENUNCIADO: Qual conector de telefone antigo era utilizado para modems discados de 56k?
+A) RJ-45
+B) RJ-11
+C) USB
+D) VGA
+E) SATA
+CORRETA: B
+EXPLICACAO: O conector RJ-11 é o padrão utilizado em linhas telefônicas convencionais.
+---
+ENUNCIADO: Como é chamada a pequena bateria cilíndrica instalada na Placa Mãe?
+A) Bateria de Lítio (CR2032) que mantém o relógio (RTC) e as configurações da CMOS alimentadas
+B) Bateria de Íon de Lítio do Nobreak
+C) Pilha AA para o cooler
+D) Bateria do processador
+E) Acumulador de voltagem
+CORRETA: A
+EXPLICACAO: A bateria CR2032 fornece energia contínua ao chip CMOS para preservar a data, hora e configurações do Setup da BIOS quando o PC está fora da tomada.
+---
+ENUNCIADO: Qual é a função da memória Cache integrada no processador?
+A) Guardar os arquivos baixados da internet
+B) Armazenar instruções e dados frequentemente usados pelo processador para acesso ultra-rápido
+C) Salvar fotos e vídeos pessoais
+D) Aumentar o volume das caixas de som
+E) Substituir a placa de vídeo
+CORRETA: B
+EXPLICACAO: A memória Cache é uma memória extremamente rápida localizada dentro ou muito próxima do núcleo da CPU, reduzindo o tempo de espera no acesso a dados frequentes.
+---
+ENUNCIADO: O que é o "Overclock" em um componente de hardware?
+A) Reduzir o consumo de energia para economizar bateria
+B) Aumentar manualmente a frequência de clock do componente além do padrão de fábrica para obter mais desempenho
+C) Desligar o computador por superaquecimento
+D) Trocar a pasta térmica por água
+E) Adicionar mais pentes de memória RAM
+CORRETA: B
+EXPLICACAO: Overclock é a prática de forçar um componente (como CPU ou GPU) a operar em frequências mais altas do que as especificadas oficialmente.
+---
+ENUNCIADO: Qual cabo/interface interna é o padrão moderno usado para conectar discos HDs e SSDs de 2,5" à Placa Mãe?
+A) IDE / PATA
+B) SATA (Serial ATA)
+C) SCSI
+D) Floppy
+E) AGP
+CORRETA: B
+EXPLICACAO: A interface SATA substituiu o antigo padrão IDE/PATA na conexão de dispositivos de armazenamento interno.
+---
+ENUNCIADO: Qual é o formato compacto de SSD moderno que se conecta diretamente a um slot dedicado na Placa Mãe, dispensando cabos de dados e energia?
+A) M.2
+B) IDE
+C) USB 2.0
+D) PCI Express 1x
+E) Floppy Disk
+CORRETA: A
+EXPLICACAO: O formato M.2 é um módulo compacto que encaixa diretamente na placa mãe, podendo utilizar barramentos SATA ou NVMe (PCIe).
+---
+ENUNCIADO: Qual sigla representa a unidade central de medida da frequência do processador (velocidade de ciclos por segundo)?
+A) Bytes
+B) Watts
+C) Hertz (GHz)
+D) Volts
+E) Pixels
+CORRETA: C
+EXPLICACAO: A frequência de relógio (clock) dos processadores é medida em Hertz, sendo comum o uso de Gigahertz (GHz - bilhões de ciclos por segundo).
+---
+ENUNCIADO: Quantos bits equivalem a 1 Byte?
+A) 4 bits
+B) 8 bits
+C) 16 bits
+D) 32 bits
+E) 1024 bits
+CORRETA: B
+EXPLICACAO: Por definição na ciência da computação, 1 Byte é um conjunto composto exatamente por 8 bits.
+---
+ENUNCIADO: Qual das alternativas apresenta a ordem correta de grandeza das unidades de medida de informação (do menor para o maior)?
+A) Megabyte, Kilobyte, Gigabyte, Terabyte
+B) Kilobyte, Megabyte, Gigabyte, Terabyte
+C) Gigabyte, Megabyte, Terabyte, Kilobyte
+D) Byte, Megabyte, Kilobyte, Gigabyte
+E) Terabyte, Gigabyte, Megabyte, Kilobyte
+CORRETA: B
+EXPLICACAO: A ordem correta de grandeza crescente é: Byte < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB).
+---
+ENUNCIADO: Aproximadamente quantos Megabytes (MB) formam 1 Gigabyte (GB)?
+A) 10 MB
+B) 100 MB
+C) 1.000 MB (1.024 MB)
+D) 10.000 MB
+E) 1.000.000 MB
+CORRETA: C
+EXPLICACAO: No sistema binário computacional, 1 GB equivale a exatamente 1.024 MB (popularmente arredondado para 1.000 MB).
+---
+ENUNCIADO: Qual dispositivo protege o computador contra picos de energia e mantém o sistema ligado por um tempo limitado usando bateria interna durante quedas de luz?
+A) Filtro de Linha
+B) Nobreak (UPS)
+C) Estabilizador
+D) Transformador
+E) Disjuntor
+CORRETA: B
+EXPLICACAO: O Nobreak (Uninterruptible Power Supply) possui baterias internas que fornecem energia temporária permitindo salvar trabalhos e desligar o PC com segurança.
+---
+ENUNCIADO: O que significa a sigla "USB"?
+A) Universal Serial Bus
+B) United System Base
+C) Universal Service Board
+D) User System Bus
+E) Unified Storage Bank
+CORRETA: A
+EXPLICACAO: USB significa **Universal Serial Bus** (Barramento Serial Universal).
+---
+ENUNCIADO: Como é chamada a placa responsável por permitir que o computador se conecte a redes Wi-Fi ou redes cabeadas?
+A) Placa de Captura
+B) Placa de Rede (NIC)
+C) Placa de Vídeo
+D) Placa de Som
+E) Placa Controladora SATA
+CORRETA: B
+EXPLICACAO: A Placa de Rede (Network Interface Card) provê a interface de comunicação física ou sem fio entre o computador e a rede.
+---
+ENUNCIADO: Qual periférico de entrada é utilizado para digitalizar documentos impressos e fotos para o computador?
+A) Plotter
+B) Scanner
+C) Impressora 3D
+D) Monitor
+E) Caixas de Som
+CORRETA: B
+EXPLICACAO: O Scanner faz a captura de imagens ópticas de documentos em papel e as converte em arquivos digitais.
+---
+ENUNCIADO: Qual conector de teclado e mouse antigo possuía formato circular e cores verde (mouse) e roxa (teclado)?
+A) USB
+B) PS/2
+C) Serial DB9
+D) Paralela LPT1
+E) HDMI
+CORRETA: B
+EXPLICACAO: O conector mini-DIN PS/2 era o padrão clássico para mouses e teclados antes da popularização do USB.
+---
+ENUNCIADO: O que é o "Socket" (Soquete) na Placa Mãe?
+A) O local de encaixe da memória RAM
+B) O conector de encaixe físico do Processador (CPU)
+C) A porta onde se conecta a placa de vídeo
+D) A entrada do cabo de energia da tomada
+E) O slot para placa de rede
+CORRETA: B
+EXPLICACAO: O Soquete é o conector específico na placa mãe projetado para fixar e conectar eletricamente o processador.
+---
+ENUNCIADO: Como são chamadas as fendas/slots na Placa Mãe usadas para encaixar placas de expansão (como placas de vídeo e som)?
+A) Barramentos / Slots PCI Express
+B) Conectores SATA
+C) Soquetes de CPU
+D) Portas USB
+E) Soquetes DIMM
+CORRETA: A
+EXPLICACAO: Os slots de expansão PCI Express (PCIe) permitem adicionar ou atualizar placas de expansão dedicadas.
+---
+ENUNCIADO: Qual slot de expansão é a interface padrão atual para a instalação de placas de vídeo de alto desempenho?
+A) PCI simples
+B) AGP
+C) PCI Express x16
+D) ISA
+E) AMR
+CORRETA: C
+EXPLICACAO: O slot PCI Express x16 oferece a largura de banda necessária para o tráfego intenso de dados das placas de vídeo modernas.
+---
+ENUNCIADO: O que são os "Cores" (Núcleos) de um processador?
+A) As ventoinhas instaladas dentro dele
+B) Unidades de processamento independentes dentro do mesmo chip físicas capazes de executar tarefas simultaneamente
+C) Os pinos de ouro na base da CPU
+D) O tamanho do programa instalado
+E) Os canais de memória RAM
+CORRETA: B
+EXPLICACAO: Processadores multi-core possuem múltiplas unidades físicas de processamento no mesmo chip, permitindo a execução paralela de instruções.
+---
+ENUNCIADO: O que caracteriza um processador conhecido como "Dual-Core"?
+A) Possui 1 núcleo de processamento
+B) Possui 2 núcleos físicos de processamento
+C) Possui 4 núcleos
+D) Possui 8 núcleos
+E) Funciona sem cooler
+CORRETA: B
+EXPLICACAO: O termo "Dual-Core" indica a presença de exatamente 2 núcleos de processamento internos.
+---
+ENUNCIADO: O que caracteriza um processador conhecido como "Quad-Core"?
+A) Possui 2 núcleos
+B) Possui 3 núcleos
+C) Possui 4 núcleos físicos de processamento
+D) Possui 6 núcleos
+E) Possui 16 núcleos
+CORRETA: C
+EXPLICACAO: "Quad-Core" é o termo usado para nomear processadores dotados de 4 núcleos de processamento.
+---
+ENUNCIADO: Qual componente de hardware é responsável por emitir sons e bip de erros da placa mãe durante a inicialização?
+A) Cooler
+B) Speaker (Alto-falante interno do gabinete)
+C) Microfone
+D) Leitor de CD
+E) Placa de Vídeo
+CORRETA: B
+EXPLICACAO: O pequeno speaker da placa mãe emite os códigos de beeps diagnósticos do teste POST durante o boot do sistema.
+---
+ENUNCIADO: Como é chamada a memória utilizada nas Placas de Vídeo dedicada exclusivamente para o processamento gráfico?
+A) VRAM (Video RAM)
+B) ROM
+C) Flash Drive
+D) Memória Swap
+E) Cache L1
+CORRETA: A
+EXPLICACAO: A VRAM é a memória RAM de alta velocidade integrada na placa de vídeo para armazenar texturas e dados de exibição da tela.
+---
+ENUNCIADO: Qual é a função do Gabinete (Case) no computador?
+A) Processar dados do usuário
+B) Servir como estrutura de proteção física e organização interna para fixação dos componentes de hardware
+C) Substituir a fonte de energia
+D) Aumentar a velocidade da memória RAM
+E) Gerar imagens para o monitor
+CORRETA: B
+EXPLICACAO: O gabinete é o chassi metálico/plástico que abriga, fixa e protege todos os componentes internos do computador contra danos e poeira.
+---
+ENUNCIADO: O que significa a sigla "HD" no contexto de armazenamento de computador?
+A) High Density
+B) Hard Disk (Disco Rígido)
+C) Heavy Data
+D) Hardware Driver
+E) Host Device
+CORRETA: B
+EXPLICACAO: HD é a abreviação de **Hard Disk** (ou Hard Disk Drive - HDD), que significa Disco Rígido.
+---
+ENUNCIADO: O que é o "Pendrive"?
+A) Um tipo de processador portátil
+B) Um dispositivo portátil de armazenamento de dados com memória flash que se conecta via porta USB
+C) Um cabo de conexão de áudio
+D) Um tipo de placa mãe miniatura
+E) Uma bateria para notebooks
+CORRETA: B
+EXPLICACAO: O pendrive é um dispositivo prático de armazenamento não-volátil utilizando memória flash com interface USB.
+---
+ENUNCIADO: Qual mídia óptica de armazenamento possui capacidade de aproximadamente 700 MB?
+A) DVD-ROM
+B) Blu-Ray
+C) CD-ROM
+D) Fita DAT
+E) Disquete 3.5"
+CORRETA: C
+EXPLICACAO: O CD (Compact Disc) padrão possui capacidade padrão para armazenar cerca de 700 Megabytes de dados.
+---
+ENUNCIADO: Qual mídia óptica possui capacidade padrão de armazenamento de aproximadamente 4,7 GB?
+A) CD-ROM
+B) DVD-ROM (Single Layer)
+C) Blu-Ray
+D) Disquete
+E) HD externo
+CORRETA: B
+EXPLICACAO: O DVD padrão de camada única tem capacidade de armazenamento aproximada de 4,7 Gigabytes.
+---
+ENUNCIADO: Qual mídia óptica é capaz de armazenar 25 GB ou mais de dados em uma única camada?
+A) CD-R
+B) DVD-R
+C) Blu-Ray (BD)
+D) LaserDisc
+E) Minidisc
+CORRETA: C
+EXPLICACAO: O disco Blu-Ray utiliza laser de comprimento de onda azul-violeta permitindo gravar 25 GB por camada.
+---
+ENUNCIADO: Qual era a capacidade máxima de armazenamento de dados do antigo Disquete de 3,5 polegadas?
+A) 700 MB
+B) 1,44 MB
+C) 100 MB
+D) 4,7 GB
+E) 10 MB
+CORRETA: B
+EXPLICACAO: O disquete de alta densidade de 3,5 polegadas possuía a capacidade de armazenar apenas 1,44 Megabytes de informação.
+---
+ENUNCIADO: O que faz um dispositivo de refrigeração do tipo "Water Cooler"?
+A) Resfria o computador jogando água fria diretamente na placa mãe
+B) Utiliza um sistema líquido em circuito fechado com radiador para trocar o calor do processador
+C) Congela os chips de memória RAM
+D) Funciona sem eletricidade
+E) Esfria apenas a fonte de alimentação
+CORRETA: B
+EXPLICACAO: O Water Cooler circula fluido refrigerante em um circuito fechado entre a base de contato na CPU e um radiador com ventoinhas.
+---
+ENUNCIADO: Como são chamados os conectores para pentes de memória RAM na Placa Mãe?
+A) Soquetes AM4
+B) Slots DIMM
+C) Portas SATA
+D) Encaixes PCI
+E) Conectores ATX
+CORRETA: B
+EXPLICACAO: Os slots de memória em computadores desktop são chamados de slots DIMM (Dual In-line Memory Module).
+---
+ENUNCIADO: Qual é o formato das memórias RAM usadas em computadores portáteis (Notebooks)?
+A) DIMM
+B) SO-DIMM
+C) Micro-SATA
+D) PCIe x1
+E) M.2 NVMe
+CORRETA: B
+EXPLICACAO: Módulos de memória para notebooks usam o padrão fisicamente reduzido chamado SO-DIMM (Small Outline DIMM).
+---
+ENUNCIADO: O que indica a tecnologia "Dual Channel" em memórias RAM?
+A) Permite usar duas placas de vídeo simultâneas
+B) Permite que o controlador de memória acesse dois pentes de memória RAM ao mesmo tempo, dobrando a largura de banda de dados
+C) Liga o monitor e a TV juntas
+D) Grava dados duas vezes no HD
+E) Duplica a frequência do processador
+CORRETA: B
+EXPLICACAO: O Dual Channel habilita a comunicação simultânea em dois canais de 64 bits separados com a RAM, aumentando o desempenho de dados.
+---
+ENUNCIADO: O que significa a sigla "NVMe" associada aos SSDs modernos?
+A) New Video Memory
+B) Non-Volatile Memory Express
+C) Next Virtual Media
+D) Network Video Module
+E) Non-Virtual Engine
+CORRETA: B
+EXPLICACAO: NVMe significa **Non-Volatile Memory Express**, um protocolo desenvolvido especificamente para SSDs que acessam o barramento PCI Express.
+---
+ENUNCIADO: Qual conector de som padrão possui diâmetro de 3,5 mm e é usado para conectar fones de ouvido e microfones comuns?
+A) Conector P2 (ou Jack 3.5mm)
+B) Conector USB-B
+C) Conector Toslink
+D) Conector XLR
+E) Conector DisplayPort
+CORRETA: A
+EXPLICACAO: O plugue P2 de 3,5 mm é a interface de áudio analógica mais difundida para fones de ouvido domésticos e microfones.
+---
+ENUNCIADO: Qual conector de vídeo digital concorre com o HDMI e é muito comum em monitores de alta taxa de atualização e placas de vídeo profissionais?
+A) DisplayPort
+B) VGA
+C) RCA
+D) S-Video
+E) FireWire
+CORRETA: A
+EXPLICACAO: O DisplayPort é uma interface digital avançada amplamente adotada em telas de alto desempenho e monitores gamer.
+---
+ENUNCIADO: Qual conector USB moderno possui formato simétrico e reversível (pode ser encaixado em qualquer lado)?
+A) USB Tipo A
+B) USB Tipo B
+C) USB Tipo C
+D) Mini-USB
+E) Micro-USB
+CORRETA: C
+EXPLICACAO: O padrão USB Type-C é totalmente simétrico, permitindo o encaixe do cabo sem lado "correto" de orientação.
+---
+ENUNCIADO: O que é o "Mouse Óptico"?
+A) Um mouse que funciona apenas com pilhas de luz
+B) Um mouse que usa um sensor de LED ou Laser para rastrear o movimento sobre a superfície em substituição à antiga bolinha mecânica
+C) Um mouse que projeta uma tela no teto
+D) Um mouse conectado via cabo de fibra óptica
+E) Um mouse controlado pelos olhos do usuário
+CORRETA: B
+EXPLICACAO: Mouses ópticos mapeiam imagens da superfície utilizando um diodo emissor de luz (LED ou laser) e um sensor de imagem digital.
+---
+ENUNCIADO: O que é uma Impressora Multifuncional?
+A) Uma impressora que imprime apenas em preto e branco
+B) Um equipamento que reúne em um só aparelho as funções de impressora, scanner e copiadora
+C) Uma impressora que não gasta tinta
+D) Um tipo de impressora que imprime arquivos em 3D
+E) Uma impressora que funciona apenas sem fio
+CORRETA: B
+EXPLICACAO: As multifuncionais integram múltiplos recursos de escritório em um único corpo de hardware (impressão, digitalização e cópia).
+---
+ENUNCIADO: O que é uma Impressora a Laser?
+A) Uma impressora que corta papéis usando laser de alta potência
+B) Uma impressora que utiliza um feixe de laser para fixar pigmento em pó (Tóner) no papel através de calor
+C) Uma impressora que usa cartuchos de tinta líquida colorida
+D) Uma impressora que só funciona no escuro
+E) Um scanner de código de barras
+CORRETA: B
+EXPLICACAO: As impressoras a laser utilizam eletricidade estática e um feixe laser para atrair e fundir o pó de toner no papel por aquecimento.
+---
+ENUNCIADO: Qual insumo é utilizado pelas impressoras a Laser para realizar as impressões no papel?
+A) Cartucho de Tinta Líquida
+B) Fita Matricial
+C) Cartucho de Tóner (Pó)
+D) Filamento plástico PLA
+E) Gel Térmico
+CORRETA: C
+EXPLICACAO: O Tóner é um pó extremamente fino composto por polímeros e pigmentos usado em impressoras a laser e copiadoras.
+---
+ENUNCIADO: Qual insumo é utilizado por impressoras 3D para criar objetos tridimensionais camada por camada?
+A) Filamento plástico (como PLA ou ABS) ou resina
+B) Tóner em pó
+C) Tinta aquarela
+D) Fita de carbono
+E) Papel vegetal
+CORRETA: A
+EXPLICACAO: Impressoras 3D do tipo FDM derretem filamentos plásticos em carretéis para construir peças tridimensionais sobre uma plataforma.
+---
+ENUNCIADO: O que é a "Velocidade de Clock" de um processador?
+A) A velocidade do relógio de parede do computador
+B) O número de ciclos de trabalho que o processador consegue executar por segundo
+C) O tempo que o computador demora para ligar
+D) A velocidade de download dos arquivos
+E) O tempo de resposta do teclado
+CORRETA: B
+EXPLICACAO: A frequência de clock estabelece quantas pulsões de sincronismo e ciclos de operações a CPU consegue realizar a cada segundo.
+---
+ENUNCIADO: Como se chama a tecnologia de telas que utiliza pequenos LEDs orgânicos que emitem sua própria luz sem necessidade de iluminação traseira (Backlight)?
+A) LCD
+B) CRT
+C) OLED
+D) Plasma
+E) TN
+CORRETA: C
+EXPLICACAO: As telas OLED (Organic Light-Emitting Diode) possuem diodos orgânicos autoemissivos que se apagam totalmente para exibir o preto perfeito.
+---
+ENUNCIADO: O que eram os antigos monitores CRT?
+A) Monitores finos de LED
+B) Monitores volumosos e pesados que utilizavam Tubo de Raios Catódicos
+C) Telas dobráveis de celular
+D) Monitores que não precisavam de eletricidade
+E) Projetores digitais
+CORRETA: B
+EXPLICACAO: Os monitores CRT (Cathode Ray Tube) eram aqueles modelos profundos baseados na tecnologia de tubo de imagem.
+---
+ENUNCIADO: Qual das alternativas apresenta um componente que NÃO faz parte do hardware do computador?
+A) Placa Mãe
+B) Processador
+C) Sistema Operacional Windows
+D) Memória RAM
+E) Fonte de Alimentação
+CORRETA: C
+EXPLICACAO: O Windows é um software (sistema operacional), enquanto os demais itens listados são partes físicas (hardware).
+---
+ENUNCIADO: O que é o termo "Hardware"?
+A) Toda a parte física, tangível e eletrônica de um sistema de computação
+B) Os programas e aplicativos instalados no computador
+C) A rede de internet sem fio
+D) O conjunto de vírus de um computador
+E) As senhas salvas pelo usuário
+CORRETA: A
+EXPLICACAO: Hardware refere-se aos componentes físicos, peças, placas e periféricos que constituem o equipamento computacional.
+---
+ENUNCIADO: O que é o termo "Software"?
+A) Os cabos e conectores do gabinete
+B) A parte lógica, composta pelos programas, aplicativos e sistemas operacionais que rodam no hardware
+C) O gabinete de metal
+D) O cooler do processador
+E) O chip da memória RAM
+CORRETA: B
+EXPLICACAO: Software representa a parte intangível e os conjuntos de instruções (programas) executados pelo hardware.
+---
+ENUNCIADO: O que é um "Driver" no contexto de hardware?
+A) O técnico que faz a manutenção do computador
+B) Um software específico que ensina o Sistema Operacional a se comunicar e controlar um componente de hardware
+C) Um cabo de dados muito rápido
+D) O botão de ligar do gabinete
+E) Uma ferramenta para abrir parafusos do PC
+CORRETA: B
+EXPLICACAO: Os Drivers funcionam como tradutores entre o sistema operacional e os dispositivos físicos de hardware conectados.
+---
+ENUNCIADO: O que é um "Filtro de Linha" (ou régua de tomadas)?
+A) Um aparelho de armazenamento de arquivos
+B) Um dispositivo elétrico com fusível ou varistor para expandir tomadas e proteger equipamentos contra pequenas sobrecargas
+C) Um programa de limpeza de disco
+D) Um tipo de cabo de rede
+E) Um ventilador externo para a mesa
+CORRETA: B
+EXPLICACAO: O filtro de linha reduz ruídos elétricos e protege os aparelhos desligando o circuito via fusível/disjuntor em caso de surtos elétricos.
+---
+ENUNCIADO: O que significa dizer que um processador é de arquitetura 64-bits em comparação a um de 32-bits?
+A) Que ele tem 64 ventoinhas
+B) Que ele é capaz de trabalhar com blocos de dados maiores e endereçar volumes de memória RAM muito superiores a 4 GB
+C) Que ele pesa 64 gramas
+D) Que ele possui 64 núcleos de processamento
+E) Que ele só funciona no Windows 64
+CORRETA: B
+EXPLICACAO: Arquiteturas de 64 bits processam o dobro de bits por ciclo que as de 32 bits e quebram a limitação máxima de 4 GB de memória RAM desempenhada pelos 32 bits.
+---
+ENUNCIADO: O que é um "Webcam"?
+A) Um tipo de scanner para documentos
+B) Uma câmera de vídeo de entrada utilizada para capturar imagens e realizar videochamadas no computador
+C) Um monitor portátil
+D) Uma impressora de fotos
+E) Um sensor de temperatura do gabinete
+CORRETA: B
+EXPLICACAO: A webcam é um periférico de entrada visual responsável por capturar vídeos do ambiente e enviar ao computador.
+---
+ENUNCIADO: O que é um "Microfone" acoplado ao PC?
+A) Um periférico de saída que reproduz músicas
+B) Um periférico de entrada responsável por capturar ondas sonoras e convertê-las em sinais de áudio digitais
+C) Uma caixa de som potente
+D) Um cooler silencioso
+E) Um tipo de mouse por voz
+CORRETA: B
+EXPLICACAO: O microfone capta a voz/sons do ambiente externo (entrada) e converte em sinal elétrico de áudio para processamento.
+---
+ENUNCIADO: O que faz o dispositivo "Headset"?
+A) Integra em um único periférico os fones de ouvido (saída) e um microfone (entrada)
+B) É apenas um tipo de capacete de realidade virtual
+C) É um leitor de cartão de memória
+D) É uma webcam de mesa
+E) É o botão de reset do computador
+CORRETA: A
+EXPLICACAO: O Headset une a capacidade de reprodução de áudio (fone) e a captação de voz (microfone) no mesmo dispositivo.
+---
+ENUNCIADO: O que é um "Teclado Mecânico"?
+A) Um teclado de borracha que se pode dobrar
+B) Um teclado que utiliza chaves mecânicas individuais (switches) sob cada tecla, oferecendo maior precisão e durabilidade
+C) Um teclado acionado por alavancas manuais sem eletricidade
+D) Um teclado que imprime o texto na folha
+E) Um teclado exclusivo para digitação de números
+CORRETA: B
+EXPLICACAO: Teclados mecânicos utilizam um interruptor físico (switch) com mola e contatos metálicos para cada tecla individualmente.
+---
+ENUNCIADO: O que é um "Teclado de Membrana"?
+A) Um teclado que funciona por toque de luz
+B) Um teclado comum que utiliza uma folha plástica com circuitos emborrachados sob o conjunto total de teclas
+C) Um teclado projetado para funcionar dentro d'água
+D) Um teclado construído em aço inoxidável
+E) Um modelo de teclado sem teclas visíveis
+CORRETA: B
+EXPLICACAO: Teclados de membrana utilizam camadas plásticas flexíveis sobrepostas com contatos elétricos ativados ao pressionar domos de silicone.
+---
+ENUNCIADO: O que significa a sigla "POST" realizada pela BIOS durante a inicialização do computador?
+A) Power-On Self-Test
+B) Program Operation System Task
+C) Process Output Signal Test
+D) Primary Operating Storage Test
+E) Power Off Safety Technology
+CORRETA: A
+EXPLICACAO: POST significa **Power-On Self-Test**, o diagnóstico automático que testa os componentes vitais (RAM, vídeo, teclado) ao ligar a máquina.
+---
+ENUNCIADO: O que indica uma sequência de "Beeps" estridentes vindos do computador ao tentar ligá-lo e sem imagem no monitor?
+A) Que o sistema operacional iniciou com sucesso
+B) Que a BIOS identificou uma falha de hardware em algum componente crítico (como RAM ou Placa de Vídeo)
+C) Que a impressora está sem papel
+D) Que o gabinete está aberto
+E) Que a internet caiu
+CORRETA: B
+EXPLICACAO: Os apitos da BIOS indicam códigos de erro para apontar falhas no hardware durante o autoteste inicial (POST).
+---
+ENUNCIADO: Qual a função de uma fita ou pulseira "Anti-Estática" ao manusear peças de computador?
+A) Evitar choques elétricos de alta voltagem no usuário
+B) Descarregar a eletricidade estática do corpo do técnico para não danificar componentes sensíveis como circuitos integrados
+C) Melhorar a velocidade de transmissão dos cabos
+D) Segurar o processador no lugar
+E) Limpar a poeira das placas
+CORRETA: B
+EXPLICACAO: A carga eletrostática do corpo humano pode causar descargas ESD e queimar microchips sensíveis das placas durante a manutenção.
+---
+ENUNCIADO: O que é o "Touchpad" em um notebook?
+A) A tela do notebook
+B) O dispositivo sensível ao toque que substitui as funções do mouse em computadores portáteis
+C) O teclado numérico lateral
+D) A bateria removível
+E) A caixa de som frontal
+CORRETA: B
+EXPLICACAO: O Touchpad é a superfície tátil plana localizada abaixo do teclado nos notebooks usada para controlar o ponteiro do mouse.
+---
+ENUNCIADO: Qual é o formato padrão mais comum de gabinete e placa mãe usado em computadores desktop de mesa?
+A) ATX (e Micro-ATX)
+B) BTX
+C) ITX
+D) NLX
+E) LPX
+CORRETA: A
+EXPLICACAO: O padrão de fator de forma **ATX** e suas variações (como mATX) são o padrão dominante do mercado para desktops.
+---
+ENUNCIADO: O que é um "Nobreak Senoidal"?
+A) Um nobreak que gera uma onda de energia limpa idêntica à da rede elétrica, ideal para fontes modernas com PFC Ativo
+B) Um nobreak que não gasta eletricidade
+C) Um filtro de linha sem baterias
+D) Um estabilizador para lâmpadas
+E) Uma bateria para celular
+CORRETA: A
+EXPLICACAO: Nobreaks com saída de onda senoidal pura entregam energia contínua de alta qualidade recomendada para fontes de PC de alta eficiência.
+---
+ENUNCIADO: O que é "PFC Ativo" em uma Fonte de Alimentação de computador?
+A) Um botão para desligar o PC
+B) Um circuito de Correção do Fator de Potência que reduz o desperdício de energia e melhora a eficiência elétrica da fonte
+C) Um sistema de refrigeração por água
+D) Um cabo vermelho para energia
+E) Um medidor de temperatura
+CORRETA: B
+EXPLICACAO: Fuentes com PFC (Power Factor Correction) Ativo possuem maior eficiência energética (geralmente acima de 80%) e se ajustam automaticamente a voltagens de 110V a 220V.
+---
+ENUNCIADO: O que indica o selo "80 Plus" em uma fonte de alimentação de PC?
+A) Que a fonte tem 80 anos de garantia
+B) Que a fonte garante no mínimo 80% de eficiência energética na conversão de energia
+C) Que a fonte produz 80 Watts de potência
+D) Que a fonte só funciona em 80 Volts
+E) Que a fonte vem com 80 cabos
+CORRETA: B
+EXPLICACAO: A certificação **80 Plus** atesta que a fonte aproveita pelo menos 80% da energia puxada da tomada, transformando pouca energia em calor desperdiçado.
+---
+ENUNCIADO: Qual é o papel das portas de comunicação SATA de 6 Gb/s (SATA III)?
+A) Conectar Monitores de alta definição
+B) Conectar unidades de armazenamento (HDs/SSDs) à Placa Mãe transmitindo até ~600 MB/s teoricamente
+C) Conectar placas de som externas
+D) Alimentar o processador com energia
+E) Carregar telefones celulares
+CORRETA: B
+EXPLICACAO: O barramento SATA III opera a 6 Gigabits por segundo, atingindo velocidades reais de transferência na casa dos 550 a 600 MB/s em SSDs.
+---
+ENUNCIADO: O que é a "Memória ROM do tipo EEPROM"?
+A) Uma memória RAM muito rápida
+B) Um tipo de memória ROM que pode ser apagada e reescrita eletricamente, permitindo atualizar a BIOS do computador
+C) Uma memória que só grava dados uma vez e nunca mais altera
+D) O disco rígido interno
+E) A memória de um pendrive quebrado
+CORRETA: B
+EXPLICACAO: A EEPROM (Electrically Erasable Programmable Read-Only Memory) permite a gravação e regravação elétrica do chip da BIOS através do processo de flashing.
+---
+ENUNCIADO: O que é o "Layout ABNT2" em teclados no Brasil?
+A) O padrão de teclas internacional sem acentos
+B) O padrão brasileiro de teclado que possui a tecla de cedilha (Ç) e a tecla Alt Gr
+C) Um teclado sem números no lado direito
+D) Um teclado usado exclusivamente em bancos
+E) Um teclado virtual de celular
+CORRETA: B
+EXPLICACAO: O padrão ABNT2 é a norma nacional para teclados no Brasil, caracterizado pela inclusão dedicada da tecla **Ç**.
+---
+ENUNCIADO: Para que serve a tecla "Alt Gr" presente em teclados com padrão ABNT2?
+A) Para alterar a cor do teclado
+B) Para acionar o terceiro símbolo impresso em algumas teclas (como º, ª, £, ¹, ², ³)
+C) Para apagar frases inteiras
+D) Para desligar o computador
+E) Para abrir o gerenciador de tarefas
+CORRETA: B
+EXPLICACAO: A tecla Alt Gr (Alternate Graphic) permite digitar caracteres especiais gravados no canto inferior direito das teclas.
+---
+ENUNCIADO: O que é a "Resolução de Tela" de um monitor (ex: 1920x1080)?
+A) A velocidade de atualização do monitor
+B) A quantidade total de pixels na horizontal e na vertical que compõem a imagem exibida
+C) O tamanho físico do monitor em centímetros
+D) O peso total da tela
+E) O consumo elétrico da tela
+CORRETA: B
+EXPLICACAO: A resolução de tela define a quantidade de pontos de cor (pixels) que formam a matriz de exibição da imagem.
+---
+ENUNCIADO: Quantos pixels compõem a resolução padrão conhecida como "Full HD"?
+A) 1280 x 720
+B) 1920 x 1080
+C) 3840 x 2160
+D) 800 x 600
+E) 2560 x 1440
+CORRETA: B
+EXPLICACAO: A resolução Full HD é definida por 1920 pixels no eixo horizontal por 1080 pixels no eixo vertical.
+---
+ENUNCIADO: O que significa a taxa de atualização de um monitor medida em Hertz (ex: 60Hz, 144Hz)?
+A) A quantidade de energia que o monitor gasta
+B) A quantidade de vezes por segundo que a imagem exibida na tela é redesenhada/atualizada
+C) A quantidade de cores que o monitor possui
+D) O brilho máximo do painel
+E) A espessura da borda do monitor
+CORRETA: B
+EXPLICACAO: Medida em Hz, a taxa de atualização indica quantas quadros por segundo a tela é capaz de atualizar a imagem.
+---
+ENUNCIADO: O que é o "Pixel" em um monitor de computador?
+A) O cabo de energia do monitor
+B) O menor elemento ou ponto luminoso colorido que compõe uma imagem digital na tela
+C) O vidro protetor do monitor
+D) A marca do fabricante
+E) O botão de ligar o monitor
+CORRETA: B
+EXPLICACAO: Pixel (Picture Element) é a menor unidade física de cor e brilho que compõe uma matriz de tela digital.
+---
+ENUNCIADO: Como se chama a tecnologia de conexões sem fio de curto alcance usada para conectar fones, mouses e teclados sem fio ao PC?
+A) Wi-Fi
+B) Bluetooth
+C) Ethernet
+D) Infravermelho
+E) 5G
+CORRETA: B
+EXPLICACAO: O Bluetooth é um padrão de rede pessoal sem fio (WPAN) de curto alcance ideal para periféricos móveis.
+---
+ENUNCIADO: O que é um leitor de cartão "SD / MicroSD" integrado ao PC?
+A) Um periférico para ler cartões de crédito
+B) Um leitor de mídias de memória flash muito usadas em câmeras fotográficas e smartphones
+C) Um leitor de código de barras
+D) Um tipo de entrada para cabo de internet
+E) Um leitor de impressão digital
+CORRETA: B
+EXPLICACAO: Leitores SD/MicroSD recebem cartões de memória flash portáteis para transferência rápida de fotos e arquivos.
+---
+ENUNCIADO: Qual a função do Chipset presente na Placa Mãe?
+A) Gerar a imagem da tela
+B) Controlar a comunicação de dados entre o processador, memórias, barramentos e periféricos
+C) Ligar as ventoinhas do gabinete
+D) Armazenar os arquivos de música do usuário
+E) Substituir a fonte de energia
+CORRETA: B
+EXPLICACAO: O Chipset é um conjunto de circuitos integrados encarregado de gerenciar o fluxo de tráfego de dados na placa mãe.
+---
+ENUNCIADO: O que é um "HD Externo"?
+A) Um HD que fica instalado dentro da fonte de alimentação
+B) Um disco rígido portátil abrigado em um case protetor que se conecta externamente ao computador através de um cabo USB
+C) Um HD sem fios que funciona via satélite
+D) Uma memória que apaga tudo ao desconectar
+E) Um tipo de placa de vídeo externa
+CORRETA: B
+EXPLICACAO: O HD externo é uma unidade de armazenamento mecânica secundária acomodada em um gabinete próprio para uso via USB.
+---
+ENUNCIADO: Qual componente é indispensável para que um computador funcione e possa exibir imagem na tela?
+A) Impressora
+B) Processador com vídeo integrado ou Placa de Vídeo dedicada
+C) Leitor de DVD
+D) Caixas de som
+E) Microfone
+CORRETA: B
+EXPLICACAO: Sem um controlador gráfico (GPU integrada na CPU ou placa dedicada), o sistema não é capaz de enviar sinal de imagem ao monitor.
+---
+ENUNCIADO: O que significa o termo "Plug and Play" (PnP) em hardware?
+A) Tecnologias de peças que necessitam de desligar o PC para conectar
+B) Recurso onde o dispositivo de hardware conectado é reconhecido e configurado automaticamente pelo sistema operacional para uso imediato
+C) Um tipo de jogo de computador
+D) Tomadas de computador com trava de segurança
+E) Dispositivos que funcionam sem energia
+CORRETA: B
+EXPLICACAO: Plug and Play (Ligar e Usar) permite conectar novos periféricos (como pen drives) e utilizá-los sem necessidade de reconfiguração complexa manual.
+---
+ENUNCIADO: O que é a troca de componentes de hardware conhecida como "Hot Swap"?
+A) A troca de peças com o computador ligado e em pleno funcionamento (ex: discos em servidores e pen drives)
+B) Trocar a pasta térmica enquanto a CPU está quente
+C) Aquecer a placa mãe com secador de cabelo
+D) Substituir peças queimadas no fogo
+E) Trocar componentes apenas no verão
+CORRETA: A
+EXPLICACAO: Hot Swapping é a capacidade de remover ou inserir componentes em um sistema de computador sem a necessidade de desligá-lo.

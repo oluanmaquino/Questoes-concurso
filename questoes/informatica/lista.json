@@ -3,5 +3,7 @@
   { "prefixo": "googlechromme", "nome": "Google Chrome" },
   { "prefixo": "malwares", "nome": "Malwares e Segurança" },
   { "prefixo": "windows11", "nome": "Windows 11" },
-  { "prefixo": "word", "nome": "Microsoft Word" }
+  { "prefixo": "word", "nome": "Microsoft Word" },
+  { "prefixo": "hardware", "nome": "Hardware" },
+  { "prefixo": "software", "nome": "Software" }
 ]

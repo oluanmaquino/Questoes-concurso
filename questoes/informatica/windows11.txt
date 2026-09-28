@@ -267,3 +267,1299 @@ D) Painel de Controle
 E) Restauração do Sistema
 CORRETA: A
 EXPLICACAO: O **Windows Update** é o serviço responsável por baixar e instalar atualizações, patches de segurança e melhorias no sistema.
+---
+ENUNCIADO: Qual atalho de teclado no Windows 11 abre o menu de links rápidos (Menu do Usuário Avançado), permitindo acesso rápido ao Gerenciador de Dispositivos e Gerenciamento de Disco?
+A) Win + X
+B) Win + Z
+C) Win + U
+D) Win + K
+E) Win + W
+CORRETA: A
+EXPLICACAO: O atalho **Win + X** abre o menu de contextos avançados no canto inferior esquerdo (ou central), fornecendo atalhos rápidos para ferramentas essenciais de administração do sistema.
+---
+ENUNCIADO: No Windows 11, qual atalho abre o painel de Widgets, que exibe notícias, previsão do tempo e informações personalizadas?
+A) Win + W
+B) Win + G
+C) Win + Tab
+D) Win + F
+E) Win + H
+CORRETA: A
+EXPLICACAO: A combinação de teclas **Win + W** aciona o painel lateral de **Widgets** do Windows 11.
+---
+ENUNCIADO: Qual recurso do Windows 11 permite criar múltiplos ambientes de trabalho virtuais para organizar janelas por tarefas (por exemplo, "Trabalho" e "Estudo")?
+A) Área de Trabalho Remota
+B) Áreas de Trabalho Virtuais (Desktops)
+C) Modos de Exibição
+D) Espaços de Armazenamento
+E) Snap Groups
+CORRETA: B
+EXPLICACAO: O recurso de **Áreas de Trabalho Virtuais** (acessível pelo *Task View* ou atalho **Win + Tab**) permite criar e alternar entre diferentes ambientes de trabalho independentes.
+---
+ENUNCIADO: Qual atalho de teclado aciona a ferramenta de Digitação por Voz (Reconhecimento de Fala) no Windows 11?
+A) Win + H
+B) Win + V
+C) Win + K
+D) Win + T
+E) Win + Alt + H
+CORRETA: A
+EXPLICACAO: O atalho **Win + H** inicia a ferramenta nativa de **Digitação por Voz**, permitindo ditar textos utilizando o microfone.
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual novidade na interface permite abrir diferentes pastas na mesma janela, funcionando de forma semelhante a navegadores web?
+A) Guias (Navegação por Abas)
+B) Painel de Detalhes Dinâmico
+C) Modo Galeria 3D
+D) Múltiplas Áreas de Trabalho
+E) Snap Fill
+CORRETA: A
+EXPLICACAO: O Windows 11 introduziu o suporte nativo a **Guias (Abas)** no Explorador de Arquivos, permitindo ter várias pastas abertas dentro de uma única janela.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para abrir o painel de Emojis, GIFs e Símbolos no Windows 11?
+A) Win + . (Ponto)
+B) Win + Shift + E
+C) Ctrl + Alt + E
+D) Win + Alt + S
+E) Alt + Gr + E
+CORRETA: A
+EXPLICACAO: Pressionar a tecla **Win + . (Ponto)** (ou **Win + ;**) abre o seletor nativo de Emojis, Kaomojis, GIFs e caracteres especiais.
+---
+ENUNCIADO: Qual funcionalidade do Windows 11 suspende temporariamente notificações de aplicativos para evitar distrações durante períodos de foco ou trabalho?
+A) Modo de Foco (Sessões de Foco / Assistente de Foco)
+B) Economia de Bateria
+C) Modo Avião
+D) Bloqueio Dinâmico
+E) Proteção em Tempo Real
+CORRETA: A
+EXPLICACAO: O **Modo de Foco** (integrado ao aplicativo Relógio e às Notificações) silencia alertas e reduz distrações para otimizar a produtividade do usuário.
+---
+ENUNCIADO: Qual atalho abre diretamente a janela de Acessibilidade no painel de Configurações do Windows 11?
+A) Win + U
+B) Win + Shift + A
+C) Ctrl + Win + C
+D) Alt + Shift + Esc
+E) Win + K
+CORRETA: A
+EXPLICACAO: O atalho **Win + U** abre a seção de **Acessibilidade** nas Configurações, onde é possível ajustar tamanho de texto, lupa, contraste e leitor de tela.
+---
+ENUNCIADO: Qual comando deve ser digitado na janela "Executar" (Win + R) para abrir o Prompt de Comando clássico no Windows 11?
+A) cmd
+B) terminal
+C) powershell
+D) control
+E) system32
+CORRETA: A
+EXPLICACAO: O comando **cmd** abre a interface de linha de comando padrão (Prompt de Comando) do Windows.
+---
+ENUNCIADO: No Windows 11, qual combinação de teclas permite alternar rapidamente entre os idiomas e layouts de teclado instalados?
+A) Win + Espaço
+B) Ctrl + Alt + L
+C) Shift + Alt + K
+D) Win + K
+E) Alt + F11
+CORRETA: A
+EXPLICACAO: O atalho **Win + Espaço** (ou **Alt + Shift**) altera instantaneamente o idioma de entrada e o layout do teclado configurado no sistema.
+---
+ENUNCIADO: Qual aplicativo nativo do Windows 11 é utilizado para criar notas rápidas e adesivas na Área de Trabalho?
+A) Notas Autoadesivas (Sticky Notes)
+B) Bloco de Notas
+C) WordPad
+D) Paint
+E) Editor de Texto
+CORRETA: A
+EXPLICACAO: O aplicativo **Notas Autoadesivas** (Sticky Notes) permite fixar recados e lembretes diretamente na Área de Trabalho.
+---
+ENUNCIADO: Ao pressionar a tecla Print Screen (PrtScn) no Windows 11 por padrão, qual ação é executada?
+A) Abre a Ferramenta de Captura de Tela
+B) Envia a tela diretamente para a impressora
+C) Reinicia a Área de Trabalho
+D) Desliga o monitor
+E) Salva a tela na pasta Documentos
+CORRETA: A
+EXPLICACAO: No Windows 11, por padrão, acionar a tecla **PrtScn** abre o utilitário da **Ferramenta de Captura** na parte superior da tela.
+---
+ENUNCIADO: Qual é o editor de texto simples nativo do Windows 11 que recebeu atualização com suporte a guias (abas) e salvamento automático?
+A) Bloco de Notas (Notepad)
+B) Microsoft Word
+C) WordPad
+D) Escritor Windows
+E) Editor de Código
+CORRETA: A
+EXPLICACAO: O **Bloco de Notas** no Windows 11 foi reformulado, ganhando suporte a múltiplas guias na mesma janela e salvamento automático de rascunhos.
+---
+ENUNCIADO: Qual combinação de teclas é utilizada para criar uma Nova Pasta no Explorador de Arquivos do Windows 11?
+A) Ctrl + Shift + N
+B) Ctrl + N
+C) Alt + N
+D) Win + N
+E) Shift + N
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + Shift + N** cria instantaneamente uma nova pasta no diretório em que o usuário está navegando.
+---
+ENUNCIADO: Qual aplicativo oficial da Microsoft no Windows 11 funciona como loja para baixar e instalar aplicativos, jogos e filmes com segurança?
+A) Microsoft Store
+B) Windows Shop
+C) App Center
+D) Microsoft Market
+E) Windows Update
+CORRETA: A
+EXPLICACAO: A **Microsoft Store** é a plataforma oficial e integrada do Windows 11 para download e atualização de softwares e jogos de forma segura.
+---
+ENUNCIADO: Como é chamada a barra localizada na parte inferior da tela no Windows 11, onde ficam o botão Iniciar e os ícones fixados?
+A) Barra de Tarefas
+B) Barra de Status
+C) Painel de Controle
+D) Barra de Ferramentas
+E) Barra de Título
+CORRETA: A
+EXPLICACAO: A **Barra de Tarefas** abriga o Menu Iniciar, a busca, os ícones de atalho e a bandeja do sistema com o relógio.
+---
+ENUNCIADO: No Windows 11, qual atalho de teclado abre o painel de Cast (Transmitir) para se conectar a telas e monitores sem fio?
+A) Win + K
+B) Win + P
+C) Win + T
+D) Win + C
+E) Alt + K
+CORRETA: A
+EXPLICACAO: O atalho **Win + K** abre o menu "Conectar" para parear e transmitir imagem para dispositivos de exibição sem fio.
+---
+ENUNCIADO: Qual recurso de acessibilidade do Windows 11 amplia parte da tela ou a tela inteira para facilitar a leitura?
+A) Lupa (Magnifier)
+B) Narrador
+C) Teclado Virtual
+D) Alto Contraste
+E) Legendas Vivas
+CORRETA: A
+EXPLICACAO: A **Lupa** é a ferramenta nativa de acessibilidade visual criada para dar zoom e ampliar elementos na tela.
+---
+ENUNCIADO: Qual é a combinação de teclas para abrir a Lupa e aumentar o zoom na tela no Windows 11?
+A) Tecla Win + sinal de Mais (+)
+B) Tecla Win + sinal de Menos (-)
+C) Ctrl + Alt + L
+D) Shift + Zoom
+E) Alt + Mais (+)
+CORRETA: A
+EXPLICACAO: Pressionar **Win + (+)** ativa e aumenta o nível de zoom da **Lupa**. Para diminuir o zoom, utiliza-se **Win + (-)**.
+---
+ENUNCIADO: Qual recurso do Windows 11 gera automaticamente legendas em tempo real para qualquer áudio ou vídeo reproduzido no sistema?
+A) Legendas Vivas (Live Captions)
+B) Narrador
+C) Ditado
+D) Corta-Vento
+E) Transcritor de Mídia
+CORRETA: A
+EXPLICACAO: As **Legendas Vivas** exibem legendas automáticas em tempo real na tela para conteúdos em áudio ou vídeo.
+---
+ENUNCIADO: Qual aplicativo nativo do Windows 11 é focado na gravação, edição simples e corte de vídeos?
+A) Clipchamp
+B) Movie Maker
+C) Paint 3D
+D) Fotos
+E) Windows Media Player
+CORRETA: A
+EXPLICACAO: O **Clipchamp** é o editor de vídeo oficial e integrado de forma nativa ao Windows 11.
+---
+ENUNCIADO: Qual é o aplicativo padrão do Windows 11 utilizado para desenhar, fazer rascunhos e editar imagens simples?
+A) Paint
+B) Photoshop
+C) Illustrator
+D) Ferramenta de Recorte
+E) CorelDraw
+CORRETA: A
+EXPLICACAO: O **Paint** é o clássico e tradicional editor de imagens acessível e nativo do Windows.
+---
+ENUNCIADO: Qual atalho de teclado minimiza a janela ativa atual no Windows 11?
+A) Win + Seta para Baixo
+B) Win + Seta para Cima
+C) Alt + Seta para Baixo
+D) Ctrl + M
+E) Win + M
+CORRETA: A
+EXPLICACAO: Pressionar a tecla **Win + Seta para Baixo** minimiza (ou restaura) a janela que está em uso no momento.
+---
+ENUNCIADO: Qual atalho de teclado maximiza a janela ativa no Windows 11 para preencher toda a tela?
+A) Win + Seta para Cima
+B) Win + Seta para Baixo
+C) Alt + Enter
+D) Shift + Max
+E) Ctrl + F11
+CORRETA: A
+EXPLICACAO: Pressionar **Win + Seta para Cima** expande e maximiza a janela ativa.
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual atalho cria uma nova janela do Explorador?
+A) Ctrl + N
+B) Ctrl + T
+C) Win + N
+D) Alt + N
+E) Ctrl + Shift + N
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + N** abre uma nova janela independente do Explorador de Arquivos.
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual atalho abre uma NOVA GUIA (aba) na mesma janela existente?
+A) Ctrl + T
+B) Ctrl + N
+C) Alt + T
+D) Shift + T
+E) Win + T
+CORRETA: A
+EXPLICACAO: Da mesma forma que nos navegadores, o atalho **Ctrl + T** abre uma nova guia no Explorador de Arquivos.
+---
+ENUNCIADO: Como se chama a funcionalidade de segurança do Windows 11 que utiliza reconhecimento facial ou impressão digital para fazer login sem senha?
+A) Windows Hello
+B) Windows Pass
+C) Face ID Windows
+D) Smart Lock
+E) Credencial Rápida
+CORRETA: A
+EXPLICACAO: O **Windows Hello** permite um acesso rápido e seguro ao sistema por biometria (rosto, biometria digital ou PIN).
+---
+ENUNCIADO: Qual ferramenta de otimização nativa do Windows 11 apaga arquivos temporários e esvazia a lixeira para liberar espaço em disco?
+A) Limpeza de Disco (ou Armazenamento nas Configurações)
+B) Desfragmentador de Disco
+C) Gerenciador de Dispositivos
+D) Painel de Desempenho
+E) Agendador de Tarefas
+CORRETA: A
+EXPLICACAO: O recurso **Sensor de Armazenamento / Limpeza de Disco** é responsável por remover arquivos desnecessários do HD/SSD.
+---
+ENUNCIADO: O que faz a combinação de teclas Ctrl + Shift + N no navegador Microsoft Edge no Windows 11?
+A) Abre uma janela de Navegação InPrivate (privada)
+B) Abre uma nova aba normal
+C) Reabre a última aba fechada
+D) Imprime a página atual
+E) Abre o histórico de downloads
+CORRETA: A
+EXPLICACAO: No Microsoft Edge, **Ctrl + Shift + N** aciona o modo de navegação oculta/privada (InPrivate).
+---
+ENUNCIADO: No Windows 11, para abrir uma caixa de pesquisa direta na Área de Trabalho ou no Menu Iniciar, qual atalho pode ser pressionado?
+A) Win + S
+B) Win + P
+C) Win + F
+D) Alt + S
+E) Ctrl + S
+CORRETA: A
+EXPLICACAO: O atalho **Win + S** (de *Search*) abre instantaneamente a barra de busca do Windows.
+---
+ENUNCIADO: Qual atalho de teclado fecha a GUIA (aba) ativa no Explorador de Arquivos do Windows 11?
+A) Ctrl + W
+B) Alt + W
+C) Ctrl + F4
+D) Win + W
+E) Shift + W
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + W** fecha a guia atual que está aberta na janela.
+---
+ENUNCIADO: No Windows 11, o que acontece se o usuário clicar com o botão DIREITO do mouse sobre o ícone do Menu Iniciar?
+A) Abre o menu de atalhos rápidos do sistema (Menu Win + X)
+B) O computador desliga imediatamente
+C) Abre a Lixeira
+D) Ocorre a formatação do sistema
+E) Esconde a barra de tarefas
+CORRETA: A
+EXPLICACAO: Clicar com o botão direito no botão Iniciar exibe o Menu do Usuário Avançado (o mesmo menu acionado por Win + X).
+---
+ENUNCIADO: Qual é o atalho de teclado para abrir a Game Bar (Barra de Jogos) do Xbox no Windows 11?
+A) Win + G
+B) Win + J
+C) Alt + G
+D) Ctrl + G
+E) Win + Alt + R
+CORRETA: A
+EXPLICACAO: O atalho **Win + G** abre a **Xbox Game Bar**, permitindo gravar partidas, tirar capturas e monitorar o desempenho do PC.
+---
+ENUNCIADO: Qual painel do Windows 11 reúne configurações de rede Wi-Fi, Bluetooth, volume e brilho da tela em um só lugar?
+A) Configurações Rápidas
+B) Painel de Controle
+C) Gerenciador de Redes
+D) Central de Segurança
+E) Central de Dispositivos
+CORRETA: A
+EXPLICACAO: As **Configurações Rápidas** (Win + A) consolidam as opções frequentes de conectividade e controle de mídia.
+---
+ENUNCIADO: Qual atalho do teclado permite travar a orientação de rotação ou projetar a tela rapidamente no Windows 11?
+A) Win + P
+B) Win + O
+C) Alt + P
+D) Ctrl + P
+E) Win + R
+CORRETA: A
+EXPLICACAO: O atalho **Win + P** abre as opções de projeção para estender, duplicar ou alternar a exibição em segunda tela.
+---
+ENUNCIADO: Qual é a função do atalho Ctrl + Alt + Delete no Windows 11?
+A) Exibir uma tela de segurança com opções para bloquear, trocar usuário, sair ou abrir o Gerenciador de Tarefas
+B) Deletar todos os arquivos da pasta atual
+C) Reiniciar o computador imediatamente sem confirmação
+D) Apagar a memória RAM do computador
+E) Desinstalar o sistema operacional
+CORRETA: A
+EXPLICACAO: A combinação **Ctrl + Alt + Del** chama a tela do sistema com ações essenciais de segurança e gerenciamento da sessão.
+---
+ENUNCIADO: Qual funcionalidade do Windows 11 permite organizar automaticamente várias janelas em metades, terços ou quartos da tela?
+A) Snap Layouts (Layouts de Ajuste)
+B) Task View
+C) Áreas Virtuais
+D) Windows Auto Align
+E) Docking
+CORRETA: A
+EXPLICACAO: O **Snap Layouts** ajuda a dividir o espaço do monitor entre vários programas de maneira pré-formatada.
+---
+ENUNCIADO: No Windows 11, o que a tecla de atalho Win + M faz com as janelas abertas?
+A) Minimiza todas as janelas
+B) Maximiza todas as janelas
+C) Move as janelas para o segundo monitor
+D) Muta o áudio do sistema
+E) Aumenta o tamanho da fonte
+CORRETA: A
+EXPLICACAO: O atalho **Win + M** minimiza todas as janelas abertas na tela.
+---
+ENUNCIADO: Após usar Win + M para minimizar tudo, qual atalho restaura as janelas minimizadas no Windows 11?
+A) Win + Shift + M
+B) Alt + M
+C) Ctrl + M
+D) Win + Z
+E) Shift + Alt + M
+CORRETA: A
+EXPLICACAO: O comando **Win + Shift + M** desfazer a minimização e restaura as janelas que foram ocultadas.
+---
+ENUNCIADO: Qual é o atalho para acionar o leitor de tela nativo do Windows 11, conhecido como Narrador?
+A) Ctrl + Win + Enter
+B) Win + N
+C) Alt + Shift + N
+D) Ctrl + Alt + N
+E) Win + Enter
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + Win + Enter** ativa ou desativa o **Narrador**, o leitor de tela nativo da Microsoft.
+---
+ENUNCIADO: Qual aplicativo nativo do Windows 11 permite sincronizar o computador com um smartphone Android ou iPhone para ver fotos e responder mensagens?
+A) Vinculação ao Celular (Phone Link)
+B) Conexão Direta
+C) Mobile Sync
+D) Smart View Windows
+E) Meu Telefone
+CORRETA: A
+EXPLICACAO: O aplicativo **Vinculação ao Celular** conecta o smartphone ao PC para chamadas, notificações e transferência de dados.
+---
+ENUNCIADO: O que significa a sigla PIN no contexto de login no Windows 11?
+A) Número de Identificação Pessoal (Personal Identification Number)
+B) Proteção Interna de Navegação
+C) Ponto Integrado de Network
+D) Protocolo Individual de Nuvem
+E) Pasta Inicial de Notificação
+CORRETA: A
+EXPLICACAO: O **PIN** é uma senha numérica curta associada ao dispositivo para autenticação rápida via Windows Hello.
+---
+ENUNCIADO: Qual tecla de atalho no Windows 11 pode ser usada para selecionar itens alternados em uma pasta (não sequenciais)?
+A) Manter pressionada a tecla Ctrl e clicar nos itens
+B) Manter pressionada a tecla Shift e clicar nos itens
+C) Manter pressionada a tecla Alt e clicar nos itens
+D) Pressionar Tab repetidamente
+E) Pressionar a tecla Espaço
+CORRETA: A
+EXPLICACAO: Manter a tecla **Ctrl** pressionada permite clicar e selecionar múltiplos arquivos individualmente e alternados.
+---
+ENUNCIADO: Qual tecla de atalho é usada para selecionar um Bloco Contínuo (sequencial) de arquivos em uma pasta no Windows 11?
+A) Clicar no primeiro item, segurar a tecla Shift e clicar no último item
+B) Segurar a tecla Ctrl e clicar em cada item
+C) Segurar a tecla Alt
+D) Pressionar F5 em cada arquivo
+E) Usar a tecla Caps Lock
+CORRETA: A
+EXPLICACAO: A tecla **Shift** seleciona um intervalo contínuo do ponto inicial ao ponto final clicado.
+---
+ENUNCIADO: No Windows 11, qual o nome do local onde ficam armazenados os ícones de programas em execução em segundo plano, próximo ao relógio?
+A) Bandeja do Sistema (Área de Notificação)
+B) Menu Iniciar
+C) Barra de Acesso Rápido
+D) Painel Superior
+E) Central de Arquivos
+CORRETA: A
+EXPLICACAO: A **Bandeja do Sistema** (System Tray), no canto inferior direito, exibe o relógio, conexões e aplicativos rodando em segundo plano.
+---
+ENUNCIADO: Qual atalho de teclado alterna o foco do teclado para a barra de tarefas do Windows 11?
+A) Win + T
+B) Win + B
+C) Alt + T
+D) Ctrl + T
+E) Win + Alt + T
+CORRETA: A
+EXPLICACAO: O atalho **Win + T** permite navegar pelos ícones fixados na Barra de Tarefas usando as setas do teclado.
+---
+ENUNCIADO: Qual atalho direciona o foco do teclado para a bandeja do sistema (área de notificação e ícones ocultos) no Windows 11?
+A) Win + B
+B) Win + N
+C) Win + A
+D) Alt + B
+E) Ctrl + Shift + B
+CORRETA: A
+EXPLICACAO: O atalho **Win + B** destaca o primeiro ícone da Bandeja do Sistema, permitindo navegação pelas setas do teclado.
+---
+ENUNCIADO: No Windows 11, qual serviço permite restaurar o computador para um ponto anterior no tempo em caso de falhas ou problemas técnicos?
+A) Restauração do Sistema (System Restore)
+B) Backup de Rede
+C) Formatação Rápida
+D) Limpeza de Disco
+E) Boot Seguro
+CORRETA: A
+EXPLICACAO: A **Restauração do Sistema** utiliza "pontos de restauração" previamente salvos para reverter alterações no sistema sem perder arquivos pessoais.
+---
+ENUNCIADO: Como se chama o gerenciador padrão de arquivos e pastas no Windows 11?
+A) Explorador de Arquivos (File Explorer)
+B) Gerenciador de Dispositivos
+C) Meus Documentos
+D) Navegador do Sistema
+E) Painel de Pastas
+CORRETA: A
+EXPLICACAO: O **Explorador de Arquivos** é o programa nativo utilizado para visualizar, criar, mover e organizar pastas e arquivos no Windows.
+---
+ENUNCIADO: Qual das alternativas apresenta um tipo de conta de usuário no Windows 11 com privilégios totais para alterar configurações e instalar programas?
+A) Administrador
+B) Padrão
+C) Convidado
+D) Restrito
+E) Visitante
+CORRETA: A
+EXPLICACAO: A conta do tipo **Administrador** possui acesso irrestrito para modificações no sistema, instalações e gerenciamento de outros usuários.
+---
+ENUNCIADO: Qual é o aplicativo oficial do Windows 11 para configuração e gerenciamento de áudio, microfone e alto-falantes?
+A) Configurações (na seção Som)
+B) Realtek Manager
+C) Mixer de Mídia
+D) Sound Editor
+E) Gravador de Voz
+CORRETA: A
+EXPLICACAO: Dentro do painel de **Configurações > Sistema > Som**, é possível ajustar volume, selecionar dispositivos de entrada/saída e gerenciar o mixer.
+---
+ENUNCIADO: Qual é a função da pasta "Downloads" no Windows 11?
+A) Armazenar automaticamente os arquivos baixados da internet
+B) Guardar backups do sistema operacional
+C) Salvar fotos tiradas pela webcam
+D) Armazenar arquivos excluídos do computador
+E) Guardar programas em execução
+CORRETA: A
+EXPLICACAO: A pasta **Downloads** é o diretório padrão para onde os navegadores e aplicativos enviam arquivos baixados da web.
+---
+ENUNCIADO: No Windows 11, para onde vão os arquivos excluídos do disco local quando o usuário pressiona apenas a tecla "Delete"?
+A) Para a Lixeira
+B) Para a Nuvem OneDrive
+C) São apagados permanentemente
+D) Para a pasta Temp
+E) Para a Área de Trabalho
+CORRETA: A
+EXPLICACAO: Pressionar a tecla **Delete** envia o item selecionado para a **Lixeira**, permitindo sua recuperação futura se necessário.
+---
+ENUNCIADO: O que acontece se a Lixeira do Windows 11 for esvaziada pelo usuário?
+A) Os arquivos contidos nela são excluídos permanentemente
+B) Os arquivos voltam para a pasta original
+C) Os arquivos vão para o OneDrive
+D) Os arquivos são compactados em formato ZIP
+E) Os arquivos são convertidos em PDF
+CORRETA: A
+EXPLICACAO: Esvaziar a Lixeira apaga definitivamente o acesso direto aos itens que lá estavam.
+---
+ENUNCIADO: Qual atalho de teclado abre as opções do Snap Layouts para posicionar a janela atual em uma região da tela?
+A) Win + Z
+B) Win + X
+C) Win + S
+D) Alt + Z
+E) Ctrl + Z
+CORRETA: A
+EXPLICACAO: O atalho **Win + Z** exibe o menu visual dos arranjos de janelas (Snap Layouts) na tela.
+---
+ENUNCIADO: Qual comando do teclado é utilizado para cancelar uma ação ou fechar uma caixa de diálogo aberta no Windows?
+A) Esc
+B) Enter
+C) Tab
+D) Shift
+E) Alt
+CORRETA: A
+EXPLICACAO: A tecla **Esc** (Escape) é usada universalmente para cancelar operações ou fechar janelas pop-up temporárias.
+---
+ENUNCIADO: Qual atalho de teclado insere instantaneamente a data e hora em arquivos de texto no Bloco de Notas do Windows?
+A) F5
+B) F2
+C) F12
+D) Ctrl + D
+E) Alt + H
+CORRETA: A
+EXPLICACAO: No Bloco de Notas, a tecla de atalho **F5** imprime a hora e data atualizadas no texto.
+---
+ENUNCIADO: No Windows 11, qual é a combinação de teclas para alternar entre as abas abertas no Explorador de Arquivos?
+A) Ctrl + Tab
+B) Alt + Tab
+C) Win + Tab
+D) Shift + Tab
+E) Ctrl + Alt
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + Tab** avança para a próxima guia (aba) aberta no Explorador de Arquivos ou navegadores.
+---
+ENUNCIADO: Qual atalho no Explorador de Arquivos do Windows 11 serve para focar diretamente na Barra de Endereços/Caminho da pasta?
+A) Alt + D (ou F6)
+B) Ctrl + D
+C) Win + D
+D) Shift + D
+E) Ctrl + F
+CORRETA: A
+EXPLICACAO: O atalho **Alt + D** (ou a tecla F6/Ctrl+L) seleciona todo o texto da Barra de Endereços no Explorador.
+---
+ENUNCIADO: Como se chama o modo no Windows 11 que economiza energia da bateria em notebooks diminuindo o brilho da tela e atividades em segundo plano?
+A) Economia de Bateria (Battery Saver)
+B) Modo Avião
+C) Modo Noturno
+D) Hibernação Profunda
+E) Modo Desempenho
+CORRETA: A
+EXPLICACAO: O modo de **Economia de Bateria** limita atualizações e reduz o consumo de energia para aumentar a autonomia do dispositivo móvel.
+---
+ENUNCIADO: Qual recurso do Windows 11 suspende todas as conexões sem fio, como Wi-Fi e Bluetooth, ideal para uso durante voos?
+A) Modo Avião
+B) Modo de Foco
+C) Economia de Bateria
+D) Suspensão de Rede
+E) Off-line Total
+CORRETA: A
+EXPLICACAO: O **Modo Avião** desativa de forma rápida todas as emissões de rádio e transmissões sem fio do computador.
+---
+ENUNCIADO: Qual atalho de teclado abre o gerenciador de Área de Trabalho e exibe a Visão de Tarefas (Task View) no Windows 11?
+A) Win + Tab
+B) Alt + Tab
+C) Ctrl + Tab
+D) Shift + Tab
+E) Win + Alt + Tab
+CORRETA: A
+EXPLICACAO: O atalho **Win + Tab** abre a **Visão de Tarefas**, mostrando todas as janelas e permitir navegar entre as Áreas de Trabalho Virtuais.
+---
+ENUNCIADO: Qual tecla do teclado abre diretamente o Menu Iniciar no Windows 11?
+A) Tecla Logotipo do Windows (Win)
+B) Tecla Ctrl
+C) Tecla Alt
+D) Tecla Esc
+E) Tecla Espaço
+CORRETA: A
+EXPLICACAO: Pressionar a tecla com o **Logotipo do Windows** no teclado abre ou fecha o Menu Iniciar.
+---
+ENUNCIADO: Qual ferramenta nativa do Windows 11 permite gravar a voz do usuário através de um microfone conectado?
+A) Gravador de Som (Gravador de Voz)
+B) Gravador de Passos
+C) Windows Media Player
+D) Audacity
+E) Mixer de Áudio
+CORRETA: A
+EXPLICACAO: O aplicativo **Gravador de Som** é o utilitário padrão do sistema para capturar e salvar áudios simples.
+---
+ENUNCIADO: Como é chamada a pasta no Explorador de Arquivos onde ficam armazenados por padrão os documentos criados pelo usuário?
+A) Documentos
+B) Downloads
+C) Imagens
+D) Arquivos de Programas
+E) Sistema
+CORRETA: A
+EXPLICACAO: A pasta **Documentos** é o diretório padrão destinado ao armazenamento de textos, planilhas e arquivos pessoais.
+---
+ENUNCIADO: No Windows 11, qual atalho abre a janela de Ajuda/Suporte do sistema ou de um aplicativo ativo?
+A) F1
+B) F3
+C) F7
+D) Win + H
+E) Ctrl + H
+CORRETA: A
+EXPLICACAO: A tecla **F1** é universalmente usada no Windows e em aplicativos para invocar a documentação e Ajuda.
+---
+ENUNCIADO: Qual é o aplicativo de relógio nativo do Windows 11 que inclui cronômetro, alarme, temporizador e sessões de foco?
+A) Relógio
+B) Hora Certa
+C) Alarmes e Sons
+D) Cronômetro Pro
+E) Central de Tempo
+CORRETA: A
+EXPLICACAO: O aplicativo **Relógio** reúne alarme, relógio mundial, temporizador, cronômetro e a ferramenta de Sessões de Foco.
+---
+ENUNCIADO: Qual atalho de teclado abre diretamente a caixa de Pesquisa do Explorador de Arquivos para procurar um item na pasta atual?
+A) F3 (ou Ctrl + F)
+B) F1
+C) F5
+D) Alt + F
+E) Shift + F
+CORRETA: A
+EXPLICACAO: Pressionar **F3** ou **Ctrl + F** posiciona o cursor do mouse na caixa de pesquisa interna do Explorador de Arquivos.
+---
+ENUNCIADO: No Windows 11, para qual estado o computador entra quando salva a sessão na memória RAM e reduz o consumo de energia sem desligar totalmente?
+A) Suspensão (Sleep)
+B) Hibernação
+C) Desligamento Total
+D) Reinicialização
+E) Modo Seguro
+CORRETA: A
+EXPLICACAO: No modo de **Suspensão**, o PC consome o mínimo de energia mantendo a sessão na memória RAM para um retorno quase instantâneo.
+---
+ENUNCIADO: Qual estado do Windows salva os arquivos e programas abertos no disco rígido/SSD e desliga totalmente o computador, gastando zero energia?
+A) Hibernar
+B) Suspender
+C) Bloquear
+D) Reiniciar
+E) Modo Foco
+CORRETA: A
+EXPLICACAO: O estado de **Hibernação** grava todo o conteúdo da memória no disco e desliga a máquina por completo.
+---
+ENUNCIADO: O que significa o ícone de uma "pequena seta curva" sobre a imagem de um arquivo na Área de Trabalho do Windows 11?
+A) Trata-se de um Atalho para um arquivo ou programa
+B) Indica que o arquivo está corrompido
+C) Indica que o arquivo é um vírus
+D) Mostra que o arquivo está sendo impresso
+E) Sinaliza que o arquivo está oculto
+CORRETA: A
+EXPLICACAO: O símbolo de uma seta no canto inferior do ícone identifica que o item é um **Atalho** apontando para o arquivo original.
+---
+ENUNCIADO: Qual recurso de segurança do Windows 11 criptografa todo o disco rígido/SSD para proteger os dados contra acessos não autorizados em caso de roubo do computador?
+A) BitLocker
+B) Defender Security
+C) Windows Lock
+D) File Crip
+E) Proteção de Pasta
+CORRETA: A
+EXPLICACAO: O **BitLocker** é o recurso nativo de criptografia de unidade de disco do Windows.
+---
+ENUNCIADO: No Windows 11, qual utilitário exibe informações detalhadas sobre os componentes de hardware do computador (processador, memória RAM, placa-mãe)?
+A) Informações do Sistema (msinfo32)
+B) Bloco de Notas
+C) Painel de Controle
+D) Lixeira
+E) Windows Update
+CORRETA: A
+EXPLICACAO: O utilitário **Informações do Sistema** (msinfo32) reúne um relatório completo do hardware e software instalado.
+---
+ENUNCIADO: Como se chama o modo de inicialização especial do Windows 11 usado para diagnosticar e resolver problemas de sistema carregando apenas drivers básicos?
+A) Modo Seguro (Safe Mode)
+B) Modo de Foco
+C) Modo de Compatibilidade
+D) Modo Administrador
+E) Modo Restrito
+CORRETA: A
+EXPLICACAO: O **Modo Seguro** inicia o Windows com um conjunto mínimo de arquivos e drivers para correção de erros.
+---
+ENUNCIADO: Qual atalho de teclado alterna entre a exibição de letras maiúsculas e minúsculas ao digitar, quando acionado no teclado?
+A) Caps Lock (Fixa)
+B) Tab
+C) Alt Gr
+D) Enter
+E) Espaço
+CORRETA: A
+EXPLICACAO: A tecla **Caps Lock** trava a digitação das letras em formato Maiúsculo até ser pressionada novamente.
+---
+ENUNCIADO: Qual aplicativo nativo do Windows 11 permite visualizar a previsão do tempo para qualquer cidade?
+A) Clima (Weather)
+B) Tempo Agora
+C) Notícias
+D) MSN Meteorologia
+E) Mapa do Tempo
+CORRETA: A
+EXPLICACAO: O aplicativo **Clima** exibe condições meteorológicas, previsões e alertas do tempo no Windows 11.
+---
+ENUNCIADO: Qual recurso do Windows 11 permite organizar os ícones de um aplicativo aberto na barra de tarefas para acesso fácil com atalhos numéricos?
+A) Pressionar Win + Número (1 a 9)
+B) Alt + Número
+C) Ctrl + Número
+D) Shift + Número
+E) F1 a F9
+CORRETA: A
+EXPLICACAO: O atalho **Win + [Número]** abre ou alterna para o aplicativo correspondente à sua posição numérica na Barra de Tarefas.
+---
+ENUNCIADO: No Windows 11, onde é possível alterar o plano de fundo (papel de parede) da Área de Trabalho?
+A) Configurações > Personalização > Tela de Fundo
+B) Gerenciador de Tarefas
+C) Painel do Windows Update
+D) Central de Notificações
+E) Ferramenta de Captura
+CORRETA: A
+EXPLICACAO: O caminho para alterar papel de parede e temas visuais é **Configurações > Personalização**.
+---
+ENUNCIADO: Qual atalho abre o painel de histórico de chamadas e mensagens no aplicativo Vinculação ao Celular no Windows 11?
+A) Win + Alt + C
+B) Ctrl + Alt + C
+C) Shift + C
+D) Alt + C
+E) Win + C
+CORRETA: A
+EXPLICACAO: O atalho **Win + C** aciona recursos de comunicação e painéis integrados do sistema.
+---
+ENUNCIADO: Qual das alternativas a seguir é uma extensão padrão de um arquivo de imagem compatível nativamente com o Paint no Windows 11?
+A) .PNG
+B) .EXE
+C) .TXT
+D) .MP3
+E) .ZIP
+CORRETA: A
+EXPLICACAO: O formato **.PNG** (assim como .JPG e .BMP) é uma extensão padrão de arquivo de imagem suportada pelo Paint.
+---
+ENUNCIADO: Qual das alternativas a seguir é uma extensão de um arquivo de áudio tocado pelo Tocador de Mídia no Windows 11?
+A) .MP3
+B) .PDF
+C) .DOCX
+D) .PNG
+E) .BAT
+CORRETA: A
+EXPLICACAO: O formato **.MP3** é uma extensão padrão para arquivos de som/áudio.
+---
+ENUNCIADO: Qual extensão de arquivo representa um programa instalável/executável no Windows 11?
+A) .EXE
+B) .TXT
+C) .JPG
+D) .MP3
+E) .ZIP
+CORRETA: A
+EXPLICACAO: Arquivos com extensão **.EXE** são aplicativos e instaladores executáveis do Windows.
+---
+ENUNCIADO: O que acontece se o usuário clicar com o botão esquerdo do mouse e arrastar um arquivo mantendo a tecla Ctrl pressionada?
+A) O arquivo é copiado para o destino
+B) O arquivo é excluído
+C) O arquivo é movido
+D) O arquivo é renomeado
+E) O arquivo é aberto no Bloco de Notas
+CORRETA: A
+EXPLICACAO: Arrastar um item mantendo a tecla **Ctrl** pressionada instrui o Windows a criar uma **cópia** do arquivo no destino.
+---
+ENUNCIADO: O que acontece se o usuário arrastar um arquivo mantendo as teclas Ctrl + Shift pressionadas no Windows 11?
+A) É criado um atalho para o arquivo no local de destino
+B) O arquivo é apagado
+C) O arquivo vai para a nuvem
+D) O arquivo é enviado por e-mail
+E) O arquivo é compactado
+CORRETA: A
+EXPLICACAO: A combinação **Ctrl + Shift** durante o arrasto cria um **Atalho** apontando para o item original.
+---
+ENUNCIADO: Qual atalho do teclado fecha o aplicativo ou programa que está atualmente em primeiro plano?
+A) Alt + F4
+B) Ctrl + F10
+C) Shift + Esc
+D) Win + Esc
+E) Alt + Espaço
+CORRETA: A
+EXPLICACAO: A combinação **Alt + F4** encerra o programa ou janela em foco.
+---
+ENUNCIADO: Qual recurso de segurança do Windows 11 bloqueia o acesso não autorizado de tráfego de dados vindo da internet?
+A) Firewall do Windows (Windows Defender Firewall)
+B) Windows Update
+C) Sensor de Armazenamento
+D) BitLocker
+E) Snap Layouts
+CORRETA: A
+EXPLICACAO: O **Firewall** monitora e filtra o tráfego de rede, bloqueando conexões não autorizadas ou suspeitas.
+---
+ENUNCIADO: Qual atalho do teclado no Windows 11 oculta instantaneamente o painel de Notificações aberto?
+A) Esc
+B) Win + Esc
+C) Alt + N
+D) Shift + N
+E) Ctrl + N
+CORRETA: A
+EXPLICACAO: Pressionar **Esc** fecha painéis flutuantes e sobreposições ativas como as Notificações.
+---
+ENUNCIADO: Qual ferramenta nativa do Windows 11 serve para calcular operações matemáticas simples e científicas?
+A) Calculadora
+B) Bloco de Notas
+C) Excel
+D) Paint
+E) Medidor do Sistema
+CORRETA: A
+EXPLICACAO: O aplicativo **Calculadora** oferece modos padrão, científico, de programação e conversores de unidades.
+---
+ENUNCIADO: O que acontece ao pressionar a tecla de atalho Win + Alt + D no Windows 11?
+A) Exibe ou oculta a data e hora na tela
+B) Deleta a área de trabalho
+C) Abre a calculadora
+D) Tira um print do sistema
+E) Maximiza o navegador
+CORRETA: A
+EXPLICACAO: O atalho **Win + Alt + D** mostra ou oculta o painel do Calendário e Data da barra de tarefas.
+---
+ENUNCIADO: Qual painel do Windows 11 permite gerenciar contas de usuários e senhas cadastradas no computador?
+A) Configurações > Contas
+B) Paint
+C) Microsoft Store
+D) Gerenciador de Dispositivos
+E) Bloco de Notas
+CORRETA: A
+EXPLICACAO: Em **Configurações > Contas**, é possível adicionar novos usuários, trocar senhas e definir opções de entrada.
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual o botão/ícone utilizado para voltar à pasta visitada anteriormente?
+A) Seta para a Esquerda (Voltar)
+B) Seta para Cima
+C) Botão Atualizar
+D) Lupa
+E) Botão X
+CORRETA: A
+EXPLICACAO: A **Seta para a Esquerda** (Voltar) navega no histórico recente de pastas visitadas.
+---
+ENUNCIADO: No Explorador de Arquivos do Windows 11, qual botão serve para subir um nível na hierarquia de pastas (ir para a pasta pai)?
+A) Seta para Cima (Acima)
+B) Seta para a Esquerda
+C) Seta para a Direita
+D) Botão Home
+E) Botão de Fechar
+CORRETA: A
+EXPLICACAO: A **Seta para Cima** sobe exatamente um nível na estrutura de diretórios onde a pasta atual está localizada.
+---
+ENUNCIADO: Qual funcionalidade permite conectar fones de ouvido e teclados sem fio ao Windows 11?
+A) Bluetooth
+B) Wi-Fi Direct
+C) NFC
+D) Cabo Ethernet
+E) Porta Paralela
+CORRETA: A
+EXPLICACAO: O **Bluetooth** é a tecnologia sem fio padrão para pareamento de periféricos como fones, mouses e teclados.
+---
+ENUNCIADO: Qual atalho do Windows 11 abre a ferramenta de captura e possibilita gravar a tela em VÍDEO?
+A) Win + Shift + S (e selecionar o ícone de câmera de vídeo)
+B) Ctrl + V
+C) Alt + Print Screen
+D) Ctrl + Shift + Rec
+E) Win + Rec
+CORRETA: A
+EXPLICACAO: A **Ferramenta de Captura** (Win + Shift + S) no Windows 11 inclui a opção de alternar entre fotos de tela e gravação de vídeos da tela.
+---
+ENUNCIADO: Qual opção nas Configurações do Windows 11 permite alterar o idioma do sistema operacional?
+A) Hora e Idioma
+B) Personalização
+C) Acessibilidade
+D) Jogos
+E) Sistema
+CORRETA: A
+EXPLICACAO: O menu **Hora e Idioma** centraliza as configurações de região, idioma de exibição e layout do teclado.
+---
+ENUNCIADO: O que significa a opção "Reiniciar" no menu de energia do Windows 11?
+A) Encerra todos os programas, desliga o computador e o liga novamente em seguida
+B) Apaga todos os arquivos pessoais do computador
+C) Volta o computador às configurações de fábrica
+D) Desliga a tela mantendo o PC ligado
+E) Entra no modo de economia de energia
+CORRETA: A
+EXPLICACAO: O comando **Reiniciar** fecha a sessão com segurança, desliga o sistema e inicia a máquina novamente de forma automática.
+---
+ENUNCIADO: O que significa a opção "Desligar" no menu de energia do Windows 11?
+A) Fecha todos os aplicativos abertos e desliga completamente o computador
+B) Coloca o PC em modo de suspensão
+C) Reinicia a máquina
+D) Bloqueia a conta do usuário
+E) Formata o HD
+CORRETA: A
+EXPLICACAO: O comando **Desligar** encerra todos os processos com segurança e corta a alimentação do sistema.
+---
+ENUNCIADO: Qual aplicativo do Windows 11 é utilizado para navegar na internet e abrir sites web?
+A) Microsoft Edge
+B) Bloco de Notas
+C) Explorador de Arquivos
+D) OneDrive
+E) MS Paint
+CORRETA: A
+EXPLICACAO: O **Microsoft Edge** é o navegador de internet (browser) nativo do Windows 11.
+---
+ENUNCIADO: Qual tecla do teclado pode ser usada no Windows 11 para alternar o foco entre os elementos selecionáveis de uma janela?
+A) Tab
+B) Enter
+C) Esc
+D) Shift
+E) Alt
+CORRETA: A
+EXPLICACAO: A tecla **Tab** avança o foco de seleção entre botões, caixas de texto e links da interface.
+---
+ENUNCIADO: No Windows 11, qual atalho de teclado cancela a seleção de arquivos na pasta atual?
+A) Clicar em uma área vazia da pasta (ou pressionar Esc)
+B) Ctrl + A
+C) Shift + Enter
+D) Alt + Tab
+E) Win + Z
+CORRETA: A
+EXPLICACAO: Clicar no espaço em branco de um diretório limpa a seleção dos itens previamente destacados.
+---
+ENUNCIADO: Qual atalho do Windows 11 abre a caixa de diálogo para Executar comandos?
+A) Win + R
+B) Win + E
+C) Ctrl + R
+D) Alt + R
+E) Shift + R
+CORRETA: A
+EXPLICACAO: O comando **Win + R** abre a janela **Executar**, permitindo abrir programas diretamente pelo nome do executável.
+---
+ENUNCIADO: Qual das opções a seguir é uma pasta padrão do sistema para salvamento de vídeos gravados no Windows 11?
+A) Vídeos
+B) Músicas
+C) Documentos
+D) System32
+E) Temp
+CORRETA: A
+EXPLICACAO: A pasta **Vídeos** é a biblioteca padrão criada pelo Windows para armazenar conteúdos em áudio e vídeo do usuário.
+---
+ENUNCIADO: Qual atalho no Windows 11 abre a Central de Notificações diretamente?
+A) Win + N
+B) Win + A
+C) Win + C
+D) Alt + N
+E) Ctrl + N
+CORRETA: A
+EXPLICACAO: O atalho **Win + N** abre o painel flutuante de Notificações e o Calendário mensal.
+---
+ENUNCIADO: Qual tecla de atalho é pressionada para excluir definitivamente um texto selecionado no Bloco de Notas?
+A) Delete (ou Backspace)
+B) Ctrl + C
+C) Space
+D) Shift
+E) Alt
+CORRETA: A
+EXPLICACAO: As teclas **Delete** e **Backspace** removem o trecho de texto que está selecionado no momento.
+---
+ENUNCIADO: Qual atalho de teclado permite acionar a busca (localizar texto) dentro de um documento aberto no Bloco de Notas do Windows 11?
+A) Ctrl + F
+B) Ctrl + B
+C) Alt + F
+D) Win + F
+E) Shift + F
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + F** (de *Find*) abre a caixa para pesquisar palavras e termos específicos no texto.
+---
+ENUNCIADO: No Windows 11, qual opção no Explorador de Arquivos permite alternar a visualização dos arquivos entre ícones grandes, ícones pequenos e lista detalhada?
+A) Menu Exibir (Layout)
+B) Menu Editar
+C) Menu Ferramentas
+D) Menu Ajuda
+E) Painel de Controle
+CORRETA: A
+EXPLICACAO: O botão **Exibir** na barra superior do Explorador permite escolher como os itens são dispostos na tela (Detalhes, Ícones Grandes, Lista, etc.).
+---
+ENUNCIADO: Qual atalho de teclado pode ser usado no Windows 11 para reabrir a última aba fechada no navegador Microsoft Edge?
+A) Ctrl + Shift + T
+B) Ctrl + T
+C) Alt + T
+D) Win + T
+E) Ctrl + Z
+CORRETA: A
+EXPLICACAO: O comando **Ctrl + Shift + T** restaura instantaneamente a aba ou guia recém-fechada no Edge.
+---
+ENUNCIADO: O que acontece se o usuário clicar na barra de título de uma janela e balançar o mouse rapidamente no Windows 11 (recurso Aero Shake)?
+A) Minimiza todas as outras janelas abertas, exceto a que está sendo balançada
+B) Fecha o aplicativo ativo
+C) Desliga o computador
+D) Abre o painel de configurações
+E) Tira um print da tela
+CORRETA: A
+EXPLICACAO: O gesto **Aero Shake** (Ativar/Desativar nas Configurações) minimiza todas as demais janelas para limpar a visão do usuário.
+---
+ENUNCIADO: Qual funcionalidade do Windows 11 alinha automaticamente duas janelas lado a lado ocupando metade da tela cada uma?
+A) Snap (Ajuste de Janelas)
+B) Aero Shake
+C) Task View
+D) Múltiplos Monitores
+E) Windows Connect
+CORRETA: A
+EXPLICACAO: Arrastar uma janela até a borda esquerda ou direita ativa o **Snap**, que redimensiona a janela para ocupar exatamente 50% da tela.
+---
+ENUNCIADO: No Windows 11, o que a combinação de teclas Win + Shift + S permite fazer?
+A) Selecionar uma área da tela para capturar uma imagem (print)
+B) Desligar o computador rapidamente
+C) Abrir o Gerenciador de Tarefas
+D) Salvar o arquivo atual
+E) Formatar o disco rígido
+CORRETA: A
+EXPLICACAO: O atalho **Win + Shift + S** abre a barra de seleção da Ferramenta de Captura de tela parcial ou total.
+---
+ENUNCIADO: Qual das alternativas a seguir é uma impressora padrão virtual já pré-instalada no Windows 11 para gerar arquivos digitais em PDF?
+A) Microsoft Print to PDF
+B) HP Laserjet Virtual
+C) XPS Document Writer
+D) PDF Creator Pro
+E) Windows Fax
+CORRETA: A
+EXPLICACAO: A impressora virtual **Microsoft Print to PDF** converte documentos e páginas web em arquivos .PDF ao simular uma impressão.
+---
+ENUNCIADO: O que significa o status de um arquivo no OneDrive marcado com o ícone de uma "nuvem azul" no Explorador de Arquivos do Windows 11?
+A) O arquivo está salvo apenas na nuvem e não ocupa espaço no disco local
+B) O arquivo está infectado por vírus
+C) O arquivo foi excluído para a Lixeira
+D) O arquivo está corrompido
+E) O arquivo é de leitura obrigatória
+CORRETA: A
+EXPLICACAO: O ícone de **Nuvem Azul** no recurso "Arquivos sob Demanda" do OneDrive indica que o item está salvo na nuvem e será baixado apenas quando aberto.
+---
+ENUNCIADO: O que significa o status de um arquivo no OneDrive com o ícone de um "círculo verde com visto"?
+A) O arquivo está baixado e disponível offline no dispositivo
+B) O arquivo está com erro de sincronização
+C) O arquivo está sendo editado por outra pessoa
+D) O arquivo é protegido por senha
+E) O arquivo não pode ser aberto
+CORRETA: A
+EXPLICACAO: O ícone do **Círculo Verde** indica que o arquivo foi baixado para o disco local e pode ser acessado mesmo sem conexão com a internet.
+---
+ENUNCIADO: Como se chama a pasta onde ficam armazenadas as fotos transferidas da câmera ou smartphone no Windows 11?
+A) Imagens
+B) Músicas
+C) Downloads
+D) Documentos
+E) Arquivos de Programa
+CORRETA: A
+EXPLICACAO: A pasta **Imagens** é o local padrão do perfil do usuário voltado ao armazenamento de arquivos de fotos e figuras.
+---
+ENUNCIADO: Qual atalho do teclado fecha uma janela de aplicativo no Windows 11 quando o atalho Alt + F4 não responde?
+A) Ctrl + W (ou encerrar pelo Gerenciador de Tarefas)
+B) Win + Esc
+C) Shift + Del
+D) Alt + Space
+E) F5
+CORRETA: A
+EXPLICACAO: O atalho **Ctrl + W** fecha abas/janelas do aplicativo, ou o programa pode ser forçado a fechar pelo Gerenciador de Tarefas.
+---
+ENUNCIADO: Qual programa nativo do Windows 11 possibilita reproduzir e gerenciar listas de arquivos de áudio e álbuns de músicas?
+A) Tocador de Mídia (Media Player)
+B) Paint
+C) Bloco de Notas
+D) OneDrive
+E) Clipchamp
+CORRETA: A
+EXPLICACAO: O **Tocador de Mídia** (Media Player) é o reprodutor nativo de áudio e vídeo integrado ao Windows 11.
+---
+ENUNCIADO: Como o usuário pode alterar rapidamente o volume do som do sistema no Windows 11 usando o mouse?
+A) Clicando no ícone de alto-falante na Barra de Tarefas e deslizando a barra de volume
+B) Abrindo o Bloco de Notas
+C) Pressionando F1 no teclado
+D) Clicando com o botão direito na Área de Trabalho
+E) Abrindo a Lixeira
+CORRETA: A
+EXPLICACAO: Clicar no ícone do **alto-falante** na bandeja do sistema abre o controle de volume deslizante.
+---
+ENUNCIADO: Qual atalho do teclado desativa (muta) ou ativa o microfone durante chamadas em aplicativos compatíveis no Windows 11?
+A) Win + Alt + K
+B) Win + M
+C) Ctrl + M
+D) Shift + Alt + M
+E) Alt + K
+CORRETA: A
+EXPLICACAO: O atalho **Win + Alt + K** permite alternar o estado do microfone (mudar para mudo/ativado) globalmente no Windows 11.
+---
+ENUNCIADO: Qual o nome da conta de usuário exigida por padrão durante a instalação inicial do Windows 11 Home para configurar o sistema?
+A) Conta Microsoft
+B) Conta Convidado
+C) Conta Local Anônima
+D) Conta Linux
+E) Conta Google
+CORRETA: A
+EXPLICACAO: Por padrão, as edições modernas do Windows 11 exigem o login com uma **Conta Microsoft** e conexão com a internet na configuração inicial.
+---
+ENUNCIADO: No Windows 11, qual combinação de teclas no teclado copia a tela INTEIRA diretamente para a Área de Transferência?
+A) Tecla Print Screen (PrtScn)
+B) Ctrl + C
+C) Ctrl + V
+D) Alt + C
+E) Win + C
+CORRETA: A
+EXPLICACAO: A tecla **PrtScn** captura o conteúdo exibido na tela e o armazena na Área de Transferência.
+---
+ENUNCIADO: Qual combinação de teclas captura a tela inteira e a salva AUTOMATICAMENTE como arquivo de imagem na pasta "Imagens > Capturas de Tela"?
+A) Win + Print Screen
+B) Alt + Print Screen
+C) Ctrl + Print Screen
+D) Shift + Print Screen
+E) Tab + Print Screen
+CORRETA: A
+EXPLICACAO: O atalho **Win + Print Screen** tira a foto da tela inteira e a grava como arquivo de imagem no computador sem precisar colar no Paint.
+---
+ENUNCIADO: O que faz a combinação de teclas Alt + Print Screen no Windows 11?
+A) Captura apenas a JANELA ATIVA atual para a Área de Transferência
+B) Captura a tela inteira e salva no OneDrive
+C) Imprime a tela na impressora física
+D) Grava um vídeo da tela
+E) Desliga o monitor
+CORRETA: A
+EXPLICACAO: O comando **Alt + PrtScn** tira a foto de captura apenas da janela em foco, ignorando o restante da tela.
+---
+ENUNCIADO: No Windows 11, qual atalho alterna rapidamente para a área de trabalho ocultando todas as janelas e, ao ser pressionado novamente, traz todas de volta?
+A) Win + D
+B) Win + L
+C) Win + E
+D) Alt + Tab
+E) Ctrl + Alt + Del
+CORRETA: A
+EXPLICACAO: O atalho **Win + D** (de *Desktop*) mostra a Área de Trabalho e restaura as janelas ao ser acionado novamente.
+---
+ENUNCIADO: Qual atalho do teclado permite mover o cursor palavra por palavra para a DIREITA em um texto no Bloco de Notas?
+A) Ctrl + Seta para a Direita
+B) Alt + Seta para a Direita
+C) Shift + Seta para a Direita
+D) Win + Seta para a Direita
+E) Tab + Seta para a Direita
+CORRETA: A
+EXPLICACAO: Manter a tecla **Ctrl** pressionada enquanto usa as setas direcionais move o cursor pulando palavras inteiras.
+---
+ENUNCIADO: Qual recurso nativo do Windows 11 permite organizar janelas abertas arrastando-as até os cantos da tela para dividi-la em quatro partes iguais?
+A) Snap Fill / Snap Quadrantes
+B) Task Manager
+C) Virtual Desktops
+D) Windows Grid
+E) Easy Align
+CORRETA: A
+EXPLICACAO: Arrasta-se uma janela para qualquer um dos quatro cantos do monitor para que ela ocupe exatamente **um quarto (1/4)** da área de exibição.
+---
+ENUNCIADO: Qual é o nome do painel que reúne atalhos para Notificações recentes e o Calendário completo no Windows 11?
+A) Central de Notificações
+B) Painel de Controle
+C) Gerenciador do Sistema
+D) Centro de Ações Antigo
+E) Menu Iniciar
+CORRETA: A
+EXPLICACAO: Ao clicar no relógio/data na barra de tarefas (ou usar Win + N), a **Central de Notificações** e o calendário são exibidos.
+---
+ENUNCIADO: Qual atalho de teclado abre as Configurações Rápidas de Rede e Som no Windows 11?
+A) Win + A
+B) Win + S
+C) Win + I
+D) Alt + A
+E) Ctrl + A
+CORRETA: A
+EXPLICACAO: O atalho **Win + A** expande o painel de **Configurações Rápidas** sobre a barra de tarefas.
+---
+ENUNCIADO: Qual a extensão padrão de arquivos criados no Bloco de Notas do Windows 11?
+A) .TXT
+B) .DOCX
+C) .PDF
+D) .XLSX
+E) .HTML
+CORRETA: A
+EXPLICACAO: O Bloco de Notas grava documentos de texto simples no formato de arquivo **.TXT**.
+---
+ENUNCIADO: Qual o nome da ferramenta do Windows 11 utilizada para visualizar e gerenciar o desempenho da CPU, Memória, Disco e Rede em tempo real?
+A) Gerenciador de Tarefas (Aba Desempenho)
+B) Painel de Controle
+C) Bloco de Notas
+D) Limpeza de Disco
+E) Diagnóstico de Memória
+CORRETA: A
+EXPLICACAO: A aba *Desempenho* no **Gerenciador de Tarefas** (Ctrl + Shift + Esc) fornece gráficos detalhados de uso do hardware.
+---
+ENUNCIADO: Como se chama o menu do Windows 11 que exibe os programas recomendados, fixados e a barra de pesquisa ao ser aberto?
+A) Menu Iniciar
+B) Barra de Ferramentas
+C) Painel Lateral
+D) Central de Controle
+E) Menu Principal de Arquivos
+CORRETA: A
+EXPLICACAO: O **Menu Iniciar** é a porta de entrada para acessar os softwares instalados, configurações e arquivos recentes.
+---
+ENUNCIADO: Qual a função do atalho de teclado F11 na maioria dos aplicativos e navegadores no Windows 11?
+A) Alternar para o modo Tela Cheia (Full Screen)
+B) Fechar o programa
+C) Salvar o arquivo
+D) Atualizar a página
+E) Abrir as configurações
+CORRETA: A
+EXPLICACAO: A tecla **F11** ativa ou desativa a exibição do aplicativo em modo Tela Cheia, ocultando barras e menus.
+---
+ENUNCIADO: Qual atalho de teclado cancela a renomeação de um arquivo enquanto ela está sendo digitada no Explorador de Arquivos?
+A) Esc
+B) Enter
+C) Ctrl + Z
+D) Backspace
+E) Alt
+CORRETA: A
+EXPLICACAO: Pressionar a tecla **Esc** cancela a edição e restaura o nome original do arquivo.
+---
+ENUNCIADO: No Windows 11, qual o nome do local de armazenamento temporário que guarda os itens que foram copiados (Ctrl + C) ou recortados (Ctrl + X)?
+A) Área de Transferência (Clipboard)
+B) Lixeira
+C) OneDrive
+D) Memória ROM
+E) Disco Rígido C:
+CORRETA: A
+EXPLICACAO: A **Área de Transferência** é a região da memória que retém conteúdos copiados para que possam ser colados posteriormente.
+---
+ENUNCIADO: Qual recurso do Windows 11 verifica automaticamente se a versão do sistema possui correções recentes de bugs e falhas de segurança?
+A) Windows Update
+B) Windows Security
+C) Windows Store
+D) Defender Cloud
+E) SmartScreen
+CORRETA: A
+EXPLICACAO: O **Windows Update** busca e instala periodicamente as atualizações e correções disponibilizadas pela Microsoft.
+---
+ENUNCIADO: O que o recurso "Foco" no aplicativo Relógio do Windows 11 ajuda o usuário a fazer?
+A) Gerenciar o tempo de trabalho com cronômetro de pausa e integração com o Spotify e tarefas
+B) Aumentar a velocidade da CPU
+C) Limpar a memória do computador
+D) Ajustar a resolução da tela
+E) Gravar a voz em reuniões
+CORRETA: A
+EXPLICACAO: As **Sessões de Foco** ajudam na produtividade combinando temporizadores de estudo/trabalho, silenciamento de notificações e lista de afazeres.
+---
+ENUNCIADO: Qual a principal utilidade do aplicativo "Calculadora" integrado ao Windows 11?
+A) Realizar cálculos matemáticos, conversões de moedas e unidades
+B) Medir o tamanho da tela do computador
+C) Calcular o espaço livre do disco rígido
+D) Verificar a velocidade do processador
+E) Ajustar a hora do sistema
+CORRETA: A
+EXPLICACAO: A **Calculadora** realiza operações aritméticas, financeiras, científicas e conversões de dados.
+---
+ENUNCIADO: Como um usuário pode criar um atalho de um programa na Área de Trabalho do Windows 11?
+A) Clicar com o botão direito no ícone do programa > Mostrar mais opções > Enviar para > Área de trabalho (criar atalho)
+B) Arrastar o arquivo com o botão direito para a Lixeira
+C) Pressionar Ctrl + Alt + Delete
+D) Abrir o programa no Bloco de Notas
+E) Desinstalar o programa
+CORRETA: A
+EXPLICACAO: O menu de contexto permite criar um link/atalho direto para o programa na Área de Trabalho.
+---
+ENUNCIADO: Qual aplicativo nativo do Windows 11 é focado na exibição, organização e edições básicas de fotografias?
+A) Fotos (Photos)
+B) Paint 3D
+C) Snipping Tool
+D) Media Player
+E) Camera Studio
+CORRETA: A
+EXPLICACAO: O aplicativo **Fotos** é a galeria padrão para visualização, organização e retques rápidos em imagens.
+---
+ENUNCIADO: O que acontece se o usuário clicar com o botão direito sobre um arquivo no Explorador do Windows 11 e selecionar "Propriedades"?
+A) Abre uma janela mostrando tamanho, tipo, localização e permissões do arquivo
+B) O arquivo é copiado automaticamente
+C) O arquivo é apagado permanentemente
+D) O arquivo abre no bloco de notas
+E) O arquivo é enviado para a Lixeira
+CORRETA: A
+EXPLICACAO: A janela de **Propriedades** exibe todos os detalhes técnicos, datas, tamanho e atributos do item selecionado.
+---
+ENUNCIADO: No Windows 11, o que faz a opção "Esvaziar Lixeira"?
+A) Exclui definitivamente todos os itens armazenados na Lixeira
+B) Move todos os arquivos da Lixeira para a Área de Trabalho
+C) Copia os arquivos da Lixeira para a Nuvem
+D) Oculta a Lixeira da tela
+E) Formata o disco rígido do computador
+CORRETA: A
+EXPLICACAO: A opção **Esvaziar Lixeira** remove todos os arquivos da lixeira de forma permanente, liberando o espaço em disco.
+---
+ENUNCIADO: Qual atalho de teclado abre o Gerenciador de Tarefas no Windows 11 de forma DIRETA sem passar por telas intermediárias?
+A) Ctrl + Shift + Esc
+B) Ctrl + Alt + Delete
+C) Win + Esc
+D) Alt + Shift + Esc
+E) Ctrl + Alt + Esc
+CORRETA: A
+EXPLICACAO: A combinação **Ctrl + Shift + Esc** abre instantaneamente o Gerenciador de Tarefas.
+---
+ENUNCIADO: Qual recurso de segurança do Windows 11 analisa arquivos baixados da web e avisa caso o arquivo seja desconhecido ou malicioso antes da execução?
+A) Microsoft Defender SmartScreen
+B) Windows Update
+C) BitLocker
+D) Windows Hello
+E) Sensor de Armazenamento
+CORRETA: A
+EXPLICACAO: O **SmartScreen** do Defender verifica reputações de softwares baixados para prevenir infecções por malware.
+---
+ENUNCIADO: Qual funcionalidade do Windows 11 ajusta automaticamente o tema do sistema para tons escuros para economizar bateria e confortar a visão?
+A) Modo Escuro (Dark Mode nas Configurações de Personalização)
+B) Luz Noturna
+C) Alto Contraste
+D) Modo de Foco
+E) Economia de Dados
+CORRETA: A
+EXPLICACAO: O **Modo Escuro** aplica fundo escuro na barra de tarefas, janelas e aplicativos nativos do Windows.
+---
+ENUNCIADO: O que a tecla de atalho Win + C faz no Windows 11 em versões atualizadas com suporte ao assistente de inteligência artificial?
+A) Abre a conversa com o Copilot
+B) Abre o Painel de Controle
+C) Copia o texto selecionado
+D) Abre a Calculadora
+E) Fecha a janela atual
+CORRETA: A
+EXPLICACAO: O atalho **Win + C** é designado para abrir o painel lateral do assistente de inteligência artificial **Copilot** no Windows 11.

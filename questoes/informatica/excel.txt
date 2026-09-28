@@ -1,0 +1,899 @@
+ENUNCIADO: Qual é a extensão padrão de arquivo utilizada para salvar planilhas no Microsoft Excel nas versões mais recentes?
+A) .XLSX
+B) .DOCX
+C) .PDF
+D) .PPTX
+E) .TXT
+CORRETA: A
+EXPLICACAO: A extensão nativa e padrão para pastas de trabalho do Microsoft Excel a partir da versão 2007 é a .XLSX.
+---
+ENUNCIADO: Qual caractere OBRIGATÓRIO deve ser digitado no início de uma célula para que o Excel entenda que se trata de uma fórmula ou função?
+A) Sinal de igual (=)
+B) Sinal de adição (+)
+C) Cerquilha (#)
+D) Arroba (@)
+E) Cifrão ($)
+CORRETA: A
+EXPLICACAO: No Excel, toda fórmula ou função deve ser iniciada obrigatoriamente com o sinal de igual (=) para que o sistema execute o cálculo.
+---
+ENUNCIADO: Como é chamada a interseção individual entre uma coluna (vertical) e uma linha (horizontal) em uma planilha do Excel?
+A) Célula
+B) Bloco
+C) Matriz
+D) Intervalo
+E) Campo
+CORRETA: A
+EXPLICACAO: Uma Célula é o elemento básico de uma planilha, resultante do cruzamento de uma coluna com uma linha.
+---
+ENUNCIADO: Qual é a identificação padrão de uma célula localizada na coluna B e na linha 5?
+A) B5
+B) 5B
+C) B-5
+D) B:5
+E) $5$B
+CORRETA: A
+EXPLICACAO: No Excel, as células são identificadas primeiro pela letra da coluna e depois pelo número da linha (ex: B5).
+---
+ENUNCIADO: Como as colunas são identificadas por padrão nas planilhas do Microsoft Excel?
+A) Por letras (A, B, C...)
+B) Por números (1, 2, 3...)
+C) Por algarismos romanos (I, II, III...)
+D) Por símbolos (@, #, $...)
+E) Por códigos de cores
+CORRETA: A
+EXPLICACAO: As colunas ficam dispostas na vertical e são identificadas por letras de A até XFD.
+---
+ENUNCIADO: Como as linhas são identificadas por padrão nas planilhas do Microsoft Excel?
+A) Por números (1, 2, 3...)
+B) Por letras (A, B, C...)
+C) Por códigos alfanuméricos
+D) Por nomes customizados
+E) Por símbolos especiais
+CORRETA: A
+EXPLICACAO: As linhas ficam dispostas na horizontal e são identificadas por números em ordem crescente (1 a 1.048.576).
+---
+ENUNCIADO: Qual função do Excel é utilizada para somar todos os números inseridos em um intervalo de células?
+A) SOMAR
+B) SOMA
+C) ADICAO
+D) TOTAL
+E) TOTALIZAR
+CORRETA: B
+EXPLICACAO: A função =SOMA() calcula o total da adição dos valores numéricos informados em seus argumentos.
+---
+ENUNCIADO: Qual função do Excel calcula a média aritmética dos valores de um determinado intervalo de células?
+A) MEDIA
+B) MEDIANA
+C) PROMEDIO
+D) AVALIA
+E) MEDIA.ARITMETICA
+CORRETA: A
+EXPLICACAO: A função =MEDIA() soma os valores numéricos selecionados e divide pelo número total de elementos.
+---
+ENUNCIADO: Qual função do Excel identifica e retorna o MAIOR valor numérico presente em um grupo de células?
+A) MAXIMO
+B) MAIOR.VALOR
+C) ALTO
+D) MÁX
+E) PICO
+CORRETA: A
+EXPLICACAO: A função =MAXIMO() verifica um grupo de dados numéricos e retorna o maior deles.
+---
+ENUNCIADO: Qual função do Excel identifica e retorna o MENOR valor numérico presente em um grupo de células?
+A) MINIMO
+B) MENOR.VALOR
+C) BAIXO
+D) MÍN
+E) INFERIOR
+CORRETA: A
+EXPLICACAO: A função =MINIMO() analisa um intervalo de células e extrai o menor número do conjunto.
+---
+ENUNCIADO: O que significa a notação "A1:A10" em uma fórmula do Microsoft Excel?
+A) O intervalo contínuo de células da célula A1 ATÉ a célula A10
+B) Apenas as células A1 E A10 isoladamente
+C) A divisão da célula A1 pela célula A10
+D) O produto da célula A1 pela A10
+E) Uma célula inválida
+CORRETA: A
+EXPLICACAO: Os dois pontos (:) representam a ideia de intervalo contínuo "até", englobando todas as células entre A1 e A10.
+---
+ENUNCIADO: O que significa a notação "A1;A10" em uma fórmula do Microsoft Excel?
+A) Apenas as duas células isoladas: A1 E A10
+B) O intervalo de todas as células de A1 até A10
+C) A multiplicação da célula A1 pela A10
+D) Um erro de sintaxe
+E) A criação de uma nova planilha
+CORRETA: A
+EXPLICACAO: O ponto e vírgula (;) atua como separador de argumentos, significando "E" (apenas A1 e A10).
+---
+ENUNCIADO: Qual símbolo matemático representa a operação de MULTIPLICAÇÃO em uma fórmula do Excel?
+A) Asterisco (*)
+B) Letra X
+C) Ponto (.)
+D) Cifrão ($)
+E) Porcentagem (%)
+CORRETA: A
+EXPLICACAO: O operador aritmético de multiplicação no Excel é o símbolo do asterisco (*).
+---
+ENUNCIADO: Qual símbolo matemático representa a operação de DIVISÃO em uma fórmula do Excel?
+A) Barra inclinada (/)
+B) Barra invertida (\)
+C) Dois pontos (:)
+D) Hífen (-)
+E) Porcentagem (%)
+CORRETA: A
+EXPLICACAO: A divisão no Excel é realizada utilizando a barra inclinada para a direita (/).
+---
+ENUNCIADO: Qual símbolo é utilizado nas fórmulas do Excel para realizar a operação de POTENCIAÇÃO (elevar a uma potência)?
+A) Acento circunflexo (^)
+B) Asterisco duplo (**)
+C) Comercial (&)
+D) Til (~)
+E) Cerquilha (#)
+CORRETA: A
+EXPLICACAO: O acento circunflexo (^) é o operador de exponenciação no Excel (exemplo: =2^3 resulta em 8).
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para salvar a pasta de trabalho atual no Excel em português?
+A) Ctrl + B
+B) Ctrl + S
+C) Ctrl + A
+D) Ctrl + P
+E) Ctrl + N
+CORRETA: A
+EXPLICACAO: No Excel em português, o comando Ctrl + B salva as alterações na pasta de trabalho.
+---
+ENUNCIADO: Qual atalho de teclado aciona a função de COPIAR o conteúdo ou célula selecionada no Excel?
+A) Ctrl + C
+B) Ctrl + V
+C) Ctrl + X
+D) Ctrl + Z
+E) Ctrl + B
+CORRETA: A
+EXPLICACAO: O comando Ctrl + C envia uma cópia da célula ou texto selecionado para a Área de Transferência.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para COLAR o conteúdo previamente copiado no Excel?
+A) Ctrl + V
+B) Ctrl + C
+C) Ctrl + X
+D) Ctrl + P
+E) Ctrl + A
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + V cola na célula ativa o conteúdo que está armazenado na Área de Transferência.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para RECORTAR o conteúdo de uma célula no Excel?
+A) Ctrl + X
+B) Ctrl + C
+C) Ctrl + V
+D) Ctrl + D
+E) Ctrl + Z
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + X remove o conteúdo da célula de origem para movê-lo ao colar em outro local.
+---
+ENUNCIADO: Qual atalho de teclado DESFAZ a última ação realizada na planilha do Excel?
+A) Ctrl + Z
+B) Ctrl + Y
+C) Ctrl + X
+D) Ctrl + R
+E) Ctrl + U
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + Z anula o último comando efetuado na planilha.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado no Excel em português para Selecionar TUDO (todas as células da planilha)?
+A) Ctrl + T
+B) Ctrl + A
+C) Ctrl + S
+D) Ctrl + Shift + Espaço
+E) Alt + A
+CORRETA: A
+EXPLICACAO: No Excel em português, o atalho Ctrl + T (T de Tudo) seleciona todas as células da planilha ativa.
+---
+ENUNCIADO: Qual atalho de teclado abre a janela para IMPRIMIR a planilha ativa no Excel em português?
+A) Ctrl + P
+B) Ctrl + I
+C) Ctrl + B
+D) Alt + P
+E) Ctrl + Shift + P
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + P exibe as opções e a pré-visualização de impressão do arquivo.
+---
+ENUNCIADO: Qual símbolo é utilizado para fixar/bloquear uma linha ou coluna tornando a referência ABSOLUTA ao copiar fórmulas no Excel?
+A) Cifrão ($)
+B) Cerquilha (#)
+C) Arroba (@)
+D) Porcentagem (%)
+E) Ampersand (&)
+CORRETA: A
+EXPLICACAO: O sinal de cifrão ($) fixa a coluna e/ou linha de uma referência (ex: $A$1), impedindo que ela mude quando copiada.
+---
+ENUNCIADO: Qual tecla de atalho alterna rapidamente os tipos de referências de uma célula em uma fórmula (Relativa, Absoluta e Mista)?
+A) F4
+B) F2
+C) F9
+D) F12
+E) Alt + F4
+CORRETA: A
+EXPLICACAO: A tecla F4 adiciona ou remove os cifrões ($) da referência selecionada na fórmula.
+---
+ENUNCIADO: Como é chamada a pequena caixa preta localizada no canto inferior direito da célula selecionada usada para arrastar fórmulas e sequências?
+A) Alça de Preenchimento
+B) Ponto de Arraste
+C) Seletor de Célula
+D) Marcador de Copia
+E) Caixilha de Entrada
+CORRETA: A
+EXPLICACAO: A Alça de Preenchimento permite copiar fórmulas ou continuar sequências lógicas (como dias da semana ou meses) ao ser arrastada.
+---
+ENUNCIADO: Qual atalho de teclado habilita o MODO DE EDIÇÃO do conteúdo da célula ativa sem apagar o que já está digitado?
+A) F2
+B) F4
+C) F7
+D) F11
+E) Enter
+CORRETA: A
+EXPLICACAO: Pressionar F2 posiciona o cursor ao final do texto dentro da célula para edição direta.
+---
+ENUNCIADO: Qual é o resultado correto da fórmula matemática do Excel: =5+2*3 ?
+A) 11
+B) 21
+C) 10
+D) 30
+E) 13
+CORRETA: A
+EXPLICACAO: O Excel segue a ordem matemática padrão: executa primeiro a multiplicação (2 * 3 = 6) e depois a soma (5 + 6 = 11).
+---
+ENUNCIADO: Qual é o resultado correto da fórmula do Excel: =(5+2)*3 ?
+A) 21
+B) 11
+C) 17
+D) 30
+E) 10
+CORRETA: A
+EXPLICACAO: Os parênteses alteram a ordem de prioridade: primeiro soma-se (5 + 2 = 7) e multiplica-se pelo valor externo (7 * 3 = 21).
+---
+ENUNCIADO: O que acontece ao dar um DUPLO CLIQUE sobre a linha divisória entre o cabeçalho de duas colunas (ex: entre A e B)?
+A) Ajusta automaticamente a largura da coluna A ao tamanho do maior conteúdo
+B) Oculta a coluna A
+C) Exclui a coluna B
+D) Unifica as duas colunas
+E) Insere uma nova coluna entre elas
+CORRETA: A
+EXPLICACAO: O duplo clique no limite entre os cabeçalhos das colunas ativa o "Ajuste Automático" de largura.
+---
+ENUNCIADO: Qual recurso do Excel permite unir duas ou mais células selecionadas transformando-as em uma única célula centralizada?
+A) Mesclar e Centralizar
+B) Quebrar Texto Automaticamente
+C) Formatar como Tabela
+D) Agrupar Células
+E) Concatenar
+CORRETA: A
+EXPLICACAO: O botão Mesclar e Centralizar combina o espaço de várias células e centraliza o conteúdo retido.
+---
+ENUNCIADO: Qual recurso faz com que o texto de uma célula que excede sua largura seja distribuído em múltiplas linhas dentro da própria célula?
+A) Quebrar Texto Automaticamente
+B) Mesclar e Centralizar
+C) AutoAjuste
+D) Reduzir para Caber
+E) Transpor
+CORRETA: A
+EXPLICACAO: O recurso Quebrar Texto Automaticamente ajusta o texto em várias linhas horizontais mantendo a largura da coluna.
+---
+ENUNCIADO: Qual botão na guia Página Inicial aplica rapidamente o formato de moeda local (ex: R$) aos valores numéricos das células?
+A) Formato de Número de Contabilidade
+B) Estilo de Porcentagem
+C) Separador de Milhares
+D) Aumentar Casas Decimais
+E) Formato Geral
+CORRETA: A
+EXPLICACAO: O ícone com moedas (Formato de Número de Contabilidade) adiciona o símbolo de moeda (R$) e ajusta as casas decimais.
+---
+ENUNCIADO: O que é exibido em uma célula do Excel quando a largura da coluna é insuficiente para mostrar um número formatado?
+A) Uma sequência de símbolos de cerquilha (#####)
+B) O texto #VALOR!
+C) O texto #N/D
+D) O número 0
+E) Uma interrogação (?)
+CORRETA: A
+EXPLICACAO: O padrão "#####" indica que o valor numérico é maior do que a largura atual da coluna.
+---
+ENUNCIADO: Qual erro é exibido pelo Excel quando uma fórmula tenta realizar uma divisão por zero?
+A) #DIV/0!
+B) #VALOR!
+C) #NOME?
+D) #N/D
+E) #REF!
+CORRETA: A
+EXPLICACAO: O erro #DIV/0! ocorre sempre que uma conta ou referência tenta dividir um número por zero ou por uma célula vazia.
+---
+ENUNCIADO: Qual erro o Excel apresenta quando o nome de uma função é digitado incorretamente (ex: =SOMAa(A1:A5))?
+A) #NOME?
+B) #VALOR!
+C) #REF!
+D) #N/D
+E) #NULL!
+CORRETA: A
+EXPLICACAO: O erro #NOME? indica que o Excel não reconheceu a sintaxe do nome da função ou do texto inserido na fórmula.
+---
+ENUNCIADO: Qual erro é gerado quando uma fórmula faz referência a uma célula que foi excluída da planilha?
+A) #REF!
+B) #VALOR!
+C) #DIV/0!
+D) #NOME?
+E) #NULOS!
+CORRETA: A
+EXPLICACAO: O aviso #REF! ocorre quando a referência de célula utilizada na fórmula não é válida ou foi apagada/deletada.
+---
+ENUNCIADO: Qual erro aparece quando um tipo de argumento incorreto é usado em um cálculo (ex: tentar somar um número com uma palavra)?
+A) #VALOR!
+B) #DIV/0!
+C) #NOME?
+D) #N/D
+E) #REF!
+CORRETA: A
+EXPLICACAO: O erro #VALOR! é mostrado quando a fórmula contém o tipo de dado errado para a operação (ex: texto em vez de número).
+---
+ENUNCIADO: Qual função conta quantas células contêm NÚMEROS dentro de um intervalo selecionado?
+A) CONT.NÚM
+B) CONT.VALORES
+C) CONTAR.VAZIO
+D) CONT.SE
+E) SOMA
+CORRETA: A
+EXPLICACAO: A função =CONT.NÚM() contabiliza exclusivamente as células de um intervalo que possuem valores numéricos.
+---
+ENUNCIADO: Qual função conta a quantidade de células que NÃO estão vazias (que possuem números ou textos) em um intervalo?
+A) CONT.VALORES
+B) CONT.NÚM
+C) CONTAR.VAZIO
+D) CONT.SE
+E) PROCV
+CORRETA: A
+EXPLICACAO: A função =CONT.VALORES() conta qualquer célula que possua algum dado preenchido (seja texto, número ou erro).
+---
+ENUNCIADO: Qual função conta a quantidade de células totalmente VAZIAS em um determinado intervalo?
+A) CONTAR.VAZIO
+B) CONT.NÚM
+C) CONT.VALORES
+D) VAZIO
+E) LIMPAR
+CORRETA: A
+EXPLICACAO: A função =CONTAR.VAZIO() retorna o número de células sem nenhum conteúdo digitado.
+---
+ENUNCIADO: Qual função é utilizada para unir o texto de duas ou mais células em uma única célula?
+A) CONCATENAR (ou CONCAT)
+B) UNIR.TEXTO
+C) JUNTAR
+D) SOMA.TEXTO
+E) VINCULAR
+CORRETA: A
+EXPLICACAO: A função =CONCATENAR() ou =CONCAT() agrupa conteúdos de texto de diferentes células em um só lugar.
+---
+ENUNCIADO: Qual operador de texto (símbolo) pode ser usado como alternativa direta à função CONCATENAR para juntar textos?
+A) E comercial (&)
+B) Asterisco (*)
+C) Cifrão ($)
+D) Porcentagem (%)
+E) Cerquilha (#)
+CORRETA: A
+EXPLICACAO: O operador & junta strings de texto no Excel (exemplo: ="Maria" & " " & "Silva" resulta em Maria Silva).
+---
+ENUNCIADO: Qual função lógica do Excel testa uma condição e retorna um valor se a condição for VERDADEIRA e outro se for FALSA?
+A) SE
+B) E
+C) OU
+D) SEERRO
+E) VERDADEIRO
+CORRETA: A
+EXPLICACAO: A função lógica =SE(teste_lógico; valor_se_verdadeiro; valor_se_falso) avalia uma condição e decide qual resposta exibir.
+---
+ENUNCIADO: Onde fica localizada a barra que exibe o conteúdo exato ou a fórmula da célula selecionada no topo da planilha?
+A) Barra de Fórmulas
+B) Barra de Status
+C) Caixa de Nome
+D) Faixa de Opções
+E) Barra de Título
+CORRETA: A
+EXPLICACAO: A Barra de Fórmulas fica situada acima das colunas e mostra o texto plano, valor ou fórmula da célula ativa.
+---
+ENUNCIADO: Como é chamada a caixa localizada à esquerda da Barra de Fórmulas que indica o endereço da célula ativa (ex: C3)?
+A) Caixa de Nome
+B) Caixa de Endereço
+C) Painel de Célula
+D) Localizador
+E) Indicador de Posição
+CORRETA: A
+EXPLICACAO: A Caixa de Nome mostra a célula selecionada no momento e permite nomear intervalos de células.
+---
+ENUNCIADO: Qual recurso do Excel aplica automaticamente cores, destaques ou formatos a uma célula com base em regras estipuladas pelo usuário?
+A) Formatação Condicional
+B) Estilos de Célula
+C) Formatar como Tabela
+D) AutoSoma
+E) Validação de Dados
+CORRETA: A
+EXPLICACAO: A Formatação Condicional altera a aparência visual da célula (como cor do fundo) dependendo do seu valor armazenado.
+---
+ENUNCIADO: Como se chama a ferramenta do Excel usada para ordenar dados em ordem alfabética (A-Z) ou numérica (Crescente)?
+A) Classificar
+B) Filtrar
+C) Validação
+D) Agrupar
+E) Consolidar
+CORRETA: A
+EXPLICACAO: A ferramenta Classificar reorganiza as linhas da tabela em ordem crescente ou decrescente com base em uma coluna.
+---
+ENUNCIADO: Qual recurso do Excel adiciona seleções suspensas nos cabeçalhos para ocultar temporariamente dados que não cumprem certos critérios?
+A) Filtro
+B) Classificar
+C) Congelar Painéis
+D) Ocultar Células
+E) Tabela Dinâmica
+CORRETA: A
+EXPLICACAO: O Filtro exibe apenas as linhas da planilha que satisfazem as condições selecionadas pelo usuário.
+---
+ENUNCIADO: Qual atalho de teclado insere automaticamente a função AUTOSOMA para as células acima ou ao lado?
+A) Alt + =
+B) Ctrl + S
+C) Ctrl + Shift + S
+D) Alt + S
+E) Shift + F3
+CORRETA: A
+EXPLICACAO: O atalho Alt + = aciona a AutoSoma, inserindo a fórmula =SOMA() selecionando o intervalo adjacente.
+---
+ENUNCIADO: Qual guia da Faixa de Opções do Excel reúne os comandos para criação de Gráficos e Imagens?
+A) Inserir
+B) Página Inicial
+C) Dados
+D) Exibir
+E) Fórmulas
+CORRETA: A
+EXPLICACAO: A guia Inserir contém as opções para incluir Gráficos, Ilustrações, Tabelas Dinâmicas e Símbolos.
+---
+ENUNCIADO: Qual guia da Faixa de Opções do Excel contém a biblioteca de funções organizadas por categoria (Financeira, Lógica, Texto)?
+A) Fórmulas
+B) Dados
+C) Página Inicial
+D) Revisão
+E) Ferramentas
+CORRETA: A
+EXPLICACAO: A guia Fórmulas traz o catálogo estruturado de funções, verificação de erros e ferramentas de auditoria.
+---
+ENUNCIADO: Qual guia do Excel contém os botões para Classificar, Filtrar, remover duplicatas e importar dados externos?
+A) Dados
+B) Fórmulas
+C) Página Inicial
+D) Layout da Página
+E) Exibir
+CORRETA: A
+EXPLICACAO: A guia Dados concentra os comandos de manipulação, validação, filtragem e conexão de fontes de dados.
+---
+ENUNCIADO: Qual tipo de gráfico no Excel é mais recomendado para representar partes proporcionais de um TODO (fatias percentuais)?
+A) Gráfico de Pizza
+B) Gráfico de Linhas
+C) Gráfico de Dispersão
+D) Gráfico de Área
+E) Gráfico de Radar
+CORRETA: A
+EXPLICACAO: O Gráfico de Pizza é ideal para mostrar a composição proporcional de um total de 100%.
+---
+ENUNCIADO: Qual tipo de gráfico no Excel é mais adequado para demonstrar tendências e variações de dados ao longo do tempo?
+A) Gráfico de Linhas
+B) Gráfico de Pizza
+C) Gráfico de Rosca
+D) Gráfico de Dispersão
+E) Gráfico de Hierarquia
+CORRETA: A
+EXPLICACAO: O Gráfico de Linhas é a melhor escolha para evidenciar a evolução e tendências de dados em intervalos contínuos.
+---
+ENUNCIADO: Qual funcionalidade permite manter as linhas superiores ou colunas da esquerda visíveis enquanto se rola a planilha para baixo ou para o lado?
+A) Congelar Painéis
+B) Dividir Tela
+C) Fixar Células
+D) Bloquear Exibição
+E) Ocultar Rolagem
+CORRETA: A
+EXPLICACAO: A opção Congelar Painéis (na guia Exibir) trava cabeçalhos na tela enquanto o restante da planilha é rolado.
+---
+ENUNCIADO: Qual tecla do teclado cancela a edição de uma célula e descarta as alterações recém-digitadas antes do Enter?
+A) Esc
+B) Tab
+C) Delete
+D) Backspace
+E) Space
+CORRETA: A
+EXPLICACAO: Pressionar a tecla Esc descarta qualquer dado que esteja sendo digitado no momento e sai do modo de edição.
+---
+ENUNCIADO: Qual tecla finaliza a digitação na célula e move a seleção imediatamente para a célula de BAIXO?
+A) Enter
+B) Tab
+C) Shift + Tab
+D) Esc
+E) Espaço
+CORRETA: A
+EXPLICACAO: A tecla Enter confirma a entrada e desloca o foco da seleção para a célula diretamente inferior.
+---
+ENUNCIADO: Qual tecla finaliza a digitação na célula e move a seleção para a célula da DIREITA?
+A) Tab
+B) Enter
+C) Shift + Enter
+D) Esc
+E) Home
+CORRETA: A
+EXPLICACAO: A tecla Tab valida a alteração e avança a seleção para a célula à direita.
+---
+ENUNCIADO: Qual combinação de teclas move a seleção para a célula da ESQUERDA?
+A) Shift + Tab
+B) Ctrl + Tab
+C) Alt + Tab
+D) Shift + Enter
+E) Alt + Left
+CORRETA: A
+EXPLICACAO: Pressionar Shift + Tab retrocede o foco de seleção para a célula à esquerda.
+---
+ENUNCIADO: Qual combinação de teclas move a seleção para a célula de CIMA?
+A) Shift + Enter
+B) Ctrl + Enter
+C) Alt + Enter
+D) Shift + Tab
+E) Alt + Up
+CORRETA: A
+EXPLICACAO: A combinação Shift + Enter confirma a digitação e sobe a seleção para a célula superior.
+---
+ENUNCIADO: Qual é o nome do arquivo individual de trabalho do Excel, o qual pode conter uma ou várias planilhas (abas)?
+A) Pasta de Trabalho
+B) Folha de Cálculo
+C) Bloco de Dados
+D) Caderno de Tabelas
+E) Documento Mestre
+CORRETA: A
+EXPLICACAO: Um arquivo salvo do Excel é tecnicamente chamado de Pasta de Trabalho.
+---
+ENUNCIADO: Onde ficam localizadas as guias de alternância das planilhas (ex: Plan1, Plan2) dentro de uma Pasta de Trabalho do Excel?
+A) Na parte inferior da janela do Excel
+B) Na Barra de Título
+C) Na Faixa de Opções
+D) Na Barra de Fórmulas
+E) No painel superior direito
+CORRETA: A
+EXPLICACAO: As guias das planilhas são dispostas na barra inferior da interface para facilitar a navegação entre abas.
+---
+ENUNCIADO: Como se pode ADICIONAR uma nova planilha (aba) simples na Pasta de Trabalho ativa?
+A) Clicando no botão de mais (+) ao lado das guias das planilhas na parte inferior
+B) Pressionando F12
+C) Reiniciando o computador
+D) Clicando com o botão direito na Barra de Título
+E) Através da guia Design
+CORRETA: A
+EXPLICACAO: O ícone do sinal de adição (+) na barra inferior insere instantaneamente uma nova planilha em branco.
+---
+ENUNCIADO: Qual atalho de teclado abre a janela para ABRIR um arquivo de Excel já existente no computador?
+A) Ctrl + A
+B) Ctrl + O
+C) Ctrl + E
+D) Alt + A
+E) Ctrl + Shift + A
+CORRETA: A
+EXPLICACAO: No Excel em português, o atalho Ctrl + A (de Abrir) acessa a tela de seleção de arquivos salvos.
+---
+ENUNCIADO: Qual atalho de teclado cria uma NOVA Pasta de Trabalho em branco no Excel em português?
+A) Ctrl + O
+B) Ctrl + N
+C) Ctrl + A
+D) Alt + N
+E) Ctrl + Shift + N
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + O (de Outra/Origem) abre um novo arquivo em branco.
+---
+ENUNCIADO: Qual atalho de teclado abre a caixa de diálogo "Salvar Como" no Microsoft Excel?
+A) F12
+B) F2
+C) Ctrl + S
+D) Alt + F12
+E) Ctrl + F12
+CORRETA: A
+EXPLICACAO: A tecla F12 ativa a caixa "Salvar Como" para definir novo nome ou local para o arquivo.
+---
+ENUNCIADO: Qual função retorna a DATA E HORA atuais do sistema operacional no Excel?
+A) AGORA
+B) HOJE
+C) DATA.ATUAL
+D) HORA
+E) TEMPO
+CORRETA: A
+EXPLICACAO: A função =AGORA() não possui argumentos e insere a data e horário correntes do computador.
+---
+ENUNCIADO: Qual função do Excel retorna APENAS a data atual do sistema (sem o horário)?
+A) HOJE
+B) AGORA
+C) DATA
+D) DIA
+E) HOJE.DATA
+CORRETA: A
+EXPLICACAO: A função =HOJE() atualiza e exibe unicamente a data atual do sistema operacional.
+---
+ENUNCIADO: Qual atalho de teclado insere instantaneamente a DATA ATUAL do sistema na célula selecionada no Excel?
+A) Ctrl + Ponto e Vírgula (;)
+B) Ctrl + Dois Pontos (:)
+C) Alt + D
+D) Ctrl + Shift + D
+E) Shift + F3
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + ; insere a data corrente como um valor estático dentro da célula.
+---
+ENUNCIADO: Qual atalho de teclado insere instantaneamente a HORA ATUAL na célula selecionada do Excel?
+A) Ctrl + Shift + Dois Pontos (:)
+B) Ctrl + Ponto e Vírgula (;)
+C) Alt + H
+D) Ctrl + H
+E) Shift + H
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + Shift + : (ou Ctrl + Shift + ;) grava o horário atual na célula.
+---
+ENUNCIADO: O que faz a função de busca =PROCV() no Microsoft Excel?
+A) Procura um valor em uma coluna na VERTICAL e retorna o dado correspondente de outra coluna
+B) Procura um valor em uma linha na HORIZONTAL
+C) Procura apenas valores repetidos
+D) Protege a célula contra gravação
+E) Preenche a célula com cor vermelha
+CORRETA: A
+EXPLICACAO: O PROCV significa Procura Vertical e pesquisa itens na primeira coluna de uma tabela para retornar dados da mesma linha.
+---
+ENUNCIADO: O que significa a letra 'H' na função =PROCH() do Excel?
+A) Horizontal (procura um valor na primeira linha de uma tabela)
+B) Histórico
+C) Hierarquia
+D) Header (Cabeçalho)
+E) Hora
+CORRETA: A
+EXPLICACAO: A função PROCH realiza uma Pesquisa Horizontal ao longo da linha superior de uma matriz de dados.
+---
+ENUNCIADO: Qual funcionalidade do Excel impede que usuários digitem dados inválidos em uma célula (ex: restringindo a entrada apenas a números entre 1 e 10)?
+A) Validação de Dados
+B) Formatação Condicional
+C) Proteção da Planilha
+D) Bloqueio de Texto
+E) Limpeza de Célula
+CORRETA: A
+EXPLICACAO: A Validação de Dados (na guia Dados) estabelece regras para restringir os valores inseridos pelo usuário nas células.
+---
+ENUNCIADO: Qual ferramenta interativa do Excel é utilizada para resumir, analisar e explorar grandes quantidades de dados com facilidade?
+A) Tabela Dinâmica
+B) Validação de Dados
+C) AutoSoma
+D) Agrupar Linhas
+E) Formulário de Entrada
+CORRETA: A
+EXPLICACAO: A Tabela Dinâmica permite agrupar, cruzar e sintetizar grandes bases de dados de forma dinâmica e rápida.
+---
+ENUNCIADO: Qual recurso permite ocultar temporariamente o conteúdo de uma coluna inteira sem apagá-lo da planilha?
+A) Botão direito do mouse sobre o cabeçalho da coluna -> Ocultar
+B) Tecla Delete sobre a coluna
+C) Tecla Backspace
+D) Mudar a cor da fonte para vermelho
+E) Mesclar a coluna com a vizinha
+CORRETA: A
+EXPLICACAO: Ao selecionar o cabeçalho da coluna e escolher a opção "Ocultar", a coluna fica oculta da visualização sem perder os dados.
+---
+ENUNCIADO: Qual atalho do teclado abre o painel para LOCALIZAR palavras ou números dentro de uma planilha do Excel em português?
+A) Ctrl + L
+B) Ctrl + F
+C) Ctrl + B
+D) Alt + L
+E) Ctrl + Shift + L
+CORRETA: A
+EXPLICACAO: No Excel em português, a combinação Ctrl + L abre a caixa de busca "Localizar e Substituir".
+---
+ENUNCIADO: Qual atalho abre a janela para SUBSTITUIR um termo por outro no Excel em português?
+A) Ctrl + U
+B) Ctrl + H
+C) Ctrl + R
+D) Alt + U
+E) Ctrl + Shift + U
+CORRETA: A
+EXPLICACAO: No Excel em português, o atalho para abrir o painel com a aba Substituir selecionada é o Ctrl + U.
+---
+ENUNCIADO: Qual atalho de teclado APLICA ou REMOVE a formatação em NEGRITO no Excel em português?
+A) Ctrl + N
+B) Ctrl + B
+C) Ctrl + G
+D) Alt + N
+E) Ctrl + Shift + N
+CORRETA: A
+EXPLICACAO: O comando Ctrl + N aplica ou retira o estilo Negrito das células selecionadas.
+---
+ENUNCIADO: Qual atalho de teclado APLICA ou REMOVE a formatação em ITÁLICO nas células selecionadas do Excel?
+A) Ctrl + I
+B) Ctrl + T
+C) Ctrl + K
+D) Alt + I
+E) Ctrl + Shift + I
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + I altera o texto selecionado para a versão inclinada (Itálico).
+---
+ENUNCIADO: Qual atalho de teclado APLICA ou REMOVE a formatação em SUBLINHADO no Excel em português?
+A) Ctrl + S
+B) Ctrl + U
+C) Ctrl + L
+D) Alt + S
+E) Ctrl + Shift + S
+CORRETA: A
+EXPLICACAO: No Excel em português, Ctrl + S insere ou remove uma linha sob o texto da célula.
+---
+ENUNCIADO: Qual recurso da guia Revisão permite proteger a planilha ativando uma SENHA de acesso contra alterações?
+A) Proteger Planilha
+B) Bloquear Arquivo
+C) Restringir Célula
+D) Validação de Senha
+E) Criptografia Dinâmica
+CORRETA: A
+EXPLICACAO: A opção Proteger Planilha (guia Revisão) impede edições indesejadas em células bloqueadas por meio de uma senha.
+---
+ENUNCIADO: O que é a "Caixa de Preenchimento Rápido" (Flash Fill) no Microsoft Excel (atalho Ctrl + E)?
+A) Uma ferramenta que reconhece padrões e preenche dados automaticamente
+B) Um botão para somar células mais rápido
+C) Um formato de borda colorida
+D) Uma função para calcular porcentagens
+E) O salvamento automático do arquivo
+CORRETA: A
+EXPLICACAO: O Preenchimento Rápido (Ctrl + E) detecta o padrão inserido manualmente pelo usuário e completa os dados restantes.
+---
+ENUNCIADO: Qual atalho aciona a ferramenta de verificação ortográfica na planilha do Excel?
+A) F7
+B) F1
+C) F5
+D) F12
+E) Shift + F7
+CORRETA: A
+EXPLICACAO: A tecla F7 inicia a varredura e verificação de erros ortográficos no arquivo.
+---
+ENUNCIADO: Como se denomina o botão em formato de balde de tinta na guia Página Inicial usado para mudar a cor do fundo de uma célula?
+A) Cor do Preenchimento
+B) Cor da Fonte
+C) Sombreamento de Texto
+D) Pincel de Estilo
+E) Tinta de Borda
+CORRETA: A
+EXPLICACAO: A opção Cor do Preenchimento (ícone do balde) altera a cor de fundo interna da célula.
+---
+ENUNCIADO: Qual função retorna o número de caracteres contidos em um texto dentro de uma célula?
+A) NÚM.CARACT
+B) CONT.CARACTERE
+C) TAMANHO
+D) COMPRIMENTO
+E) TEXTOLEN
+CORRETA: A
+EXPLICACAO: A função =NÚM.CARACT() conta e retorna a quantidade total de letras, números e espaços de uma célula.
+---
+ENUNCIADO: Qual função converte todas as letras de um texto em letras MAIÚSCULAS no Excel?
+A) MAIÚSCULA
+B) UPPER
+C) ALTA
+D) MAIUS
+E) CAIXA.ALTA
+CORRETA: A
+EXPLICACAO: A função =MAIÚSCULA() transforma todo o conteúdo de texto da célula de origem em caixa alta.
+---
+ENUNCIADO: Qual função converte todas as letras de um texto em letras MINÚSCULAS no Excel?
+A) MINÚSCULA
+B) LOWER
+C) BAIXA
+D) MINUS
+E) CAIXA.BAIXA
+CORRETA: A
+EXPLICACAO: A função =MINÚSCULA() converte todos os caracteres do texto fornecido para letras minúsculas.
+---
+ENUNCIADO: Qual função deixa apenas a PRIMA LEIRA de cada palavra em maiúscula e o restante em minúscula?
+A) PRI.MAIÚSCULA
+B) PROPRIA
+C) PRIMEIRA
+D) INICIAL.MAIUS
+E) NOMES
+CORRETA: A
+EXPLICACAO: A função =PRI.MAIÚSCULA() coloca em caixa alta a letra inicial de cada palavra contida na célula.
+---
+ENUNCIADO: Qual atalho de teclado no Excel fecha a Pasta de Trabalho atual sem encerrar o aplicativo?
+A) Ctrl + W (ou Ctrl + F4)
+B) Alt + W
+C) Ctrl + Q
+D) Shift + Esc
+E) Alt + F4
+CORRETA: A
+EXPLICACAO: O comando Ctrl + W encerra o arquivo ativo mantendo a janela do programa aberta.
+---
+ENUNCIADO: Qual atalho fecha COMPLETAMENTE o aplicativo Microsoft Excel?
+A) Alt + F4
+B) Ctrl + F4
+C) Ctrl + Q
+D) Esc
+E) Shift + F4
+CORRETA: A
+EXPLICACAO: A combinação Alt + F4 fecha a janela principal, finalizando a execução do Excel.
+---
+ENUNCIADO: Qual elemento da interface mostra o nome do arquivo que está sendo editado no momento?
+A) Barra de Título
+B) Barra de Status
+C) Barra de Fórmulas
+D) Caixa de Nome
+E) Guia Exibir
+CORRETA: A
+EXPLICACAO: A Barra de Título fica na parte superior central da janela e exibe o nome da pasta de trabalho atual.
+---
+ENUNCIADO: O que é o Pincel de Formatação no Excel?
+A) Uma ferramenta para copiar a formatação (cores, fontes, bordas) de uma célula para outra
+B) Um recurso para desenhar linhas livres na planilha
+C) Uma função para alterar a cor da grade
+D) Um utilitário de impressão
+E) Um limpador de histórico
+CORRETA: A
+EXPLICACAO: O Pincel de Formatação copia o visual e o estilo de uma célula e os replica no destino selecionado.
+---
+ENUNCIADO: O que significa formatar uma célula como "Porcentagem" no Excel?
+A) Multiplica o valor da célula por 100 e exibe o símbolo %
+B) Divide o valor da célula por 100
+C) Adiciona a palavra "por cento" ao final
+D) Arredonda o número para o inteiro mais próximo
+E) Converte o número em valor monetário
+CORRETA: A
+EXPLICACAO: O estilo de Porcentagem exibe o número multiplicado por 100 acompanhado do sinal de percentual (%).
+---
+ENUNCIADO: Qual orientação de página configura a folha na posição VERTICAL para impressão no Excel?
+A) Retrato
+B) Paisagem
+C) Deitada
+D) Panorâmica
+E) Invertida
+CORRETA: A
+EXPLICACAO: Na orientação Retrato, a página é impressa na vertical (altura maior do que a largura).
+---
+ENUNCIADO: Qual orientação de página configura a folha na posição HORIZONTAL para impressão no Excel?
+A) Paisagem
+B) Retrato
+C) Expandida
+D) Larga
+E) Plana
+CORRETA: A
+EXPLICACAO: A orientação Paisagem dispõe a folha na horizontal, útil para planilhas com muitas colunas.
+---
+ENUNCIADO: Qual função do Excel realiza a SOMA de um intervalo SOMENTE se as células cumprirem determinado critério?
+A) SOMASE
+B) SOMA.CRITERIO
+C) SOMA.SE.DADOS
+D) CONT.SE
+E) PROCV
+CORRETA: A
+EXPLICACAO: A função =SOMASE() adiciona apenas os valores numéricos que satisfazem uma condição específica.
+---
+ENUNCIADO: Qual função do Excel realiza a CONTAGEM de células SOMENTE se elas cumprirem um critério estabelecido?
+A) CONT.SE
+B) CONT.SOMAR
+C) SE.CONTAR
+D) SOMASE
+E) FILTRAR
+CORRETA: A
+EXPLICACAO: A função =CONT.SE() conta quantas células de um grupo atendem à regra informada no argumento.
+---
+ENUNCIADO: Qual função calcula a MÉDIA dos valores de um intervalo que atendem a um critério específico?
+A) MEDIASE
+B) MEDIA.SE.CRITERIO
+C) PROMEDIO.SI
+D) SOMA.MEDIA
+E) CALC.MEDIA
+CORRETA: A
+EXPLICACAO: A função =MEDIASE() extrai a média aritmética apenas das células que satisfazem a regra parametrizada.
+---
+ENUNCIADO: Qual atalho de teclado insere um gráfico de colunas padrão na planilha instantaneamente a partir dos dados selecionados?
+A) Alt + F1
+B) F11
+C) Ctrl + F1
+D) Shift + F1
+E) Alt + G
+CORRETA: A
+EXPLICACAO: A combinação Alt + F1 insere um gráfico embutido na planilha atual com base nos dados selecionados.
+---
+ENUNCIADO: Qual função arredonda um número para uma quantidade especificada de casas decimais no Excel?
+A) ARRED
+B) ARREDONDAR
+C) CORTE
+D) TRUNCAR
+E) DECIMAIS
+CORRETA: A
+EXPLICACAO: A função =ARRED(número; núm_dígitos) arredonda o valor informado conforme o número de casas decimais definido.

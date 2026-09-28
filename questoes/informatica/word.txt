@@ -1,0 +1,899 @@
+ENUNCIADO: Qual é a extensão padrão de arquivo utilizada para salvar documentos no Microsoft Word nas versões mais recentes?
+A) .DOCX
+B) .TXT
+C) .XLSX
+D) .PDF
+E) .PPTX
+CORRETA: A
+EXPLICACAO: O formato padrão nativo para salvar documentos do Microsoft Word a partir da versão 2007 é a extensão .DOCX.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para salvar o documento atual no Microsoft Word em português?
+A) Ctrl + B
+B) Ctrl + S
+C) Ctrl + A
+D) Ctrl + P
+E) Ctrl + N
+CORRETA: A
+EXPLICACAO: No Microsoft Word em português, a combinação de teclas Ctrl + B é o atalho padrão para salvar o documento.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para desfazer a última ação realizada em um documento do Word?
+A) Ctrl + Z
+B) Ctrl + Y
+C) Ctrl + X
+D) Ctrl + C
+E) Ctrl + V
+CORRETA: A
+EXPLICACAO: O comando Ctrl + Z é universalmente utilizado para desfazer a última alteração efetuada no texto ou documento.
+---
+ENUNCIADO: Qual comando do teclado é utilizado para refazer uma ação que foi desfeita anteriormente no Microsoft Word?
+A) Ctrl + Y (ou F4)
+B) Ctrl + Z
+C) Ctrl + R
+D) Ctrl + Shift + Z
+E) Alt + Backspace
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + Y (ou a tecla F4) refaz a última ação que havia sido anulada pelo comando desfazer.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para copiar o texto ou objeto selecionado no Microsoft Word?
+A) Ctrl + C
+B) Ctrl + X
+C) Ctrl + V
+D) Ctrl + P
+E) Ctrl + A
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + C copia o conteúdo selecionado para a Área de Transferência.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para colar um texto ou objeto copiado em um documento do Word?
+A) Ctrl + V
+B) Ctrl + C
+C) Ctrl + X
+D) Ctrl + B
+E) Ctrl + Shift + C
+CORRETA: A
+EXPLICACAO: O comando Ctrl + V insere no documento o conteúdo contido na Área de Transferência.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para recortar o texto selecionado, movendo-o para a Área de Transferência?
+A) Ctrl + X
+B) Ctrl + C
+C) Ctrl + V
+D) Ctrl + D
+E) Ctrl + Delete
+CORRETA: A
+EXPLICACAO: O comando Ctrl + X remove o texto do local original e o guarda temporariamente na Área de Transferência.
+---
+ENUNCIADO: Qual atalho de teclado no Microsoft Word em português seleciona TODO o texto do documento de uma só vez?
+A) Ctrl + T
+B) Ctrl + A
+C) Ctrl + S
+D) Ctrl + Shift + A
+E) Alt + A
+CORRETA: A
+EXPLICACAO: No Word em português, o atalho Ctrl + T (T de Tudo) é usado para selecionar todo o conteúdo do documento.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para imprimir o documento ativo no Microsoft Word em português?
+A) Ctrl + P
+B) Ctrl + I
+C) Ctrl + B
+D) Alt + P
+E) Shift + P
+CORRETA: A
+EXPLICACAO: O comando Ctrl + P (P de Print) abre a tela de impressão do documento.
+---
+ENUNCIADO: Qual formato de alinhamento de texto distribui o conteúdo de maneira uniforme entre as margens esquerda e direita do documento?
+A) Justificado
+B) Alinhado à Esquerda
+C) Centralizado
+D) Alinhado à Direita
+E) Distribuído em Colunas
+CORRETA: A
+EXPLICACAO: O alinhamento Justificado ajusta o espaçamento entre palavras para que o texto termine alinhado em ambas as margens.
+---
+ENUNCIADO: Qual atalho de teclado aplica o formato NEGRITO ao texto selecionado no Word em português?
+A) Ctrl + N
+B) Ctrl + B
+C) Ctrl + G
+D) Alt + N
+E) Ctrl + Shift + N
+CORRETA: A
+EXPLICACAO: No Word em português, o atalho Ctrl + N destaca o texto selecionado com a formatação em Negrito.
+---
+ENUNCIADO: Qual atalho de teclado aplica a formatação ITÁLICO ao texto selecionado no Word em português?
+A) Ctrl + I
+B) Ctrl + T
+C) Ctrl + K
+D) Alt + I
+E) Ctrl + Shift + I
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + I aplica a formatação em Itálico (inclinação) às letras selecionadas.
+---
+ENUNCIADO: Qual atalho de teclado aplica a formatação SUBLINHADO ao texto selecionado no Word em português?
+A) Ctrl + S
+B) Ctrl + U
+C) Ctrl + L
+D) Alt + S
+E) Ctrl + Shift + S
+CORRETA: A
+EXPLICACAO: No Word em português, a combinação Ctrl + S adiciona uma linha abaixo do texto selecionado (Sublinhado).
+---
+ENUNCIADO: Qual recurso do Microsoft Word permite copiar rapidamente a formatação de um trecho de texto e aplicá-la em outro?
+A) Pincel de Formatação
+B) Localizar e Substituir
+C) AutoCorreção
+D) Bloco de Notas
+E) Estilo Rápido
+CORRETA: A
+EXPLICACAO: O Pincel de Formatação copia a aparência (fonte, cor, tamanho) de um texto para ser replicada em outro local.
+---
+ENUNCIADO: Qual guia da Faixa de Opções do Word é utilizada para inserir tabelas, imagens, formas e cabeçalhos no documento?
+A) Inserir
+B) Página Inicial
+C) Layout
+D) Exibir
+E) Design
+CORRETA: A
+EXPLICACAO: A guia Inserir reúne ferramentas para adicionar novos elementos (imagens, tabelas, numeração) ao arquivo.
+---
+ENUNCIADO: Qual guia da Faixa de Opções contém os comandos mais frequentes, como grupo Fonte, Parágrafo e estilos de texto?
+A) Página Inicial
+B) Arquivo
+C) Referências
+D) Correspondências
+E) Revisão
+CORRETA: A
+EXPLICACAO: A guia Página Inicial é a guia principal e padrão do Word, onde ficam os controles básicos de texto e parágrafo.
+---
+ENUNCIADO: Qual atalho de teclado aciona a ferramenta de verificação de Ortografia e Gramática no Microsoft Word?
+A) F7
+B) F1
+C) F5
+D) F12
+E) Shift + F7
+CORRETA: A
+EXPLICACAO: A tecla de atalho F7 inicia a verificação ortográfica e gramatical no documento ativo.
+---
+ENUNCIADO: Qual atalho de teclado abre a janela "Salvar Como" no Microsoft Word?
+A) F12
+B) F2
+C) Ctrl + S
+D) Alt + F12
+E) Ctrl + F12
+CORRETA: A
+EXPLICACAO: A tecla F12 é o atalho direto para abrir a caixa de diálogo "Salvar Como".
+---
+ENUNCIADO: Qual funcionalidade do Word permite alterar automaticamente uma palavra por outra em todo o documento de forma rápida?
+A) Localizar e Substituir
+B) AutoTexto
+C) Pincel de Formatação
+D) Ortografia e Gramática
+E) Dicionário Sinônimo
+CORRETA: A
+EXPLICACAO: A ferramenta Localizar e Substituir (Ctrl + H) busca termos específicos no texto e os troca por um novo termo.
+---
+ENUNCIADO: Qual é a função da tecla Tab quando o cursor de digitação está posicionado no início de um parágrafo no Word?
+A) Avançar o recuo da primeira linha do parágrafo
+B) Excluir a primeira palavra
+C) Mudar a cor da fonte
+D) Inserir uma tabela
+E) Salvar o documento
+CORRETA: A
+EXPLICACAO: Pressionar Tab no início de um parágrafo insere uma tabulação/recuo na primeira linha do texto.
+---
+ENUNCIADO: Qual atalho de teclado abre a caixa de busca "Localizar" no Microsoft Word em português?
+A) Ctrl + L
+B) Ctrl + F
+C) Ctrl + B
+D) Alt + L
+E) Ctrl + Shift + L
+CORRETA: A
+EXPLICACAO: No Word em português, a combinação Ctrl + L abre o painel de navegação para Localizar palavras no texto.
+---
+ENUNCIADO: Qual atalho abre a janela de substituição de texto "Substituir" no Word em português?
+A) Ctrl + H
+B) Ctrl + S
+C) Ctrl + R
+D) Alt + H
+E) Ctrl + Shift + H
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + H abre a caixa de diálogo com a guia "Substituir" selecionada.
+---
+ENUNCIADO: Como é chamada a área superior de uma página no Word onde ficam conteúdos repetidos, como títulos de capítulos e logotipos?
+A) Cabeçalho
+B) Rodapé
+C) Nota de Rodapé
+D) Margem Superior
+E) Marca d'Água
+CORRETA: A
+EXPLICACAO: O Cabeçalho fica situado na margem superior da página e se repete nas seções do documento.
+---
+ENUNCIADO: Como é chamada a área inferior da página no Word frequentemente utilizada para inserir números de página e datas?
+A) Rodapé
+B) Cabeçalho
+C) Nota de Fim
+D) Margem Inferior
+E) Barra de Status
+CORRETA: A
+EXPLICACAO: O Rodapé localiza-se na margem inferior do documento e comporta dados como paginação e autor.
+---
+ENUNCIADO: Qual orientação de página no Microsoft Word posiciona a folha na vertical (posição padrão de leitura de cartas)?
+A) Retrato
+B) Paisagem
+C) Deitado
+D) Panorâmico
+E) Verticalizado
+CORRETA: A
+EXPLICACAO: A orientação Retrato posiciona a folha verticalmente (altura maior que a largura).
+---
+ENUNCIADO: Qual orientação de página no Microsoft Word posiciona a folha na horizontal (largura maior que a altura)?
+A) Paisagem
+B) Retrato
+C) Horizontal
+D) Expanso
+E) Panorâmico
+CORRETA: A
+EXPLICACAO: A orientação Paisagem dispõe a página na horizontal, sendo ideal para tabelas largas e gráficos.
+---
+ENUNCIADO: Qual recurso do Word coloca uma marcação visual (como uma bolinha ou quadrado) no início de cada item de uma lista?
+A) Marcadores
+B) Numeração
+C) Estilos
+D) Tabulação
+E) Bordas
+CORRETA: A
+EXPLICACAO: Os Marcadores (Bullets) organizam itens em listas não ordenadas usando símbolos visuais.
+---
+ENUNCIADO: Qual recurso do Word organiza uma lista atribuindo sequências ordenadas de números ou letras a cada item?
+A) Numeração
+B) Marcadores
+C) Lista Multi Nível
+D) Alinhamento
+E) AutoSoma
+CORRETA: A
+EXPLICACAO: A funcionalidade Numeração ordena os itens sequencialmente por algarismos (1, 2, 3) ou letras (A, B, C).
+---
+ENUNCIADO: O que acontece quando se pressiona a tecla Enter enquanto se digita um texto normal no Word?
+A) É criado um novo parágrafo
+B) É inserida uma quebra de página
+C) O documento é salvo automaticamente
+D) O cursor vai para a última página
+E) A letra fica em caixa alta
+CORRETA: A
+EXPLICACAO: Pressionar Enter finaliza o parágrafo atual e inicia um novo parágrafo na linha seguinte.
+---
+ENUNCIADO: Qual combinação de teclas deve ser usada para inserir uma quebra de linha simples sem iniciar um novo parágrafo?
+A) Shift + Enter
+B) Ctrl + Enter
+C) Alt + Enter
+D) Tab + Enter
+E) Space + Enter
+CORRETA: A
+EXPLICACAO: O comando Shift + Enter insere uma quebra de linha manual mantendo a digitação dentro do mesmo parágrafo.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para inserir uma Quebra de Página manual no Microsoft Word?
+A) Ctrl + Enter
+B) Shift + Enter
+C) Alt + Enter
+D) Ctrl + Shift + Enter
+E) Tab + Enter
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + Enter envia o cursor imediatamente para o início da página seguinte.
+---
+ENUNCIADO: O que indica uma linha ondulada VERMELHA abaixo de uma palavra no Microsoft Word?
+A) Possível erro de ortografia (palavra não reconhecida no dicionário)
+B) Possível erro de gramática ou concordância
+C) Palavra com link da internet
+D) Texto formatado com estilo de título
+E) Palavra repetida na mesma linha
+CORRETA: A
+EXPLICACAO: A sublinha ondulada vermelha avisa sobre potenciais erros ortográficos na palavra digitada.
+---
+ENUNCIADO: O que indica uma linha ondulada AZUL abaixo de um trecho de texto no Microsoft Word?
+A) Possível erro gramatical ou de formatação/contexto
+B) Erro grave de ortografia
+C) Palavra em outro idioma
+D) Texto duplicado
+E) Imagem sem legenda
+CORRETA: A
+EXPLICACAO: A sublinha ondulada azul aponta incorreções gramaticais, de pontuação ou concordância no contexto.
+---
+ENUNCIADO: Qual atalho de teclado permite alterar o alinhamento do texto selecionado para CENTRALIZADO no Word em português?
+A) Ctrl + E
+B) Ctrl + C
+C) Ctrl + M
+D) Alt + C
+E) Ctrl + Shift + C
+CORRETA: A
+EXPLICACAO: No Word em português, a combinação Ctrl + E aplica o alinhamento Centralizado ao parágrafo.
+---
+ENUNCIADO: Qual atalho de teclado alinha o texto selecionado à ESQUERDA no Microsoft Word em português?
+A) Ctrl + Q
+B) Ctrl + L
+C) Ctrl + E
+D) Alt + E
+E) Ctrl + Shift + Q
+CORRETA: A
+EXPLICACAO: No Word em português, o comando Ctrl + Q aplica o alinhamento do parágrafo à esquerda.
+---
+ENUNCIADO: Qual atalho de teclado alinha o texto selecionado à DIREITA no Microsoft Word em português?
+A) Ctrl + G
+B) Ctrl + R
+C) Ctrl + D
+D) Alt + D
+E) Ctrl + Shift + G
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + G alinha o texto selecionado junto à margem direita do documento.
+---
+ENUNCIADO: Qual atalho de teclado aplica o alinhamento JUSTIFICADO ao texto selecionado no Word em português?
+A) Ctrl + J
+B) Ctrl + U
+C) Ctrl + F
+D) Alt + J
+E) Ctrl + Shift + J
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + J ajusta e alinha o parágrafo simultaneamente nas margens esquerda e direita.
+---
+ENUNCIADO: Qual botão na guia Página Inicial permite transformar letras minúsculas em MAIÚSCULAS ou vice-versa rapidamente?
+A) Maiúsculas e Minúsculas (Alt + A + 7)
+B) Aumentar Fonte
+C) Sombreamento
+D) Limpar Formatação
+E) Estilos
+CORRETA: A
+EXPLICACAO: O botão Maiúsculas e Minúsculas alterna o texto selecionado entre caixa alta, caixa baixa ou primeira letra maiúscula.
+---
+ENUNCIADO: Qual atalho de teclado alterna o texto selecionado entre maiúsculas, minúsculas e primeira letra maiúscula?
+A) Shift + F3
+B) Ctrl + F3
+C) Alt + F3
+D) Ctrl + Shift + A
+E) F3
+CORRETA: A
+EXPLICACAO: O atalho Shift + F3 alterna progressivamente o modo de caixa do texto selecionado.
+---
+ENUNCIADO: Qual é o tamanho padrão de papel pré-configurado na maioria dos documentos do Microsoft Word no Brasil?
+A) A4
+B) Carta (Letter)
+C) Ofício (Legal)
+D) A3
+E) A5
+CORRETA: A
+EXPLICACAO: O padrão de dimensão de página mais amplamente adotado e configurado no Brasil é o formato A4 (21 x 29,7 cm).
+---
+ENUNCIADO: Em qual guia do Word ficam localizados os controles de margens, orientação da folha e tamanho do papel?
+A) Layout (ou Layout da Página)
+B) Design
+C) Exibir
+D) Página Inicial
+E) Ferramentas
+CORRETA: A
+EXPLICACAO: A guia Layout agrupa as configurações de estrutura do papel, como Margens, Orientação e Colunas.
+---
+ENUNCIADO: Como é chamada a representação gráfica de texto estilizado e decorativo contida na guia Inserir do Word?
+A) WordArt
+B) SmartArt
+C) ClipArt
+D) TextDesign
+E) AutoForma
+CORRETA: A
+EXPLICACAO: O WordArt é uma ferramenta para criar títulos e efeitos de texto decorativos personalizáveis.
+---
+ENUNCIADO: Qual recurso da guia Inserir permite adicionar diagramas visuais, organogramas e fluxogramas profissionais ao documento?
+A) SmartArt
+B) WordArt
+C) Gráficos
+D) Formas
+E) Tabela Dinâmica
+CORRETA: A
+EXPLICACAO: Os elementos gráficos SmartArt servem para comunicar informações visualmente através de processos e organogramas.
+---
+ENUNCIADO: Qual modo de exibição no Microsoft Word oculta barras de ferramentas e otimiza a tela para facilitar a leitura contínua?
+A) Modo de Leitura
+B) Layout de Impressão
+C) Layout da Web
+D) Rascunho
+E) Estrutura de Tópicos
+CORRETA: A
+EXPLICACAO: O Modo de Leitura oculta distrações da interface e organiza as páginas lado a lado para focar na leitura.
+---
+ENUNCIADO: Qual é o modo de exibição padrão do Microsoft Word que mostra o documento exatamente como ele será impresso?
+A) Layout de Impressão
+B) Layout da Web
+C) Estrutura de Tópicos
+D) Modo de Leitura
+E) Rascunho
+CORRETA: A
+EXPLICACAO: O modo Layout de Impressão exibe margens, cabeçalhos e elementos visuais no formato exato da folha física.
+---
+ENUNCIADO: Qual ferramenta na guia Revisão do Word permite contar o número de palavras, caracteres, parágrafos e linhas do documento?
+A) Contar Palavras
+B) Dicionário
+C) Traduzir
+D) Ler em Voz Alta
+E) Painel de Estatísticas
+CORRETA: A
+EXPLICACAO: O utilitário Contar Palavras (também visível na Barra de Status) exibe o total de termos e caracteres do arquivo.
+---
+ENUNCIADO: Onde fica localizada a barra que exibe o número da página atual, o total de palavras e o nível de Zoom no Word?
+A) Barra de Status (na parte inferior da janela)
+B) Barra de Título
+C) Faixa de Opções
+D) Barra de Ferramentas de Acesso Rápido
+E) Painel de Navegação
+CORRETA: A
+EXPLICACAO: A Barra de Status fica no rodapé da janela do programa e mostra informações estatísticas e controles de exibição.
+---
+ENUNCIADO: Qual controle deslizante, localizado no canto inferior direito do Word, permite aproximar ou afastar a visualização da folha?
+A) Controle de Zoom
+B) Barra de Rolagem
+C) Régua
+D) Seletor de Estilos
+E) Medidor de Margem
+CORRETA: A
+EXPLICACAO: O controle de Zoom altera a porcentagem de ampliação visual da página na tela sem modificar o tamanho real da fonte.
+---
+ENUNCIADO: Como se chama a barra personalizável localizada no topo da janela do Word que contém atalhos rápidos como Salvar, Desfazer e Refazer?
+A) Barra de Ferramentas de Acesso Rápido
+B) Faixa de Opções
+C) Barra de Status
+D) Menu Arquivo
+E) Barra de Título
+CORRETA: A
+EXPLICACAO: A Barra de Ferramentas de Acesso Rápido fica no topo do aplicativo e armazena os botões mais utilizados pelo usuário.
+---
+ENUNCIADO: Qual atalho de teclado cria um Novo Documento em branco no Microsoft Word em português?
+A) Ctrl + O
+B) Ctrl + N
+C) Ctrl + A
+D) Alt + N
+E) Ctrl + Shift + N
+CORRETA: A
+EXPLICACAO: No Word em português, a combinação Ctrl + O (de Origem/Outro) abre um novo documento em branco.
+---
+ENUNCIADO: Qual atalho de teclado abre a janela para Abrir um documento existente no Word em português?
+A) Ctrl + A
+B) Ctrl + O
+C) Ctrl + E
+D) Alt + A
+E) Ctrl + Shift + A
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + A (de Abrir) acessa a tela para selecionar e carregar arquivos salvos.
+---
+ENUNCIADO: Qual recurso do Word aplica um conjunto predefinido de formatações (como Título 1, Título 2, Normal) para estruturar o texto?
+A) Estilos
+B) Fontes
+C) Pincel
+D) Layouts
+E) Temas
+CORRETA: A
+EXPLICACAO: Os Estilos padronizam a hierarquia do texto e facilitam a criação automática de sumários.
+---
+ENUNCIADO: Qual recurso do Word gera automaticamente uma lista com os títulos e subnúmeros do documento organizados por página?
+A) Sumário (Índice Analítico)
+B) Cabeçalho
+C) Nota de Rodapé
+D) Legenda
+E) Tabela de Figuras
+CORRETA: A
+EXPLICACAO: A ferramenta Sumário (na guia Referências) compila automaticamente os tópicos que utilizaram estilos de Título.
+---
+ENUNCIADO: Qual recurso é utilizado para inserir pequenas notas explicativas no final da página atual no Microsoft Word?
+A) Inserir Nota de Rodapé
+B) Inserir Nota de Fim
+C) Inserir Comentário
+D) Inserir Legenda
+E) Inserir Citação
+CORRETA: A
+EXPLICACAO: A Nota de Rodapé adiciona uma referência numerada no rodapé da folha onde o texto foi citado.
+---
+ENUNCIADO: Qual o atalho de teclado para inserir uma Nota de Rodapé no Microsoft Word em português?
+A) Alt + Ctrl + F
+B) Ctrl + N
+C) Shift + F3
+D) Alt + Shift + F
+E) Ctrl + Alt + N
+CORRETA: A
+EXPLICACAO: O atalho Alt + Ctrl + F insere uma nota de rodapé na posição em que o cursor está localizado.
+---
+ENUNCIADO: Qual guia do Microsoft Word contém o botão para acionar a verificação ortográfica e adicionar comentários?
+A) Revisão
+B) Referências
+C) Exibir
+D) Design
+E) Layout
+CORRETA: A
+EXPLICACAO: A guia Revisão traz ferramentas de edição colaborativa, comentários, dicionário e controle de alterações.
+---
+ENUNCIADO: Qual recurso permite que múltiplos usuários façam edições em um documento registrando quem alterou cada trecho do texto?
+A) Controlar Alterações
+B) Comparar Documentos
+C) AutoCorreção
+D) Proteger Documento
+E) Bloqueio de Tela
+CORRETA: A
+EXPLICACAO: O recurso Controlar Alterações destaca inserções, exclusões e formatações feitas por diferentes revisores.
+---
+ENUNCIADO: Qual funcionalidade do Word é utilizada para enviar cartas ou e-mails personalizados para uma lista grande de contatos?
+A) Mala Direta
+B) Bloco de Notas
+C) Tabela Dinâmica
+D) Mala Postal
+E) Envio em Massa
+CORRETA: A
+EXPLICACAO: A Mala Direta combina um modelo de documento com uma base de dados para gerar mensagens personalizadas.
+---
+ENUNCIADO: Em qual guia do Word encontra-se a ferramenta "Mala Direta"?
+A) Correspondências
+B) Referências
+C) Inserir
+D) Layout
+E) Arquivo
+CORRETA: A
+EXPLICACAO: A guia Correspondências reúne os utilitários de criação de envelopes, etiquetas e Mala Direta.
+---
+ENUNCIADO: Qual efeito de fonte deixa o texto selecionado levemente mais elevado e em tamanho menor (exemplo: 10²)?
+A) Sobrescrito
+B) Subscrito
+C) Tachado
+D) Versalete
+E) Sombra
+CORRETA: A
+EXPLICACAO: O formato Sobrescrito (Ctrl + Shift + +) posiciona os caracteres acima da linha normal de texto.
+---
+ENUNCIADO: Qual efeito de fonte deixa o texto selecionado abaixo da linha normal de digitação e em tamanho menor (exemplo: H₂O)?
+A) Subscrito
+B) Sobrescrito
+C) Tachado
+D) Rebaixado
+E) Índice
+CORRETA: A
+EXPLICACAO: O formato Subscrito (Ctrl + =) insere caracteres pequenos imediatamente abaixo da linha de texto.
+---
+ENUNCIADO: Qual atalho de teclado aplica o efeito SUBSCRITO ao texto selecionado no Word?
+A) Ctrl + Signo de Igual (=)
+B) Ctrl + Shift + +
+C) Alt + Ctrl + S
+D) Ctrl + Alt + Sub
+E) Shift + Down
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + = aplica a formatação de texto subscrito.
+---
+ENUNCIADO: Qual atalho de teclado aplica o efeito SOBRESCRITO ao texto selecionado no Word?
+A) Ctrl + Shift + Sinal de Mais (+)
+B) Ctrl + =
+C) Alt + Shift + S
+D) Ctrl + Sup
+E) Shift + Up
+CORRETA: A
+EXPLICACAO: O atalho Ctrl + Shift + (+) formata os caracteres selecionados como sobrescritos.
+---
+ENUNCIADO: Qual efeito de fonte passa uma linha horizontal pelo meio do texto selecionado (exemplo: texto)?
+A) Tachado
+B) Sublinhado
+C) Sombra
+D) Sobrelinhado
+E) Riscado
+CORRETA: A
+EXPLICACAO: O efeito Tachado desenha um risco sobre o meio das letras selecionadas.
+---
+ENUNCIADO: Qual botão na guia Página Inicial limpa todas as formatações aplicadas ao texto, retornando-o ao estilo padrão?
+A) Limpar Toda a Formatação
+B) Apagar Texto
+C) Redefinir Fonte
+D) Pincel de Estilo
+E) Borracha de Texto
+CORRETA: A
+EXPLICACAO: O ícone Limpar Toda a Formatação (representado por uma letra A acompanhada de uma borracha) remove estilos e mantêm apenas o texto simples.
+---
+ENUNCIADO: Qual tecla do teclado apaga o caractere situado imediatamente à ESQUERDA do cursor de digitação?
+A) Backspace
+B) Delete
+C) Space
+D) Esc
+E) Tab
+CORRETA: A
+EXPLICACAO: A tecla Backspace remove as letras posicionadas antes (à esquerda) do cursor.
+---
+ENUNCIADO: Qual tecla do teclado apaga o caractere situado imediatamente à DIREITA do cursor de digitação?
+A) Delete
+B) Backspace
+C) End
+D) Home
+E) Esc
+CORRETA: A
+EXPLICACAO: A tecla Delete apaga o caractere que fica logo à frente (à direita) do ponto de inserção.
+---
+ENUNCIADO: Qual atalho do teclado apaga uma PALAVRA INTEIRA situada à esquerda do cursor no Word?
+A) Ctrl + Backspace
+B) Alt + Backspace
+C) Shift + Backspace
+D) Ctrl + Delete
+E) Alt + Delete
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + Backspace deleta toda a palavra anterior ao cursor.
+---
+ENUNCIADO: Qual atalho do teclado apaga uma PALAVRA INTEIRA situada à direita do cursor no Word?
+A) Ctrl + Delete
+B) Alt + Delete
+C) Shift + Delete
+D) Ctrl + Backspace
+E) Alt + Backspace
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + Delete remove a palavra completa posicionada à frente do cursor.
+---
+ENUNCIADO: Qual tecla move o cursor de digitação diretamente para o INÍCIO da linha atual no Word?
+A) Home
+B) End
+C) Page Up
+D) Page Down
+E) Ctrl + Left
+CORRETA: A
+EXPLICACAO: Pressionar Home posiciona o cursor na primeira letra da linha em execução.
+---
+ENUNCIADO: Qual tecla move o cursor de digitação diretamente para o FIM da linha atual no Word?
+A) End
+B) Home
+C) Page Down
+D) Enter
+E) Ctrl + Right
+CORRETA: A
+EXPLICACAO: Pressionar End desloca o cursor para o final da linha em que o usuário está digitando.
+---
+ENUNCIADO: Qual atalho de teclado move o cursor de digitação diretamente para o INÍCIO do documento?
+A) Ctrl + Home
+B) Alt + Home
+C) Shift + Home
+D) Ctrl + Page Up
+E) Alt + Page Up
+CORRETA: A
+EXPLICACAO: O comando Ctrl + Home leva o ponto de inserção para antes da primeira palavra do documento.
+---
+ENUNCIADO: Qual atalho de teclado move o cursor de digitação diretamente para o FINAL do documento no Word?
+A) Ctrl + End
+B) Alt + End
+C) Shift + End
+D) Ctrl + Page Down
+E) Alt + Page Down
+CORRETA: A
+EXPLICACAO: A combinação Ctrl + End direciona o cursor para o término da última página do arquivo.
+---
+ENUNCIADO: Como é chamada a grade visual de colunas e linhas inserida em um documento para organizar dados?
+A) Tabela
+B) Matriz
+C) Gráfico
+D) Quadro
+E) Planilha
+CORRETA: A
+EXPLICACAO: Uma Tabela no Word é composta pelo cruzamento de linhas e colunas formando células de dados.
+---
+ENUNCIADO: Como se chama o ponto de interseção individual entre uma linha e uma coluna dentro de uma tabela do Word?
+A) Célula
+B) Bloco
+C) Campo
+D) Caixilho
+E) Ponto
+CORRETA: A
+EXPLICACAO: Cada compartimento retangular de uma tabela é denominado Célula.
+---
+ENUNCIADO: Qual opção nas Ferramentas de Tabela permite transformar duas ou mais células selecionadas em uma única célula maior?
+A) Mesclar Células
+B) Dividir Células
+C) Unir Tabelas
+D) Agrupar
+E) Combinar Blocos
+CORRETA: A
+EXPLICACAO: A função Mesclar Células une os espaços de várias células adjacentes em apenas uma.
+---
+ENUNCIADO: Qual opção nas Ferramentas de Tabela divide uma célula individual em múltiplas linhas ou colunas?
+A) Dividir Células
+B) Mesclar Células
+C) Quebrar Tabela
+D) Separar Blocos
+E) Seccionar
+CORRETA: A
+EXPLICACAO: A opção Dividir Células subdivide a área da célula escolhida na quantidade desejada de linhas/colunas.
+---
+ENUNCIADO: Qual recurso do Word aplica um fundo de cor transparente atrás do texto selecionado para destacá-lo (como uma caneta marca-texto)?
+A) Cor do Realce do Texto
+B) Sombreamento de Parágrafo
+C) Cor da Fonte
+D) Preenchimento de Forma
+E) Tinta Digital
+CORRETA: A
+EXPLICACAO: A ferramenta Cor do Realce do Texto simula o uso de um marca-texto físico sobre os caracteres.
+---
+ENUNCIADO: Qual recurso do Word preenche com cor o fundo de todo o bloco de parágrafo ou célula de tabela?
+A) Sombreamento
+B) Realce de Texto
+C) Cor da Fonte
+D) Textura de Página
+E) Estilo de Borda
+CORRETA: A
+EXPLICACAO: O botão Sombreamento altera a cor de fundo do espaço delimitado do parágrafo ou da célula.
+---
+ENUNCIADO: Como são chamadas as linhas decorativas ou delimitadoras aplicadas ao redor de parágrafos, tabelas ou páginas inteiras?
+A) Bordas
+B) Margens
+C) Sombras
+D) Divisórias
+E) Linhas de Grade
+CORRETA: A
+EXPLICACAO: As Bordas adicionam contornos retangulares ou personalizados em torno de um texto, célula ou página.
+---
+ENUNCIADO: Qual recurso da guia Inserir insere uma letra maiúscula grande e decorativa no início do primeiro parágrafo de um capítulo?
+A) Capitular
+B) WordArt
+C) Caixas de Texto
+D) Letra Expandida
+E) Destaque Inicial
+CORRETA: A
+EXPLICACAO: O recurso Adicionar uma Letra Capitular amplia a primeira letra do parágrafo ocupando duas ou mais linhas.
+---
+ENUNCIADO: Qual ferramenta da guia Design permite adicionar uma imagem ou texto claro no fundo de todas as páginas (ex: "CONFIDENCIAL")?
+A) Marca d'Água
+B) Cor da Página
+C) Borda da Página
+D) Inserir Imagem de Fundo
+E) Marca de Segurança
+CORRETA: A
+EXPLICACAO: A Marca d'Água posiciona textos ou logotipos semitransparentes atrás do conteúdo principal da página.
+---
+ENUNCIADO: Qual funcionalidade da guia Design altera a cor de fundo de todas as folhas do documento no Word?
+A) Cor da Página
+B) Marca d'Água
+C) Estilo do Tema
+D) Cor do Parágrafo
+E) Paleta do Documento
+CORRETA: A
+EXPLICACAO: A opção Cor da Página aplica um tom ou preenchimento personalizado ao fundo das folhas.
+---
+ENUNCIADO: Qual atalho de teclado fecha o documento atual que está aberto no Microsoft Word?
+A) Ctrl + W (ou Ctrl + F4)
+B) Alt + W
+C) Ctrl + Q
+D) Shift + Esc
+E) Ctrl + End
+CORRETA: A
+EXPLICACAO: O comando Ctrl + W encerra e fecha a janela do documento ativo sem fechar todo o programa.
+---
+ENUNCIADO: Qual atalho de teclado encerra completamente o aplicativo Microsoft Word?
+A) Alt + F4
+B) Ctrl + F4
+C) Ctrl + Q
+D) Esc
+E) Shift + F4
+CORRETA: A
+EXPLICACAO: A combinação Alt + F4 fecha a janela principal e encerra a execução do Microsoft Word.
+---
+ENUNCIADO: Qual ferramenta da guia Exibir permite dividir a janela do Word em duas partes para visualizar trechos diferentes do mesmo arquivo?
+A) Dividir
+B) Nova Janela
+C) Organizar Tudo
+D) Lado a Lado
+E) Painel Duplo
+CORRETA: A
+EXPLICACAO: O botão Dividir cinde a área de trabalho da janela em dois painéis independentes de rolagem do mesmo documento.
+---
+ENUNCIADO: Qual elemento visual, localizado na parte superior e esquerda do documento, exibe marcações em centímetros para ajustar recuos e margens?
+A) Régua
+B) Linhas de Grade
+C) Guia de Layout
+D) Painel de Medidas
+E) Barra de Ferramentas
+CORRETA: A
+EXPLICACAO: A Régua mostra as dimensões do papel, tabulações e recuos das margens esquerda, direita, superior e inferior.
+---
+ENUNCIADO: O que acontece ao dar um DUPLO CLIQUE sobre uma palavra qualquer em um documento do Word?
+A) A palavra inteira é selecionada
+B) O parágrafo inteiro é selecionado
+C) A palavra é excluída
+D) Abre-se o dicionário de sinônimos
+E) A palavra fica em negrito
+CORRETA: A
+EXPLICACAO: Clicar duas vezes consecutivas sobre um termo seleciona a palavra completa.
+---
+ENUNCIADO: O que acontece ao dar um TRIPLO CLIQUE em qualquer ponto dentro de um parágrafo no Word?
+A) O parágrafo inteiro é selecionado
+B) Apenas a palavra atual é selecionada
+C) A linha atual é copiada
+D) O parágrafo é excluído
+E) Abre-se a tela de impressão
+CORRETA: A
+EXPLICACAO: Dar três cliques rápidos em sequência seleciona todo o parágrafo onde o cursor está posicionado.
+---
+ENUNCIADO: Qual combinação de clique do mouse e tecla seleciona uma frase completa (até o ponto final) no Word?
+A) Manter Ctrl pressionado e clicar em qualquer palavra da frase
+B) Manter Alt pressionado e clicar na frase
+C) Manter Shift pressionado e dar duplo clique
+D) Dar quatro cliques seguidos
+E) Manter a tecla Tab pressionada
+CORRETA: A
+EXPLICACAO: Pressionar Ctrl e clicar sobre uma palavra seleciona toda a frase delimitada pela pontuação.
+---
+ENUNCIADO: Como se chama a caixa flutuante que aparece com opções rápidas de fonte e tamanho logo após selecionar um trecho de texto?
+A) Mini Barra de Ferramentas
+B) Barra de Contexto
+C) Painel Flutuante
+D) Menu Rápido
+E) Dica de Ferramenta
+CORRETA: A
+EXPLICACAO: A Mini Barra de Ferramentas surge de forma transparente ao selecionar um texto para oferecer atalhos de formatação rápidos.
+---
+ENUNCIADO: Qual guia do Word permite inserir notas de fim, citações bibliográficas e legendas em ilustrações?
+A) Referências
+B) Correspondências
+C) Inserir
+D) Layout
+E) Revisão
+CORRETA: A
+EXPLICACAO: A guia Referências é destinada à gestão acadêmica e técnica (Sumários, Notas, Citações, Bibliografias).
+---
+ENUNCIADO: Qual funcionalidade permite inserir um retângulo de texto independente que pode ser movido livremente pela página?
+A) Caixa de Texto
+B) Bloco de Notas
+C) Parágrafo Flutuante
+D) Moldura
+E) Formato Livre
+CORRETA: A
+EXPLICACAO: A Caixa de Texto é um elemento gráfico ajustável para posicionamento de textos em locais específicos do arquivo.
+---
+ENUNCIADO: Como é chamada a primeira página de um documento formal ou relatório, geralmente contendo título, autor e data?
+A) Folha de Rosto (Capa)
+B) Página Mestra
+C) Cabeçalho
+D) Folha de Entrada
+E) Sumário
+CORRETA: A
+EXPLICACAO: A Folha de Rosto (Capa) é um modelo pré-formatado adicionado através da guia Inserir.
+---
+ENUNCIADO: O que significa a opção "Salvar Como" no menu Arquivo do Microsoft Word?
+A) Salva o arquivo permitindo escolher um novo nome, formato ou pasta de destino
+B) Sobrescreve o arquivo atual sem perguntar nada
+C) Envia o arquivo por e-mail automaticamente
+D) Salva uma cópia criptografada na lixeira
+E) Imprime o documento em PDF
+CORRETA: A
+EXPLICACAO: O comando "Salvar Como" permite criar uma nova cópia do documento alterando local, nome ou tipo do arquivo.
+---
+ENUNCIADO: Qual recurso do Word divide a apresentação do texto em duas ou mais colunas verticais na mesma página (estilo jornal)?
+A) Colunas
+B) Tabelas
+C) Divisão de Seção
+D) Quebra Vertical
+E) Painel Duplo
+CORRETA: A
+EXPLICACAO: A ferramenta Colunas (na guia Layout) reorganiza a mancha de texto do parágrafo em fluxos verticais paralelos.
+---
+ENUNCIADO: Qual recurso permite recuperar documentos que foram fechados sem salvar por conta de queda de energia ou travamento?
+A) AutoRecuperação
+B) Histórico de Download
+C) Restauração do Windows
+D) Lixeira do Word
+E) Cópia de Segurança Manual
+CORRETA: A
+EXPLICACAO: O recurso de AutoRecuperação salva cópias temporárias do arquivo em segundo plano no intervalo de minutos configurado.
+---
+ENUNCIADO: Como alterar o estilo ou tipo de letra (ex: Arial, Times New Roman, Calibri) em um documento do Word?
+A) Alterando a opção "Fonte" na guia Página Inicial
+B) Alterando o "Tamanho do Papel" na guia Layout
+C) Clicando no botão "Pincel de Formatação"
+D) Utilizando o comando "Localizar"
+E) Alterando as "Margens"
+CORRETA: A
+EXPLICACAO: O menu suspenso Fonte no grupo Fonte (guia Página Inicial) altera a família tipográfica da seleção.
+---
+ENUNCIADO: Qual é a unidade de medida utilizada para definir o tamanho dos caracteres e fontes no Microsoft Word?
+A) Pontos (pt)
+B) Pixels (px)
+C) Centímetros (cm)
+D) Polegadas (in)
+E) Milímetros (mm)
+CORRETA: A
+EXPLICACAO: O tamanho das fontes em softwares de processamento de texto é dimensionado em Pontos (pt).
+---
+ENUNCIADO: O que faz o botão "Aumentar Tamanho da Fonte" (atalho Ctrl + >) no Microsoft Word?
+A) Incrementa gradativamente a escala do tamanho do texto selecionado
+B) Transforma o texto para caixa alta
+C) Aplica o estilo Negrito
+D) Aumenta o espaçamento das margens
+E) Aplica o zoom na tela
+CORRETA: A
+EXPLICACAO: O botão Aumentar Tamanho da Fonte eleva o tamanho em pontos do texto que estiver selecionado.

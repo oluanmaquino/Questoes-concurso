@@ -1,0 +1,918 @@
+---
+ENUNCIADO: O que é um "Software" no contexto da informática?
+A) O conjunto de peças físicas e circuitos eletrônicos do computador
+B) A sequência de instruções e programas que orientam o hardware a executar tarefas específicas
+C) O cabo de rede conectado ao roteador
+D) A carcaça de metal que protege o computador
+E) A bateria interna da placa-mãe
+CORRETA: B
+EXPLICACAO: Software representa a parte lógica do computador, ou seja, os programas, dados e instruções que dizem ao hardware o que fazer.
+---
+ENUNCIADO: Qual é a principal função de um Sistema Operacional (SO)?
+A) Limpar a poeira das peças internas do computador
+B) Gerenciar os recursos do hardware e fornecer uma interface para o usuário e outros programas
+C) Aumentar a velocidade da conexão de internet
+D) Imprimir documentos automaticamente
+E) Proteger o computador contra oscilações de energia elétrica
+CORRETA: B
+EXPLICACAO: O Sistema Operacional atua como intermediário entre o usuário/aplicativos e o hardware da máquina, gerando e alocando recursos de memória, processamento e dispositivos.
+---
+ENUNCIADO: Qual dos programas abaixo é classificado como um Sistema Operacional?
+A) Microsoft Word
+B) Google Chrome
+C) Microsoft Windows 11
+D) Adobe Photoshop
+E) Avast Antivirus
+CORRETA: C
+EXPLICACAO: O Windows 11 é um sistema operacional responsável por gerenciar a máquina. Os demais itens são softwares aplicativos.
+---
+ENUNCIADO: O que é um "Software Livre" (Free Software)?
+A) Um programa que é obrigatoriamente gratuito e não pode ser comercializado
+B) Um software que concede ao usuário a liberdade de executar, copiar, distribuir, estudar e modificar seu código-fonte
+C) Um programa que funciona apenas sem conexão com a internet
+D) Um software enviado de graça com o computador mas que não pode ter seu código alterado
+E) Um aplicativo exclusivo para celulares
+CORRETA: B
+EXPLICACAO: Software livre refere-se à liberdade do usuário sobre o programa (liberdades de uso, estudo, modificação e redistribuição do código-fonte).
+---
+ENUNCIADO: O que é o "Código-Fonte" (Source Code) de um programa?
+A) O número de série que ativa a licença do produto
+B) O conjunto de instruções escritas em uma linguagem de programação que define como o software deve funcionar
+C) O endereço do site onde o programa foi baixado
+D) O arquivo final compactado em extensão .ZIP
+E) O manual impresso que vem na caixa do software
+CORRETA: B
+EXPLICACAO: Código-fonte é o texto estruturado e legível por programadores, escrito em uma linguagem de programação, que gera o programa.
+---
+ENUNCIADO: O que é um "Software Proprietário"?
+A) Um programa cujo código-fonte é aberto e pode ser editado por qualquer pessoa
+B) Um software sobre o qual o detentor dos direitos autorais limita o uso, a redistribuição ou a modificação do código-fonte
+C) Um programa criado exclusivamente por governos
+D) Um aplicativo de uso obrigatório em escritórios
+E) Um sistema que não necessita de instalação
+CORRETA: B
+EXPLICACAO: Softwares proprietários possuem direitos autorais restritos; os usuários pagam pelo direito de uso, mas não têm acesso ao código-fonte.
+---
+ENUNCIADO: Qual das alternativas apresenta um exemplo de Sistema Operacional de Código Aberto (Open Source)?
+A) Microsoft Windows 10
+B) Apple macOS
+C) Linux (como Ubuntu)
+D) iOS
+E) MS-DOS
+CORRETA: C
+EXPLICACAO: O Linux e suas distribuições (como o Ubuntu) são o exemplo mais clássico de sistema operacional open source / código aberto.
+---
+ENUNCIADO: O que é um "Firmware"?
+A) Um software básico gravado permanentemente em um chip de memória (ROM) do hardware para controlar o dispositivo
+B) Um jogo de computador muito leve
+C) Um programa antivírus pago
+D) A versão de avaliação de um aplicativo
+E) Uma planilha do Excel protegida por senha
+CORRETA: A
+EXPLICACAO: Firmware é um tipo específico de software gravado diretamente no chip de hardware (como a BIOS) para fornecer controle de baixo nível sobre o dispositivo.
+---
+ENUNCIADO: O que é um "Driver" de dispositivo?
+A) O técnico responsável por instalar o Windows no computador
+B) Um software que atua como ponte de comunicação entre o Sistema Operacional e um componente de hardware específico
+C) Um leitor de arquivos no formato PDF
+D) Um utilitário de desfragmentação de disco
+E) Um antivírus nativo do sistema
+CORRETA: B
+EXPLICACAO: O driver instrui o sistema operacional sobre como interagir e enviar comandos para uma peça física de hardware específica (ex: placa de vídeo, impressora).
+---
+ENUNCIADO: Qual das opções abaixo representa um Software de Aplicação (Aplicativo)?
+A) Driver da impressora HP
+B) BIOS da placa-mãe
+C) Editor de texto Microsoft Word
+D) Kernel do Linux
+E) Windows Registry
+CORRETA: C
+EXPLICACAO: Softwares aplicativos são desenvolvidos para ajudar o usuário a realizar tarefas específicas do dia a dia, como escrever textos (Word).
+---
+ENUNCIADO: O que é um software do tipo "Freeware"?
+A) Um programa totalmente gratuito para uso, mas cujo código-fonte permanece fechado/proprietário
+B) Um programa pago que exige mensalidade obrigatória
+C) Um vírus que se espalha sozinho
+D) Um software livre licando sob GPL
+E) Um sistema que para de funcionar após 30 dias
+CORRETA: A
+EXPLICACAO: Freeware é um software distribuído gratuitamente para o usuário final, porém os direitos do código-fonte continuam sendo do autor.
+---
+ENUNCIADO: O que é um software do tipo "Shareware"?
+A) Um programa que exige compartilhamento nas redes sociais para abrir
+B) Um software disponibilizado gratuitamente por um período de teste (ou com recursos limitados) antes de exigir pagamento
+C) Um sistema de compartilhamento de arquivos peer-to-peer
+D) Um software livre e de código aberto
+E) Um vírus que rouba senhas bancárias
+CORRETA: B
+EXPLICACAO: Shareware é o modelo de distribuição demonstrativa ("trial"), onde o programa pode ser testado por tempo limitado até que o usuário compre a licença.
+---
+ENUNCIADO: O que significa a sigla "SaaS" no contexto de computação em nuvem?
+A) System as a Software
+B) Software as a Service (Software como Serviço)
+C) Storage and Application System
+D) Secure Access and Software
+E) Server and Application Socket
+CORRETA: B
+EXPLICACAO: SaaS (Software como Serviço) é um modelo de distribuição onde o software é hospedado na nuvem e acessado via internet/navegador sem necessidade de instalação local.
+---
+ENUNCIADO: Qual dos softwares abaixo é um exemplo clássico de aplicação SaaS?
+A) Bloco de Notas (Notepad do Windows)
+B) Google Docs
+C) Paint
+D) Calculadora do Windows
+E) WinRAR
+CORRETA: B
+EXPLICACAO: O Google Docs roda inteiramente em servidores na web e é acessado pelo navegador, sendo um exemplo representativo do modelo SaaS.
+---
+ENUNCIADO: O que faz um software "Navegador Web" (Web Browser)?
+A) Cria planilhas de cálculo avançadas
+B) Permite acessar, carregar e visualizar páginas de sites na World Wide Web (internet)
+C) Remove poeira do disco rígido
+D) Grava arquivos de áudio em CDs
+E) Desenha plantas baixas em 3D
+CORRETA: B
+EXPLICACAO: Navegadores (como Chrome, Firefox e Edge) interpretam linguagens web para exibir sites e navegar pela internet.
+---
+ENUNCIADO: Qual software é um leitor e editor padrão de planilhas eletrônicas amplamente utilizado em ambientes corporativos?
+A) Microsoft PowerPoint
+B) Microsoft Excel
+C) Microsoft Word
+D) Microsoft Access
+E) Microsoft Publisher
+CORRETA: B
+EXPLICACAO: O Microsoft Excel é o aplicativo da suíte Office focado no desenvolvimento e análise de planilhas de cálculo.
+---
+ENUNCIADO: O software Microsoft PowerPoint é primariamente utilizado para qual finalidade?
+A) Edição profissional de vídeos em 4K
+B) Criação e exibição de apresentações visuais de slides
+C) Gerenciamento de bancos de dados relacionais
+D) Navegação anônima na internet
+E) Formatação de disco rígido
+CORRETA: B
+EXPLICACAO: O PowerPoint é a ferramenta desenvolvida para elaboração de apresentações com recursos de texto, imagens e animações em slides.
+---
+ENUNCIADO: Qual das alternativas abaixo apresenta uma Suíte de Escritório gratuita e de código aberto?
+A) Microsoft Office 365
+B) LibreOffice
+C) Adobe Creative Cloud
+D) CorelDRAW Graphics Suite
+E) Apple iWork Pago
+CORRETA: B
+EXPLICACAO: O LibreOffice é uma suíte de escritório multiplataforma gratuita e de código aberto composta por Writer, Calc, Impress, entre outros.
+---
+ENUNCIADO: No LibreOffice, qual é o aplicativo correspondente ao Microsoft Word para edição de texto?
+A) Calc
+B) Impress
+C) Writer
+D) Draw
+E) Math
+CORRETA: C
+EXPLICACAO: O LibreOffice Writer é a ferramenta destinada ao processamento e formatação de documentos de texto.
+---
+ENUNCIADO: No LibreOffice, qual aplicativo é o equivalente ao Microsoft Excel para a criação de planilhas?
+A) Writer
+B) Calc
+C) Impress
+D) Base
+E) Math
+CORRETA: B
+EXPLICACAO: O LibreOffice Calc é o software editor de planilhas eletrônicas e cálculos da suíte LibreOffice.
+---
+ENUNCIADO: O que é um "Bug" no contexto de desenvolvimento de software?
+A) Um tipo de hardware defeituoso no teclado
+B) Uma falha, erro ou imperfeição no código de um programa que faz com que ele funcione incorretamente
+C) Um acessório do mouse
+D) Um programa que acelera jogos
+E) O processo de formatar o sistema
+CORRETA: B
+EXPLICACAO: O termo "Bug" é usado para denominar erros de lógica ou síntaxe no código que geram comportamentos indesejados no software.
+---
+ENUNCIADO: Como é chamado o processo efetuado por programadores para localizar e corrigir erros ("bugs") em um código de software?
+A) Formatação
+B) Defrag
+C) Debugging (Depuração)
+D) Compile
+E) Backup
+CORRETA: C
+EXPLICACAO: Depurar ou *debugging* é a atividade sistemática de rastrear e solucionar falhas existentes no programa.
+---
+ENUNCIADO: O que faz um software denominado "Compilador"?
+A) Limpa o histórico de navegação da internet
+B) Traduz todo o código-fonte escrito em uma linguagem de alto nível para linguagem de máquina (código executável) de uma só vez
+C) Compacta arquivos em um único arquivo ZIP
+D) Desenha gráficos estatísticos
+E) Cria cópias de segurança em nuvem
+CORRETA: B
+EXPLICACAO: O compilador converte o código legível escrito pelo programador em código binário compreensível diretamente pelo processador.
+---
+ENUNCIADO: Como é chamado um software que executa as instruções do código-fonte linha por linha, sem gerar um arquivo executável separado antes?
+A) Compilador
+B) Interpretador
+C) Editor de Texto
+D) Antivírus
+E) Gerenciador de Arquivos
+CORRETA: B
+EXPLICACAO: Diferente do compilador, o interpretador lê e executa cada linha de código diretamente no momento da execução.
+---
+ENUNCIADO: Qual é a principal função de um software "Antivírus"?
+A) Aumentar a resolução da tela
+B) Detectar, prevenir e remover softwares maliciosos (malwares) do sistema
+C) Traduzir textos para outros idiomas
+D) Atualizar a placa de vídeo
+E) Organizar as pastas em ordem alfabética
+CORRETA: B
+EXPLICACAO: Antivírus e antimalwares monitoram o sistema para evitar infecções e eliminar ameaças virtuais ativas.
+---
+ENUNCIADO: O que é um software do tipo "Firewall"?
+A) Um programa que limpa a poeira do computador
+B) Uma barreira de segurança que monitora e filtra o tráfego de rede liberando ou bloqueando conexões com base em regras
+C) Um aplicativo para apagar incêndios digitais
+D) Um leitor de imagens para scanner
+E) Um software de gravação de DVDs
+CORRETA: B
+EXPLICACAO: O Firewall controla as portas de comunicação para defender o sistema contra acessos externos não autorizados provenientes da rede.
+---
+ENUNCIADO: Qual extensão de arquivo costuma identificar um instalador ou aplicativo executável no sistema operacional Windows?
+A) .txt
+B) .exe
+C) .png
+D) .mp3
+E) .pdf
+CORRETA: B
+EXPLICACAO: No Windows, arquivos com terminação `.exe` são programas executáveis prontos para rodar ou instalar.
+---
+ENUNCIADO: A extensão de arquivo ".docx" é padrão de qual tipo de software?
+A) Compactadores de arquivos (WinZip)
+B) Editores de imagem (Adobe Photoshop)
+C) Processadores de texto (Microsoft Word)
+D) Reprodutores de vídeo (VLC Player)
+E) Navegadores de internet (Google Chrome)
+CORRETA: C
+EXPLICACAO: A extensão `.docx` é o formato nativo para salvamento de documentos do Microsoft Word a partir da versão 2007.
+---
+ENUNCIADO: Arquivos gravados com a extensão ".xlsx" pertencem a qual software?
+A) Microsoft Powerpoint
+B) Microsoft Excel
+C) Microsoft Access
+D) Bloco de Notas
+E) Paint
+CORRETA: B
+EXPLICACAO: A extensão `.xlsx` identifica pastas de trabalho e planilhas geradas pelo Microsoft Excel.
+---
+ENUNCIADO: A extensão ".pdf" (Portable Document Format) é utilizada para qual finalidade principal?
+A) Salvar planilhas com fórmulas abertas para edição rápida
+B) Apresentar documentos de forma independente do software, hardware ou sistema operacional utilizado para criá-los
+C) Executar scripts de inicialização do sistema
+D) Gravar músicas em alta qualidade sem compressão
+E) Alterar a cor da área de trabalho do Windows
+CORRETA: B
+EXPLICACAO: Desenvolvido pela Adobe, o formato `.pdf` preserva a formatação visual exata do arquivo em qualquer dispositivo.
+---
+ENUNCIADO: Qual software nativo do Windows é um editor de texto extremamente simples, que não possui opções avançadas de formatação de parágrafos ou fontes?
+A) Microsoft Word
+B) Bloco de Notas (Notepad)
+C) WordPad
+D) Paint
+E) Snipping Tool
+CORRETA: B
+EXPLICACAO: O Bloco de Notas lida exclusivamente com texto puro (ASCII/UTF-8) sem recursos como negrito complexo, tabelas ou imagens.
+---
+ENUNCIADO: O que é o "Kernel" de um Sistema Operacional?
+A) A tela de fundo da Área de Trabalho
+B) O núcleo central do sistema operacional responsável por gerenciar a memória, o processador e a comunicação básica com o hardware
+C) O painel onde ficam os favoritos do navegador
+D) A loja de aplicativos do Windows
+E) O botão de desligar o PC
+CORRETA: B
+EXPLICACAO: O Kernel é o componente indispensável de baixo nível que conecta os softwares de aplicação aos componentes físicos do sistema.
+---
+ENUNCIADO: O que é uma "Linguagem de Programação"?
+A) O idioma falado pelos técnicos de suporte
+B) Um conjunto formal de regras, palavras e sintaxes usado para escrever instruções a serem executadas pelo computador
+C) A linguagem dos sinais de som emitidos pela placa-mãe
+D) O sistema de legendas de filmes
+E) O código de barras dos produtos do computador
+CORRETA: B
+EXPLICACAO: Linguagens de programação (Python, Java, C++, etc.) fornecem a estrutura sintática necessária para que desenvolvedores criem programas.
+---
+ENUNCIADO: Qual das opções abaixo é um exemplo clássico de Linguagem de Programação?
+A) Windows 11
+B) Python
+C) Google Chrome
+D) Intel Core i7
+E) HTML5 (Linguagem de Marcação)
+CORRETA: B
+EXPLICACAO: Python é uma linguagem de programação amplamente adotada em desenvolvimento web, automação e inteligência artificial.
+---
+ENUNCIADO: O que faz um software "Compactador de Arquivos" (como WinRAR ou 7-Zip)?
+A) Apaga dados duplicados do sistema operacional para sempre
+B) Reduz o tamanho de arquivos e os agrupa em um único pacote compilado para facilitar o armazenamento ou envio
+C) Aumenta a velocidade dos jogos em 50%
+D) Transforma planilhas do Excel em vídeos
+E) Limpa a memória RAM fisicamente
+CORRETA: B
+EXPLICACAO: Utilizando algoritmos de compressão, esses softwares diminuem o espaço em disco ocupado por arquivos e facilitam a transferência.
+---
+ENUNCIADO: Qual das extensões abaixo é gerada por softwares compactadores de arquivos?
+A) .zip
+B) .mp4
+C) .jpg
+D) .exe
+E) .html
+CORRETA: A
+EXPLICACAO: Os arquivos com terminação `.zip` (assim como `.rar` e `.7z`) são contêineres compactados.
+---
+ENUNCIADO: O que é um software utilitário de "Desfragmentador de Disco"?
+A) Um programa que quebra o HD em pedaços para limpar a poeira
+B) Um software que reorganiza os dados fragmentados gravados no disco mecânico (HD) para que a leitura fique mais rápida e contínua
+C) Um antivírus que deleta planilhas antigas
+D) Um sistema de formatação de pendrives
+E) Um editor de vídeos pesados
+CORRETA: B
+EXPLICACAO: A desfragmentação junta partes dispersas de um mesmo arquivo no HD, otimizando os movimentos da cabeça de leitura do disco rígido.
+---
+ENUNCIADO: Por que NÃO se deve utilizar a desfragmentação tradicional de disco em unidades SSD (Solid State Drives)?
+A) Porque os SSDs não conseguem armazenar programas
+B) Porque SSDs usam memória flash sem partes mecânicas, e a desfragmentação só gera gravações desnecessárias que desgastam os chips de memória
+C) Porque a desfragmentação apaga todos os arquivos do SSD
+D) Porque o SSD precisa de água para esfriar
+E) Porque os SSDs já vêm desfragmentados de fábrica permanentemente
+CORRETA: B
+EXPLICACAO: SSDs possuem tempo de acesso aleatório quase instantâneo; reescrever blocos desnecessariamente reduz a vida útil dos módulos de memória NAND.
+---
+ENUNCIADO: O que é o "Gerenciador de Tarefas" (Task Manager) do Windows?
+A) Um software para agendar compromissos diários no calendário
+B) Uma ferramenta nativa que exibe o uso de CPU, RAM e permite monitorar ou encerrar processos/aplicativos em execução
+C) O menu de jogos do computador
+D) O painel de controle do mouse
+E) Um leitor de e-mails do sistema
+CORRETA: B
+EXPLICACAO: O Gerenciador de Tarefas lista programas e processos em segundo plano, possibilitando verificar consumo de hardware e forçar o fechamento de travamentos.
+---
+ENUNCIADO: Qual o atalho de teclado padrão no Windows para abrir diretamente o Gerenciador de Tarefas?
+A) Ctrl + Shift + Esc
+B) Ctrl + Alt + F4
+C) Windows + L
+D) Alt + Space
+E) Shift + Delete
+CORRETA: A
+EXPLICACAO: A combinação de teclas `Ctrl + Shift + Esc` abre de forma direta o painel do Gerenciador de Tarefas do Windows.
+---
+ENUNCIADO: O que é um "Banco de Dados" (Database)?
+A) Um software leitor de cartões bancários
+B) Uma coleção organizada de dados estruturados armazenados eletronicamente em um sistema de computador
+C) A pasta onde ficam os arquivos baixados da internet
+D) A lixeira do computador
+E) O aplicativo do banco do usuário
+CORRETA: B
+EXPLICACAO: Bancos de dados organizam grandes volumes de registros para consulta, inserção e alteração ágil por meio de softwares específicos (SGBDs).
+---
+ENUNCIADO: Qual dos softwares abaixo é um Sistema Gerenciador de Banco de Dados (SGBD)?
+A) MySQL
+B) Windows Media Player
+C) Paint.NET
+D) Mozilla Thunderbird
+E) WinZip
+CORRETA: A
+EXPLICACAO: O MySQL é um dos SGBDs relacionais mais populares do mundo para administração de bases de dados.
+---
+ENUNCIADO: O que significa realizar o "Download" de um arquivo?
+A) Transferir um arquivo do computador local para um servidor na internet
+B) Baixar ou receber uma cópia de um arquivo da internet/rede para o computador local
+C) Deletar permanentemente um arquivo da lixeira
+D) Executar a verificação de vírus na pasta
+E) Imprimir um documento em papel
+CORRETA: B
+EXPLICACAO: Download é o processo reverso do upload; consiste em trazer dados armazenados remotamente para a máquina local.
+---
+ENUNCIADO: O que significa fazer o "Upload" de um arquivo?
+A) Enviar um arquivo armazenado no computador local para um servidor ou serviço na internet/rede
+B) Baixar uma foto do e-mail para a área de trabalho
+C) Copiar um arquivo da memória RAM para o HD
+D) Atualizar o sistema operacional
+E) Desinstalar um aplicativo
+CORRETA: A
+EXPLICACAO: Upload é o envio de dados do dispositivo do usuário em direção a uma plataforma ou servidor externo na web.
+---
+ENUNCIADO: O que é o processo de "Instalação" de um software?
+A) Ligar os cabos do computador na tomada
+B) Copiar, configurar e registrar os arquivos de um programa no sistema operacional para que ele possa ser executado
+C) Colocar o CD do jogo dentro do leitor
+D) Desenhar o ícone do programa na tela
+E) Apagar os dados antigos do disco
+CORRETA: B
+EXPLICACAO: Instalar prepara o software no ambiente operacional, criando arquivos de sistema, atalhos e registros necessários para a execução.
+---
+ENUNCIADO: O que faz o processo de "Desinstalação" de um programa?
+A) Oculta o ícone da Área de Trabalho mantendo os arquivos no disco
+B) Remove com segurança os arquivos, registros e dependências associadas ao software do sistema operacional
+C) Transforma o programa em um arquivo de texto
+D) Envia o programa para a nuvem
+E) Bloqueia o acesso à internet
+CORRETA: B
+EXPLICACAO: Desinstalar garante que os arquivos e configurações criados pelo programa sejam limpos, liberando armazenamento e recursos do sistema.
+---
+ENUNCIADO: O que é a "Atualização de Software" (Update / Patch)?
+A) Trocar a placa-mãe do computador por uma nova
+B) O processo de baixar e aplicar correções de erros, melhorias de desempenho ou patches de segurança em um programa já instalado
+C) Mudar o nome do arquivo para letras maiúsculas
+D) Comprar um monitor novo
+E) Reiniciar o roteador da internet
+CORRETA: B
+EXPLICACAO: Updates e atualizações corrigem falhas conhecidas, trazem otimizações e fecham brechas de segurança no software.
+---
+ENUNCIADO: O que é um "Malware"?
+A) Uma peça de computador defeituosa
+B) Termo genérico que engloba qualquer tipo de software malicioso desenhado para causar danos ou invadir sistemas (como vírus, trojans, spywares)
+C) O nome de uma marca de processador
+D) Um utilitário para acelerar telas
+E) Um tipo de teclado gamer
+CORRETA: B
+EXPLICACAO: Malware é o termo derivado de *Malicious Software* (Software Malicioso), cobrindo categorias diversas de ameaças virtuais.
+---
+ENUNCIADO: O que faz um software malicioso do tipo "Ransomware"?
+A) Exibe propagandas na tela do computador constantemente
+B) Criptografa os arquivos da vítima e exige o pagamento de um resgate para fornecer a chave de liberação
+C) Apaga a memória BIOS do computador
+D) Desliga o monitor a cada 5 minutos
+E) Envia e-mails de aniversário automáticos
+CORRETA: B
+EXPLICACAO: Ransomwares sequestram dados locais por meio de criptografia forte e cobram resgates (normalmente em criptomoedas) para reaver o acesso aos arquivos.
+---
+ENUNCIADO: O que é um software malicioso conhecido como "Spyware"?
+A) Um programa que apaga os dados do HD imediatamente ao ser baixado
+B) Um malware projetado para espionar as atividades do usuário de forma oculta e coletar informações pessoais sem consentimento
+C) Um antivírus falso que cobra assinatura
+D) Um aplicativo para ajustar o brilho do monitor
+E) Um jogo de estratégia online
+CORRETA: B
+EXPLICACAO: Spywares monitoram ações, hábitos de navegação e teclas digitadas pelo usuário enviando dados sigilosos a terceiros.
+---
+ENUNCIADO: O que é um malware do tipo "Keylogger"?
+A) Um programa que ajuda a digitar mais rápido
+B) Um tipo de spyware que captura e grava cada tecla digitada pelo usuário no teclado para roubar senhas e dados
+C) Um leitor de arquivos no formato PDF
+D) Um software de licença gratuita
+E) Um organizador de pastas do Windows
+CORRETA: B
+EXPLICACAO: Keyloggers registram as entradas físicas de teclado, sendo muito empregados para captura ilícita de logins e senhas.
+---
+ENUNCIADO: O que caracteriza um malware do tipo "Trojan" (Cavalo de Tróia)?
+A) Um programa inofensivo que acelera o computador
+B) Um malware que se disfarça de arquivo legítimo ou software útil para enganar o usuário e executar funções maliciosas em segundo plano
+C) Um componente de hardware para a placa gráfica
+D) Uma extensão do navegador que traduz páginas
+E) Um arquivo protegido com senha pelo próprio usuário
+CORRETA: B
+EXPLICACAO: Inspirado no mito histórico, o Cavalo de Tróia entra no sistema aparentando ser um programa inofensivo ou jogo, abrindo portas para invasões.
+---
+ENUNCIADO: O que é um software "Leitor de Tela" (Screen Reader)?
+A) Uma ferramenta de tecnologia assistiva que converte texto na tela em áudio sintetizado para pessoas com deficiência visual
+B) Um aplicativo que tira prints da tela a cada minuto
+C) O sistema de limpeza de telas do monitor
+D) O scanner de mesa do computador
+E) Um leitor de código de barras
+CORRETA: A
+EXPLICACAO: Leitores de tela (como NVDA e JAWS) leem o conteúdo e interface dos programas, promovendo acessibilidade para deficientes visuais.
+---
+ENUNCIADO: Qual software nativo do Windows é destinado ao desenho e edição básica de imagens raster/mapa de bits?
+A) Microsoft Word
+B) Paint
+C) Notepad
+D) Windows Media Player
+E) Calculator
+CORRETA: B
+EXPLICACAO: O Microsoft Paint é o utilitário clássico do Windows para desenho simples e manipulação primária de imagens.
+---
+ENUNCIADO: O que é uma "Interface Gráfica do Usuário" (GUI - Graphical User Interface)?
+A) A placa de vídeo física encaixada na placa-mãe
+B) O meio visual (composto por janelas, ícones, menus e ponteiro) que permite ao usuário interagir com o software de forma intuitiva
+C) Uma linguagem de programação antiga
+D) O cabo que liga o computador ao monitor
+E) O manual de instruções em PDF
+CORRETA: B
+EXPLICACAO: A GUI substituiu as antigas linhas de comando puras, oferecendo representações visuais amigáveis controladas pelo mouse ou toque.
+---
+ENUNCIADO: Como é chamada a interface baseada apenas em linhas de texto digitadas pelo usuário para enviar comandos ao sistema operacional?
+A) GUI (Interface Gráfica)
+B) CLI (Command Line Interface / Interface de Linha de Comando)
+C) API (Application Programming Interface)
+D) SaaS
+E) BIOS
+CORRETA: B
+EXPLICACAO: A CLI (Interface de Linha de Comando), usada no Prompt de Comando (CMD) ou Terminal Linux, opera exclusivamente por instrução textual.
+---
+ENUNCIADO: O que é o "Prompt de Comando" (cmd.exe) no Windows?
+A) O reprodutor de vídeos nativo do sistema
+B) O ambiente de linha de comando (CLI) para execução de comandos do sistema operacional
+C) O navegador de internet antigo da Microsoft
+D) O desfragmentador de discos do Windows
+E) A loja de compras do Windows
+CORRETA: B
+EXPLICACAO: O `cmd.exe` é o interpretador de comandos em modo texto nativo da família Windows.
+---
+ENUNCIADO: O que é o "PowerShell" no ecossistema do Windows?
+A) Um jogo de cartas instalado de fábrica
+B) Uma estrutura avançada de automação de tarefas e ferramenta de linha de comando baseada em scripts
+C) O gerenciador de bateria do notebook
+D) Um programa para criar logos
+E) O antivírus integrado ao sistema
+CORRETA: B
+EXPLICACAO: O PowerShell é uma ferramenta potente criada pela Microsoft para administração automatizada de sistemas por scripts e cmdlets.
+---
+ENUNCIADO: O que é um "Plugin" ou "Extensão" no contexto de softwares?
+A) O cabo de tomada de energia do computador
+B) Um módulo complementar que se adiciona a um programa principal para expandir suas funções ou capacidades
+C) Um antivírus novo
+D) A caixa de som do monitor
+E) O código de licença do sistema operacional
+CORRETA: B
+EXPLICACAO: Plugins acoplados a softwares base (como navegadores ou editores) inserem funções extras não presentes na versão padrão.
+---
+ENUNCIADO: Qual a função de um software "Reprodutor de Mídia" (Media Player)?
+A) Editar documentos de texto e imprimir folhas
+B) Decodificar e reproduzir arquivos de áudio e vídeo digitais (como MP3, MP4 e MKV)
+C) Compactar pastas no formato .ZIP
+D) Conectar o PC ao Wi-Fi
+E) Aumentar o tamanho do disco rígido
+CORRETA: B
+EXPLICACAO: Reprodutores de mídia (ex: VLC Media Player, Windows Media Player) lêem codecs de som e vídeo para exibição de conteúdo multimídia.
+---
+ENUNCIADO: O que faz o aplicativo "Calculadora" integrado ao Windows?
+A) Mede o consumo de energia da fonte
+B) Executa operações matemáticas básicas, científicas, financeiras e conversões de unidades
+C) Calcula a velocidade do processador
+D) Mede a temperatura do gabinete
+E) Conta quantas palavras há num texto
+CORRETA: B
+EXPLICACAO: A Calculadora nativa disponibiliza modos para cálculos aritméticos, programador, científicos e conversões diversas.
+---
+ENUNCIADO: O que faz a ferramenta "Lixeira" (Recycle Bin) do Windows?
+A) Formata o disco rígido quando cheia
+B) Armazena temporariamente arquivos e pastas excluídos pelo usuário, permitindo sua recuperação antes da exclusão definitiva
+C) Envia vírus para a nuvem
+D) Compacta arquivos antigos para economizar espaço
+E) Apaga o histórico da internet
+CORRETA: B
+EXPLICACAO: A Lixeira funciona como uma área de retenção provisória para evitar perda acidental de dados apagados via comando de exclusão simples.
+---
+ENUNCIADO: Qual atalho de teclado exclui um arquivo no Windows diretamente, SEM enviá-lo para a Lixeira?
+A) Ctrl + Delete
+B) Shift + Delete
+C) Alt + Delete
+D) Tab + Delete
+E) Windows + Delete
+CORRETA: B
+EXPLICACAO: Pressionar `Shift + Delete` ignora a Lixeira e solicita a exclusão permanente e imediata do item do armazenamento.
+---
+ENUNCIADO: O que significa a sigla "API" no desenvolvimento de softwares?
+A) Advanced Programming Interface
+B) Application Programming Interface (Interface de Programação de Aplicações)
+C) Automated Public Instruction
+D) Application Process Integration
+E) Access Program Interface
+CORRETA: B
+EXPLICACAO: API é o conjunto de definições e protocolos que permite a integração e comunicação entre diferentes softwares de forma padronizada.
+---
+ENUNCIADO: O que é uma "Máquina Virtual" (Virtual Machine - VM)?
+A) Um computador robótico real que funciona sozinho
+B) A emulação via software de um sistema de computador físico capaz de executar um Sistema Operacional completo de forma isolada
+C) Uma peça de reposição do processador
+D) O computador guardado na nuvem que não existe fisicamente
+E) Uma tela sensível ao toque
+CORRETA: B
+EXPLICACAO: Softwares de virtualização (como VirtualBox e VMware) criam ambientes computacionais virtuais que rodam dentro do sistema nativo.
+---
+ENUNCIADO: O que é o "Windows Defender" (atualmente Microsoft Defender Antivirus)?
+A) A tela de bloqueio do Windows
+B) A ferramenta de segurança nativa do Windows dedicada à proteção antimalware e antivírus em tempo real
+C) O navegador de internet padrão do sistema
+D) O atualizador de drivers da placa de vídeo
+E) O sistema de senhas do computador
+CORRETA: B
+EXPLICACAO: O Microsoft Defender é a solução integrada de fábrica na família Windows para combate contra vírus, trojans e ameaças virtuais.
+---
+ENUNCIADO: Qual das alternativas apresenta uma extensão típica de arquivo de Imagem/Foto?
+A) .jpg
+B) .mp3
+C) .exe
+D) .bat
+E) .zip
+CORRETA: A
+EXPLICACAO: As extensões `.jpg` (ou `.jpeg`), `.png` e `.bmp` indicam arquivos contendo dados visuais de imagem bitmap.
+---
+ENUNCIADO: Qual das alternativas apresenta uma extensão típica de arquivo exclusivamente de ÁUDIO?
+A) .mp3
+B) .mp4
+C) .pdf
+D) .docx
+E) .avi
+CORRETA: A
+EXPLICACAO: O formato `.mp3` é o padrão mundialmente popular para codificação e armazenamento de áudio comprimido.
+---
+ENUNCIADO: Qual das alternativas apresenta uma extensão de arquivo de VÍDEO?
+A) .mp4
+B) .txt
+C) .xlsx
+D) .wav
+E) .png
+CORRETA: A
+EXPLICACAO: Arquivos `.mp4` (assim como `.avi` e `.mkv`) armazenam faixas compostas por sinal de vídeo e áudio sincronizados.
+---
+ENUNCIADO: O que é o "Sistema de Arquivos" (FileSystem) em um Sistema Operacional?
+A) O armário físico onde o técnico guarda os CDs de instalação
+B) A estrutura e regras que o Sistema Operacional utiliza para organizar, nomear, armazenar e recuperar arquivos em um disco (ex: NTFS, FAT32, EXT4)
+C) O catálogo de peças da impressora
+D) O painel de ajuda do sistema
+E) Um software pago para compactar dados
+CORRETA: B
+EXPLICACAO: O sistema de arquivos (como NTFS no Windows ou EXT4 no Linux) estabelece como os bits gravados no disco são mapeados em pastas e arquivos visíveis.
+---
+ENUNCIADO: Qual é o sistema de arquivos padrão utilizado pelas versões modernas do Sistema Operacional Windows?
+A) FAT16
+B) NTFS
+C) EXT3
+D) APFS
+E) HFS+
+CORRETA: B
+EXPLICACAO: O NTFS (New Technology File System) é o sistema de arquivos padrão do Windows, oferecendo suporte a permissões de segurança e arquivos grandes.
+---
+ENUNCIADO: Qual limitação clássica de tamanho por arquivo individual existe no sistema de arquivos antigo "FAT32"?
+A) Não aceita arquivos maiores que 4 Gigabytes (4 GB)
+B) Não aceita arquivos de texto
+C) Limita os arquivos a no máximo 100 Megabytes
+D) Não aceita nenhuma foto
+E) Permite no máximo 10 arquivos no pendrive
+CORRETA: A
+EXPLICACAO: Dispositivos formatados em FAT32 não conseguem armazenar nenhum arquivo individual que ultrapasse o limite rígido de 4 GB.
+---
+ENUNCIADO: O que é o "Editor de Registro" (Regedit) no Windows?
+A) Um editor para mudar imagens do Paint
+B) Um banco de dados hierárquico interno que armazena configurações e opções do sistema operacional e dos softwares instalados
+C) O cadastro de usuários do computador
+D) O sistema de notas fiscais do Windows
+E) Um leitor de jornais digitais
+CORRETA: B
+EXPLICACAO: O Registro do Windows (`regedit`) centraliza todas as chaves e valores de configuração do sistema e aplicativos.
+---
+ENUNCIADO: O que é um "Patch" de correção de software?
+A) Um adesivo colado na carcaça do gabinete
+B) Um pequeno pedaço de código lançado para corrigir um problema, bug ou vulnerabilidade específica de segurança em um software
+C) Um modelo de mouse sem fio
+D) A troca do cabo de monitor
+E) Um comando para apagar a pasta de fotos
+CORRETA: B
+EXPLICACAO: Patches são atualizações pontuais focadas em estancar brechas de segurança criticadas ou reparar falhas funcionais emergentes.
+---
+ENUNCIADO: O que faz a função "Restauração do Sistema" (System Restore) no Windows?
+A) Apaga todos os arquivos do usuário para sempre
+B) Reverte os arquivos de sistema, drivers e registros do computador para um estado/ponto anterior no tempo sem afetar os arquivos pessoais
+C) Limpa o monitor de manchas
+D) Formata e reinstala o Windows do zero
+E) Envia o PC de volta para a fábrica
+CORRETA: B
+EXPLICACAO: A Restauração do Sistema utiliza "Pontos de Restauração" salvos para recuperar a estabilidade operacional do Windows em caso de erros recentes.
+---
+ENUNCIADO: O que é um "Emulador" no contexto de software?
+A) Um antivírus que simula ser do governo
+B) Um software que permite a um sistema computacional rodar programas e jogos criados originalmente para outra plataforma/hardware
+C) Uma peça usada para duplicar a memória RAM
+D) O limpador de cache do navegador
+E) O aplicativo de envio de mensagens
+CORRETA: B
+EXPLICACAO: Emuladores reproduzem o comportamento do hardware de outro sistema via software (ex: rodar jogos de console antigo no PC).
+---
+ENUNCIADO: Qual software nativo do Windows é utilizado para capturar imagens estáticas ou gravações personalizadas de áreas da tela (Print Screen)?
+A) Ferramenta de Captura (Snipping Tool)
+B) Paint 3D
+C) Bloco de Notas
+D) Windows Media Player
+E) Cortador de Vídeo
+CORRETA: A
+EXPLICACAO: A Ferramenta de Captura permite selecionar regiões livres da tela para salvar como imagens ou registrar capturas de vídeo.
+---
+ENUNCIADO: O que é o "Microsoft Edge"?
+A) O antivírus oficial do Windows
+B) O navegador de internet nativo pré-instalado no sistema operacional Windows
+C) O leitor de planilhas de cálculo do Windows
+D) A loja de jogos do Xbox no PC
+E) Um editor de áudio profissional
+CORRETA: B
+EXPLICACAO: O Microsoft Edge é o navegador web atual desenvolvido pela Microsoft baseado no motor Chromium.
+---
+ENUNCIADO: O que faz o comando "Ctrl + C" na maioria dos softwares no ambiente Windows?
+A) Recorta o elemento selecionado
+B) Copia o elemento selecionado para a Área de Transferência
+C) Cola o elemento selecionado
+D) Desfaz a última ação
+E) Salva o arquivo atual
+CORRETA: B
+EXPLICACAO: O atalho universal `Ctrl + C` duplica o item ou texto selecionado enviando-o para a Área de Transferência.
+---
+ENUNCIADO: O que faz o comando "Ctrl + V" na maioria dos softwares no ambiente Windows?
+A) Copia o elemento selecionado
+B) Cola o conteúdo armazenado na Área de Transferência no local indicado
+C) Deleta o arquivo selecionado
+D) Abre a janela de busca
+E) Fecha a janela atual
+CORRETA: B
+EXPLICACAO: O comando `Ctrl + V` insere o item copiado/recortado previamente no ponto atual do cursor.
+---
+ENUNCIADO: O que faz o comando "Ctrl + X" na maioria dos softwares no ambiente Windows?
+A) Salva o documento
+B) Recorta (remove do local de origem e manda para a Área de Transferência) o elemento selecionado
+C) Duplica a pasta
+D) Imprime o documento
+E) Minimiza a janela
+CORRETA: B
+EXPLICACAO: `Ctrl + X` remove o item de seu local original e o guarda temporariamente na Área de Transferência para ser colado em outro ponto.
+---
+ENUNCIADO: O que faz o comando "Ctrl + Z" em editores de texto e na maioria dos aplicativos?
+A) Refaz a ação que foi cancelada
+B) Desfaz a última ação executada pelo usuário
+C) Seleciona todo o texto da tela
+D) Fecha o programa sem salvar
+E) Altera a letra para maiúscula
+CORRETA: B
+EXPLICACAO: O atalho `Ctrl + Z` reverte a ação imediatamente anterior realizada dentro do programa.
+---
+ENUNCIADO: O que faz o comando "Ctrl + A" na versão em PORTUGUÊS do Microsoft Word?
+A) Seleciona todo o conteúdo do documento
+B) Abre um documento existente
+C) Salva o documento atual
+D) Aplica o formato negrito no texto
+E) Alinha o texto à esquerda
+CORRETA: B
+EXPLICACAO: No MS Word em português, `Ctrl + A` aciona o comando **Abrir**. Para "Selecionar Tudo" no Word em português utiliza-se `Ctrl + T`.
+---
+ENUNCIADO: O que faz o comando "Ctrl + T" no Microsoft Word em PORTUGUÊS?
+A) Seleciona todo o texto/conteúdo do documento
+B) Troca as letras por maiúsculas
+C) Centraliza o parágrafo
+D) Abre uma nova aba
+E) Transforma o texto em tabela
+CORRETA: A
+EXPLICACAO: No Word configurado em português do Brasil, `Ctrl + T` seleciona a totalidade do documento.
+---
+ENUNCIADO: Qual atalho de teclado é utilizado para Salvar o arquivo ativo na maioria dos softwares em português (como no Word ou Excel)?
+A) Ctrl + S
+B) Ctrl + B
+C) Ctrl + P
+D) Alt + S
+E) Shift + S
+CORRETA: B
+EXPLICACAO: Nos aplicativos da suíte Microsoft Office em português, o atalho para **Salvar** é `Ctrl + B` (enquanto na versão em inglês é `Ctrl + S`).
+---
+ENUNCIADO: O que é a "Área de Transferência" (Clipboard) do Sistema Operacional?
+A) A pasta de arquivos baixados da internet
+B) Uma área de armazenamento temporário na memória do sistema que guarda itens copiados ou recortados
+C) O HD externo conectado via USB
+D) A pasta onde ficam os arquivos de lixeira
+E) O aplicativo de envio de e-mails
+CORRETA: B
+EXPLICACAO: A Área de Transferência retém dados provisoriamente para apoiar as ações de copiar, recortar e colar entre programas.
+---
+ENUNCIADO: O que faz um software do tipo "SGBD"?
+A) Gerencia as impressões enviadas na rede
+B) Sistema Gerenciador de Banco de Dados: software responsável por criar, gerenciar, manipular e consultar bancos de dados
+C) Sistema Gráfico de Busca Digital
+D) Software de Gravação de Discos
+E) Sistema de Gerenciamento do Antivírus
+CORRETA: B
+EXPLICACAO: SGBDs (ex: Oracle, MySQL, SQL Server) fornecem as ferramentas de controle, segurança e manipulação de informações em bancos de dados.
+---
+ENUNCIADO: O que significa a sigla "ERP" no universo dos softwares corporativos?
+A) Enterprise Resource Planning (Planejamento de Recursos Empresariais)
+B) Electronic Record Program
+C) External Resource Protection
+D) Error Recovery Process
+E) Easy Rapid Programming
+CORRETA: A
+EXPLICACAO: Sistemas ERP integram em um único software os diferentes setores de uma empresa (financeiro, vendas, compras, estoque, RH).
+---
+ENUNCIADO: O que é um software do tipo "CRM" (Customer Relationship Management)?
+A) Um programa para consertar placas de vídeo
+B) Um software focado na gestão do relacionamento com os clientes, histórico de vendas e interações comerciais
+C) Um editor de áudio profissional
+D) O sistema de arquivos do Linux
+E) Um compactador de documentos civis
+CORRETA: B
+EXPLICACAO: CRMs centralizam informações dos clientes para aperfeiçoar o suporte, vendas e estratégias de relacionamento da empresa.
+---
+ENUNCIADO: O que significa a sigla "ODF" (Open Document Format)?
+A) Um formato fechado de arquivo proprietário da Microsoft
+B) Um padrão aberto de formato de arquivo para documentos de escritório (textos, planilhas, apresentações) mantido pela comunidade
+C) Um tipo de placa-mãe
+D) O sistema de arquivos do pendrive
+E) Uma linguagem de marcação para páginas web
+CORRETA: B
+EXPLICACAO: O ODF (com extensões como `.odt`, `.ods`, `.odp`) é a especificação aberta e livre adotada pelo LibreOffice e aceita globalmente.
+---
+ENUNCIADO: A extensão de arquivo ".odt" é padrão para salvamento de qual tipo de documento no LibreOffice?
+A) Documento de texto do LibreOffice Writer
+B) Planilha de cálculo do LibreOffice Calc
+C) Apresentação do LibreOffice Impress
+D) Banco de dados do LibreOffice Base
+E) Imagem vetorial
+CORRETA: A
+EXPLICACAO: `.odt` (OpenDocument Text) é o formato padrão utilizado pelo editor de texto LibreOffice Writer.
+---
+ENUNCIADO: A extensão de arquivo ".ods" identifica qual tipo de documento?
+A) Documento de texto do Word
+B) Planilha de cálculo em formato OpenDocument (como no LibreOffice Calc)
+C) Arquivo de áudio digital
+D) Banco de dados relacional
+E) Programa executável
+CORRETA: B
+EXPLICACAO: `.ods` (OpenDocument Spreadsheet) representa os arquivos de planilhas criados em suítes de código aberto.
+---
+ENUNCIADO: O que significa uma licença de software ser do tipo "GPL" (GNU General Public License)?
+A) Que o programa é pago e não pode ser instalado em mais de um PC
+B) Uma licença de software livre bastante popular que garante o acesso ao código-fonte e exige que edições derivadas continuem sendo livres
+C) Uma licença comercial da Microsoft
+D) Um registro exclusivo de softwares para smartphones
+E) Uma licença expirável a cada 1 ano
+CORRETA: B
+EXPLICACAO: A GPL é uma licença *copyleft* que garante as 4 liberdades do software livre e impede que derivados sejam transformados em softwares proprietários fechados.
+---
+ENUNCIADO: O que faz o recurso "Modo de Segurança" (Safe Mode) ao iniciar o Windows?
+A) Inicia o Windows com a maior resolução gráfica possível
+B) Carrega o sistema com um conjunto mínimo de drivers e serviços essenciais para ajudar a diagnosticar e solucionar problemas do computador
+C) Ativa o firewall em nivel máximo bloqueando a tela
+D) Inicia o computador direto na tela do navegador
+E) Limpa a memória física do computador
+CORRETA: B
+EXPLICACAO: O Modo de Segurança isola programas e drivers de terceiros que possam estar impedindo o funcionamento normal do sistema para fins de suporte técnico.
+---
+ENUNCIADO: O que é o "Windows Update"?
+A) O serviço nativo do Windows responsável pelo download e instalação de atualizações de segurança e recursos do sistema
+B) O programa para formatar discos rígidos
+C) A loja de compras de notebooks da Microsoft
+D) O aplicativo para trocar a foto do perfil
+E) O gerenciador de senhas do Edge
+CORRETA: A
+EXPLICACAO: O Windows Update mantém o sistema operacional seguro e funcional trazendo correções fornecidas periodicamente pela Microsoft.
+---
+ENUNCIADO: O que significa um software estar em versão "Beta"?
+A) Significa que o software é a versão final comercial sem erros
+B) Significa que o programa está em fase de testes públicos ou fechados, estando quase pronto, mas sujeito a conter instabilidades ou erros
+C) Significa que o programa foi descontinuado pelo desenvolvedor
+D) Significa que o software só funciona em computadores antigos
+E) Significa que o software não precisa de instalação
+CORRETA: B
+EXPLICACAO: Edições Beta antecedem o lançamento oficial (GA) para que usuários testem novos recursos e reportem falhas residuais.
+---
+ENUNCIADO: O que é um "Script" no contexto de software?
+A) Um tipo de fonte para impressão de convites
+B) Um conjunto de comandos e instruções em linguagem de programação simples e interpretada para automação de tarefas sequenciais
+C) A carcaça de plástico do notebook
+D) A caixa de texto do Microsoft Word
+E) O botão de ligar o monitor
+CORRETA: B
+EXPLICACAO: Scripts são arquivos contendo linhas de instruções lógicas lidas por um interpretador para automatizar rotinas operacionais sem compilação prévia.
+---
+ENUNCIADO: O que é o "Painel de Controle" (ou Configurações) do Windows?
+A) Um programa para edição de áudio profissional
+B) A central que reúne ferramentas de configuração do sistema, adição de periféricos, gestão de contas de usuário e desinstalação de programas
+C) O botão do gabinete do PC
+D) A barra onde aparecem os programas abertos
+E) O aplicativo de câmera
+CORRETA: B
+EXPLICACAO: É o centro de gerenciamento de parâmetros globais do Windows, permitindo ajustar preferências do sistema e dispositivos.
+---
+ENUNCIADO: O que é o "Worm" (Verme) no universo dos malwares?
+A) Um malware que depende de um arquivo hospedeiro para infectar a máquina
+B) Um tipo de malware autônomo que se replica automaticamente através de redes de computadores sem necessidade de intervenção do usuário
+C) Um cabo de dados danificado
+D) Um programa para acelerar a digitação
+E) O leitor de PDF do Windows
+CORRETA: B
+EXPLICACAO: Ao contrário do vírus tradicional (que exige execução de um arquivo hospedeiro), os Worms usam brechas em redes para se propagar de máquina em máquina de forma autônoma.
+---
+ENUNCIADO: O que é um "Adware"?
+A) Um software livre para desenho industrial
+B) Um tipo de software que exibe ou baixa automaticamente anúncios e propagandas indesejadas na tela do usuário
+C) O leitor de e-mails corporativo
+D) O sistema de arquivos de cartões de memória
+E) Um jogo de aventura antigo
+CORRETA: B
+EXPLICACAO: Adwares injetam banners, pop-ups e propagandas incômodas na interface dos programas ou navegadores para gerar receita com cliques.
+---
+ENUNCIADO: O que faz a combinação de teclas "Alt + Tab" no Windows?
+A) Fecha a janela aberta atualmente
+B) Alterna rapidamente entre as janelas e aplicativos que estão abertos
+C) Minimiza todas as janelas e exibe a Área de Trabalho
+D) Abre a janela de pesquisa do sistema
+E) Deleta o arquivo selecionado
+CORRETA: B
+EXPLICACAO: O atalho clássico `Alt + Tab` abre a visualização rápida e altera o foco entre as aplicações e janelas ativas em segundo plano.
+---
+ENUNCIADO: O que faz a combinação de teclas "Windows + D" no sistema operacional Windows?
+A) Abre o Gerenciador de Dispositivos
+B) Minimiza todas as janelas e exibe/oculta a Área de Trabalho (Desktop) de forma imediata
+C) Apaga a pasta de downloads
+D) Desliga o computador
+E) Abre o aplicativo de desenho Paint
+CORRETA: B
+EXPLICACAO: `Windows + D` limpa visualmente a tela minimizando todas as janelas ativas para dar acesso direto à Área de Trabalho.
