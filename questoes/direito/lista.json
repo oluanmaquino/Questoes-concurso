@@ -1,5 +1,3 @@
 [
-  { "prefixo": "cadh", "nome": "Convenção Americana de Direitos Humanos" },
-  { "prefixo": "constituicao", "nome": "Constituição Federal" },
-  { "prefixo": "dudh", "nome": "Declaração Universal dos Direitos Humanos" }
+  { "prefixo": "artigo1ao4", "nome": "Direitos e Deveres Individuais e Coletivos" }
 ]
