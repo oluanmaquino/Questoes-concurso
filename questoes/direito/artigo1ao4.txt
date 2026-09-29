@@ -449,3 +449,984 @@ E) Recusa em enviar ajuda humanitária em catástrofes
 CORRETA: B
 EXPLICACAO: O princípio da cooperação internacional estimula a ajuda mútua e a colaboração para o avanço da humanidade.
 ---
+ENUNCIADO: A República Federativa do Brasil é formada pela união indissolúvel de quais entes federativos, nos termos do artigo 1º da CF/88?
+A) União, Estados e Municípios apenas
+B) Estados, Municípios e Distrito Federal
+C) União, Estados, Municípios e Territórios
+D) Estados e Distrito Federal apenas
+E) União e Territórios
+CORRETA: B
+EXPLICACAO: O caput do artigo 1º estabelece expressamente a união indissolúvel dos Estados e Municípios e do Distrito Federal.
+---
+ENUNCIADO: Qual é o valor supremo expressamente previsto no inciso III do artigo 1º da CF/88 como fundamento da República?
+A) Livre mercado
+B) Supremacia do interesse público
+C) Dignidade da pessoa humana
+D) Soberania nacional irrestrita
+E) Eficiência administrativa
+CORRETA: C
+EXPLICACAO: A dignidade da pessoa humana é o valor nuclear e fundamento expressamente previsto no artigo 1º, inciso III.
+---
+ENUNCIADO: O princípio da indisponibilidade da soberania nacional está diretamente relacionado a qual fundamento do artigo 1º, inciso I?
+A) Cidadania
+B) Soberania
+C) Pluralismo político
+D) Valores sociais do trabalho
+E) Dignidade da pessoa humana
+CORRETA: B
+EXPLICACAO: A soberania (Art. 1º, I) expressa a autodeterminação e o poder supremo do Estado brasileiro na ordem interna e internacional.
+---
+ENUNCIADO: Nos termos do artigo 1º, parágrafo único, o poder emana do povo e é exercido por meio de representantes eleitos ou:
+A) Diretamente, nos termos da Constituição
+B) Exclusivamente por decreto presidencial
+C) Por intermédio das Forças Armadas
+D) Pela aprovação do Supremo Tribunal Federal
+E) Por intermédio de partidos políticos apenas
+CORRETA: A
+EXPLICACAO: O texto constitucional prevê o exercício do poder por representantes eleitos ou diretamente, consagrando a democracia participativa.
+---
+ENUNCIADO: Assinale a alternativa que indica uma forma direta de exercício do poder pelo povo prevista na CF/88:
+A) Plebiscito
+B) Ação Civil Pública
+C) Medida Provisória
+D) Inquérito Policial
+E) Mandado de Segurança
+CORRETA: A
+EXPLICACAO: O plebiscito (assim como o referendo e a iniciativa popular) é instrumento de exercício direto da soberania popular (Art. 1º, parágrafo único c/c Art. 14).
+---
+ENUNCIADO: De acordo com o artigo 1º, V, o pluralismo político garante:
+A) A existência obrigatória de apenas dois partidos políticos no país
+B) A liberdade de convicções políticas, ideológicas e filosóficas
+C) O banimento de correntes de pensamento contrárias ao Governo
+D) O financiamento público exclusivo para o partido do Presidente
+E) A proibição de coligações partidárias em qualquer eleição
+CORRETA: B
+EXPLICACAO: O pluralismo político assegura a coexistência de diversas correntes de pensamento, ideologias e opiniões políticas na sociedade.
+---
+ENUNCIADO: O conceito de "Estado Democrático de Direito" presente no artigo 1º da CF/88 implica que:
+A) O Estado está acima de todas as leis e da Constituição.
+B) As leis aplicam-se a todos os cidadãos e governantes, sob o império da democracia.
+C) O Governo pode editar normas sem observar o processo legislativo.
+D) O Poder Judiciário tem supremacia hierárquica sobre os demais Poderes.
+E) A Polícia tem poder absoluto para atuar sem controle judicial.
+CORRETA: B
+EXPLICACAO: O Estado Democrático de Direito pauta-se pelo respeito ao império da lei, aos direitos fundamentais e à participação democrática do povo.
+---
+ENUNCIADO: Os valores sociais do trabalho e da livre iniciativa (Art. 1º, IV) buscam harmonizar:
+A) O capitalismo selvagem e a intervenção estatal total
+B) A valorização do trabalhador e a liberdade do empreendedorismo
+C) A estatização de todas as empresas e o livre mercado
+D) O fim da propriedade privada e o fortalecimento do comércio
+E) O monopólio estatal e a isenção fiscal ilimitada
+CORRETA: B
+EXPLICACAO: O fundamento concilia o respeito à força de trabalho humana com a liberdade econômica e empreendedora.
+---
+ENUNCIADO: A tentativa de separação de um Estado da Federação Brasileira fere qual princípio insculpido no artigo 1º?
+A) Pluralismo político
+B) União indissolúvel dos entes federativos
+C) Autodeterminação dos povos
+D) Livre iniciativa
+E) Soberania individual
+CORRETA: B
+EXPLICACAO: O artigo 1º veda o direito de secessão, estabelecendo a união indissolúvel de Estados, Municípios e Distrito Federal.
+---
+ENUNCIADO: O exercício dos direitos políticos pelo cidadão, como o ato de votar e ser votado, concretiza o fundamento do Art. 1º, II, denominado:
+A) Soberania
+B) Cidadania
+C) Pluralismo
+D) Livre iniciativa
+E) Legalidade
+CORRETA: B
+EXPLICACAO: A cidadania manifesta-se precipuamente na participação ativa da vida política e democrática do Estado.
+---
+ENUNCIADO: De acordo com o artigo 2º da CF/88, os Poderes da União são:
+A) Independentes e harmônicos entre si
+B) Hierarquizados e subordinados ao Executivo
+C) Absolutos e sem fiscalização mútua
+D) Centralizados na pessoa do Presidente da República
+E) Subordinados ao Poder Judiciário
+CORRETA: A
+EXPLICACAO: O artigo 2º prescreve textualmente que os Poderes da União são independentes e harmônicos entre si.
+---
+ENUNCIADO: Quais são os três Poderes da União expressamente enumerados no artigo 2º da CF/88?
+A) Executivo, Legislativo e Forças Armadas
+B) Legislativo, Executivo e Judiciário
+C) Judiciário, Ministério Público e Executivo
+D) Executivo, Legislativo e Defensoria Pública
+E) Legislativo, Executivo e Tribunal de Contas
+CORRETA: B
+EXPLICACAO: Os três Poderes constituídos da União são o Legislativo, o Executivo e o Judiciário.
+---
+ENUNCIADO: Quando o Poder Legislativo elabora uma lei, ele está exercendo sua função:
+A) Atípica executiva
+B) Típica legislativa
+C) Típica jurisdicional
+D) Atípica judiciária
+E) Administrativa disciplinar
+CORRETA: B
+EXPLICACAO: A elaboração de leis (normas gerais e abstratas) é a função precípua e típica do Poder Legislativo.
+---
+ENUNCIADO: Quando o Poder Judiciário realiza um concurso público para provimento de seus cargos, ele exerce uma função:
+A) Típica de julgar
+B) Atípica administrativa
+C) Típica legislativa
+D) Originária constitucional
+E) Jurisdicional pura
+CORRETA: B
+EXPLICACAO: Administrar seus próprios recursos e pessoal é uma função atípica administrativa desempenhada pelo Judiciário.
+---
+ENUNCIADO: O mecanismo que permite a um Poder fiscalizar e conter eventuais excessos de outro Poder chama-se:
+A) Intervenção federal compulsória
+B) Sistema de freios e contrapesos (checks and balances)
+C) Hierarquia administrativa estrita
+D) Centralização política estatal
+E) Unilateralidade funcional
+CORRETA: B
+EXPLICACAO: O sistema de freios e contrapesos garante o equilíbrio, a independência e a harmonia entre os Poderes.
+---
+ENUNCIADO: É uma função típica do Poder Executivo:
+A) Criar leis ordinárias e complementares
+B) Julgar processos judiciais civis e criminais
+C) Administrar e executar as políticas públicas
+D) Fiscalizar as contas do Poder Judiciário mediante auditoria externa
+E) Editar súmulas vinculantes
+CORRETA: C
+EXPLICACAO: Administrar o Estado e executar as políticas públicas são funções típicas do Poder Executivo.
+---
+ENUNCIADO: No Brasil, o Poder Executivo Federal é exercido pelo:
+A) Presidente da República
+B) Presidente do Senado Federal
+C) Presidente do Supremo Tribunal Federal
+D) Procurador-Geral da República
+E) Ministro da Defesa
+CORRETA: A
+EXPLICACAO: O chefe do Poder Executivo no âmbito federal é o Presidente da República.
+---
+ENUNCIADO: A proibição de que um Poder usurpe as atribuições constitucionais de outro decorre do princípio da:
+A) Cidadania plena
+B) Separação dos Poderes
+C) Autodeterminação dos povos
+D) Prevalência dos direitos humanos
+E) Solidariedade nacional
+CORRETA: B
+EXPLICACAO: A Separação dos Poderes (Art. 2º) proíbe a usurpação ou ingerência indevida nas funções institucionais de outro Poder.
+---
+ENUNCIADO: Assinale a alternativa correta quanto à estrutura dos Poderes no Brasil:
+A) Os Municípios possuem Poder Judiciário próprio.
+B) O Distrito Federal não possui Poder Executivo.
+C) Não existe Poder Judiciário no âmbito municipal.
+D) Os Estados não possuem Poder Legislativo.
+E) A União possui quatro Poderes soberanos.
+CORRETA: C
+EXPLICACAO: A estrutura municipal possui apenas os Poderes Executivo (Prefeitura) e Legislativo (Câmara Municipal); não há Judiciário municipal.
+---
+ENUNCIADO: O artigo 3º da Constituição Federal de 1988 estabelece os objetivos fundamentais da República. Eles se caracterizam por expressar:
+A) Princípios norteadores das relações diplomáticas
+B) Metas e finalidades a serem alcançadas pelo Estado
+C) A forma de governo e a forma de Estado
+D) Os direitos garantidos apenas aos cidadãos natos
+E) As regras do processo eleitoral
+CORRETA: B
+EXPLICACAO: Os objetivos fundamentais são normas programáticas que determinam metas e fins direcionados ao Estado e à sociedade.
+---
+ENUNCIADO: De acordo com o artigo 3º, I, constitui objetivo fundamental da República Federativa do Brasil:
+A) Garantir a soberania nacional
+B) Construir uma sociedade livre, justa e solidária
+C) Assegurar a intervenção militar externa
+D) Promover o bipartidarismo estatal
+E) Defender a neutralidade diplomática
+CORRETA: B
+EXPLICACAO: "Construir uma sociedade livre, justa e solidária" é o objetivo previsto no inciso I do Artigo 3º.
+---
+ENUNCIADO: "Garantir o desenvolvimento nacional" está previsto na CF/88 como um:
+A) Fundamento da República (Art. 1º)
+B) Poder da União (Art. 2º)
+C) Objetivo fundamental (Art. 3º)
+D) Princípio de direito internacional (Art. 4º)
+E) Direito social inviolável (Art. 6º)
+CORRETA: C
+EXPLICACAO: Trata-se de objetivo fundamental disposto expressamente no Art. 3º, II da Constituição.
+---
+ENUNCIADO: O artigo 3º, III, da CF/88 determina como objetivo a erradicação de qual problema social?
+A) Analfabetismo
+B) Pobreza e marginalização
+C) Inflação
+D) Desemprego estrutural
+E) Violência urbana
+CORRETA: B
+EXPLICACAO: O texto prevê expressamente "erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais".
+---
+ENUNCIADO: O objetivo constitucional de "reduzir as desigualdades sociais e regionais" (Art. 3º, III) exige do Estado brasileiro:
+A) Ação ativa para diminuir os abismos socioeconômicos entre pessoas e regiões do país.
+B) Cobrança de impostos apenas nas regiões mais pobres.
+C) Proibição de investimentos privados em regiões desenvolvidas.
+D) Transferência da capital federal para todas as regiões do Brasil.
+E) Extinção dos tributos federais sobre o consumo.
+CORRETA: A
+EXPLICACAO: O dispositivo direciona o Estado a implementar políticas públicas para mitigar as disparidades sociais e regionais.
+---
+ENUNCIADO: Conforme o artigo 3º, IV, constitui objetivo promover o bem de todos, SEM preconceitos de:
+A) Origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+B) Renda e grau de instrução unicamente.
+C) Classe social e inclinação partidária exclusivamente.
+D) Nacionalidade e profissão apenas.
+E) Opção de consumo e moradia.
+CORRETA: A
+EXPLICACAO: O texto constitucional traz um rol protetivo abrangente contra todo tipo de discriminação arbitrária.
+---
+ENUNCIADO: Todos os verbos iniciais dos incisos do artigo 3º da CF/88 estão flexionados no:
+A) Gerúndio
+B) Infinitivo
+C) Particípio
+D) Subjuntivo
+E) Imperativo
+CORRETA: B
+EXPLICACAO: Os objetivos fundamentais são expressos por verbos no infinitivo: Construir (I), Garantir (II), Erradicar/Reduzir (III) e Promover (IV).
+---
+ENUNCIADO: A adoção de políticas públicas de cotas sociais e raciais em universidades públicas alinha-se precipuamente ao objetivo constitucional de:
+A) Garantir a defesa da paz (Art. 4º)
+B) Erradicar a pobreza e promover o bem de todos sem discriminações (Art. 3º)
+C) Assegurar a prevalência do Poder Judiciário (Art. 2º)
+D) Exercer o asilo político internacional (Art. 4º)
+E) Garantir a soberania alimentar (Art. 1º)
+CORRETA: B
+EXPLICACAO: Políticas de ações afirmativas visam concretizar a igualdade material e o objetivo de combater discriminações (Art. 3º, IV).
+---
+ENUNCIADO: O artigo 4º da Constituição Federal de 1988 elenca princípios que regem o Estado Brasileiro em suas:
+A) Relações internas com os Municípios
+B) Relações internacionais
+C) Atividades policiais ostensivas
+D) Relações trabalhistas privadas
+E) Atribuições orçamentárias estaduais
+CORRETA: B
+EXPLICACAO: O artigo 4º trata expressamente das regras e princípios aplicáveis às relações internacionais do Brasil.
+---
+ENUNCIADO: O princípio internacional do artigo 4º, I, que assegura ao Brasil total autonomia perante outros países, denomina-se:
+A) Soberania interna
+B) Independência nacional
+C) Não-intervenção
+D) Autodeterminação
+E) Concessão de asilo
+CORRETA: B
+EXPLICACAO: O inciso I fixa a "independência nacional" na condução das relações externas do país.
+---
+ENUNCIADO: O princípio internacional previsto no Art. 4º, II, que impõe o respeito e a proteção dos direitos essenciais de todos os seres humanos é a:
+A) Prevalência dos direitos humanos
+B) Supremacia militar
+C) Livre concorrência internacional
+D) Extradição compulsória de nacionais
+E) Cooperação bélica
+CORRETA: A
+EXPLICACAO: O inciso II destaca a "prevalência dos direitos humanos" nas diretrizes diplomáticas brasileiras.
+---
+ENUNCIADO: O respeito ao direito de autodeterminação dos povos (Art. 4º, III) significa que o Brasil:
+A) Pode invadir países com governos autoritários.
+B) Respeita o direito de cada nação definir seu próprio sistema político e social.
+C) Deve impor a Constituição Brasileira aos países vizinhos.
+D) Obriga outros países a adotarem o sistema presidencialista.
+E) Proíbe o comércio externo com nações não democráticas.
+CORRETA: B
+EXPLICACAO: A autodeterminação dos povos estabelece que cada nação é livre para decidir seu próprio destino político e jurídico.
+---
+ENUNCIADO: O artigo 4º, IV, consagra o princípio da não-intervenção. Esse princípio impede que o Brasil:
+A) Assine acordos comerciais internacionais.
+B) Interfira indevidamente nos assuntos internos de outros Estados soberanos.
+C) Receba embaixadores de países estrangeiros.
+D) Participe de reuniões da Organização das Nações Unidas (ONU).
+E) Ofereça ajuda humanitária em desastres ambientais.
+CORRETA: B
+EXPLICACAO: A não-intervenção veda a ingerência de um Estado nos assuntos de soberania interna de outro.
+---
+ENUNCIADO: O princípio da "igualdade entre os Estados" (Art. 4º, V) estabelece que:
+A) Países com maior PIB têm mais direitos jurídicos perante o Brasil.
+B) Nações com maior contingente militar devem ter preferência diplomática.
+C) Todos os Estados soberanos possuem paridade jurídica nas relações internacionais.
+D) O Brasil deve submeter-se à vontade das potências globais.
+E) Apenas os países da América do Sul são juridicamente iguais.
+CORRETA: C
+EXPLICACAO: A igualdade soberana assegura igualdade jurídica formal entre todos os países reconhecidos internacionalmente.
+---
+ENUNCIADO: A "defesa da paz" e a "solução pacífica dos conflitos" (Art. 4º, VI e VII) orientam a diplomacia brasileira a priorizar:
+A) A guerra preventiva rápida
+B) O uso imediato de sanções militares
+C) A negociação, a mediação e a diplomacia
+D) A ruptura imediata de acordos comerciais
+E) A anexação territorial de países vizinhos
+CORRETA: C
+EXPLICACAO: A solução pacífica de litígios privilegia métodos diplomáticos, como negociação, arbitragem e mediação.
+---
+ENUNCIADO: O artigo 4º, VIII, prevê o repúdio expressamente a dois crimes graves no cenário internacional. Quais são?
+A) O contrabando e o descaminho
+B) O terrorismo e o racismo
+C) A pirataria e a sonegação fiscal
+D) O genocídio e a lavagem de dinheiro
+E) O tráfico de armas e o eutanásia
+CORRETA: B
+EXPLICACAO: O inciso VIII menciona categoricamente o "repúdio ao terrorismo e ao racismo".
+---
+ENUNCIADO: O princípio da "cooperação entre os povos para o progresso da humanidade" (Art. 4º, IX) incentiva o Brasil a:
+A) Vender armamento militar sem restrições
+B) Promover ações colaborativas nas áreas de ciência, saúde e cultura
+C) Bloquear a entrada de tecnologia estrangeira no país
+D) Recusar participação em tratados ambientais mundiais
+E) Restringir o intercâmbio acadêmico e científico
+CORRETA: B
+EXPLICACAO: A cooperação visa ao progresso técnico, científico, econômico e social compartilhado entre as nações.
+---
+ENUNCIADO: A concessão de asilo político é um princípio das relações internacionais (Art. 4º, X) que se destina a proteger:
+A) Criminosos condenados por homicídio comum no exterior
+B) Pessoas perseguidas em seus países de origem por motivos políticos ou de opinião
+C) Estrangeiros que cometeram crimes de terrorismo
+D) Devedores de impostos em países estrangeiros
+E) Traficantes internacionais de drogas
+CORRETA: B
+EXPLICACAO: O asilo político protege indivíduos perseguidos por suas convicções políticas, ideológicas ou atos de dissidência legítima.
+---
+ENUNCIADO: O parágrafo único do artigo 4º da CF/88 dispõe que o Brasil buscará a integração econômica, política, social e cultural dos povos:
+A) Do Hemisfério Norte
+B) Da América Latina
+C) Do Continente Europeu
+D) Da Comunidade dos Países de Língua Portuguesa apenas
+E) Dos Países do BRICS exclusivamente
+CORRETA: B
+EXPLICACAO: O texto constitucional prevê expressamente a integração dos povos da América Latina.
+---
+ENUNCIADO: A meta descrita no parágrafo único do artigo 4º da CF/88 busca a formação de uma:
+A) Confederação militar das Américas
+B) Comunidade latino-americana de nações
+C) Moeda única para todo o continente americano
+D) Força armada unificada do Sul
+E) Organização bancária exclusiva da América do Sul
+CORRETA: B
+EXPLICACAO: A Constituição prevê visar à "formação de uma comunidade latino-americana de nações".
+---
+ENUNCIADO: Marque a alternativa que NÃO apresenta um fundamento da República Federativa do Brasil (Art. 1º):
+A) Soberania
+B) Cidadania
+C) Defesa da paz
+D) Dignidade da pessoa humana
+E) Pluralismo político
+CORRETA: C
+EXPLICACAO: A defesa da paz é um princípio das relações internacionais (Art. 4º, VI), e não um fundamento.
+---
+ENUNCIADO: Marque a alternativa que NÃO é um objetivo fundamental da República (Art. 3º):
+A) Construir uma sociedade livre, justa e solidária
+B) Garantir o desenvolvimento nacional
+C) Erradicar a pobreza e a marginalização
+D) Concessão de asilo político
+E) Promover o bem de todos, sem preconceitos
+CORRETA: D
+EXPLICACAO: A concessão de asilo político é um princípio das relações internacionais (Art. 4º, X).
+---
+ENUNCIADO: Qual das opções abaixo traz um princípio regente das relações internacionais (Art. 4º) e NÃO um objetivo fundamental (Art. 3º)?
+A) Garantir o desenvolvimento nacional
+B) Reduzir as desigualdades sociais e regionais
+C) Autodeterminação dos povos
+D) Erradicar a pobreza
+E) Promover o bem de todos
+CORRETA: C
+EXPLICACAO: A autodeterminação dos povos rege as relações internacionais (Art. 4º, III). As demais são objetivos (Art. 3º).
+---
+ENUNCIADO: A forma de governo adotada pelo Estado brasileiro é a República. Uma característica marcante da República é a:
+A) Hereditariedade do poder estatal
+B) Vitaliciedade dos cargos políticos do Executivo
+C) Eletividade e temporalidade dos mandatos dos governantes
+D) Irresponsabilidade política e penal do Chefe de Estado
+E) Ausência completa de eleições judiciais
+CORRETA: C
+EXPLICACAO: A República caracteriza-se pela eletividade, temporariedade dos mandatos e responsabilidade dos governantes.
+---
+ENUNCIADO: A forma de Estado adotada pelo Brasil é a Federação. A característica essencial da Federação é a:
+A) Centralização total do poder em uma única capital
+B) Existência de entes federativos autônomos e descentralização política
+C) Possibilidade legal de dissolução do país por plebiscito
+D) Ausência de autonomia financeira para os Estados membros
+E) Subordinação hierárquica dos prefeitos aos governadores
+CORRETA: B
+EXPLICACAO: A Federação caracteriza-se pela repartição de competências e autonomia política/administrativa dos entes federativos.
+---
+ENUNCIADO: No regime presencialista adotado pelo Brasil, o Presidente da República acumula as funções de:
+A) Chefe de Estado e Chefe de Governo
+B) Chefe do Executivo e Presidente do Congresso
+C) Chefe do Judiciário e Chefe de Estado
+D) Comandante das Forças Armadas e Presidente do STF
+E) Governador da Capital e Chefe de Governo
+CORRETA: A
+EXPLICACAO: No presidencialismo, o Presidente desempenha o papel de Chefe de Estado (relações internacionais) e Chefe de Governo (política interna).
+---
+ENUNCIADO: Segundo o artigo 1º, os Municípios possuem autonomia política. Isso significa que eles podem:
+A) Criar suas próprias moedas municipais.
+B) Elaborar sua Lei Orgânica e eleger seus próprios governantes.
+C) Declarar guerra a outros países.
+D) Se desmembrar da Federação Brasileira unilateralmente.
+E) Ter Poder Judiciário próprio instituído por lei local.
+CORRETA: B
+EXPLICACAO: A autonomia municipal envolve capacidade de auto-organização (Lei Orgânica), autogoverno e autoadministração.
+---
+ENUNCIADO: O Distrito Federal (Art. 1º caput) possui uma particularidade federativa, qual seja:
+A) Pode ser dividido em vários municípios autônomos.
+B) Cumula competências estaduais e municipais, sendo vedada sua divisão em Municípios.
+C) É governado diretamente pelo Presidente da República.
+D) Não possui representação no Congresso Nacional.
+E) É considerado um Território Federal sem autonomia.
+CORRETA: B
+EXPLICACAO: O Distrito Federal não pode ser dividido em Municípios (Art. 32) e acumula competências legislativas e tributárias estaduais e municipais.
+---
+ENUNCIADO: Quando o artigo 1º, IV, cita "livre iniciativa", refere-se ao direito de:
+A) Sonegar impostos em favor do comércio local.
+B) Exercer atividade econômica privada, respeitadas as limitações legais.
+C) Descumprir leis trabalhistas em nome do lucro.
+D) Criar empresas sem nenhuma fiscalização sanitária ou ambiental.
+E) Monopolizar o mercado nacional sem concorrência.
+CORRETA: B
+EXPLICACAO: A livre iniciativa garante a liberdade do exercício de atividades econômicas e comerciais observando o ordenamento jurídico.
+---
+ENUNCIADO: A soberania exercida pelo povo brasileiro de forma direta ocorre por meio dos seguintes instrumentos, EXCETO:
+A) Plebiscito
+B) Referendo
+C) Iniciativa popular
+D) Ação popular
+E) Decreto legislativo
+CORRETA: E
+EXPLICACAO: O artigo 14 da CF elenca como formas diretas de soberania: plebiscito, referendo e iniciativa popular. O Decreto legislativo é ato do Congresso.
+---
+ENUNCIADO: A diferença fundamental entre Plebiscito e Referendo reside no momento de consulta ao povo. O Plebiscito é convocado:
+A) Após a aprovação da lei ou ato normativo.
+B) Previamente à criação da lei ou ato administrativo.
+C) Concomitantemente ao julgamento pelo STF.
+D) Apenas durante o estado de sítio.
+E) Somente nas eleições municipais de meio de mandato.
+CORRETA: B
+EXPLICACAO: O plebiscito é uma consulta prévia ao cidadão; o referendo é uma consulta posterior sobre ato já elaborado.
+---
+ENUNCIADO: Constitui ato imoral e atentatório ao fundamento da Dignidade da Pessoa Humana (Art. 1º, III):
+A) A cobrança regular de tributos previstos em lei.
+B) O submissão de presos a penas ou tratamentos cruéis, degradantes ou desumanos.
+C) A exigência de concurso público para provimento de cargos.
+D) A aplicação de penalidade de multa de trânsito regulamentar.
+E) A limitação do horário de funcionamento do comércio.
+CORRETA: B
+EXPLICACAO: A dignidade da pessoa humana veda expressamente a tortura e o tratamento cruel ou degradante.
+---
+ENUNCIADO: A garantia constitucional de pluralidade de partidos políticos é consequência direta do fundamento do(a):
+A) Soberania
+B) Cidadania
+C) Pluralismo político
+D) Livre iniciativa
+E) Solução pacífica dos conflitos
+CORRETA: C
+EXPLICACAO: O pluralismo político ampara a liberdade de criação e funcionamento de múltiplos partidos políticos com ideologias diversas.
+---
+ENUNCIADO: A expressão "República Federativa do Brasil" identifica, respectivamente:
+A) Forma de Estado e Forma de Governo
+B) Forma de Governo e Forma de Estado
+C) Regime de Governo e Sistema de Governo
+D) Sistema de Governo e Forma de Estado
+E) Regime Político e Forma de Governo
+CORRETA: B
+EXPLICACAO: "República" é a Forma de Governo e "Federativa" (Federação) é a Forma de Estado.
+---
+ENUNCIADO: O artigo 2º ao estabelecer a independência entre os Poderes proíbe:
+A) A cooperação administrativa entre órgãos estatais.
+B) A usurpação de competências e a ingerência arbitrária de um Poder sobre outro.
+C) Que deputados conversem com juízes sobre projetos de lei.
+D) A edição de leis orçamentárias pelo Presidente.
+E) A prestação de contas dos governadores aos tribunais.
+CORRETA: B
+EXPLICACAO: A independência dos Poderes proíbe a invasão de competências e a ingerência abusiva entre as instâncias governamentais.
+---
+ENUNCIADO: As funções atípicas exercidas pelos Poderes da União encontram amparo na própria Constituição para:
+A) Subordinar definitivamente um Poder ao outro.
+B) Garantir a autonomia operacional e administrativa de cada Poder sem ferir a tripartição.
+C) Anular a competência do Poder Judiciário em matérias penais.
+D) Permitir ao Presidente criar leis sem o Congresso Nacional.
+E) Transferir a função de julgar para os sindicatos de trabalhadores.
+CORRETA: B
+EXPLICACAO: O desempenho atípico de funções (ex: Judiciário licitando ou Legislativo julgando o Presidente no impeachment) assegura a auto-organização funcional.
+---
+ENUNCIADO: Qual objetivo fundamental (Art. 3º, II) orienta o planejamento estatal para investimentos em infraestrutura, ciência e tecnologia?
+A) Garantir o desenvolvimento nacional
+B) Conceder asilo político
+C) Prevalecer os direitos humanos
+D) Exercer a não-intervenção
+E) Manter o estagflação econômica
+CORRETA: A
+EXPLICACAO: O incentivo à infraestrutura e à tecnologia busca atingir o objetivo de garantir o desenvolvimento do país.
+---
+ENUNCIADO: No âmbito do artigo 3º, IV, a vedação do preconceito por motivo de sexo proíbe discriminações entre:
+A) Homens e mulheres no exercício de direitos e deveres
+B) Apenas servidores públicos civis e militares
+C) Apenas brasileiros natos e naturalizados
+D) Exclusivamente empregados privados e autônomos
+E) Cidadãos com e sem diploma universitário
+CORRETA: A
+EXPLICACAO: A proibição de discriminação por sexo garante a igualdade de direitos e obrigações entre homens e mulheres.
+---
+ENUNCIADO: A erradicação da pobreza (Art. 3º, III) impõe ao poder público a obrigação de instituir:
+A) Programas de renda básica, assistência social e incentivo ao emprego.
+B) Confisco integral dos bens de empresas privadas.
+C) Aumento das tarifas públicas sobre serviços essenciais.
+D) Proibição do trabalho formal em pequenas cidades.
+E) Extinção da previdência social pública.
+CORRETA: A
+EXPLICACAO: A erradicação da pobreza requer medidas concretas de inclusão social, renda e incentivo ao mercado de trabalho.
+---
+ENUNCIADO: Dentre os princípios internacionais (Art. 4º), o repúdio ao racismo reflete o compromisso do Estado brasileiro de combater:
+A) Quaisquer teorias ou atos de discriminação ou superioridade de um grupo étnico/racial sobre outro.
+B) O comércio internacional de bens de consumo.
+C) A entrada de turistas estrangeiros no país.
+D) A participação em órgãos multilaterais como a ONU.
+E) A dupla nacionalidade de imigrantes latino-americanos.
+CORRETA: A
+EXPLICACAO: O repúdio ao racismo condena atos e ideologias discriminatórias baseadas em raça, cor ou etnia no plano global e doméstico.
+---
+ENUNCIADO: A regra geral de cooperação entre os povos para o progresso da humanidade (Art. 4º, IX) justifica a assinatura de acordos para:
+A) Compartilhamento de dados científicos sobre saúde pública e vacinas.
+B) Criação de barreiras alfandegárias discriminatórias.
+C) Promoção de guerras comerciais com vizinhos regionalmente mais fracos.
+D) Imposição de veto à circulação de estudantes internacionais.
+E) Incentivo ao desmatamento transfronteiriço.
+CORRETA: A
+EXPLICACAO: O intercâmbio de conhecimentos em prol da saúde global e bem-estar é exemplo clássico de cooperação para o progresso da humanidade.
+---
+ENUNCIADO: A imunidade diplomática e a igualdade soberana nas reuniões da ONU derivam do princípio do artigo 4º, V:
+A) Igualdade entre os Estados
+B) Concessão de asilo político
+C) Pluralismo político
+D) Valores sociais da livre iniciativa
+E) Dignidade da pessoa humana
+CORRETA: A
+EXPLICACAO: A igualdade entre os Estados assegura tratamento isonômico e diplomático a todas as nações soberanas.
+---
+ENUNCIADO: Quando o Brasil nega um pedido de intervenção militar estrangeira em assunto puramente interno de seu território, faz valer os princípios do Art. 4º da:
+A) Independência nacional e Não-intervenção
+B) Concessão de asilo e Solução pacífica
+C) Erradicação da pobreza e Soberania interna
+D) Separação dos Poderes e Democracia
+E) Livre iniciativa e Desenvolvimento econômico
+CORRETA: A
+EXPLICACAO: A preservação dos assuntos internos respalda-se na independência nacional e no princípio da não-intervenção.
+---
+ENUNCIADO: Se determinado país vizinho atravessa uma guerra civil e um dissidente político perseguido busca refúgio no território brasileiro, a fundamentação constitucional para o acolhimento reside no artigo 4º, X:
+A) Concessão de asilo político
+B) Extradição compulsória
+C) Expulsão administrativa
+D) Banimento definitivo
+E) Deportação sumária
+CORRETA: A
+EXPLICACAO: O asilo político destina-se a acolher estrangeiros vítimas de perseguições políticas em seus países de origem.
+---
+ENUNCIADO: O analfabetismo e as favelas urbanas sem saneamento básico são problemas reais que o Estado busca combater para atender ao artigo 3º, III:
+A) Erradicar a pobreza e a marginalização
+B) Garantir o bipartidarismo obrigatoriamente
+C) Promover a intervenção federal
+D) Assegurar o império do monarca
+E) Garantir a livre concorrência ilimitada
+CORRETA: A
+EXPLICACAO: A melhoria de habitação e educação integra as ações para erradicação da pobreza e da marginalização social.
+---
+ENUNCIADO: O mnemônico "CON-GA-ER-PRO" serve para memorizar qual grupo de normas constitucionais?
+A) Fundamentos da República (Art. 1º)
+B) Poderes da União (Art. 2º)
+C) Objetivos Fundamentais da República (Art. 3º)
+D) Princípios das Relações Internacionais (Art. 4º)
+E) Direitos Sociais dos Trabalhadores (Art. 6º)
+CORRETA: C
+EXPLICACAO: "CON-GA-ER-PRO" sintetiza os verbos do Art. 3º: Construir, Garantir, Erradicar (e reduzir) e Promover.
+---
+ENUNCIADO: O mnemônico "SO-CI-DA-VA-PLU" refere-se a qual dispositivo constitucional?
+A) Os objetivos da República (Art. 3º)
+B) Os fundamentos da República (Art. 1º)
+C) Os princípios das relações internacionais (Art. 4º)
+D) Os poderes do Estado (Art. 2º)
+E) Os direitos de nacionalidade (Art. 12)
+CORRETA: B
+EXPLICACAO: "SO-CI-DA-VA-PLU" refere-se a: Soberania, Cidadania, Dignidade da pessoa humana, Valores sociais do trabalho/livre iniciativa e Pluralismo político.
+---
+ENUNCIADO: É correto afirmar sobre os artigos 1º ao 4º da Constituição de 1988 que eles integram o título denominado:
+A) Dos Direitos e Garantias Fundamentais
+B) Dos Princípios Fundamentais
+C) Da Organização do Estado
+D) Da Organização dos Poderes
+E) Da Defesa do Estado e Das Instituições Democráticas
+CORRETA: B
+EXPLICACAO: Os artigos 1º a 4º compõem o Título I da Carta Magna, intitulado "Dos Princípios Fundamentais".
+---
+ENUNCIADO: Se o Congresso Nacional aprovar uma lei revogando a proibição de preconceito de raça e cor nas contratualizações privadas, essa norma descumprirá abertamente o artigo:
+A) 1º, inciso I (Soberania)
+B) 2º (Harmonia dos Poderes)
+C) 3º, inciso IV (Promover o bem de todos sem preconceitos)
+D) 4º, inciso X (Asilo político)
+E) 4º, parágrafo único (América Latina)
+CORRETA: C
+EXPLICACAO: Violaria frontalmente o objetivo de promover o bem de todos sem preconceitos de raça ou cor (Art. 3º, IV).
+---
+ENUNCIADO: O Brasil pode aceitar a submissão a tribunais internacionais penalmente reconhecidos, como o Tribunal Penal Internacional (TPI). Essa postura coaduna-se com o princípio internacional da (Art. 4º, II):
+A) Autodeterminação dos povos
+B) Prevalência dos direitos humanos
+C) Não-intervenção
+D) Solução violenta dos conflitos
+E) Soberania absoluta sem exceções
+CORRETA: B
+EXPLICACAO: A adesão ao TPI alinha-se ao princípio da prevalência dos direitos humanos e à tutela internacional da pessoa humana.
+---
+ENUNCIADO: A garantia de que uma lei ordinária não pode outorgar ao Presidente da República o direito de fechar o Congresso Nacional decorre do disposto no artigo:
+A) 1º, III
+B) 2º
+C) 3º, I
+D) 4º, IV
+E) 4º, VIII
+CORRETA: B
+EXPLICACAO: O Art. 2º estabelece a independência dos Poderes, impedindo que o Executivo dissolva o Poder Legislativo.
+---
+ENUNCIADO: A vedação de discriminação por motivo de origem (Art. 3º, IV) proíbe no Brasil tratamento diferenciado pejorativo entre pessoas nascidas em:
+A) Diferentes Estados federados ou regiões do país
+B) Diferentes empresas estatais
+C) Diferentes horários de trabalho
+D) Bairros do mesmo município unicamente
+E) Distintos poderes governamentais
+CORRETA: A
+EXPLICACAO: A discriminação por origem envolve proibir preconceitos relativos à procedência regional ou estadual do indivíduo.
+---
+ENUNCIADO: A eleição para cargos do Poder Executivo e Legislativo de quatro em quatro anos materializa a característica da República conhecida como:
+A) Vitaliciedade
+B) Temporariedade do mandato
+C) Irresponsabilidade governamental
+D) Unilateralidade funcional
+E) Centralização política
+CORRETA: B
+EXPLICACAO: A temporariedade fixa prazos determinados para o exercício do mandato representativo na República.
+---
+ENUNCIADO: O Supremo Tribunal Federal (STF) integra qual Poder da União (Art. 2º)?
+A) Executivo
+B) Legislativo
+C) Judiciário
+D) Moderador
+E) Eleitoral puro
+CORRETA: C
+EXPLICACAO: O STF é o órgão de cúpula do Poder Judiciário brasileiro.
+---
+ENUNCIADO: No âmbito da CF/88, o conceito de "povo" citado no artigo 1º, parágrafo único, refere-se aos:
+A) Cidadãos e nacionais titulares dos direitos políticos e da soberania do Estado.
+B) Apadrinhados políticos e servidores da União.
+C) Estrangeiros não residentes de passagem pelo Brasil.
+D) Apenas aos empresários e grandes detentores de terras.
+E) Somente aos eleitores com curso superior.
+CORRETA: A
+EXPLICACAO: O povo é o elemento humano do Estado investido de direitos políticos e titular da soberania nacional.
+---
+ENUNCIADO: A norma constitucional que prescreve o "repúdio ao terrorismo" (Art. 4º, VIII) visa impedi-lo porque o terrorismo:
+A) Fomenta o desenvolvimento do comércio.
+B) Atenta de forma violenta contra a vida, a segurança e os direitos humanos.
+C) Prejudica a arrecadação de impostos locais.
+D) Fortalece as fronteiras internacionais do país.
+E) Impede o funcionamento regular das empresas públicas.
+CORRETA: B
+EXPLICACAO: O terrorismo é combatido e repudiado por atentar violentamente contra a vida humana, a ordem e a paz pública.
+---
+ENUNCIADO: A "autodeterminação dos povos" (Art. 4º, III) impede que o Estado brasileiro:
+A) Aceite negociar acordos comerciais com vizinhos.
+B) Tente impor sua forma de governo ou legislação a outro Estado soberano.
+C) Envie delegações esportivas aos Jogos Olímpicos.
+D) Conceda visto de viagem para estrangeiros.
+E) Participe de reuniões sobre mudanças climáticas.
+CORRETA: B
+EXPLICACAO: O respeito à autodeterminação proíbe que um país tente subjugar ou impor diretrizes a outros povos soberanos.
+---
+ENUNCIADO: A igualdade de direitos trabalhistas prevista ao trabalhador e a garantia de liberdade econômica do patrão fundamentam-se no Artigo 1º, IV:
+A) Pluralismo político
+B) Valores sociais do trabalho e da livre iniciativa
+C) Soberania do Executivo
+D) Dignidade do funcionalismo público
+E) Independência nacional
+CORRETA: B
+EXPLICACAO: O dispositivo busca harmonizar a proteção laboral com a liberdade de empreender e produzir no país.
+---
+ENUNCIADO: O artigo 3º, IV, proíbe expressamente a discriminação fundada em "cor". Essa garantia constitucional visa erradicar:
+A) O preconceito racial e étnico na sociedade brasileira
+B) O uso de vestimentas de cores variadas em repartições públicas
+C) A pintura de prédios públicos com cores institucionais
+D) A exigência de uniformes para policiais militares
+E) A padronização das placas de veículos no padrão Mercosul
+CORRETA: A
+EXPLICACAO: O termo destina-se a impedir a discriminação baseada na cor da pele, combatendo o racismo.
+---
+ENUNCIADO: Quando a Constituição estabelece no Artigo 1º que o Brasil é uma "República Federativa", ela adota, respectivamente:
+A) Forma de Governo e Forma de Estado
+B) Sistema de Governo e Regime Político
+C) Regime Político e Forma de Governo
+D) Forma de Estado e Sistema de Governo
+E) Sistema de Governo e Forma de Estado
+CORRETA: A
+EXPLICACAO: República refere-se à Forma de Governo; Federativa (Federação) refere-se à Forma de Estado.
+---
+ENUNCIADO: O respeito à autonomia dos Estados-membros implica que a União não pode interferir livremente neles, salvo nas hipóteses de:
+A) Intervenção Federal expressamente autorizadas pela Constituição.
+B) Vontade unilateral do Presidente sem amparo constitucional.
+C) Pedido escrito de empresas privadas de grande porte.
+D) Qualquer crise de arrecadação financeira local.
+E) Decisão colegiada de prefeitos da região.
+CORRETA: A
+EXPLICACAO: A intervenção federal é medida excepcional cujas hipóteses taxativas estão descritas no Art. 34 da CF/88 para proteger o pacto federativo.
+---
+ENUNCIADO: A garantia de incentivo e amparo às pequenas empresas e ao desenvolvimento produtivo atende ao objetivo fundamental de:
+A) Garantir o desenvolvimento nacional (Art. 3º, II)
+B) Conceder asilo político (Art. 4º, X)
+C) Exercer a não-intervenção (Art. 4º, IV)
+D) Assegurar a tripartição estrita (Art. 2º)
+E) Garantir o voto obrigatório aos 16 anos (Art. 14)
+CORRETA: A
+EXPLICACAO: Fortalecer a economia interna e a atividade produtiva é meio para atingir o desenvolvimento nacional.
+---
+ENUNCIADO: Um grupo de cidadãos apresenta um projeto de lei de iniciativa popular cumprindo os requisitos constitucionais. Esse ato é aplicação do artigo 1º, parágrafo único, pois reflete:
+A) O exercício direto do poder pelo povo
+B) A usurpação de competência do Poder Judiciário
+C) Uma infração à tripartição dos poderes
+D) O exercício exclusivo do Poder Executivo
+E) Um princípio exclusivo de relações internacionais
+CORRETA: A
+EXPLICACAO: A iniciativa popular é forma legítima e direta de exercício da soberania popular garantida na CF/88.
+---
+ENUNCIADO: A cooperação entre os povos para o progresso da humanidade (Art. 4º, IX) justifica a atuação do Brasil em:
+A) Missões internacionais de ajuda humanitária e paz
+B) Confisco de bens de embaixadas estrangeiras sem motivo
+C) Fechamento de todas as embaixadas do país
+D) Bloqueio unilateral da navegação marítima comercial
+E) Expulsão ilegítima de todos os diplomatas
+CORRETA: A
+EXPLICACAO: As missões humanitárias corporificam a cooperação internacional solidária em prol do progresso humano.
+---
+ENUNCIADO: A proibição de criar privilégios arbitrários ou preconceitos relativos à idade (Art. 3º, IV) impede:
+A) A fixação de limite de idade sem fundamentação idônea e razoável em editais de concurso público.
+B) O desconto de passagem para idosos no transporte coletivo.
+C) O atendimento prioritário a idosos em hospitais.
+D) A existência de programas educacionais para jovens.
+E) A aposentadoria compulsória aos 75 anos.
+CORRETA: A
+EXPLICACAO: Segundo a jurisprudência, limites de idade em concursos só se justificam se a natureza do cargo expressamente exigir.
+---
+ENUNCIADO: O artigo 2º ao preceituar a "harmonia" entre os Poderes significa que os Poderes devem:
+A) Trabalhar de forma coordenada, respeitando as competências alheias e atuando cooperativamente.
+B) Tomar decisões sempre de forma idêntica e conjunta.
+C) Aceitar a liderança incontestável do Presidente da República.
+D) Ter exatamente a mesma quantidade de servidores públicos.
+E) Unificar suas sedes físicas em um único prédio.
+CORRETA: A
+EXPLICACAO: A harmonia pressupõe cordialidade, cooperação e respeito estrito aos limites das competências institucionais de cada Poder.
+---
+ENUNCIADO: O princípio da "solução pacífica dos conflitos" (Art. 4º, VII) orienta que o Brasil busque em controvérsias internacionais:
+A) O uso prioritário de mediação e arbitragem diplomática
+B) A declaração imediata de guerra total
+C) A ruptura cega de todas as relações diplomáticas
+D) O envio de tropas sem antes tentar qualquer diálogo
+E) A imposição de sanções nucleares
+CORRETA: A
+EXPLICACAO: Prioriza-se a via diplomática, a negociação e os meios pacíficos para resolver litígios com outros países.
+---
+ENUNCIADO: No plano interno, a soberania (Art. 1º, I) expressa que o poder do Estado brasileiro é:
+A) Supremo e não reconhece outro poder superior dentro do seu território.
+B) Subordinado às decisões das prefeituras municipais.
+C) Parcial e sujeito à aprovação de países vizinhos.
+D) Válido apenas durante o dia.
+E) Exercido exclusivamente pelo Poder Judiciário.
+CORRETA: A
+EXPLICACAO: Internamente, a soberania significa a supremacia do poder estatal sobre qualquer outra autoridade no território nacional.
+---
+ENUNCIADO: No plano externo, a soberania do Estado traduz-se no princípio da (Art. 4º, I):
+A) Independência nacional
+B) Intervenção ilimitada
+C) Subordinação diplomática
+D) Dependência econômica obrigatória
+E) Soberania municipal
+CORRETA: A
+EXPLICACAO: No cenário internacional, a soberania manifesta-se como independência nacional e igualdade perante outros Estados.
+---
+ENUNCIADO: A vedação constitucional ao racismo como princípio das relações internacionais (Art. 4º, VIII) encontra correspondência interna no artigo 5º, XLII, que define o racismo como crime:
+A) Inafiançável e imprescritível
+B) Afiançável e prescritível em 5 anos
+C) Punível apenas com pena de multa
+D) De menor potencial ofensivo
+E) Isento de pena se houver pedido de desculpas
+CORRETA: A
+EXPLICACAO: A CF/88 é extremamente rigorosa com o racismo, tornando-o crime inafiançável e imprescritível internamente, e repudiando-o externamente.
+---
+ENUNCIADO: A "prevalência dos direitos humanos" (Art. 4º, II) orienta que os tratados internacionais de direitos humanos ratificados pelo Brasil tenham:
+A) Status protetivo especial e destaque na ordem jurídica nacional.
+B) Valor inferior aos decretos municipais.
+C) Eficácia apenas se aprovados por prefeitos.
+D) Aplicação restrita aos residentes da capital federal.
+E) Validade máxima de um ano.
+CORRETA: A
+EXPLICACAO: Os tratados de direitos humanos recebem tratamento especial e nobreza hierárquica no ordenamento jurídico brasileiro.
+---
+ENUNCIADO: O objetivo de "construir uma sociedade livre, justa e solidária" (Art. 3º, I) fundamenta a existência de:
+A) Políticas de assistência social, saúde universal e proteção aos vulneráveis.
+B) Monopólios comerciais privados sem controle de preços.
+C) Cobrança de mensalidade obrigatória em escolas de ensino fundamental público.
+D) Proibição de sindicatos trabalhistas.
+E) Penas de trabalhos forçados para desempregados.
+CORRETA: A
+EXPLICACAO: A construção de uma sociedade solidária alicerça as políticas de bem-estar social, saúde e amparo aos desfavorecidos.
+---
+ENUNCIADO: Se o estado de Minas Gerais tentasse emitir moeda própria e fechar as fronteiras com São Paulo, isso violaria o conceito de:
+A) Federação e União Indissolúvel (Art. 1º)
+B) Asilo político (Art. 4º)
+C) Solução pacífica dos conflitos (Art. 4º)
+D) Autodeterminação dos povos (Art. 4º)
+E) Pluralismo político (Art. 1º)
+CORRETA: A
+EXPLICACAO: Os Estados não possuem soberania, mas apenas autonomia. A emissão de moeda é competência da União, e a união do país é indissolúvel.
+---
+ENUNCIADO: O acolhimento de cidadãos venezuelanos ou haitianos em situação de vulnerabilidade e perseguição reforça a aplicação dos princípios do artigo 4º de:
+A) Prevalência dos direitos humanos e Concessão de asilo político
+B) Intervenção militar e Imperialismo
+C) Sanção econômica e Bloqueio naval
+D) Expulsão sumária e Restrição de direitos
+E) Soberania absoluta e Fechamento total de fronteiras
+CORRETA: A
+EXPLICACAO: O acolhimento humanitário concretiza a prevalência dos direitos humanos e o dever de cooperação/asilo.
+---
+ENUNCIADO: Assinale a alternativa que elenca corretamente dois Objetivos Fundamentais do artigo 3º da CF/88:
+A) Soberania e Cidadania
+B) Garantir o desenvolvimento nacional e Erradicar a pobreza
+C) Defesa da paz e Não-intervenção
+D) Indissolubilidade da união e Separação dos Poderes
+E) Pluralismo político e Valores sociais da livre iniciativa
+CORRETA: B
+EXPLICACAO: "Garantir o desenvolvimento nacional" (inciso II) e "Erradicar a pobreza" (inciso III) são objetivos do Artigo 3º.
+---
+ENUNCIADO: Assinale a alternativa que elenca dois Fundamentos do artigo 1º da CF/88:
+A) Autodeterminação dos povos e Defesa da paz
+B) Cidadania e Dignidade da pessoa humana
+C) Construir uma sociedade justa e Promover o bem de todos
+D) Erradicar a pobreza e Reduzir desigualdades
+E) Concessão de asilo e Igualdade entre os Estados
+CORRETA: B
+EXPLICACAO: Cidadania (inciso II) e Dignidade da pessoa humana (inciso III) são fundamentos expressos do Artigo 1º.
+---
+ENUNCIADO: Assinale a alternativa que traz dois Princípios das Relações Internacionais do artigo 4º da CF/88:
+A) Soberania e Pluralismo político
+B) Igualdade entre os Estados e Repúdio ao terrorismo
+C) Garantir o desenvolvimento e Construir sociedade livre
+D) Cidadania e Valores sociais do trabalho
+E) Tripartição dos poderes e Império da Lei
+CORRETA: B
+EXPLICACAO: "Igualdade entre os Estados" (inciso V) e "Repúdio ao terrorismo" (inciso VIII) regem as relações internacionais (Art. 4º).
+---
+ENUNCIADO: De acordo com a CF/88, qual ente federativo abriga a sede do Governo Federal e a Capital do país?
+A) Estado de São Paulo
+B) Distrito Federal (Brasília)
+C) Município do Rio de Janeiro
+D) Estado de Minas Gerais
+E) Território de Fernando de Noronha
+CORRETA: B
+EXPLICACAO: Brasília é a capital federal situada no Distrito Federal (Art. 18, § 1º c/c estrutura do Art. 1º).
+---
+ENUNCIADO: A garantia de que um cidadão pode manifestar sua opinião e se filiar ao partido político de sua escolha decorre do fundamento da:
+A) Cidadania e do Pluralismo Político (Art. 1º, II e V)
+B) Subordinação ao Executivo (Art. 2º)
+C) Não-intervenção (Art. 4º, IV)
+D) Indissolubilidade do Estado (Art. 1º)
+E) Erradicação da pobreza (Art. 3º, III)
+CORRETA: A
+EXPLICACAO: A liberdade de manifestação e filiação política é amparada pelos fundamentos da cidadania e do pluralismo político.
+---
+ENUNCIADO: A independência do Poder Judiciário (Art. 2º) assegura aos juízes a garantia de julgar:
+A) De acordo com a lei e a Constituição, sem pressões de outros Poderes ou partes.
+B) Apenas os casos autorizados pelo Governador do Estado.
+C) Exclusivamente matérias aprovadas pelos prefeitos locais.
+D) Somente quando houver concordância do Congresso Nacional.
+E) Apenas causas envolvendo o interesse de partidos políticos do Governo.
+CORRETA: A
+EXPLICACAO: A independência do Judiciário garante a imparcialidade das decisões sem sujeição a ingerências do Executivo ou Legislativo.
+---
+ENUNCIADO: A norma constitucional que veda preconceito de sexo (Art. 3º, IV) busca erradicar a discriminação baseada no gênero, promovendo:
+A) A igualdade de oportunidades entre homens e mulheres na sociedade e no trabalho.
+B) A obrigatoriedade de salários maiores exclusivamente para mulheres.
+C) A isenção total de tributos para trabalhadoras rurais unicamente.
+D) A proibição de homens ingressarem em carreiras policiais.
+E) A proibição de mulheres ocuparem cargos de chefia no Poder Executivo.
+CORRETA: A
+EXPLICACAO: A norma combate a desigualdade histórica de gênero, assegurando equidade nas oportunidades profissionais e sociais.
+---
+ENUNCIADO: O repúdio ao racismo nas relações internacionais (Art. 4º, VIII) alinha-se ao objetivo fundamental interno (Art. 3º, IV) de:
+A) Promover o bem de todos sem preconceito de raça ou cor
+B) Garantir a soberania alimentar dos povos
+C) Conceder asilo aos perseguidos pela justiça comum
+D) Manter o monopólio estatal sobre combustíveis
+E) Assegurar a independência do Poder Legislativo
+CORRETA: A
+EXPLICACAO: O repúdio internacional ao racismo é o reflexo externo do objetivo interno de eliminar discriminações raciais ou de cor.
+---
+ENUNCIADO: O Brasil ao integrar blocos econômicos regionais da América Latina, como o Mercosul, cumpre o preceito constitucional disposto no:
+A) Artigo 4º, parágrafo único (Integração dos povos da América Latina)
+B) Artigo 1º, inciso I (Soberania absoluta)
+C) Artigo 2º (Harmonia dos Poderes do Estado)
+D) Artigo 3º, inciso III (Redução da inflação)
+E) Artigo 4º, inciso X (Concessão de asilo)
+CORRETA: A
+EXPLICACAO: A participação em blocos de integração latino-americana materializa o comando do parágrafo único do artigo 4º.
+---
+ENUNCIADO: A imunidade das sedes de diplomacia e embaixadas em território nacional decorre do respeito ao princípio da (Art. 4º, IV e V):
+A) Não-intervenção e Igualdade entre os Estados
+B) Erradicação da pobreza urbana
+C) Tripartição rígida dos poderes federais
+D) Pluralismo filosófico e partidário
+E) Valorização do trabalho autônomo
+CORRETA: A
+EXPLICACAO: O respeito às instalações diplomáticas internacionais funda-se no respeito mútuo, soberania, não-intervenção e igualdade entre os Estados.
+---
+ENUNCIADO: Quando o texto constitucional diz que os Poderes são "harmônicos entre si" (Art. 2º), proíbe-se:
+A) O clima de rivalidade destrutiva e a invasão arbitrária da esfera de atribuições dos outros Poderes.
+B) Que os Poderes divirjam juridicamente em interpretações de leis.
+C) A existência de fiscalização do Tribunal de Contas sobre o Executivo.
+D) O controle de constitucionalidade realizado pelo Judiciário.
+E) O julgamento de crimes cometidos por parlamentares pelo STF.
+CORRETA: A
+EXPLICACAO: Harmonia veda condutas abusivas ou de confronto institucional que paralisem o funcionamento do Estado.
+---
+ENUNCIADO: A garantia de um patamar mínimo de dignidade e subsistência para todo ser humano é expressão direta do fundamento previsto no Artigo:
+A) 1º, III (Dignidade da pessoa humana)
+B) 2º (Poder Legislativo)
+C) 4º, I (Independência nacional)
+D) 4º, VI (Defesa da paz)
+E) 4º, VIII (Repúdio ao racismo)
+CORRETA: A
+EXPLICACAO: O princípio da dignidade da pessoa humana exige a garantia do "mínimo existencial" para a vida com qualidade e respeito.
+---
+ENUNCIADO: No Brasil, o regime político adotado pela Carta Magna de 1988 é o regime:
+A) Democrático
+B) Autoritário
+C) Totalitário
+D) Monárquico
+E) Oligárquico
+CORRETA: A
+EXPLICACAO: A CF/88 consagra a democracia (Estado Democrático de Direito / "Todo o poder emana do povo").
+---
+ENUNCIADO: Sobre o exercício do poder, é CORRETO afirmar segundo o artigo 1º, parágrafo único:
+A) Pertence exclusivamente aos membros do Congresso Nacional.
+B) Emana do povo, que o exerce por meio de representantes eleitos ou diretamente.
+C) É exercido unicamente pelos oficiais generais das Forças Armadas.
+D) É atribuído de forma vitalícia aos ministros do STF.
+E) Emana do Presidente da República e repassa-se aos governadores.
+CORRETA: B
+EXPLICACAO: O titular do poder na democracia brasileira é o povo, que o exerce de forma direta ou representativa.
+---
+ENUNCIADO: O artigo 3º da CF/88 contém objetivos que devem ser perseguidos pelo Estado. Trata-se de normas classificadas como:
+A) Programáticas
+B) De eficácia absoluta instantânea
+C) Pura e simplesmente inaplicáveis
+D) Exclusivamente penais
+E) De direito internacional privado
+CORRETA: A
+EXPLICACAO: Normas programáticas estabelecem programas, fins e metas socioeconômicas a serem concretizadas progressivamente pelo Estado.
+---
+ENUNCIADO: Finalizando a análise dos Princípios Fundamentais (Arts. 1º a 4º), a integração da América Latina (Art. 4º, parágrafo único) abrange os seguintes aspectos, EXCETO:
+A) Econômico
+B) Político
+C) Social
+D) Cultural
+E) Anexação territorial compulsória
+CORRETA: E
+EXPLICACAO: A integração respeita a soberania de cada nação latino-americana, vedando qualquer tipo de anexação territorial.
+---
