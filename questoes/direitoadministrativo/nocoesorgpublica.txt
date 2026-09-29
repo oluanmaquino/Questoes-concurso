@@ -1,0 +1,450 @@
+ENUNCIADO: Como se conceitua a desconcentração no âmbito do Direito Administrativo?
+A) Transferência de competências para uma pessoa jurídica distinta.
+B) Distribuição interna de competências dentro da mesma pessoa jurídica.
+C) Delegação de serviços públicos para empresas privadas mediante contrato.
+D) Criação de uma entidade da Administração Indireta com personalidade jurídica própria.
+E) Transferência constitucional de competência legislativa aos Estados e Municípios.
+CORRETA: B
+EXPLICACAO: A desconcentração é a distribuição interna de competências dentro de uma mesma pessoa jurídica, originando os órgãos públicos.
+---
+ENUNCIADO: A criação de órgãos públicos na Administração Pública é decorrência direta de qual fenômeno administrativo?
+A) Descentralização por serviços
+B) Descentralização por colaboração
+C) Desconcentração administrativa
+D) Descentralização política
+E) Privatização
+CORRETA: C
+EXPLICACAO: Os órgãos públicos são frutos da desconcentração administrativa, que é a divisão interna de atribuições dentro da mesma pessoa jurídica.
+---
+ENUNCIADO: Em relação à personalidade jurídica, é correto afirmar que os órgãos públicos:
+A) Possuem personalidade jurídica de direito público.
+B) Possuem personalidade jurídica de direito privado.
+C) Não possuem personalidade jurídica própria.
+D) Adquirem personalidade jurídica após registro na junta comercial.
+E) Possuem personalidade jurídica apenas se forem órgãos independentes.
+CORRETA: C
+EXPLICACAO: Os órgãos públicos são destituídos de personalidade jurídica própria; eles integram a estrutura da pessoa jurídica a que pertencem.
+---
+ENUNCIADO: Qual teoria justifica a imputação dos atos praticados pelo agente público diretamente à pessoa jurídica correspondente?
+A) Teoria do Mandato
+B) Teoria da Representação
+C) Teoria da Identidade
+D) Teoria do Órgão
+E) Teoria do Risco Integral
+CORRETA: D
+EXPLICACAO: Pela Teoria do Órgão (ou da imputação), a atuação do agente público é imputada diretamente à pessoa jurídica da qual o órgão faz parte.
+---
+ENUNCIADO: A descentralização por serviços (ou funcional) ocorre quando o Poder Público:
+A) Transfere apenas a execução do serviço a um particular por contrato.
+B) Cria uma pessoa jurídica e atribui a ela a execução e a titularidade do serviço público por meio de lei.
+C) Distribui competências internamente entre seus próprios departamentos.
+D) Atribui competências legislativas aos Estados e Municípios diretamente pela Constituição.
+E) Passa a prestação de serviços essenciais para agremiações sociais e famílias.
+CORRETA: B
+EXPLICACAO: Na descentralização por serviços (funcional ou técnica), a lei cria uma entidade jurídica e outorga a ela a titularidade e a execução do serviço.
+---
+ENUNCIADO: Na descentralização por colaboração (ou negocial), o Poder Público transfere para o particular:
+A) A titularidade e a execução do serviço público.
+B) Apenas a execução do serviço público, mantendo a titularidade.
+C) Apenas a titularidade do serviço público.
+D) A capacidade legislativa sobre a matéria.
+E) A personalidade jurídica do órgão público responsável.
+CORRETA: B
+EXPLICACAO: Na descentralização por colaboração (concessão ou permissão), o Estado transfere unicamente a execução do serviço, conservando consigo a titularidade.
+---
+ENUNCIADO: Entre a Administração Direta e as entidades da Administração Indireta resultantes da descentralização, existe relação de:
+A) Hierarquia e subordinação direta.
+B) Vinculação, controle de finalidade ou supervisão ministerial, sem hierarquia.
+C) Subordinação total e poder disciplinar irrecorrível.
+D) Independência absoluta, sem qualquer tipo de controle.
+E) Tutela jurisdicional obrigatória prévia.
+CORRETA: B
+EXPLICACAO: Entre a Administração Direta e as entidades da Administração Indireta não há hierarquia ou subordinação, mas apenas vinculação (supervisão ministerial ou controle de finalidade).
+---
+ENUNCIADO: Excepcionalmente, alguns órgãos públicos podem impetrar mandado de segurança para defender suas prerrogativas funcionais. Essa capacidade processual é restrita aos órgãos:
+A) Subalternos e de execução.
+B) Locais e regionais.
+C) Independentes e autônomos.
+D) De consulta e de assessoramento.
+E) Simples e unipessoais.
+CORRETA: C
+EXPLICACAO: Apenas os órgãos independentes e autônomos possuem capacidade judiciária (processual) excepcional para defender em juízo suas prerrogativas funcionais.
+---
+ENUNCIADO: Qual das alternativas apresenta um exemplo de órgão público classificado como independente?
+A) Ministério da Justiça
+B) Secretaria Estadual de Educação
+C) Presidência da República
+D) Departamento de Polícia
+E) Seção de Protocolo
+CORRETA: C
+EXPLICACAO: A Presidência da República é um órgão independente, pois tem origem direta na Constituição e representa a chefia de um dos Poderes.
+---
+ENUNCIADO: Os Ministérios e as Secretarias Estaduais são classificados, quanto à posição estatal, como órgãos:
+A) Independentes
+B) Autônomos
+C) Superiores
+D) Subalternos
+E) Locais
+CORRETA: B
+EXPLICACAO: Os Ministérios e Secretarias Estaduais situam-se na cúpula da Administração, logo abaixo dos órgãos independentes, sendo classificados como autônomos.
+---
+ENUNCIADO: As portarias, protocolos e seções de expediente de uma repartição pública são exemplos de órgãos:
+A) Independentes
+B) Autônomos
+C) Superiores
+D) Subalternos
+E) Colegiados
+CORRETA: D
+EXPLICACAO: Órgãos subalternos ocupam o último escalão da Administração, com reduzido poder decisório e atribuições de mera execução ou atendimento.
+---
+ENUNCIADO: Um órgão público que possui apenas um centro de competências, sem subdivisões internas em sua estrutura, é classificado como:
+A) Composto
+B) Simples ou unitário
+C) Colegiado
+D) Autônomo
+E) Descentralizado
+CORRETA: B
+EXPLICACAO: Órgãos simples ou unitários possuem apenas um centro de competências, sem outros órgãos integrando sua estrutura.
+---
+ENUNCIADO: Órgãos singulares ou unipessoais são aqueles cujas decisões e funções principais são desempenhadas por:
+A) Um plenário votante por maioria absoluta.
+B) Um único titular que atua como chefe e representante do órgão.
+C) Um conselho deliberativo multidisciplinar.
+D) Uma comissão paritária de agentes públicos.
+E) Uma assembleia geral de servidores.
+CORRETA: B
+EXPLICACAO: Os órgãos singulares (ou unipessoais) possuem um único agente/titular responsável pela manifestação da vontade do órgão (ex.: Prefeito, Presidente).
+---
+ENUNCIADO: Qual dos órgãos a seguir é um exemplo de órgão colegiado ou pluripessoal?
+A) Prefeito Municipal
+B) Governador do Estado
+C) Tribunal de Justiça
+D) Diretor de Departamento
+E) Chefe de Seção
+CORRETA: C
+EXPLICACAO: Os Tribunais de Justiça decidem por manifestação conjunta e majoritária de seus membros (plenários e câmaras), constituindo órgãos colegiados.
+---
+ENUNCIADO: Os órgãos de consulta têm como atribuição principal:
+A) Praticar atos de execução e atendimento direto ao cidadão.
+B) Emitir pareceres e opiniões técnicas/jurídicas para auxiliar na tomada de decisões.
+C) Fiscalizar e acompanhar a execução orçamentária de outros órgãos.
+D) Representar o Poder Legislativo em deliberações de leis.
+E) Promover a descentralização por colaboração.
+CORRETA: B
+EXPLICACAO: Órgãos de consulta (como pareceristas e assessorias jurídicas) produzem opiniões técnicas para subsidiar os órgãos ativos nas decisões.
+---
+ENUNCIADO: Delegacias de Polícia de um bairro e Postos de Saúde locais são classificados, quanto à sua esfera de ação, como órgãos:
+A) Centrais
+B) Locais
+C) Independentes
+D) Autônomos
+E) Colegiados
+CORRETA: B
+EXPLICACAO: Órgãos locais atuam apenas em uma parte delimitada do território (ex.: uma circunscrição policial ou bairro), diferentemente dos órgãos centrais.
+---
+ENUNCIADO: Conforme o Decreto-Lei nº 200/67 e a Constituição Federal, a Administração Pública Indireta é composta por:
+A) Ministérios, Secretarias, Delegacias e Tribunais.
+B) Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista.
+C) Presidência da República, Governadorias e Prefeituras.
+D) Organizações Não Governamentais e Concessionárias de Serviços.
+E) Órgãos Independentes, Autônomos, Superiores e Subalternos.
+CORRETA: B
+EXPLICACAO: A Administração Indireta é formada pelas entidades dotadas de personalidade jurídica própria: Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista.
+---
+ENUNCIADO: As autarquias são pessoas jurídicas de direito:
+A) Privado, criadas por ato administrativo.
+B) Público, criadas diretamente por lei específica.
+C) Privado, com criação autorizada por decreto executivo.
+D) Público, com criação autorizada por lei e registro em cartório.
+E) Privado, constituídas obrigatoriamente sob a forma de S.A.
+CORRETA: B
+EXPLICACAO: As autarquias são pessoas jurídicas de direito público criadas diretamente por lei específica (Art. 37, XIX da CF/88).
+---
+ENUNCIADO: De acordo com o texto constitucional, o surgimento de uma autarquia no ordenamento jurídico brasileiro se dá:
+A) Mediante autorização legislativa e inscrição dos estatutos no Registro Civil.
+B) Diretamente por meio de lei específica.
+C) Por decreto do Chefe do Poder Executivo.
+D) Através de contrato de concessão assinado pelo Ministério supervisor.
+E) Por portaria ministerial homologada pelo Tribunal de Contas.
+CORRETA: B
+EXPLICACAO: Conforme o art. 37, XIX da CF, a autarquia é criada diretamente por lei específica, não necessitando de registro de seus atos constitutivos em cartório.
+---
+ENUNCIADO: Segundo entendimento firmado pelo Supremo Tribunal Federal (ADI 3026/DF), a Ordem dos Advogados do Brasil (OAB):
+A) É uma autarquia corporativa tradicional integrante da Administração Indireta.
+B) É uma agência executiva com contrato de desempenho firmado.
+C) É um serviço público independente, não se caracterizando como autarquia nem integrando a Administração Pública.
+D) É uma sociedade de economia mista prestadora de serviço advocatício.
+E) É uma empresa pública com capital integral da União.
+CORRETA: C
+EXPLICACAO: O STF decidiu que a OAB é um ente "sui generis", não possuindo natureza de autarquia corporativa e não integrando a Administração Pública.
+---
+ENUNCIADO: As Agências Reguladoras (como ANVISA, ANATEL e ANEEL) são juridicamente classificadas como:
+A) Sociedades de economia mista prestadoras de serviços.
+B) Autarquias sob regime especial, dotadas de autonomia funcional e decisória.
+C) Empresas públicas de capital fechado.
+D) Órgãos subalternos vinculados aos Ministérios.
+E) Fundações privadas mantidas pelo setor produtivo.
+CORRETA: B
+EXPLICACAO: As Agências Reguladoras possuem natureza de autarquias sob regime especial (Lei 13.848/19), caracterizadas pela autonomia administrativa e estabilidade de seus dirigentes.
+---
+ENUNCIADO: A qualificação de uma autarquia ou fundação pública como "Agência Executiva" depende da celebração de:
+A) Contrato de concessão com a iniciativa privada.
+B) Convenção coletiva de trabalho com os servidores.
+C) Contrato de desempenho (ou gestão) com o órgão supervisor.
+D) Acordo de cooperação internacional.
+E) Licitação na modalidade pregão eletrônico.
+CORRETA: C
+EXPLICACAO: A qualificação de agência executiva é outorgada à autarquia ou fundação preexistente que celebra contrato de desempenho (ou gestão) com a Administração Direta.
+---
+ENUNCIADO: Nos termos da Lei nº 13.934/19, o Contrato de Desempenho celebrado para a qualificação de Agência Executiva terá prazo de vigência:
+A) De no máximo 1 ano, vedada a prorrogação.
+B) Indeterminado, enquanto durar a gestão do Chefe do Executivo.
+C) Não superior a 5 anos nem inferior a 1 ano.
+D) De exatamente 10 anos.
+E) Livremente fixado pelo órgão contratado, sem limites legais.
+CORRETA: C
+EXPLICACAO: A Lei 13.934/19 estabelece que o prazo de vigência do contrato de desempenho não pode ser superior a 5 anos nem inferior a 1 ano.
+---
+ENUNCIADO: A Empresa Pública é uma entidade de direito privado cujo capital social é detido:
+A) Integralmente por entes ou entidades públicas.
+B) Em sua maioria por particulares e negociado na bolsa de valores.
+C) Metade por pessoas físicas e metade pelo Estado.
+D) Obrigatoriamente por investidores estrangeiros.
+E) 51% por ações ordinárias privadas.
+CORRETA: A
+EXPLICACAO: A empresa pública possui capital 100% público (integralmente detido pela União, Estados, DF, Municípios ou entidades da Adm. Indireta).
+---
+ENUNCIADO: A Sociedade de Economia Mista deve ser constituída obrigatoriamente sob qual forma societária?
+A) Sociedade Limitada (Ltda.)
+B) Sociedade Anônima (S.A.)
+C) Firma Individual de Responsabilidade Limitada (EIRELI)
+D) Sociedade Simples
+E) Qualquer forma admitida em direito
+CORRETA: B
+EXPLICACAO: A sociedade de economia mista deve ser constituída obrigatoriamente sob a forma de Sociedade Anônima (S.A.), conforme determina a legislação.
+---
+ENUNCIADO: Quanto ao tipo ou forma de organização societária, a Empresa Pública pode adotar:
+A) Apenas a forma de Sociedade Anônima (S.A.).
+B) Apenas a forma de Sociedade Limitada (Ltda.).
+C) Qualquer das formas jurídicas admitidas em direito.
+D) Exclusivamente o modelo de associação comunitária.
+E) Unicamente a estrutura de autarquia corporativa.
+CORRETA: C
+EXPLICACAO: Diferente da sociedade de economia mista (que exige S.A.), a empresa pública pode revestir-se de qualquer das formas admitidas em direito (Ltda., S.A., etc.).
+---
+ENUNCIADO: Segundo a Constituição Federal, a criação de Empresas Públicas e Sociedades de Economia Mista exige:
+A) Lei específica que as crie diretamente.
+B) Autorização por lei e posterior registro dos atos constitutivos.
+C) Decreto executivo, sem necessidade de aprovação pelo Poder Legislativo.
+D) Portaria interministerial publicada no Diário Oficial.
+E) Apenas ata de assembleia de acionistas registrada na Junta Comercial.
+CORRETA: B
+EXPLICACAO: As entidades de direito privado (EP e SEM) têm sua criação autorizada por lei, dependendo do registro de seus atos constitutivos para adquirir personalidade jurídica.
+---
+ENUNCIADO: As Fundações Públicas com personalidade jurídica de direito público também são conhecidas pela doutrina como:
+A) Sociedades de economia mista assistenciais.
+B) Autarquias fundacionais ou fundações autárquicas.
+C) Agências de fomento privado.
+D) Organizações sociais descentralizadas.
+E) Organizações da sociedade civil de interesse público.
+CORRETA: B
+EXPLICACAO: As fundações públicas de direito público possuem regime jurídico idêntico ao das autarquias, sendo por isso chamadas de autarquias fundacionais.
+---
+ENUNCIADO: A Descentralização Política caracteriza-se por:
+A) Decorrer de decisão interna de um Ministério para criar uma agência executiva.
+B) Conferir competências legislativas próprias diretamente fundamentadas na Constituição aos entes federativos (Estados, Municípios).
+C) Ocorrer exclusivamente quando o Estado celebra contratos de concessão de transporte público.
+D) Transferir atribuições administrativas para agremiações de bairro e famílias.
+E) Criar órgãos públicos sem personalidade jurídica própria dentro do Poder Judiciário.
+CORRETA: B
+EXPLICACAO: A descentralização política ocorre quando os entes federados (Estados, DF e Municípios) exercem competências próprias com fundamento direto na Constituição Federal.
+---
+ENUNCIADO: Por serem pessoas jurídicas de direito público, os bens pertencentes às Autarquias são considerados:
+A) Bens privados sujeitos à penhora judicial comum.
+B) Bens públicos, gozando de inalienabilidade e impenhorabilidade relativas nos termos da lei.
+C) Bens corporativos pertencentes exclusivamente aos seus funcionários.
+D) Bens sem destinação pública que podem ser usucapidos por qualquer cidadão.
+E) Bens hipotecáveis em instituições financeiras privadas.
+CORRETA: B
+EXPLICACAO: O patrimônio das autarquias é constituído por bens públicos, sujeitos às prerrogativas de inalienabilidade relativa, impenhorabilidade e impossibilidade de usucapião.
+---
+ENUNCIADO: A Descentralização Social consiste em:
+A) Criar autarquias corporativas para fiscalizar o exercício de profissões regulamentadas.
+B) Transferir a execução direta ou indireta de atividades de relevância coletiva para unidades sociais existentes (família, bairro, agremiações).
+C) Distribuir tarefas administrativas entre escalões superiores e inferiores da mesma entidade.
+D) Delegar poderes legislativos da União para municípios por meio de contratos.
+E) Converter órgãos subalternos em empresas estatais com fins lucrativos.
+CORRETA: B
+EXPLICACAO: A descentralização social ocorre quando o Estado estimula e atribui execução de atividades coletivas a unidades sociais já existentes (família, bairros, agremiações).
+---
+ENUNCIADO: Quando o próprio ente federativo atua e presta o serviço diretamente por meio de um único órgão, sem divisão interna em outros setores, ocorre a:
+A) Centralização concentrada
+B) Centralização desconcentrada
+C) Descentralização por colaboração
+D) Descentralização técnica
+E) Desconcentração geográfica
+CORRETA: A
+EXPLICACAO: A centralização concentrada ocorre quando o Estado atua por meio de um único órgão centralizador.
+---
+ENUNCIADO: Quando o próprio ente federativo presta o serviço diretamente, mas distribui suas tarefas entre dois ou mais órgãos de sua própria estrutura, verifica-se a:
+A) Descentralização por serviços
+B) Centralização desconcentrada
+C) Descentralização por delegação
+D) Descentralização política
+E) Privatização direta
+CORRETA: B
+EXPLICACAO: Na centralização desconcentrada, o ente político central (ex.: União) atua diretamente, porém dividindo atribuições em múltiplos órgãos internos (Ministérios, Departamentos).
+---
+ENUNCIADO: De acordo com a Teoria da Representação (não adotada para o Estado brasileiro), o agente público seria comparado a um:
+A) Mandatário eleito por assembleia popular.
+B) Tutor ou curador da pessoa jurídica, equiparada a um incapaz.
+C) Elemento idêntico ao próprio órgão público.
+D) Instrumento mecânico sem vontade própria.
+E) Sócio acionista do patrimônio estatal.
+CORRETA: B
+EXPLICACAO: A Teoria da Representação equiparava o Estado a um incapaz e o agente público a um tutor/representante legal. Essa teoria foi superada pela Teoria do Órgão.
+---
+ENUNCIADO: A Teoria do Mandato (superada) sustentava que a relação entre a pessoa jurídica de direito público e o agente fundava-se em um contrato de:
+A) Sociedade
+B) Mandato, atuando o agente como mandatário do Estado.
+C) Concessão de serviços
+D) Arrendamento mercantil
+E) Fideicomisso
+CORRETA: B
+EXPLICACAO: Pela Teoria do Mandato, o Estado outorgava um mandato ao agente público. Contudo, essa teoria falhava por não explicar quem outorgou o mandato em nome do Estado em primeiro lugar.
+---
+ENUNCIADO: A Teoria da Identidade (ou Subjetiva) defendia que:
+A) O agente público e o órgão formam uma unidade inseparável, confundindo-se o órgão com a pessoa do agente.
+B) O órgão tem personalidade jurídica distinta do agente e do Estado.
+C) A atuação do agente é imputada a uma empresa pública concessionária.
+D) Os atos do agente nunca podem responsabilizar o Estado.
+E) O Estado responde subsidiariamente pelos contratos de trabalho do agente.
+CORRETA: A
+EXPLICACAO: Para a Teoria da Identidade, o órgão confundia-se com a própria pessoa física do agente público.
+---
+ENUNCIADO: Quanto à inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ), é correto afirmar que os órgãos públicos:
+A) Não podem ter CNPJ sob nenhuma hipótese por não possuírem personalidade jurídica.
+B) Podem possuir CNPJ próprio para fins orçamentários e operacionais, mesmo sem ter personalidade jurídica.
+C) Adquirem personalidade jurídica automaticamente ao obter um CNPJ.
+D) Apenas possuem CNPJ se forem classificados como empresas públicas.
+E) Só podem obter CNPJ mediante autorização expressa do Supremo Tribunal Federal.
+CORRETA: B
+EXPLICACAO: Embora destituídos de personalidade jurídica, os órgãos públicos possuem CNPJ próprio para fins administrativos, fiscais e orçamentários.
+---
+ENUNCIADO: O artigo 1º, § 2º, I, da Lei Federal nº 9.784/99 define órgão público como:
+A) A entidade dotada de personalidade jurídica própria e patrimônio gerido pela União.
+B) A unidade de atuação integrante da estrutura da Administração direta e da estrutura da Administração indireta.
+C) A pessoa jurídica de direito privado criada por lei para fins lucrativos.
+D) O agrupamento de empresas privadas prestadoras de serviços públicos regulados.
+E) A corporação autônoma composta exclusivamente por conselhos de classe.
+CORRETA: B
+EXPLICACAO: Pela Lei 9.784/99, órgão é definido como a unidade de atuação integrante da estrutura da Administração direta e da estrutura da Administração indireta.
+---
+ENUNCIADO: Uma das características marcantes das Agências Reguladoras que assegura sua autonomia é:
+A) A livre exoneração dos seus dirigentes a qualquer tempo pelo Presidente da República.
+B) A investidura a termo dos seus dirigentes com estabilidade durante os mandatos.
+C) A obrigatoriedade de consulta prévia ao mercado financeiro antes de qualquer decisão.
+D) A ausência completa de fiscalização por parte do Tribunal de Contas da União.
+E) A contratação de dirigentes exclusivamente sob o regime da CLT sem concurso.
+CORRETA: B
+EXPLICACAO: As agências reguladoras caracterizam-se pela investidura a termo de seus dirigentes, garantindo-lhes estabilidade durante o mandato fixado em lei.
+---
+ENUNCIADO: As Autarquias Corporativas têm como finalidade principal:
+A) Prestar serviços públicos de telecomunicações e energia elétrica.
+B) Fiscalizar e controlar o exercício de categorias profissionais regulamentadas.
+C) Desenvolver atividades comerciais e de exploração econômica de bens.
+D) Gerir o sistema de previdência social dos trabalhadores urbanos.
+E) Administrar parques nacionais e reservas ambientais.
+CORRETA: B
+EXPLICACAO: Autarquias corporativas são os conselhos de fiscalização profissional (ex.: CRM, CREA, CRO) responsáveis pela supervisão do exercício de profissões regulamentadas.
+---
+ENUNCIADO: No âmbito da Administração Pública, enquadram-se na classificação de autarquias culturais:
+A) O Banco Central do Brasil e o INSS.
+B) As Universidades e Institutos Federais de Ensino.
+C) As Delegacias Regionais da Receita Federal.
+D) Os Conselhos Regionais de Medicina.
+E) As Secretarias Municipais de Saúde.
+CORRETA: B
+EXPLICACAO: As Universidades Públicas e Institutos Federais dedicados à educação e ao ensino são classificados doutrinariamente como autarquias culturais.
+---
+ENUNCIADO: Qual das alternativas apresenta uma Agência Reguladora federal responsável precipuamente pela regulação e fiscalização do uso de recursos hídricos (bem público)?
+A) ANVISA
+B) ANA (Agência Nacional de Águas e Saneamento Básico)
+C) ANS
+D) ANTAQ
+E) ANCINE
+CORRETA: B
+EXPLICACAO: A ANA (Agência Nacional de Águas e Saneamento Básico) atua na regulação do uso de bens públicos, especificamente os recursos hídricos sob domínio da União.
+---
+ENUNCIADO: O Contrato de Desempenho outorgado a uma Agência Executiva pode conferir à entidade flexibilidades especiais, tais como:
+A) Isenção total de prestar contas aos órgãos de controle externo.
+B) Ampliação da autonomia administrativa na celebração de contratos e despesas de pequeno vulto.
+C) Permissão para criar impostos e taxas municipais sem aprovação da câmara.
+D) Transformação automática da autarquia em sociedade de economia mista.
+E) Possibilidade de contratar sem licitação independentemente do valor da compra.
+CORRETA: B
+EXPLICACAO: A Lei 13.934/19 estabelece que o contrato de desempenho pode conceder ampliação de autonomia administrativa para celebração de contratos e fixação de limites para despesas de pequeno vulto.
+---
+ENUNCIADO: Em uma Sociedade de Economia Mista, o capital social é formado por:
+A) 100% de recursos públicos provenientes do Tesouro Nacional.
+B) Conjugação de capital público e privado, devendo a maioria das ações com direito a voto pertencer ao Poder Público.
+C) Investimentos exclusivos de empresas privadas concessionárias.
+D) Doações puras de agremiações e fundações internacionais.
+E) Capital integralmente detido por Municípios vizinhos.
+CORRETA: B
+EXPLICACAO: A Sociedade de Economia Mista possui capital misto (público e privado), mas a maioria das ações com direito a voto (capital votante) deve pertencer à Administração Pública.
+---
+ENUNCIADO: O controle exercido pela Administração Direta sobre as entidades da Administração Indireta denomina-se:
+A) Hierarquia funcional estrita.
+B) Poder disciplinar de subordinação total.
+C) Tutela administrativa ou supervisão ministerial.
+D) Controle infraconstitucional punitivo.
+E) Veto legislativo prévio.
+CORRETA: C
+EXPLICACAO: A relação entre a Administração Direta e as entidades da Indireta é de tutela administrativa, também chamada de supervisão ministerial ou controle de finalidade.
+---
+ENUNCIADO: As chamadas autarquias de controle exercem papel fundamental na economia e na prestação de serviços públicos. Elas são representadas principalmente por:
+A) Fundações de previdência complementar.
+B) Agências Reguladoras.
+C) Empresas concessionárias de rodovias.
+D) Conselhos comunitários de segurança.
+E) Tribunais de Contas Estaduais.
+CORRETA: B
+EXPLICACAO: As autarquias de controle coincidem com as agências reguladoras (ANATEL, ANP, ANEEL, etc.), incumbidas de regulamentar e fiscalizar serviços delegados e mercados.
+---
+ENUNCIADO: Quanto às funções exercidas, a Controladoria-Geral da União (CGU) e o Tribunal de Contas da União (TCU) são classificados como órgãos:
+A) Ativos
+B) Consultivos
+C) De controle
+D) Subalternos
+E) Locais
+CORRETA: C
+EXPLICACAO: CGU e TCU são órgãos incumbidos de acompanhar, fiscalizar e auditar a atuação de outros órgãos e agentes, classificando-se como órgãos de controle.
+---
+ENUNCIADO: Uma pessoa jurídica de direito privado na qual o Estado detém controle acionário, mas que não preenche todos os requisitos para ser Empresa Pública ou Sociedade de Economia Mista, é considerada:
+A) Autarquia territorial.
+B) Empresa sob controle acionário do Estado (geralmente concessionária).
+C) Fundação autárquica de direito público.
+D) Órgão superior sem personalidade jurídica.
+E) Agência executiva federal.
+CORRETA: B
+EXPLICACAO: Empresas sob controle acionário do Estado são entidades privadas prestadoras de serviços públicos comerciais/industriais sujeitas ao regramento das concessionárias (art. 175 da CF).
+---
+ENUNCIADO: Por exercerem atividades típicas de Estado, as autarquias desempenham suas atribuições com o uso de:
+A) Exclusivamente direito privado comercial.
+B) Prerrogativas de direito público, desfrutando do poder de império estatal.
+C) Regimento interno de empresas privadas com fins de lucro.
+D) Normas editadas por sindicatos de classe.
+E) Isenção absoluta de qualquer fiscalização contábil.
+CORRETA: B
+EXPLICACAO: Sendo pessoas jurídicas de direito público, as autarquias desempenham atividades típicas da Administração com poder de império e regimento sob o Direito Público.
+---
+ENUNCIADO: Órgãos compostos diferenciam-se dos órgãos simples porque:
+A) Possuem apenas uma única pessoa física no comando.
+B) Reúnem em sua estrutura outros órgãos menores com funções auxiliares ou idênticas.
+C) Não pertencem à Administração Direta.
+D) Possuem personalidade jurídica própria derivada de contrato.
+E) Têm poder jurisdicional para julgar recursos de trânsito.
+CORRETA: B
+EXPLICACAO: Os órgãos compostos reúnem na sua estrutura diversos outros órgãos menores (ex.: um Ministério que possui Secretarias, Departamentos e Divisões).
+---
