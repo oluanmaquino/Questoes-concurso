@@ -1,0 +1,23 @@
+PERGUNTA: Quando se deve utilizar "por que" (separado e sem acento)?
+RESPOSTA: Em perguntas diretas ou indiretas (equivalendo a "por qual razão/motivo") ou como pronome relativo (equivalendo a "pelo qual", "pela qual").
+EXPLICACAO: Exemplo 1: "Por que você não foi ontem?" (Por qual razão). Exemplo 2: "Os caminhos por que passei eram difíceis." (pelos quais).
+---
+PERGUNTA: Em que situação usamos "por quê" (separado e com acento)?
+RESPOSTA: No final de frases, imediatamente antes de um ponto (final, de interrogação ou de exclamação), ou quando a palavra estiver isolada.
+EXPLICACAO: A palavra "que" ganha força tônica ao ficar posicionada junto à pontuação final. Exemplo: "Eles não chegaram ainda. Por quê?"
+---
+PERGUNTA: Qual é a regra para o uso de "porque" (junto e sem acento)?
+RESPOSTA: É utilizado em respostas, justificativas e explicações, equivalendo a "pois", "já que", "visto que" ou "como".
+EXPLICACAO: Trata-se de uma conjunção explicativa ou causal. Exemplo: "Não fui trabalhar porque estava doente."
+---
+PERGUNTA: Como e quando se utiliza "porquê" (junto e com acento)?
+RESPOSTA: Quando funciona como um substantivo, significando "o motivo" ou "a razão", vindo acompanhado de artigo, pronome ou numeral.
+EXPLICACAO: Pode flexionar no plural (os porquês). Exemplo: "Não entendi o porquê de tanta confusão."
+---
+PERGUNTA: Na frase "Não sei o ________ de tanta discussão", qual forma do "porquê" deve ser utilizada?
+RESPOSTA: Porquê (junto e com acento).
+EXPLICACAO: A palavra vem precedida do artigo definido "o", atuando como um substantivo ("o motivo").
+---
+PERGUNTA: Na frase "Você não estudou para a prova. Por ________?", qual forma completa corretamente a lacuna?
+RESPOSTA: Por quê (separado e com acento).
+EXPLICACAO: Como a expressão se encontra no final da frase, colada ao ponto de interrogação, o "que" torna-se tônico e recebe o acento.
