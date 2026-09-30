@@ -571,13 +571,14 @@ strong { color: var(--accent-color); font-weight: 700; }
 .instagram-link { color: #b5c4a6; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
 .instagram-icon { width: 18px; height: 18px; fill: currentColor; }
 
-/* ESTILOS EXCLUSIVOS DO MÓDULO FLASHCARDS (CORRIGIDO) */
+/* ESTILOS EXCLUSIVOS DO MÓDULO FLASHCARDS (CORREÇÃO DE ROLAGEM E ALTURA IOS) */
 .flashcard-card {
   perspective: 1000px;
   width: 100%;
-  height: 380px; /* Altura fixa definida para garantir o espaço dos botões */
+  height: 380px; /* Altura fixa travada */
   margin-bottom: 24px;
   cursor: pointer;
+  position: relative;
 }
 
 .flashcard-inner {
@@ -593,8 +594,11 @@ strong { color: var(--accent-color); font-weight: 700; }
   transform: rotateY(180deg);
 }
 
-.flashcard-front, .flashcard-back {
+.flashcard-front, 
+.flashcard-back {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
@@ -605,21 +609,9 @@ strong { color: var(--accent-color); font-weight: 700; }
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  overflow-y: auto; /* Habilita barra de rolagem quando o texto for muito longo */
-}
-
-/* Personalização da barra de rolagem interna do card */
-.flashcard-front::-webkit-scrollbar,
-.flashcard-back::-webkit-scrollbar {
-  width: 6px;
-}
-
-.flashcard-front::-webkit-scrollbar-thumb,
-.flashcard-back::-webkit-scrollbar-thumb {
-  background: var(--card-border);
-  border-radius: 4px;
+  overflow: hidden; /* Impede estritamente que a borda do card estique */
+  box-sizing: border-box;
 }
 
 .flashcard-back {
@@ -637,11 +629,26 @@ strong { color: var(--accent-color); font-weight: 700; }
   flex-shrink: 0;
 }
 
+/* O corpo do texto assume o meio da tela e rola de forma independente */
 .fc-card-body {
   font-size: 1rem;
   line-height: 1.5;
   color: #ffffff;
   margin: 12px 0;
+  flex: 1; /* Preenche todo o espaço livre entre topo e rodapé */
+  overflow-y: auto; /* Permite rolar o texto longo */
+  -webkit-overflow-scrolling: touch; /* Garante rolagem suave no iPhone/Safari */
+  padding-right: 4px;
+}
+
+/* Estilo discreto para a barra de rolagem do texto */
+.fc-card-body::-webkit-scrollbar {
+  width: 4px;
+}
+
+.fc-card-body::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 4px;
 }
 
 .fc-card-hint {
@@ -653,15 +660,4 @@ strong { color: var(--accent-color); font-weight: 700; }
   border-top: 1px solid var(--card-border);
   padding-top: 10px;
   flex-shrink: 0;
-}
-
-.fc-controls {
-  display: flex;
-  gap: 12px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.fc-controls .btn {
-  flex: 1;
 }
