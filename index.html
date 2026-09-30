@@ -6,10 +6,9 @@
   <title>PROJETO QUESTÕES</title>
   <link rel="stylesheet" href="css/styles.css">
   
-  <!-- Novas Fontes via Google Fonts -->
+  <!-- Fontes via Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Fonte 'Press Start 2P' para o título e 'Inter' para o corpo de texto -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Chart.js para o Gráfico de Desempenho -->
@@ -71,15 +70,14 @@
           </div>
         </div>
 
-        <!-- Módulo 3: Flashcards -->
-        <div class="module-card disabled">
-          <span class="module-badge-soon">Em breve</span>
+        <!-- Módulo 3: Flashcards (ATIVADO) -->
+        <div class="module-card" onclick="abrirModuloFlashcards()">
           <div>
             <div class="module-icon">
               <svg viewBox="0 0 24 24"><rect x="2" y="4" width="16" height="16" rx="2"/><path d="M6 8h8M6 12h5"/><rect x="6" y="8" width="16" height="14" rx="2" style="opacity: 0.3;"/></svg>
             </div>
             <div class="module-title">Flashcards</div>
-            <div class="module-desc">Memorização ativa com repetição espaçada.</div>
+            <div class="module-desc">Memorização ativa com revisão rápida e virada de cards.</div>
           </div>
         </div>
 
@@ -123,6 +121,18 @@
       <button class="btn btn-primary" onclick="gerarSimuladoCustomizado()" style="width: 100%;">Gerar Simulado ➔</button>
     </div>
 
+    <!-- TELA 1C: SELEÇÃO DE DISCIPLINAS (MODO FLASHCARDS) -->
+    <div class="card-hero" id="tela-selecao-flashcards" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <span class="menu-badge" style="margin-bottom: 0;">Flashcards</span>
+        <button class="btn-voltar" onclick="voltarParaHub()">← Menu Principal</button>
+      </div>
+      <div class="title-select">Escolha a Matéria</div>
+      <div class="subtitle-select">Selecione a disciplina para praticar a memorização:</div>
+
+      <div class="discipline-grid" id="grid-disciplinas-flashcards"></div>
+    </div>
+
     <!-- TELA 2: FILTRO DE ASSUNTOS (PARA MÓDULO QUESTÕES) -->
     <div class="card-hero" id="tela-filtro" style="display: none;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
@@ -134,6 +144,19 @@
       <div class="filter-list" id="filter-options-container"></div>
 
       <button class="btn btn-primary" onclick="iniciarQuizComFiltro()" style="width: 100%;">Iniciar Prática ➔</button>
+    </div>
+
+    <!-- TELA 2B: FILTRO DE ASSUNTOS (PARA MÓDULO FLASHCARDS) -->
+    <div class="card-hero" id="tela-filtro-flashcards" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div class="title-select" id="filtro-fc-titulo-materia" style="font-size: 1.3rem;">Filtro de Flashcards</div>
+        <button class="btn-voltar" onclick="voltarParaSelecaoFlashcards()">← Voltar</button>
+      </div>
+      <div class="subtitle-select">Marque os assuntos para revisão rápida:</div>
+
+      <div class="filter-list" id="filter-fc-options-container"></div>
+
+      <button class="btn btn-primary" onclick="iniciarFlashcardsComFiltro()" style="width: 100%;">Iniciar Flashcards ➔</button>
     </div>
 
     <!-- TELA 3: FEED DE QUESTÕES / SIMULADO -->
@@ -164,6 +187,49 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- TELA 4: EXECUÇÃO DE FLASHCARDS -->
+    <div id="tela-flashcards-player" style="display: none;">
+      <div class="feed-header">
+        <span style="font-weight: 700; color: var(--text-muted);" id="fc-materia-tag">FLASHCARDS</span>
+        <button class="btn-voltar" onclick="voltarParaHub()">← Sair</button>
+      </div>
+
+      <!-- Barra de Progresso do Card -->
+      <div class="fc-progress-bar-bg">
+        <div class="fc-progress-bar-fill" id="fc-progress-fill"></div>
+      </div>
+
+      <div class="fc-counter" id="fc-counter-text">Card 1 de 10</div>
+
+      <!-- Container do Flashcard 3D -->
+      <div class="flashcard-card" id="flashcard-element" onclick="virarCard()">
+        <div class="flashcard-inner" id="flashcard-inner">
+          
+          <!-- FRENTE DO CARD (PERGUNTA) -->
+          <div class="flashcard-front">
+            <div class="fc-card-meta" id="fc-front-meta">DISCIPLINA // ASSUNTO</div>
+            <div class="fc-card-body" id="fc-front-text">Perguntando...</div>
+            <div class="fc-card-hint">💡 Clique no card para revelar a resposta</div>
+          </div>
+
+          <!-- VERSO DO CARD (RESPOSTA + EXPLICAÇÃO) -->
+          <div class="flashcard-back">
+            <div class="fc-card-meta">RESPOSTA CORRETA E EXPLICAÇÃO</div>
+            <div class="fc-card-body" id="fc-back-text">Resposta...</div>
+            <div class="fc-card-hint">💡 Clique para retornar ao enunciado</div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- BOTÕES DE NAVEGAÇÃO DOS FLASHCARDS -->
+      <div class="fc-controls">
+        <button class="btn btn-primary" id="btn-fc-prev" onclick="anteriorFlashcard()">← Anterior</button>
+        <button class="btn btn-primary" onclick="virarCard()">🔄 Virar Card</button>
+        <button class="btn btn-primary" id="btn-fc-next" onclick="proximoFlashcard()">Próximo →</button>
+      </div>
     </div>
 
   </div>

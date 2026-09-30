@@ -14,6 +14,11 @@ let nomeDisciplinaAtual = "";
 let listaArquivosAssuntos = [];
 let bancoQuestoes = [];
 
+// VARIÁVEIS GLOBAIS DOS FLASHCARDS
+let bancoFlashcards = [];
+let indexFlashcardAtual = 0;
+let cardEstaVirado = false;
+
 let paginaAtual = 1;
 const QUESTOES_POR_PAGINA = 10;
 
@@ -34,12 +39,326 @@ function formatarTexto(texto) {
   return texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 }
 
-/* ROTEAMENTO DE TELAS DO HUB */
-async function abrirModuloQuestoes() {
+// GERENCIAMENTO GLOBAL DE NAVEGAÇÃO DE TELAS
+function esconderTodasAsTelas() {
+  document.getElementById('dashboard-stats').style.display = 'none';
   document.getElementById('tela-hub').style.display = 'none';
+  document.getElementById('tela-selecao-questoes').style.display = 'none';
+  document.getElementById('tela-config-simulado').style.display = 'none';
+  document.getElementById('tela-selecao-flashcards').style.display = 'none';
+  document.getElementById('tela-filtro').style.display = 'none';
+  document.getElementById('tela-filtro-flashcards').style.display = 'none';
+  document.getElementById('tela-quiz').style.display = 'none';
+  document.getElementById('tela-flashcards-player').style.display = 'none';
+}
+
+function voltarParaHub() {
+  esconderTodasAsTelas();
+  document.getElementById('tela-hub').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function voltarParaSelecaoQuestoes() {
+  esconderTodasAsTelas();
+  document.getElementById('tela-selecao-questoes').style.display = 'block';
+}
+
+function voltarParaSelecaoFlashcards() {
+  esconderTodasAsTelas();
+  document.getElementById('tela-selecao-flashcards').style.display = 'block';
+}
+
+/* MÓDULO EXCLUSIVO DE FLASHCARDS */
+
+async function abrirModuloFlashcards() {
+  esconderTodasAsTelas();
   document.getElementById('tela-quiz').style.display = 'block';
   document.getElementById('loading-spinner').style.display = 'flex';
-  document.getElementById('quiz-content').style.display = 'none';
+
+  const container = document.getElementById('grid-disciplinas-flashcards');
+  container.innerHTML = '';
+
+  for (const disc of DISCIPLINAS_DISPONIVEIS) {
+    let totalCardsDisciplina = 0;
+
+    try {
+      const respLista = await fetch(`flashcard/${disc.id}/lista.json`);
+      if (respLista.ok) {
+        const textoJson = await respLista.text();
+        if (textoJson.trim()) {
+          const listaAssuntos = JSON.parse(textoJson);
+          
+          const promessasAssuntos = listaAssuntos.map(async (item) => {
+            const prefixo = typeof item === 'object' ? (item.prefixo || item.arquivo?.replace('.txt', '')) : item.replace('.txt', '');
+            const nomeAssunto = typeof item === 'object' ? (item.nome || prefixo) : prefixo;
+            
+            const cardsAssunto = await carregarArquivosFlashcard(disc.id, prefixo, nomeAssunto, disc.nome);
+            return cardsAssunto.length;
+          });
+
+          const totaisPorAssunto = await Promise.all(promessasAssuntos);
+          totalCardsDisciplina = totaisPorAssunto.reduce((a, b) => a + b, 0);
+        }
+      }
+    } catch (e) {
+      console.error(`Erro ao carregar flashcards de ${disc.nome}:`, e);
+    }
+
+    const btn = document.createElement('button');
+    btn.className = 'btn-discipline';
+    btn.onclick = () => abrirFiltroFlashcardsDisciplina(disc.id, disc.nome);
+    btn.innerHTML = `
+      <div class="disc-content">
+        <span class="disc-icon"><svg viewBox="0 0 24 24">${disc.svg}</svg></span>
+        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+          <span>${disc.nome}</span>
+          <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500; margin-top: 2px;">${totalCardsDisciplina} flashcards disponíveis</span>
+        </div>
+      </div>
+      ➔
+    `;
+    container.appendChild(btn);
+  }
+
+  esconderTodasAsTelas();
+  document.getElementById('tela-selecao-flashcards').style.display = 'block';
+}
+
+async function abrirFiltroFlashcardsDisciplina(pasta, nomeExibicao) {
+  pastaDisciplinaAtual = pasta;
+  nomeDisciplinaAtual = nomeExibicao;
+
+  document.getElementById('filtro-fc-titulo-materia').textContent = nomeExibicao;
+
+  try {
+    const respLista = await fetch(`flashcard/${pasta}/lista.json`);
+    if (!respLista.ok) throw new Error("Não foi possível carregar o arquivo 'lista.json' na pasta de flashcards.");
+
+    const textoJson = await respLista.text();
+    if (!textoJson.trim()) throw new Error("O arquivo 'lista.json' está vazio.");
+    
+    listaArquivosAssuntos = JSON.parse(textoJson);
+
+    const container = document.getElementById('filter-fc-options-container');
+    container.innerHTML = '';
+
+    const itemTodos = document.createElement('label');
+    itemTodos.className = 'filter-item';
+    itemTodos.innerHTML = `
+      <input type="checkbox" id="chk-fc-todos" checked onchange="toggleTodosAssuntosFlashcards(this)">
+      <strong>Todos os Assuntos</strong>
+    `;
+    container.appendChild(itemTodos);
+
+    listaArquivosAssuntos.forEach(item => {
+      const prefixo = typeof item === 'object' ? (item.prefixo || item.arquivo?.replace('.txt', '')) : item.replace('.txt', '');
+      const nomeAssunto = typeof item === 'object' ? (item.nome || prefixo) : prefixo;
+
+      const el = document.createElement('label');
+      el.className = 'filter-item';
+      el.innerHTML = `
+        <input type="checkbox" class="chk-fc-assunto" value="${prefixo}" data-nome="${nomeAssunto}" checked onchange="verificarSelecaoFiltrosFlashcards()">
+        <span>${nomeAssunto}</span>
+      `;
+      container.appendChild(el);
+    });
+
+    esconderTodasAsTelas();
+    document.getElementById('tela-filtro-flashcards').style.display = 'block';
+
+  } catch (err) {
+    alert("Atenção: " + err.message + "\n\nVerifique se existe a pasta 'flashcard/" + pasta + "' contendo o 'lista.json'.");
+  }
+}
+
+function toggleTodosAssuntosFlashcards(mainChk) {
+  const chks = document.querySelectorAll('.chk-fc-assunto');
+  chks.forEach(c => c.checked = mainChk.checked);
+}
+
+function verificarSelecaoFiltrosFlashcards() {
+  const chks = document.querySelectorAll('.chk-fc-assunto');
+  const todosMarcados = Array.from(chks).every(c => c.checked);
+  document.getElementById('chk-fc-todos').checked = todosMarcados;
+}
+
+async function iniciarFlashcardsComFiltro() {
+  const chks = document.querySelectorAll('.chk-fc-assunto:checked');
+  if (chks.length === 0) {
+    alert("Selecione pelo menos um assunto para continuar!");
+    return;
+  }
+
+  bancoFlashcards = [];
+  indexFlashcardAtual = 0;
+  cardEstaVirado = false;
+
+  esconderTodasAsTelas();
+  document.getElementById('tela-quiz').style.display = 'block';
+  document.getElementById('loading-spinner').style.display = 'flex';
+
+  try {
+    for (const chk of chks) {
+      const prefixo = chk.value;
+      const assuntoNome = chk.dataset.nome || prefixo;
+
+      const cardsDoAssunto = await carregarArquivosFlashcard(
+        pastaDisciplinaAtual,
+        prefixo,
+        assuntoNome,
+        nomeDisciplinaAtual
+      );
+
+      bancoFlashcards.push(...cardsDoAssunto);
+    }
+
+    if (bancoFlashcards.length > 0) {
+      embaralharArray(bancoFlashcards);
+      
+      esconderTodasAsTelas();
+      document.getElementById('tela-flashcards-player').style.display = 'block';
+      document.getElementById('fc-materia-tag').textContent = 'FLASHCARDS // ' + nomeDisciplinaAtual.toUpperCase();
+
+      renderizarFlashcardAtual();
+    } else {
+      alert("Nenhum flashcard encontrado nos arquivos selecionados.");
+      voltarParaHub();
+    }
+
+  } catch (err) {
+    alert("Erro ao carregar flashcards: " + err.message);
+    voltarParaHub();
+  }
+}
+
+function renderizarFlashcardAtual() {
+  if (!bancoFlashcards || bancoFlashcards.length === 0) return;
+
+  const card = bancoFlashcards[indexFlashcardAtual];
+
+  // Desvirar o card caso esteja virado
+  cardEstaVirado = false;
+  document.getElementById('flashcard-inner').classList.remove('flipped');
+
+  // Atualizar contador e barra de progresso
+  const total = bancoFlashcards.length;
+  const atual = indexFlashcardAtual + 1;
+  document.getElementById('fc-counter-text').textContent = `Card ${atual} de ${total}`;
+  
+  const pct = (atual / total) * 100;
+  document.getElementById('fc-progress-fill').style.width = `${pct}%`;
+
+  // Preencher dados do Card
+  document.getElementById('fc-front-meta').textContent = `${card.disciplina.toUpperCase()} // ${card.assunto.toUpperCase()}`;
+  document.getElementById('fc-front-text').innerHTML = formatarTexto(card.pergunta);
+
+  let htmlBack = `<strong>Resposta:</strong><br>${formatarTexto(card.respostaCorreta)}`;
+  if (card.explicacao) {
+    htmlBack += `<br><br><strong>Explicação:</strong><br>${formatarTexto(card.explicacao)}`;
+  }
+  document.getElementById('fc-back-text').innerHTML = htmlBack;
+
+  // Botões de navegação
+  document.getElementById('btn-fc-prev').disabled = (indexFlashcardAtual === 0);
+  document.getElementById('btn-fc-next').disabled = (indexFlashcardAtual === total - 1);
+}
+
+function virarCard() {
+  cardEstaVirado = !cardEstaVirado;
+  const inner = document.getElementById('flashcard-inner');
+  if (cardEstaVirado) {
+    inner.classList.add('flipped');
+  } else {
+    inner.classList.remove('flipped');
+  }
+}
+
+function proximoFlashcard() {
+  if (indexFlashcardAtual < bancoFlashcards.length - 1) {
+    indexFlashcardAtual++;
+    renderizarFlashcardAtual();
+  }
+}
+
+function anteriorFlashcard() {
+  if (indexFlashcardAtual > 0) {
+    indexFlashcardAtual--;
+    renderizarFlashcardAtual();
+  }
+}
+
+/* CARREGADOR E PARSER DE ARQUIVOS TXT DE FLASHCARDS */
+async function carregarArquivosFlashcard(pasta, prefixo, nomeAssunto, nomeMateria) {
+  let cardsDoAssunto = [];
+
+  try {
+    const respBase = await fetch(`flashcard/${pasta}/${prefixo}.txt`);
+    if (respBase.ok) {
+      const texto = await respBase.text();
+      cardsDoAssunto.push(...parseFlashcardsTXT(texto, nomeAssunto, nomeMateria));
+    }
+  } catch (e) {}
+
+  let num = 1;
+  while (num <= 50) {
+    try {
+      const resp = await fetch(`flashcard/${pasta}/${prefixo}${num}.txt`);
+      if (!resp.ok) break;
+
+      const texto = await resp.text();
+      cardsDoAssunto.push(...parseFlashcardsTXT(texto, nomeAssunto, nomeMateria));
+      num++;
+    } catch (e) {
+      break;
+    }
+  }
+
+  return cardsDoAssunto;
+}
+
+function parseFlashcardsTXT(texto, assunto, nomeMateria) {
+  const blocos = texto.split('---').map(b => b.trim()).filter(b => b.length > 0);
+
+  return blocos.map(bloco => {
+    const linhas = bloco.split('\n');
+    let pergunta = "";
+    let resposta = "";
+    let explicacao = "";
+    let chaveAtual = "";
+
+    linhas.forEach(linha => {
+      const l = linha.trim();
+      if (l.startsWith('PERGUNTA:') || l.startsWith('ENUNCIADO:')) {
+        chaveAtual = 'pergunta';
+        pergunta = l.replace(/^(PERGUNTA:|ENUNCIADO:)/, '').trim();
+      } else if (l.startsWith('RESPOSTA:') || l.startsWith('GABARITO:')) {
+        chaveAtual = 'resposta';
+        resposta = l.replace(/^(RESPOSTA:|GABARITO:)/, '').trim();
+      } else if (l.startsWith('EXPLICACAO:')) {
+        chaveAtual = 'explicacao';
+        explicacao = l.replace('EXPLICACAO:', '').trim();
+      } else if (l.length > 0) {
+        if (chaveAtual === 'pergunta') pergunta += '<br>' + l;
+        else if (chaveAtual === 'resposta') resposta += '<br>' + l;
+        else if (chaveAtual === 'explicacao') explicacao += '<br>' + l;
+      }
+    });
+
+    return {
+      disciplina: nomeMateria,
+      assunto,
+      pergunta,
+      respostaCorreta: resposta,
+      explicacao
+    };
+  });
+}
+
+/* ROTEAMENTO DE TELAS DO HUB PARA OUTROS MÓDULOS */
+async function abrirModuloQuestoes() {
+  esconderTodasAsTelas();
+  document.getElementById('tela-quiz').style.display = 'block';
+  document.getElementById('loading-spinner').style.display = 'flex';
 
   const container = document.getElementById('grid-disciplinas-questoes');
   container.innerHTML = '';
@@ -86,8 +405,7 @@ async function abrirModuloQuestoes() {
     container.appendChild(btn);
   }
 
-  document.getElementById('loading-spinner').style.display = 'none';
-  document.getElementById('tela-quiz').style.display = 'none';
+  esconderTodasAsTelas();
   document.getElementById('tela-selecao-questoes').style.display = 'block';
 }
 
@@ -111,7 +429,7 @@ function abrirModuloSimulado() {
     container.appendChild(item);
   });
 
-  document.getElementById('tela-hub').style.display = 'none';
+  esconderTodasAsTelas();
   document.getElementById('tela-config-simulado').style.display = 'block';
 }
 
@@ -121,22 +439,7 @@ function toggleSimuladoInput(discId) {
   input.disabled = !chk.checked;
 }
 
-function voltarParaHub() {
-  document.getElementById('dashboard-stats').style.display = 'none';
-  document.getElementById('tela-selecao-questoes').style.display = 'none';
-  document.getElementById('tela-config-simulado').style.display = 'none';
-  document.getElementById('tela-filtro').style.display = 'none';
-  document.getElementById('tela-quiz').style.display = 'none';
-  document.getElementById('tela-hub').style.display = 'block';
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-function voltarParaSelecaoQuestoes() {
-  document.getElementById('tela-filtro').style.display = 'none';
-  document.getElementById('tela-selecao-questoes').style.display = 'block';
-}
-
-/* CARREGAMENTO DE ARQUIVOS E PARSER TXT */
+/* CARREGAMENTO DE ARQUIVOS E PARSER TXT DE QUESTÕES */
 async function carregarTodosArquivosDoAssunto(pasta, prefixo, nomeAssunto, nomeMateria) {
   let questoesDoAssunto = [];
 
@@ -204,7 +507,7 @@ async function abrirFiltroDisciplina(pasta, nomeExibicao) {
       container.appendChild(el);
     });
 
-    document.getElementById('tela-selecao-questoes').style.display = 'none';
+    esconderTodasAsTelas();
     document.getElementById('tela-filtro').style.display = 'block';
 
   } catch (err) {
@@ -359,12 +662,9 @@ function resetarEstadoGeral() {
 }
 
 function exibirTelaCarregamento() {
-  document.getElementById('tela-selecao-questoes').style.display = 'none';
-  document.getElementById('tela-config-simulado').style.display = 'none';
-  document.getElementById('tela-filtro').style.display = 'none';
+  esconderTodasAsTelas();
   document.getElementById('tela-quiz').style.display = 'block';
   document.getElementById('loading-spinner').style.display = 'flex';
-  document.getElementById('quiz-content').style.display = 'none';
 }
 
 function exibirFeed(tituloTag) {

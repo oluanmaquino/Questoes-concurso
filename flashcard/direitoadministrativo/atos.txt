@@ -1,0 +1,7 @@
+PERGUNTA: Qual é o conceito de Atos Administrativos?
+RESPOSTA: É a declaração do Estado ou de quem o represente, que produz efeitos jurídicos imediatos.
+EXPLICACAO: Deve ser editado sob o regime de direito público e sujeito ao controle do Poder Judiciário.
+---
+PERGUNTA: Quais são os 5 atributos/características do ato administrativo (CO-FI-FO-MO-OB)?
+RESPOSTA: Competência, Finalidade, Forma, Motivo e Objeto.
+EXPLICACAO: Lembramos do macete COFIFOMOOB para guardar os requisitos de validade.
