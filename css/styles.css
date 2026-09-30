@@ -571,11 +571,47 @@ strong { color: var(--accent-color); font-weight: 700; }
 .instagram-link { color: #b5c4a6; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
 .instagram-icon { width: 18px; height: 18px; fill: currentColor; }
 
-/* ESTILOS EXCLUSIVOS DO MÓDULO FLASHCARDS (CORREÇÃO DE ROLAGEM E ALTURA IOS) */
+/* ==========================================================================
+   ESTILOS EXCLUSIVOS DO MÓDULO FLASHCARDS (VISUAL COMPLETO + FIX SAFARI/IOS)
+   ========================================================================== */
+
+/* 1. BARRA DE PROGRESSO DO FLASHCARD */
+.flashcard-progress,
+.fc-progress-container {
+  width: 100%;
+  height: 6px;
+  background-color: var(--card-border);
+  border-radius: 10px;
+  margin: 16px 0 20px 0;
+  overflow: hidden;
+}
+
+.flashcard-progress-bar,
+.fc-progress-bar {
+  height: 100%;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+/* 2. CONTADOR CENTRALIZADO (CARD X DE Y) */
+.flashcard-counter,
+.fc-counter,
+.fc-card-counter {
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+/* 3. ESTRUTURA DO CARD E ANIMAÇÃO 3D */
 .flashcard-card {
   perspective: 1000px;
   width: 100%;
-  height: 380px; /* Altura fixa travada */
+  height: 380px; /* Altura travada para evitar sobreposição */
   margin-bottom: 24px;
   cursor: pointer;
   position: relative;
@@ -610,7 +646,7 @@ strong { color: var(--accent-color); font-weight: 700; }
   display: flex;
   flex-direction: column;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden; /* Impede estritamente que a borda do card estique */
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -629,19 +665,18 @@ strong { color: var(--accent-color); font-weight: 700; }
   flex-shrink: 0;
 }
 
-/* O corpo do texto assume o meio da tela e rola de forma independente */
+/* Corpo do texto com rolagem interna suave no iPhone/Safari */
 .fc-card-body {
   font-size: 1rem;
   line-height: 1.5;
   color: #ffffff;
   margin: 12px 0;
-  flex: 1; /* Preenche todo o espaço livre entre topo e rodapé */
-  overflow-y: auto; /* Permite rolar o texto longo */
-  -webkit-overflow-scrolling: touch; /* Garante rolagem suave no iPhone/Safari */
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding-right: 4px;
 }
 
-/* Estilo discreto para a barra de rolagem do texto */
 .fc-card-body::-webkit-scrollbar {
   width: 4px;
 }
@@ -660,4 +695,31 @@ strong { color: var(--accent-color); font-weight: 700; }
   border-top: 1px solid var(--card-border);
   padding-top: 10px;
   flex-shrink: 0;
+}
+
+/* 4. BARRA DE BOTÕES INLINE (LADO A LADO) */
+.flashcard-controls,
+.fc-controls,
+.flashcard-actions,
+.fc-buttons,
+.flashcard-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 10px !important;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.flashcard-controls .btn,
+.fc-controls .btn,
+.flashcard-actions .btn,
+.fc-buttons .btn,
+.flashcard-nav .btn {
+  flex: 1;
+  width: auto !important;
+  padding: 12px 10px;
+  font-size: 0.88rem;
+  white-space: nowrap;
 }
