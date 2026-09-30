@@ -8,7 +8,7 @@
   
   --text-main: #f1f1f5;
   --text-muted: #9ba1b0;
-  --accent-color: #e5b324; /* Tom amarelado/dourado conforme a imagem */
+  --accent-color: #e5b324; 
   --primary: #526541;
   --primary-hover: #5f754b;
   
@@ -28,7 +28,7 @@
 }
 
 body {
-  /* Fundo escuro com padrão pontilhado idêntico ao modelo */
+  /* Fundo escuro com padrão pontilhado */
   background-color: var(--bg-color);
   background-image: radial-gradient(#262626 1px, transparent 1px);
   background-size: 16px 16px;
